@@ -1,11 +1,9 @@
-import { Router } from "react-router";
 import "./App.css";
-import { Navbar } from "./components/Menu/Menu";
-
+import { Main } from "./components/Main";
 
 function App() {
   return (
-    <Navbar />
+    <Main />
   )
 }
 
