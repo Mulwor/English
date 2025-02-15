@@ -9,19 +9,35 @@ const items: MenuItem[] = [
     key: "sub1",
     label: "A1 (Beginner-elementary)",
     children: [
-      {
-        key: "1",
-        label: "Grammar",
+      { key: "1", label: "Grammar",
         children: [
-          { key: "1-1", label: <Link to="/a1/grammar/to-be">To be</Link> },
           {
-            key: "1-2",
+            key: "1-1",
             label: (
-              <Link to="/a1/grammar/subject-pronouns">
-                Subject, object and demonstrative pronouns
+              <Link to="/a1/grammar/pronouns">
+                Pronouns
               </Link>
             ),
+            children: [
+              { 
+                key: "1-1-1",
+                label: (
+                  <Link to="/a1/grammar/pronouns/personal">
+                    Personal 
+                  </Link>
+                ),
+              },
+              { 
+                key: "1-1-2",
+                label: (
+                  <Link to="/a1/grammar/pronouns/demonstrative">
+                    Demonstrative 
+                  </Link>
+                ),
+              }
+            ],
           },
+          { key: "1-2", label: <Link to="/a1/grammar/to-be">To be</Link> },
           {
             key: "1-3",
             label: (
@@ -127,151 +143,151 @@ const items: MenuItem[] = [
         ],
       },
       { key: "2", 
-        label: <Link to="speaking-&-writing">Speaking and writing</Link>,
+        label: 'Speaking and writing',
         children: [
+          {
+            key: "2-4",
+            label: (
+              <Link to='/a1/speaking-and-writing/numbers'>Numbers and colors</Link>
+            )
+          },
           {
             key: "2-1",
             label: (
-              <Link to='/a1/speaking-&-writing/acquaintance'>Acquaintance</Link>
+              <Link to='/a1/speaking-and-writing/acquaintance'>Acquaintance</Link>
             )
           },
           {
             key: "2-2",
             label: (
-              <Link to='/a1/speaking-&-writing/talking-about-smth'>Talking about yourself, family, and friends</Link>
+              <Link to='/a1/speaking-and-writing/talking-about-smth'>Talking about yourself, family, and friends</Link>
             )
           },
           {
             key: "2-3",
             label: (
-              <Link to='/a1/speaking-&-writing/people'>People, countries, and nationalities</Link>
-            )
-          },
-          {
-            key: "2-4",
-            label: (
-              <Link to='/a1/speaking-&-writing/numbers'>Numbers, dates, and colors</Link>
+              <Link to='/a1/speaking-and-writing/people'>People, countries, and nationalities</Link>
             )
           },
           {
             key: "2-5",
             label: (
-              <Link to='/a1/speaking-&-writing/personal-preferences'>Personal preferences</Link>
+              <Link to='/a1/speaking-and-writing/personal-preferences'>Personal preferences</Link>
             )
           },
           {
             key: "2-6",
             label: (
-              <Link to='/a1/speaking-&-writing/food-and-drinks'>Food and drinks</Link>
+              <Link to='/a1/speaking-and-writing/food-and-drinks'>Food and drinks</Link>
             )
           },
           {
             key: "2-7",
             label: (
-              <Link to='/a1/speaking-&-writing/jobs'>Jobs</Link>
+              <Link to='/a1/speaking-and-writing/jobs'>Jobs</Link>
             )
           },
           {
             key: "2-8",
             label: (
-              <Link to='/a1/speaking-&-writing/hobbies'>Hobbies</Link>
+              <Link to='/a1/speaking-and-writing/hobbies'>Hobbies</Link>
             )
           },
           {
             key: "2-9",
             label: (
-              <Link to='/a1/speaking-&-writing/daily-routine'>Daily routine</Link>
+              <Link to='/a1/speaking-and-writing/daily-routine'>Daily routine</Link>
             )
           },
           {
             key: "2-10",
             label: (
-              <Link to='/a1/speaking-&-writing/sport-and-fitness'>Sports and fitness</Link>
+              <Link to='/a1/speaking-and-writing/sport-and-fitness'>Sports and fitness</Link>
             )
           },
           {
             key: "2-11",
             label: (
-              <Link to='/a1/speaking-&-writing/music-and-films'>Music and films</Link>
+              <Link to='/a1/speaking-and-writing/music-and-films'>Music and films</Link>
             )
           },
           {
             key: "2-12",
             label: (
-              <Link to='/a1/speaking-&-writing/weather'>The weather</Link>
+              <Link to='/a1/speaking-and-writing/weather'>The weather</Link>
             )
           },
           {
             key: "2-13",
             label: (
-              <Link to='/a1/speaking-&-writing/holidays'>Holidays</Link>
+              <Link to='/a1/speaking-and-writing/holidays'>Holidays</Link>
             )
           },
           {
             key: "2-14",
             label: (
-              <Link to='/a1/speaking-&-writing/house-and-furniture'>Houses and furniture</Link>
+              <Link to='/a1/speaking-and-writing/house-and-furniture'>Houses and furniture</Link>
             )
           },
           {
             key: "2-15",
             label: (
-              <Link to='/a1/speaking-&-writing/travel'>Travel</Link>
+              <Link to='/a1/speaking-and-writing/travel'>Travel</Link>
             )
           },
           {
             key: "2-16",
             label: (
-              <Link to='/a1/speaking-&-writing/places-in-the-city'>Places in the city</Link>
+              <Link to='/a1/speaking-and-writing/places-in-the-city'>Places in the city</Link>
             )
           },
           {
             key: "2-17",
             label: (
-              <Link to='/a1/speaking-&-writing/describing-a-person'>Describing a person</Link>
+              <Link to='/a1/speaking-and-writing/describing-a-person'>Describing a person</Link>
             )
           },
           {
             key: "2-18",
             label: (
-              <Link to='/a1/speaking-&-writing/shopping-&-dining-out'>Shopping and dining out</Link>
+              <Link to='/a1/speaking-and-writing/shopping-and-dining-out'>Shopping and dining out</Link>
             )
           },
           {
             key: "2-19",
             label: (
-              <Link to='/a1/speaking-&-writing/money'>Money</Link>
+              <Link to='/a1/speaking-and-writing/money'>Money</Link>
             )
           },
           {
             key: "2-20",
             label: (
-              <Link to='/a1/speaking-&-writing/clothing'>Clothing</Link>
+              <Link to='/a1/speaking-and-writing/clothing'>Clothing</Link>
             )
           },
           {
             key: "2-21",
             label: (
-              <Link to='/a1/speaking-&-writing/in-a-hotel'>In a hotel</Link>
+              <Link to='/a1/speaking-and-writing/in-a-hotel'>In a hotel</Link>
             )
           },
           {
             key: "2-22",
             label: (
-              <Link to='/a1/speaking-&-writing/at-a-gas-station'>At a gas station</Link>
+              <Link to='/a1/speaking-and-writing/at-a-gas-station'>At a gas station</Link>
             )
           },
           {
             key: "2-23",
             label: (
-              <Link to='/a1/speaking-&-writing/at-the-office'>At the office</Link>
+              <Link to='/a1/speaking-and-writing/at-the-office'>At the office</Link>
             )
           },
 
         ]
       
       },
-      { key: "3", label: <Link to="reading-&-listening">Reading and listening</Link> },
+      { key: "3", label: 'Reading and listening' },
     ],
   },
 ];

@@ -1,12 +1,14 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
-import { Navbar } from "./components/Main";
-import { ToBe } from "./ToBe";
+import { Navbar } from "./components/Navbar";
+import { Demonstrative, Personal } from "./grammar/pronouns";
+import { Acquaintance } from "./speaking/Acquaintance";;
+import { Number } from './speaking/Number';
 
-const A1Layout = () => (
+const Layout = () => (
   <div style={{ display: "flex" }}>
     <Navbar />
 
-    <div style={{ marginLeft: 256, padding: "20px" }}>
+    <div style={{ marginLeft: 20, padding: "10px", width: '100%' }}>
       <Outlet />
     </div>
   </div>
@@ -19,14 +21,26 @@ export const router = createBrowserRouter([
   },
   {
     path: "a1",
-    element: <A1Layout />,
+    element: <Layout />,
     children: [
       { 
         path: "grammar",
         children: [
-          { path: "to-be", element: <ToBe /> },
+          { 
+            path: "pronouns",
+            children: [
+              {
+                path: 'personal',
+                element: <Personal />
+              },
+              {
+                path: 'demonstrative',
+                element: <Demonstrative />
+              }
+            ] 
+          },
+          { path: "to-be", element: <div>В процессе</div> },
           { path: "subject-pronouns", element: <div>В процессе</div> },
-          { path: "possessive-pronouns", element: <div>В процессе</div> },
           { path: "countable-nouns", element: <div>В процессе</div> },
           { path: "present-simple", element: <div>В процессе</div> },
           { path: "singular-plural-nouns", element: <div>В процессе</div> },
@@ -44,17 +58,12 @@ export const router = createBrowserRouter([
         ],
       },
       { 
-        path: "reading-&-listening",
-        element: <div>Тут будут разные книги и аудиозаписи к этой книги</div>
-      },
-      { 
         path: "speaking-and-writing",
-        element: <div>Тут будут разные материала по говорению и к нему предоставлен текст</div>,
         children: [
-          { path: "acquaintance", element: <div>В процессе</div> },
+          { path: "acquaintance", element: <Acquaintance /> },
           { path: "talking-about-smth", element: <div>В процессе</div> },
           { path: "people", element: <div>В процессе</div> },
-          { path: "numbers", element: <div>В процессе</div> },
+          { path: "numbers", element: <Number /> },
           { path: "personal-preferences", element: <div>В процессе</div> },
           { path: "food-and-drinks", element: <div>В процессе</div> },
           { path: "jobs", element: <div>В процессе</div> },
@@ -68,14 +77,18 @@ export const router = createBrowserRouter([
           { path: "travel", element: <div>В процессе</div> },
           { path: "places-in-the-city", element: <div>В процессе</div> },
           { path: "describing-a-person", element: <div>В процессе</div> },
-          { path: "shopping-&-dining-out", element: <div>В процессе</div> },
+          { path: "shopping-and-dining-out", element: <div>В процессе</div> },
           { path: "money", element: <div>В процессе</div> },
           { path: "clothing", element: <div>В процессе</div> },
           { path: "in-a-hotel", element: <div>В процессе</div> },
           { path: "at-a-gas-station", element: <div>В процессе</div> },
           { path: "at-the-office", element: <div>В процессе</div> },
         ]
-      }
+      },
+      { 
+        path: "reading-and-listening",
+        element: <div>Тут будут разные книги и аудиозаписи к этой книги</div>
+      },
     ],
   },
 ]);
