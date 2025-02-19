@@ -1,8 +1,9 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Demonstrative, Personal } from "./grammar/pronouns";
-import { Acquaintance } from "./speaking/Acquaintance";;
-import { Number } from './speaking/Number';
+import { Number, Colors, Countries, Greeting } from "./speaking";
+import { Jobs } from "./speaking/jobs/Jobs";
+import { Clothing } from "./speaking/clothing/Clothing";
 
 const Layout = () => (
   <div style={{ display: "flex" }}>
@@ -58,15 +59,16 @@ export const router = createBrowserRouter([
         ],
       },
       { 
-        path: "speaking-and-writing",
+        path: "speaking",
         children: [
-          { path: "acquaintance", element: <Acquaintance /> },
+          { path: "greeting", element: <Greeting /> },
           { path: "talking-about-smth", element: <div>В процессе</div> },
-          { path: "people", element: <div>В процессе</div> },
+          { path: "countries", element: <Countries /> },
           { path: "numbers", element: <Number /> },
+          { path: "colors", element: <Colors /> },
           { path: "personal-preferences", element: <div>В процессе</div> },
           { path: "food-and-drinks", element: <div>В процессе</div> },
-          { path: "jobs", element: <div>В процессе</div> },
+          { path: "jobs", element: <Jobs /> },
           { path: "hobbies", element: <div>В процессе</div> },
           { path: "daily-routine", element: <div>В процессе</div> },
           { path: "sport-and-fitness", element: <div>В процессе</div> },
@@ -77,9 +79,14 @@ export const router = createBrowserRouter([
           { path: "travel", element: <div>В процессе</div> },
           { path: "places-in-the-city", element: <div>В процессе</div> },
           { path: "describing-a-person", element: <div>В процессе</div> },
-          { path: "shopping-and-dining-out", element: <div>В процессе</div> },
+          { path: "shopping-and-dining-out", element: <div> asd
+            {/*
+              <Video videoId="KyO_H_mNKNI" width="410" />
+              <Video videoId="aWSg7MsHYpU" width="410" />
+            */}
+          </div> },
           { path: "money", element: <div>В процессе</div> },
-          { path: "clothing", element: <div>В процессе</div> },
+          { path: "clothing", element: <Clothing /> },
           { path: "in-a-hotel", element: <div>В процессе</div> },
           { path: "at-a-gas-station", element: <div>В процессе</div> },
           { path: "at-the-office", element: <div>В процессе</div> },

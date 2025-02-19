@@ -1,15 +1,20 @@
-import { useState, useEffect, KeyboardEvent } from 'react';
+import { useState, useEffect } from 'react';
 import { Divider, Button, Input, message } from 'antd';
 import { toWords } from 'number-to-words';
 import './Number.css';
-import { ColorGame } from './Color';
-import { BasicTable } from '../components/Table';
+import { BasicTable } from '../../components/Table';
+import { numbers1, numbers2, numbers3, numbers4 } from '../../data/number'
+import { Pagination } from '../../components/Pagination';
+import { Video } from '../../components/Video';
 
 const getRandomNumber = () => Math.floor(Math.random() * 1000);
 
-export const Number= () => {
+export const Number = () => {
   const [randomNumber, setRandomNumber] = useState(getRandomNumber);
   const [inputValue, setInputValue] = useState('');
+  
+  const [numbers, setNumbers] = useState(numbers1);
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     setInputValue('');
@@ -26,21 +31,35 @@ export const Number= () => {
     }
   };
 
-  const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
       checkSpelling();
     }
   };
 
+  const handlePageChange2 = (current: number) => {
+    setCurrentPage(current);
+    if (current === 1) {
+      setNumbers(numbers1);
+    } else if (current === 2) {
+      setNumbers(numbers2);
+    } else if (current === 3) {
+      setNumbers(numbers3);
+    } else {
+      setNumbers(numbers4);
+    } 
+  };
+
+
   return (
     <div>
       <Divider>Numbers</Divider>
 
-      <p>Ссылки для изучения numbers: </p>
+      <p>Базовые ресурсы: </p>
 
       <ul>
         <li>
-          <a href="https://www.youtube.com/watch?v=e0dJWfQHF8Y" target="_blank">Веселая песенка из ютуба</a>
+          <a href="https://www.youtube.com/watch?v=e0dJWfQHF8Y" target="_blank">Правильное произношение чисел</a>
         </li>  
 
         <li>
@@ -48,10 +67,18 @@ export const Number= () => {
             Картинка с числами
           </a>
         </li>
-      </ul>   
+      </ul>
+
+      <p>Listening: </p>
+
+      <div className='video-container'>
+        <Video videoId='G6c8NjhS1YE' width='410'/>
+        <Video videoId='PhJ5VIR6ExM' width='410'/>
+        <Video videoId='-5TuoZWAhQI' width='410'/>
+      </div>
 
       <div className='container'>
-        <div>Random: {randomNumber}</div>
+        <div>Writing: {randomNumber}</div>
         <Input 
           placeholder="Write spelled-out number: twenty-three"
           value={inputValue}
@@ -61,11 +88,15 @@ export const Number= () => {
         <Button type="primary" onClick={checkSpelling}>Check your spelling</Button>
       </div>
 
-      <ColorGame />
+      <p>Dialogs: </p>
 
-      <Divider>Диалоги на тему numbers and colors</Divider>
+      <BasicTable data={numbers} />
 
-      <BasicTable english='Valera' russian='and' />
+      <Pagination
+        currentPage={currentPage}
+        totalPages={4}
+        onPageChange={handlePageChange2}
+      />
     </div>
   );
 };

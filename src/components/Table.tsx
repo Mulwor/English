@@ -1,20 +1,25 @@
 import { Table } from 'antd';
+import './Table.css'
 
-interface BasicTableProps {
+interface TableData {
   english: string;
-  russian: string
+  russian: string;
 }
 
-export const BasicTable = ({ english, russian }: BasicTableProps) => {
-  const dataSource = [
-    { key: '1', english, russian },
-    { key: '2', english, russian }
-  ];
-  
+interface BasicTableProps {
+  data: TableData[];
+}
+
+export const BasicTable = ({ data }: BasicTableProps) => {  
   const columns = [
     { title: 'English', dataIndex: 'english', key: 'name' },
     { title: 'Russian', dataIndex: 'russian', key: 'age' },
   ];
   
-  return <Table dataSource={dataSource} columns={columns} />;
-};
+  return ( 
+    <Table 
+      dataSource={data} 
+      columns={columns} 
+      pagination={false}
+    />
+)};
