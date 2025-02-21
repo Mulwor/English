@@ -1,9 +1,10 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Demonstrative, Personal } from "./grammar/pronouns";
-import { Number, Colors, Countries, Greeting } from "./speaking";
+import { Number, Colors, Countries, Greeting, Weather } from "./speaking";
 import { Jobs } from "./speaking/jobs/Jobs";
 import { Clothing } from "./speaking/clothing/Clothing";
+import { Shopping } from "./speaking/shopping/Shopping";
 
 const Layout = () => (
   <div style={{ display: "flex" }}>
@@ -67,24 +68,19 @@ export const router = createBrowserRouter([
           { path: "numbers", element: <Number /> },
           { path: "colors", element: <Colors /> },
           { path: "personal-preferences", element: <div>В процессе</div> },
-          { path: "food-and-drinks", element: <div>В процессе</div> },
+          { path: "food-and-drinks", element: <div>Придумать также 4-5 диалога на тему в ресторане, заказа еды</div> },
           { path: "jobs", element: <Jobs /> },
           { path: "hobbies", element: <div>В процессе</div> },
           { path: "daily-routine", element: <div>В процессе</div> },
           { path: "sport-and-fitness", element: <div>В процессе</div> },
           { path: "music-and-films", element: <div>В процессе</div> },
-          { path: "weather", element: <div>В процессе</div> },
+          { path: "weather", element: <Weather /> },
           { path: "holidays", element: <div>В процессе</div> },
           { path: "house-and-furniture", element: <div>В процессе</div> },
           { path: "travel", element: <div>В процессе</div> },
           { path: "places-in-the-city", element: <div>В процессе</div> },
           { path: "describing-a-person", element: <div>В процессе</div> },
-          { path: "shopping-and-dining-out", element: <div> asd
-            {/*
-              <Video videoId="KyO_H_mNKNI" width="410" />
-              <Video videoId="aWSg7MsHYpU" width="410" />
-            */}
-          </div> },
+          { path: "shopping", element: <Shopping />},
           { path: "money", element: <div>В процессе</div> },
           { path: "clothing", element: <Clothing /> },
           { path: "in-a-hotel", element: <div>В процессе</div> },

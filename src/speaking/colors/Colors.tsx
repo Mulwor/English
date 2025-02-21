@@ -4,6 +4,7 @@ import './Colors.css';
 import { BasicTable } from '../../components/Table';
 import { colors, colors2, colors3, colors4, colors5, colors6 } from '../../data/colors';
 import { Pagination } from '../../components/Pagination';
+import { usePaginatedData } from '../../hooks/usePaginatedData';
 
 const getRandomColor = () => {
   const colors = [
@@ -15,9 +16,9 @@ const getRandomColor = () => {
 export const Colors = () => {
   const [randomColor, setRandomColor] = useState(getRandomColor());
   const [inputValue, setInputValue] = useState('');
-
-  const [data, setData] = useState(colors);
-  const [currentPage, setCurrentPage] = useState(1);
+  const { data, currentPage, handlePageChange } = usePaginatedData(colors, [
+    colors2, colors3, colors4, colors5, colors6, 
+  ]);
 
   useEffect(() => {
     setInputValue('');
@@ -37,26 +38,6 @@ export const Colors = () => {
       checkSpelling();
     }
   };
-
-  const handlePageChange = (current: number) => {
-    setCurrentPage(current);
-    if (current === 1) {
-      setData(colors);
-    } else if (current === 2) {
-      setData(colors2);
-    } else if (current === 2) {
-      setData(colors2);
-    } else if (current === 3) {
-      setData(colors3);
-    } else if (current === 4) {
-      setData(colors4);
-    } else if (current === 5) {
-      setData(colors5);
-    } else {
-      setData(colors6);
-    }
-  };
-
 
   return (
     <div>

@@ -11,7 +11,7 @@ export const greeting = [
 ];
 
 export const greeting1 = [
-  { key: '1', english: 'My name is Doug. What is your name?', russian: 'Меня зовут Даг. А тебя?' },
+  { key: '1', english: 'My name is Doug. What is your name?', russian: 'Меня зовут Даг. А тебя как зовут?' },
   { key: '2', english: 'My name is Christina.', russian: 'Меня зовут Кристина.' },
   { key: '3', english: 'Hi Christina, nice to meet you!', russian: 'Привет, Кристина, приятно познакомиться!' },
   { key: '4', english: 'Nice to meet you too, Doug', russian: 'Взаимно, Даг.' },
@@ -29,7 +29,7 @@ export const greeting2 = [
   { key: '2', english: 'Sure!', russian: 'Конечно!' },
   { key: '3', english: 'Thanks. I’m Mia, by the way.', russian: 'Спасибо. Кстати, меня зовут Мия.' },
   { key: '4', english: 'I’m Alex. Nice to meet you!', russian: 'Я Алекс. Приятно познакомиться!' },
-  { key: '5', english: 'Nice to meet you too. Do you live nearby?', russian: 'Взаимно. Ты живёшь неподалёку?' },
+  { key: '5', english: 'Nice to meet you too. Do you live nearby [/ˈnɪəbʌɪ/]?', russian: 'Взаимно. Ты живёшь неподалёку?' },
   { key: '6', english: 'Yes, just five minutes from here.', russian: 'Да, всего в пяти минутах отсюда.' },
 ];
 
@@ -40,7 +40,7 @@ export const greeting3 = [
   { key: '4', english: 'Nice to meet you too. Are you new here?', russian: 'Взаимно. Ты здесь новенькая?' },
   { key: '5', english: 'Yes, I just moved here last week.', russian: 'Да, я только что переехала сюда на прошлой неделе.' },
   { key: '6', english: 'Oh, welcome! Where are you from?', russian: 'О, добро пожаловать! Откуда ты?' },
-  { key: '7', english: 'I’m from Canada. What about you?', russian: 'Я из Канады. А ты?' },
+  { key: '7', english: 'I’m from Canada. What about you?', russian: 'Я из Канады. А что насчет тебя?' },
   { key: '8', english: ' I’m from this city.', russian: 'Я из этого города.' },
   { key: '9', english: 'That’s great! Do you like living here?', russian: 'Здорово! Тебе нравится здесь жить?' },
   { key: '10', english: 'Yes, it’s a nice place. If you need help, just ask me.', russian: 'Да, это хорошее место. Если тебе нужна помощь, просто обратись ко мне.' },

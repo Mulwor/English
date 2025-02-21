@@ -6,16 +6,17 @@ import { BasicTable } from '../../components/Table';
 import { numbers1, numbers2, numbers3, numbers4 } from '../../data/number'
 import { Pagination } from '../../components/Pagination';
 import { Video } from '../../components/Video';
+import { usePaginatedData } from '../../hooks/usePaginatedData';
 
 const getRandomNumber = () => Math.floor(Math.random() * 1000);
 
 export const Number = () => {
   const [randomNumber, setRandomNumber] = useState(getRandomNumber);
   const [inputValue, setInputValue] = useState('');
-  
-  const [numbers, setNumbers] = useState(numbers1);
-  const [currentPage, setCurrentPage] = useState(1);
-
+  const { data, currentPage, handlePageChange } = usePaginatedData(numbers1, [
+    numbers2, numbers3, numbers4
+  ]);
+      
   useEffect(() => {
     setInputValue('');
   }, [randomNumber]);
@@ -36,20 +37,6 @@ export const Number = () => {
       checkSpelling();
     }
   };
-
-  const handlePageChange2 = (current: number) => {
-    setCurrentPage(current);
-    if (current === 1) {
-      setNumbers(numbers1);
-    } else if (current === 2) {
-      setNumbers(numbers2);
-    } else if (current === 3) {
-      setNumbers(numbers3);
-    } else {
-      setNumbers(numbers4);
-    } 
-  };
-
 
   return (
     <div>
@@ -90,13 +77,8 @@ export const Number = () => {
 
       <p>Dialogs: </p>
 
-      <BasicTable data={numbers} />
-
-      <Pagination
-        currentPage={currentPage}
-        totalPages={4}
-        onPageChange={handlePageChange2}
-      />
+      <BasicTable data={data} />
+      <Pagination currentPage={currentPage} totalPages={4} onPageChange={handlePageChange} />
     </div>
   );
 };

@@ -1,29 +1,15 @@
-import { useState } from "react";
 import { Divider } from "antd"
 import { Video } from "../../components/Video"
 import { greeting, greeting1, greeting2, greeting3 } from "../../data/greeting"
 import { BasicTable } from "../../components/Table";
 import { Pagination } from "../../components/Pagination";
+import { usePaginatedData } from "../../hooks/usePaginatedData";
 
 export const Greeting = () => {
-  const [data, setData] = useState(greeting);
-  const [currentPage, setCurrentPage] = useState(1);
-  
-  
-    const handlePageChange = (current: number) => {
-        setCurrentPage(current);
-        if (current === 1) {
-          setData(greeting);
-        } else if (current === 2) {
-          setData(greeting1);
-        } else if (current === 3) {
-          setData(greeting2);
-        } else {
-          setData(greeting3);
-        }
-    };
-    
-  
+  const { data, currentPage, handlePageChange } = usePaginatedData(greeting, [
+    greeting, greeting1, greeting2, greeting3,
+  ]);
+      
   return (
     <>
       <Divider>Greeting - знакомства</Divider>
@@ -35,6 +21,7 @@ export const Greeting = () => {
         <Video videoId='RLs9lIy5WT0' width="410" />
       </div>
 
+      <Divider>Диалоги</Divider>
       <BasicTable data={data} />
 
       <Pagination

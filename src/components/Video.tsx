@@ -2,9 +2,10 @@ interface VideoProps {
   videoId: string;
   width?: string;
   height?: string;
+  startTimeVideo?: number
 }
 
-export const Video = ({videoId, width = '560', height='315'}: VideoProps) => {
+export const Video = ({videoId, width = '410', height='315'}: VideoProps) => {
   return (
     <iframe
       width={width}
