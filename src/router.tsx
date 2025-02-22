@@ -5,6 +5,7 @@ import { Number, Colors, Countries, Greeting, Weather } from "./speaking";
 import { Jobs } from "./speaking/jobs/Jobs";
 import { Clothing } from "./speaking/clothing/Clothing";
 import { Shopping } from "./speaking/shopping/Shopping";
+import { Time } from "./speaking/time/time";
 
 const Layout = () => (
   <div style={{ display: "flex" }}>
@@ -66,6 +67,7 @@ export const router = createBrowserRouter([
           { path: "talking-about-smth", element: <div>В процессе</div> },
           { path: "countries", element: <Countries /> },
           { path: "numbers", element: <Number /> },
+          { path: "time", element: <Time /> },
           { path: "colors", element: <Colors /> },
           { path: "personal-preferences", element: <div>В процессе</div> },
           { path: "food-and-drinks", element: <div>Придумать также 4-5 диалога на тему в ресторане, заказа еды</div> },

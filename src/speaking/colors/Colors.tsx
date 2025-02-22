@@ -5,6 +5,7 @@ import { BasicTable } from '../../components/Table';
 import { colors, colors2, colors3, colors4, colors5, colors6 } from '../../data/colors';
 import { Pagination } from '../../components/Pagination';
 import { usePaginatedData } from '../../hooks/usePaginatedData';
+import { Video } from '../../components/Video';
 
 const getRandomColor = () => {
   const colors = [
@@ -17,7 +18,7 @@ export const Colors = () => {
   const [randomColor, setRandomColor] = useState(getRandomColor());
   const [inputValue, setInputValue] = useState('');
   const { data, currentPage, handlePageChange } = usePaginatedData(colors, [
-    colors2, colors3, colors4, colors5, colors6, 
+    colors, colors2, colors3, colors4, colors5, colors6, 
   ]);
 
   useEffect(() => {
@@ -43,19 +44,15 @@ export const Colors = () => {
     <div>
       <Divider>Colors</Divider>
 
-      <p>Ссылки для изучения цветов:</p>
+      <p>Базовые ресурсы:</p>
 
-      <ul>
-        <li>
-          <a href="https://www.youtube.com/watch?v=4QakVc28CEc" target="_blank">Веселая песенка из ютуба</a>
-        </li>  
 
-        <li>
-          <a href="https://ilmish.com/wp-content/uploads/2024/09/Colors-Names-1.png" target="_blank">
-            Картинка с цветами
-          </a>
-        </li>
-      </ul>   
+      <div style={{display: 'flex', gap: '1rem'}}>
+        <Video videoId='4QakVc28CEc' />
+        <img src='/src/assets/colors.png' width={555} />
+      </div>
+
+      <Divider>Writing</Divider>
 
       <div className="container">
         <div 
@@ -75,15 +72,10 @@ export const Colors = () => {
         <Button type="primary" onClick={checkSpelling}>Check your spelling</Button>
       </div>
 
-            <p>Dialogs: </p>
+      <Divider>Dialogs</Divider>
       
-            <BasicTable data={data} />
-      
-            <Pagination
-              currentPage={currentPage}
-              totalPages={6}
-              onPageChange={handlePageChange}
-            />
+      <BasicTable data={data} />
+      <Pagination currentPage={currentPage} totalPages={6} onPageChange={handlePageChange} />
     </div>
   );
 }

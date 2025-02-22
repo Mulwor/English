@@ -1,6 +1,6 @@
 export const colors = [
   { key: '1', english: 'Hello, how can I help you?', russian: 'Здравствуйте, чем я могу вам помочь??' },
-  { key: '2', english: 'Yes, i would like a new car. My favorite color is green.', russian: 'Да, я бы хотела купить новую машину. Мой любимый цвет - зеленый.' },
+  { key: '2', english: 'Yes, i would like a new car. My favorite color is green.', russian: 'Да, я бы хотела (купить) новую машину. Мой любимый цвет - зеленый.' },
   { key: '3', english: 'We do not have a green car.', russian: 'У нас нет зеленых машин.' },
 ];
 
@@ -11,7 +11,7 @@ export const colors2 = [
   { key: '4', english: 'I will try it on', russian: 'Я (обязательно его) примерю' },
   { key: '5', english: 'The green is perfect', russian: 'Зеленый цвет просто идеален' },
   { key: '6', english: 'I am not sure', russian: 'Я не знаю ...' },
-  { key: '7', english: 'We have it on white', russian: 'У нас есть и в белом цвете' },
+  { key: '7', english: 'We have it in white', russian: 'У нас есть и в белом цвете' },
   { key: '8', english: 'I will try it on', russian: 'Я примерю' },
   { key: '9', english: 'The white is so good', russian: 'Белый цвет тоже хороший' },
   { key: '10', english: 'I am not sure yet', russian: 'Я пока не уверена' },

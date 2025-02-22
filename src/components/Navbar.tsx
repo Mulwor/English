@@ -49,6 +49,7 @@ const items: MenuItem[] = [
           { key: "2-5", label: <Link to='/a1/speaking/clothing'>Clothes</Link> },
           { key: "2-6", label: <Link to='/a1/speaking/weather'>Weather</Link> },
           { key: "2-7", label: <Link to='/a1/speaking/jobs'>Jobs</Link> },
+          { key: "2-2-1", label: <Link to='/a1/speaking/time'>Time</Link> },
           { key: "2-21", label: <Link to='/a1/speaking/shopping'>Shopping</Link> },
           { key: "2-8", label: <Link to='/a1/speaking/personal-preferences'>Personal preferences</Link> },
           { key: "2-9", label: <Link to='/a1/speaking/food-and-drinks'>Food and drinks</Link> },

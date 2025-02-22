@@ -3,7 +3,7 @@ import { Divider, Button, Input, message } from 'antd';
 import { toWords } from 'number-to-words';
 import './Number.css';
 import { BasicTable } from '../../components/Table';
-import { numbers1, numbers2, numbers3, numbers4 } from '../../data/number'
+import { numbers1, numbers2, numbers4 } from '../../data/number'
 import { Pagination } from '../../components/Pagination';
 import { Video } from '../../components/Video';
 import { usePaginatedData } from '../../hooks/usePaginatedData';
@@ -13,10 +13,10 @@ const getRandomNumber = () => Math.floor(Math.random() * 1000);
 export const Number = () => {
   const [randomNumber, setRandomNumber] = useState(getRandomNumber);
   const [inputValue, setInputValue] = useState('');
-  const { data, currentPage, handlePageChange } = usePaginatedData(numbers1, [
-    numbers2, numbers3, numbers4
+  const { data: numbers, currentPage: numbersPage, handlePageChange: handleNumbersPageChange } = usePaginatedData(numbers1, [
+    numbers1, numbers2, numbers4
   ]);
-      
+
   useEffect(() => {
     setInputValue('');
   }, [randomNumber]);
@@ -44,28 +44,14 @@ export const Number = () => {
 
       <p>Базовые ресурсы: </p>
 
-      <ul>
-        <li>
-          <a href="https://www.youtube.com/watch?v=e0dJWfQHF8Y" target="_blank">Правильное произношение чисел</a>
-        </li>  
-
-        <li>
-          <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge7GY2IA0tVcap1bp8W0JNkkVo4SsI9QZnamNQsfVNPDfFlq1kwqwpOiYlotyUSu2n2Aku_f6fCIKf9EtyvW8S7M1idffY1DkP7-ALLyGS1pFHs-hJA5eRU__umctvvez-nvVwZaAKroQ/s1600/Numbers.jpg" target="_blank">
-            Картинка с числами
-          </a>
-        </li>
-      </ul>
-
-      <p>Listening: </p>
-
-      <div className='video-container'>
-        <Video videoId='G6c8NjhS1YE' width='410'/>
-        <Video videoId='PhJ5VIR6ExM' width='410'/>
-        <Video videoId='-5TuoZWAhQI' width='410'/>
+      <div style={{display: 'flex', gap: '1rem'}}>
+        <Video videoId='e0dJWfQHF8Y' />
+        <img src='/src/assets/numb.jpg' width={394} />
       </div>
 
+      <Divider>Writing</Divider>
       <div className='container'>
-        <div>Writing: {randomNumber}</div>
+        <span>{randomNumber}</span>
         <Input 
           placeholder="Write spelled-out number: twenty-three"
           value={inputValue}
@@ -75,10 +61,18 @@ export const Number = () => {
         <Button type="primary" onClick={checkSpelling}>Check your spelling</Button>
       </div>
 
-      <p>Dialogs: </p>
+      <Divider>Listening</Divider>
 
-      <BasicTable data={data} />
-      <Pagination currentPage={currentPage} totalPages={4} onPageChange={handlePageChange} />
+      <div className='video-container'>
+        <Video videoId='G6c8NjhS1YE' width='410'/>
+        <Video videoId='PhJ5VIR6ExM' width='410'/>
+        <Video videoId='-5TuoZWAhQI' width='410'/>
+      </div>
+
+      <Divider>Dialogs</Divider>
+
+      <BasicTable data={numbers} />
+      <Pagination currentPage={numbersPage} totalPages={3} onPageChange={handleNumbersPageChange} />
     </div>
   );
 };

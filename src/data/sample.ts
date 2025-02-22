@@ -16,3 +16,8 @@ export const columns = [
   { title: "Pronunciation", dataIndex: "pronunciation", key: "pronunciation" },
   { title: "Russian", dataIndex: "russian", key: "russian" },
 ];
+
+export const column2 = [
+  { title: 'English', dataIndex: 'english', key: 'name' },
+  { title: 'Russian', dataIndex: 'russian', key: 'age' },
+]

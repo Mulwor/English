@@ -10,13 +10,14 @@ const { Panel } = Collapse;
 
 const columns = [
   { title: "Country", dataIndex: "country", key: "country" },
+  { title: "Phonetics", dataIndex: "phonetics", key: "phonetics" },
   { title: "Nationality", dataIndex: "nationality", key: "nationality" },
   { title: "Translation", dataIndex: "translation", key: "translation" },
 ];
 
 export const Countries = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(country, [
-    country1, country2, country3, country4, country5, country6, 
+    country, country1, country2, country3, country4, country5, country6, 
   ]);
   
   return (
@@ -51,7 +52,7 @@ export const Countries = () => {
 
       <BasicTable data={data} />
 
-      <Pagination currentPage={currentPage} totalPages={6} onPageChange={handlePageChange} />
+      <Pagination currentPage={currentPage} totalPages={7} onPageChange={handlePageChange} />
 
       <Divider>Подкасты</Divider>
 
