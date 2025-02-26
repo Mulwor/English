@@ -1,20 +1,43 @@
-import { Divider } from "antd"
+import { Collapse, Divider, Table } from "antd"
 import { BasicTable } from "../../components/Table"
 import { usePaginatedData } from "../../hooks/usePaginatedData";
-import { numbers3, numbers5, numbers6 } from "../../data/number";
+import { time_1, time_2, time_3, time_4, time_5, time_6, time_7, time_8, time_9, time_10, allTime } from "../../data/time";
 import { Pagination } from "../../components/Pagination";
+import { Video } from "../../components/Video";
+import { column3 } from "../../data/sample";
+
+const { Panel } = Collapse;
 
 export const Time = () => {
-    const { data: time, currentPage: timePage, handlePageChange: handleNumbersPageTime } = usePaginatedData(numbers3, [
-      numbers3, numbers5, numbers6
+    const { data, currentPage, handlePageChange } = usePaginatedData(time_1, [
+      time_1, time_2, time_3, time_4, time_5, time_6, time_7, time_8, time_9, time_10
     ]);
     
   return (
     <div>
-      <h1>Данный раздел в процессе доработки, в топиков его не было. Но я решил добавить. Появится со второй версии</h1>
       <Divider>Time</Divider>
-      <BasicTable data={time} />
-      <Pagination currentPage={timePage} totalPages={3} onPageChange={handleNumbersPageTime} />
+
+      <Divider>Vocabulary</Divider>
+      
+      <Collapse accordion>
+        <Panel header="Times" key="1">
+          <Table dataSource={allTime} columns={column3} pagination={false} size="small" />
+        </Panel>
+      </Collapse>
+
+      <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem', marginBottom: '1rem'}}>
+        <Video videoId="HQDaZOL1I5Y" />
+        <Video videoId="DvTkgW19KeI" />
+      </div>
+
+      <Divider>Dialogs</Divider>
+      <BasicTable data={data} />
+      <Pagination currentPage={currentPage} totalPages={10} onPageChange={handlePageChange} />
+    
+      <Divider>Задачи</Divider>
+      <a href="https://learnenglish.britishcouncil.org/general-english/video-series/starting-out/episode-11-what-time-it">
+        Задача со временем
+      </a>
     </div>
   )
 }

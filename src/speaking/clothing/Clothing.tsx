@@ -1,6 +1,6 @@
 import { Collapse, Divider, Table } from "antd"
 import { columns } from "../../data/sample";
-import { allClothes, clothes, clothes1, clothes2, clothes3, clothes4, clothes5, clothes6, clothes7, clothes8, clothes9, clothes10, clothes11 } from "../../data/clothing";
+import { allClothes, clothes, clothes1, clothes2, clothes3, clothes4, clothes5, clothes7, clothes8 } from "../../data/clothing";
 import { Video } from "../../components/Video";
 import { BasicTable } from "../../components/Table";
 import { Pagination } from "../../components/Pagination";
@@ -9,11 +9,14 @@ import { usePaginatedData } from "../../hooks/usePaginatedData";
 const { Panel } = Collapse;
 
 export const Clothing = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(clothes, [
-    clothes1, clothes2, clothes3, clothes4, clothes5, clothes6, 
-    clothes7, clothes8, clothes9, clothes10, clothes11,
+  const { data, currentPage, handlePageChange } = usePaginatedData(clothes2, [
+    clothes2, clothes3, clothes4, clothes5,  clothes7, clothes8
   ]);
-    
+   
+  const { data: dialogsVideo, currentPage: dialogsVideoPage, handlePageChange: handlePageChangeDialogsVideo } = usePaginatedData(clothes, [
+    clothes, clothes1
+  ]);
+
   return (
     <div>
       <Divider>Clothes - одежда</Divider>
@@ -33,14 +36,22 @@ export const Clothing = () => {
         </Panel>
       </Collapse>
 
-      <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '1rem'}}>
+      <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem', marginBottom: '1rem'}}>
         <Video videoId="XNhvZtjg2q8" width="410" />
         <Video videoId="E47g3P64SYw" width="410" />
       </div>
 
+      <Collapse accordion>
+        <Panel header="Dialogs video" key="1">
+          <BasicTable data={dialogsVideo} />
+          <Pagination currentPage={dialogsVideoPage} totalPages={2} onPageChange={handlePageChangeDialogsVideo} />
+        </Panel>
+      </Collapse>
+
+      <Divider>Dialogs</Divider>
+
       <BasicTable data={data} />
-        
-      <Pagination currentPage={currentPage} totalPages={12} onPageChange={handlePageChange} />
+      <Pagination currentPage={currentPage} totalPages={6} onPageChange={handlePageChange} />
 
       <Divider>Задачи для самопроверки</Divider>
 

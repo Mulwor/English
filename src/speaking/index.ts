@@ -3,3 +3,8 @@ export { Colors } from './colors/Colors';
 export { Countries } from './countries/Countries';
 export { Greeting } from './greeting/Greeting';
 export { Weather } from './weather/Weather';
+export { Shopping } from './shopping/Shopping';
+export { Time } from './time/Time';
+export { Jobs } from './jobs/Jobs';
+export { Clothing } from './clothing/Clothing';
+export { Food } from './food/Food';

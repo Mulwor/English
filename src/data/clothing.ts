@@ -108,11 +108,6 @@ export const clothes2 = [
   { key: '4', english: 'They are black.', russian: 'Они черные.' },
   { key: '5', english: 'Do you like wearing jeans?', russian: 'Тебе нравится носить джинсы?' },
   { key: '6', english: 'Yes, they are comfortable.', russian: 'Да, они удобные.' },
-  { key: '7', english: 'What do you wear in summer?', russian: 'Что ты носишь летом?' },
-  { key: '8', english: 'I wear T-shirts and shorts.', russian: 'Я ношу футболки и шорты.' },
-  { key: '9', english: 'And in winter?', russian: 'А зимой?' },
-  { key: '10', english: 'I wear jackets and sweaters.', russian: 'Я ношу куртки и свитера.' },
-  { key: '11', english: 'That sounds cozy!', russian: 'Звучит уютно!' }
 ];
 
 export const clothes3 = [
@@ -155,19 +150,6 @@ export const clothes5 = [
   { key: '11', english: 'You must look great in it!', russian: 'Ты, наверное, отлично выглядишь в нём!' }
 ];
 
-export const clothes6 = [
-  { key: '1', english: 'Can I borrow your scarf?', russian: 'Могу я взять твой шарф?' },
-  { key: '2', english: 'Sure. It’s on the chair.', russian: 'Конечно. Он на стуле.' },
-  { key: '3', english: 'Thanks! It’s so soft.', russian: 'Спасибо! Он такой мягкий.' },
-  { key: '4', english: 'I bought it last winter.', russian: 'Я купила его прошлой зимой.' },
-  { key: '5', english: 'Was it expensive?', russian: 'Он был дорогим?' },
-  { key: '6', english: 'No, it was quite cheap.', russian: 'Нет, он был довольно дешевым.' },
-  { key: '7', english: 'Do you have a matching hat?', russian: 'У тебя есть подходящая шляпа?' },
-  { key: '8', english: 'Yes, it’s in the closet.', russian: 'Да, она в шкафу.' },
-  { key: '9', english: 'Can I borrow it too?', russian: 'Могу я тоже её взять?' },
-  { key: '10', english: 'Of course!', russian: 'Конечно!' }
-];
-
 export const clothes7 = [
   { key: '1', english: 'Do you have a raincoat?', russian: 'У тебя есть дождевик?' },
   { key: '2', english: 'Yes, it’s yellow.', russian: 'Да, он жёлтый.' },
@@ -193,6 +175,8 @@ export const clothes8 = [
   { key: '9', english: 'Let’s go tomorrow!', russian: 'Давай пойдём завтра!' },
   { key: '10', english: 'Sounds like a plan.', russian: 'Звучит как план.' }
 ];
+
+// ! ==================================================== B1 ================================================================
 
 export const clothes9 = [
   { key: '1', english: 'Do you follow fashion trends?', russian: 'Ты следишь за модными тенденциями?' },

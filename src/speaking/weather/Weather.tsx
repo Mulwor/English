@@ -1,5 +1,5 @@
 import { Collapse, Divider, Table } from "antd"
-import { allWeather, weather_1, weather_10, weather_11, weather_12, weather_2, weather_3, weather_4, weather_5, weather_6, weather_7, weather_8, weather_9 } from "../../data/weather";
+import { allWeather, weather_1, weather_10, weather_11, weather_2, weather_3, weather_4, weather_5, weather_6 } from "../../data/weather";
 import { columns } from "../../data/sample"
 import { BasicTable } from "../../components/Table";
 import { Pagination } from "../../components/Pagination";
@@ -10,8 +10,7 @@ const { Panel } = Collapse;
 
 export const Weather = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(weather_1, [
-    weather_1, weather_2, weather_3, weather_4, weather_5, weather_6, 
-    weather_7, weather_8, weather_9, weather_10, weather_11, weather_12,
+    weather_1, weather_2, weather_3, weather_4, weather_5, weather_6, weather_10, weather_11,
   ]);
 
   return (
@@ -29,7 +28,7 @@ export const Weather = () => {
       <Divider>Vocabulary</Divider>
       
       <Collapse accordion>
-        <Panel header="Jobs List" key="1">
+        <Panel header="Weather List" key="1">
           <Table dataSource={allWeather} columns={columns} pagination={false} size="small" />
         </Panel>
       </Collapse>
@@ -37,7 +36,7 @@ export const Weather = () => {
       <Divider>Dialogs</Divider>
 
       <BasicTable data={data} />
-      <Pagination currentPage={currentPage} totalPages={11} onPageChange={handlePageChange} />
+      <Pagination currentPage={currentPage} totalPages={8} onPageChange={handlePageChange} />
 
       <Divider>Задачи</Divider>
 
@@ -48,7 +47,7 @@ export const Weather = () => {
       <a href="https://test-english.com/vocabulary/a2/the-weather-a2-english-vocabulary/">3. Услышь и повтори</a>
       </div>
 
-      <Divider>Подкасты и другие видеоролики на тему wheather</Divider>
+      <Divider>Подкасты и другие видеоролики на тему weather</Divider>
 
       <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem'}}>
         <Video videoId="eYAaLWdx_h0"/>

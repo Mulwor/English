@@ -79,55 +79,6 @@ export const numbers2 = [
   },
 ];
 
-export const numbers3 = [
-  { 
-    key: '1',
-    english: 'What time is it?', 
-    russian: 'Который час' 
-  },
-  { 
-    key: '2',
-    english: 'It’s 7:30 (seven thirty / half past seven)', 
-    russian: '7:30' 
-  },
-  { 
-    key: '3',
-    english: 'Oh no! My class starts at 8:00 ("eight o clock")', 
-    russian: 'О нет! Мой урок начинается в 8 часов' 
-  },
-  { 
-    key: '4',
-    english: 'You have 30 minutes.', 
-    russian: 'У тебя есть еще 30 минут' 
-  },
-  { 
-    key: '5',
-    english: 'I need to hurry!', 
-    russian: 'Мне нужно торопиться' 
-  },
-  {
-    key: '6',
-    english: '-', 
-    russian: '-' 
-  },
-  { 
-    key: '7',
-    english: 'What time is it? - It’s 3 o’clock.', 
-    russian: 'Который час? - Три часа.' 
-  },
-  { 
-    key: '8',
-    english: 'Thank you! - You’re welcome!', 
-    russian: 'Спасибо! - Пожалуйста!' 
-  },
-  { 
-    key: '9',
-    english: 'Do you know when the store closes? - It closes at 6 pm.', 
-    russian: 'Вы знаете, когда закрывается магазин? - Он закрывается в 6 вечера.' 
-  },
-];
-
-
 export const numbers4 = [
   { 
     key: '1',
