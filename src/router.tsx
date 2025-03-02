@@ -1,11 +1,14 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Demonstrative, Personal } from "./grammar/pronouns";
-import { Number, Colors, Countries, Greeting, Weather, Jobs, Clothing, Shopping, Time, Food } from "./speaking";
+import { 
+  Number, Colors, Countries, Greeting, Weather, Jobs, Clothing, Shopping, Time, 
+  Food, DailyRoutine, Hobbies, MusicAndFilms, Sport, Money, DescribingPerson, 
+  TalkingAboutSomeone 
+} from "./speaking";
 import { Listening } from "./listening/Listening";
 import { ReadingA1 } from "./reading/ReadingA1";
-import { MusicAndFilms } from "./speaking/music/Music";
-import { Sport } from "./speaking/sport/Sport";
+import { Furniture } from "./speaking/furnitures/Furnitures";
 
 const Layout = () => (
   <div style={{ display: "flex" }}>
@@ -61,29 +64,30 @@ export const router = createBrowserRouter([
         path: "speaking",
         children: [
           { path: "greeting", element: <Greeting /> },
-          { path: "talking-about-smth", element: <div>В процессе</div> },
+          { path: "talking-about-smth", element: <TalkingAboutSomeone /> },
           { path: "countries", element: <Countries /> },
           { path: "numbers", element: <Number /> },
           { path: "time", element:  <Time />},
           { path: "colors", element: <Colors /> },
           { path: "food-and-drinks", element: <Food /> },
           { path: "jobs", element: <Jobs /> },
-          { path: "hobbies", element: <div>В процессе</div> },
-          { path: "daily-routine", element: <div>В процессе</div> },
+          { path: "hobbies", element: <Hobbies /> },
+          { path: "daily-routine", element: <DailyRoutine />},
           { path: "sport-and-fitness", element: <Sport /> },
           { path: "music-and-films", element: <MusicAndFilms /> },
           { path: "weather", element: <Weather /> },
           { path: "holidays", element: <div>В процессе</div> },
-          { path: "house-and-furniture", element: <div>В процессе</div> },
-          { path: "travel", element: <div>В процессе</div> },
-          { path: "places-in-the-city", element: <div>В процессе</div> },
-          { path: "describing-a-person", element: <div>В процессе</div> },
+          { path: "house-and-furniture", element: <Furniture /> },
+          { path: "travel", element: 
+            <div> 
+              <div>Places in the city - уметь спрашивать как дойти до туда, или где находится что-либо</div> 
+            </div> 
+          },
+          { path: "describing-a-person", element: <DescribingPerson /> },
           { path: "shopping", element: <Shopping />},
-          { path: "money", element: <div>В процессе</div> },
+          { path: "money", element: <Money /> },
           { path: "clothing", element: <Clothing /> },
-          { path: "in-a-hotel", element: <div>В процессе</div> },
-          { path: "at-a-gas-station", element: <div>В процессе</div> },
-          { path: "at-the-office", element: <div>В процессе</div> },
+          { path: "in-a-hotel", element: <div> В процессе</div> },
         ]
       },
       { 

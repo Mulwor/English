@@ -150,3 +150,27 @@ export const shopping_12 = [
   { key: '4', english: 'We have a great collection of handbags. Would you like to see them?', russian: 'У нас есть отличная коллекция сумок. Хотите посмотреть?' },
   { key: '5', english: 'Yes, that sounds perfect!', russian: 'Да, это звучит идеально!' },
 ];
+
+export const shopping_13 = [
+  { key: '1', english: 'Excuse me. What are those?', russian: '' },
+  { key: '2', english: 'They are caps', russian: '' },
+  { key: '3', english: 'How much are they', russian: '' },
+  { key: '4', english: 'They are 20$ ', russian: '' },
+  { key: '5', english: 'And how much are these key chains?', russian: '' },
+  { key: '6', english: 'They are $20', russian: '' },
+  { key: '7', english: 'And this mug?', russian: '' },
+  { key: '8', english: '$20', russian: '' },
+  { key: '9', english: 'Is that a Yankees T-shirt?', russian: '' },
+  { key: '10', english: 'No, it is a Mets T-shirt', russian: '' },
+  { key: '11', english: 'How much is it?', russian: '' },
+  { key: '12', english: '$30', russian: '' },
+  { key: '13', english: 'Oh...no. Thank you. Bye', russian: '' },
+]
+
+export const shopping_14 = [
+  { key: '1', english: 'How much is this mug? - It is $9', russian: '' },
+  { key: '2', english: 'How much is that cup? - It is $20', russian: '' },
+  { key: '3', english: 'How much are these toys? - They are $15', russian: '' },
+  { key: '4', english: 'How much are those T-shirts - They are $20', russian: '' },
+  { key: '5', english: 'Two caps, please. - That is $20', russian: '' },
+]

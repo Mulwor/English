@@ -31,22 +31,16 @@ export const Food = () => {
           </Panel>
         </Collapse>
       </div>
-
-      {/* 
-        <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem', marginBottom: '1rem'}}>
-          <Video videoId="KyO_H_mNKNI" width="410" />
-          <Video videoId="aWSg7MsHYpU" width="410" />
-        </div>
-      */}
       
-        <Divider>Dialogs</Divider> 
+      <Divider>Dialogs</Divider> 
         
-        <BasicTable data={data} />
-        <Pagination currentPage={currentPage} totalPages={12} onPageChange={handlePageChange} />
+      <BasicTable data={data} />
+      <Pagination currentPage={currentPage} totalPages={12} onPageChange={handlePageChange} />
       
       <Divider>Tasks</Divider>
       
       <ul>
+        <Video videoId='FXGLTZCKMmY' />
         <li> <a href='https://test-english.com/vocabulary/a1/food-and-meals-a1-english-vocabulary/'>Задача №1</a> </li>
       </ul>
     </div>
