@@ -1,14 +1,10 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Demonstrative, Personal } from "./grammar/pronouns";
-import { 
-  Number, Colors, Countries, Greeting, Weather, Jobs, Clothing, Shopping, Time, 
-  Food, DailyRoutine, Hobbies, MusicAndFilms, Sport, Money, DescribingPerson, 
-  TalkingAboutSomeone 
-} from "./speaking";
 import { Listening } from "./listening/Listening";
 import { ReadingA1 } from "./reading/ReadingA1";
-import { Furniture } from "./speaking/furnitures/Furnitures";
+import { Clothing, Colors, Countries, Food, Greeting, Jobs, Money, Weather, Number } from "./speaking/basic";
+import { DailyRoutine, DescribingPerson, Furniture, Hobbies, MusicAndFilms, Shopping, Sport, TalkingAboutSomeone, Time } from "./speaking/elementary";
 
 const Layout = () => (
   <div style={{ display: "flex" }}>
