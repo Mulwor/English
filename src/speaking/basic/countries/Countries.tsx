@@ -23,37 +23,30 @@ export const Countries = () => {
   return (
     <div>
       <Divider>Countries and nationality</Divider>
-
-      <p>Базовые ресурсы: </p>
-
-      <div>
-        <Video videoId="NJVV1LDt2hE" width='410'/>
-
-        <Collapse accordion>
-          <Panel header="Countries List" key="1">
-            <Table dataSource={allCountries} columns={columns} pagination={false} size="small" />
-          </Panel>
-        </Collapse>
+        
+      <div className="video">
+        <Video videoId="NJVV1LDt2hE" />
+        <Video videoId="PQE52ke83oI" />
+        <Video videoId="SxZjx0N8Lbo" />
       </div>
 
-      <Divider>Игра: угадай национальность или страну</Divider>
+      <Collapse accordion>
+        <Panel header="Countries List" key="1">
+          <Table dataSource={allCountries} columns={columns} pagination={false} size="small" />
+        </Panel>
+      </Collapse>
 
-      <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem'}}>
-        <Video videoId="PQE52ke83oI" width='410' />
-        <Video videoId="SxZjx0N8Lbo" width='410' />
-      </div>
-
-      <Divider>Диалоги</Divider>
+      <Divider>Dialogs</Divider>
 
       <BasicTable data={data} />
       <Pagination currentPage={currentPage} totalPages={7} onPageChange={handlePageChange} />
 
-      <Divider>Подкасты</Divider>
+      <Divider>Дополнительные материалы</Divider>
 
-      <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
-        <Video videoId="2Qpa1VPWSJg" width='410' />
-        <Video videoId='qLR9QD8vxK8' width='410' />
-        <Video videoId="QJGZh519tr0" width='410' />
+      <div className="video">
+        <Video videoId="2Qpa1VPWSJg" />
+        <Video videoId='qLR9QD8vxK8' />
+        <Video videoId="QJGZh519tr0" />
       </div>
     </div>
   )

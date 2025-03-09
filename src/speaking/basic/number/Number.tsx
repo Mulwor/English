@@ -40,9 +40,7 @@ export const Number = () => {
     <div>
       <Divider>Numbers</Divider>
 
-      <p>Базовые ресурсы: </p>
-
-      <div style={{display: 'flex', gap: '1rem'}}>
+      <div className='video'>
         <Video videoId='e0dJWfQHF8Y' />
         <img src='/src/assets/numb.jpg' width={394} />
       </div>
@@ -61,14 +59,13 @@ export const Number = () => {
 
       <Divider>Listening</Divider>
 
-      <div className='video-container'>
-        <Video videoId='G6c8NjhS1YE' width='410'/>
-        <Video videoId='PhJ5VIR6ExM' width='410'/>
-        <Video videoId='-5TuoZWAhQI' width='410'/>
+      <div className='video'>
+        <Video videoId='-5TuoZWAhQI'/>
+        <Video videoId='G6c8NjhS1YE'/>
+        <Video videoId='PhJ5VIR6ExM'/>
       </div>
 
       <Divider>Dialogs</Divider>
-
       <BasicTable data={numbers} />
       <Pagination currentPage={numbersPage} totalPages={3} onPageChange={handleNumbersPageChange} />
     </div>

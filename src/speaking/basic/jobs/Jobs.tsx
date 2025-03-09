@@ -25,51 +25,47 @@ export const Jobs = () => {
     <div>
       <Divider>Jobs - работа</Divider>
 
-      <p>Базовые ресурсы: </p>
-
-      <Divider>Vocabulary</Divider>
-
-      <Collapse accordion>
-        <Panel header="Jobs List" key="1">
-          <Table dataSource={allJobs} columns={columns} pagination={false} size="small" />
-        </Panel>
-      </Collapse>
-
-      <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-        <Video videoId='2TxVyxrOp0s' width='410' />
-        <Video videoId='eejZ4UvMqoc' width='410' />
+      <div className="video">
+        <Video videoId='2TxVyxrOp0s' />
+        <Video videoId='eejZ4UvMqoc' />
       </div>
 
-      <Collapse accordion>
-        <Panel header="Dialogs video" key="1">
-          <BasicTable data={dialogsVideo} />
-          <Pagination currentPage={dialogsVideoPage} totalPages={2} onPageChange={handlePageChangeDialogsVideo} />
-        </Panel>
-      </Collapse>
+      <div className='data'>
+        <Collapse accordion>
+          <Panel header="Dialogs video" key="1">
+            <BasicTable data={dialogsVideo} />
+            <Pagination currentPage={dialogsVideoPage} totalPages={2} onPageChange={handlePageChangeDialogsVideo} />
+          </Panel>
+        </Collapse>
+
+        <Collapse accordion>
+          <Panel header="Jobs List" key="1">
+            <Table dataSource={allJobs} columns={columns} pagination={false} size="small" />
+          </Panel>
+        </Collapse>
+      </div>
+
+      <div className="links">
+        <a href="https://www.gamestolearnenglish.com/jobs/" target="_href">
+          1. Закрепление материала
+        </a>
+
+        <a href="https://test-english.com/listening/a1/whats-your-job-a1-english-listening-test/" target='_href'>
+          2. Заполни пропуски
+        </a>
+      </div>
 
       <Divider>Dialogs</Divider>
 
       <BasicTable data={data} />
+      <Pagination currentPage={currentPage} totalPages={9} onPageChange={handlePageChange} />
 
-      <Pagination
-        currentPage={currentPage}
-        totalPages={9}
-        onPageChange={handlePageChange}
-      />
-
-      <Divider>Practice</Divider>
-
-
-      <a href="https://test-english.com/listening/a1/whats-your-job-a1-english-listening-test/" >
-        Задача на освоение устной части. Услышь то чем занимается человек и выбери верный ответ
-      </a>
-
-      <Divider>Подкасты и другие видеоролики на тему работы</Divider>
+      <Divider>Дополнительные материалы</Divider>
         
-      <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
-        <Video videoId='RUup841pZrs' width='410' />
-        <Video videoId='0x1WRY4fvz4' width='410' />
-        <Video videoId='v95eemWZ-4s' width='410' />
+      <div className="video">
+        <Video videoId='RUup841pZrs' />
+        <Video videoId='0x1WRY4fvz4' />
+        <Video videoId='v95eemWZ-4s' />
       </div>
     </div>
   )

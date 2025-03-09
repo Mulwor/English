@@ -1,4 +1,4 @@
-import { Collapse, Divider, Table } from "antd"
+import { Divider } from "antd"
 import { BasicTable } from "../../../components/Table"
 import { usePaginatedData } from "../../../hooks/usePaginatedData";
 import { time_1, time_2, time_3, time_4, time_5, time_6, time_7, time_8, time_9, time_10, allTime } from "./time";
@@ -7,33 +7,36 @@ import { Video } from "../../../components/Video";
 import { columns } from "../../../data/sample";
 import { CollapseWithAccordion } from "../../../components/Collapse";
 
-const { Panel } = Collapse;
-
 export const Time = () => {
     const { data, currentPage, handlePageChange } = usePaginatedData(time_1, [
-      time_1, time_2, time_3, time_4, time_5, time_6, time_7, time_8, time_9, time_10
+      time_1, time_3, time_4, time_2, time_5, 
+      time_6, time_8, time_9, time_10, time_7,
     ]);
     
   return (
     <div>
       <Divider>Time</Divider>
 
-      <Divider>Vocabulary</Divider>
-
-      <CollapseWithAccordion text={'Times list'} data={allTime} columns={columns} />
-
-      <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem', marginBottom: '1rem'}}>
+      <div className='video'>
+        <Video videoId="WLAZpKY-9Ks" />
         <Video videoId="HQDaZOL1I5Y" />
         <Video videoId="DvTkgW19KeI" />
+      </div>
+
+      <CollapseWithAccordion text={'Times vocabulary'} data={allTime} columns={columns} />
+
+      <div className="links">
+        <a href="https://www.gamestolearnenglish.com/telling-the-time/" target="_blank">Задача: ответь правильно и заставь пройти через мостик</a>
+        <a href="https://www.gamestolearnenglish.com/days-of-the-week/" >Задачи на дни недели</a>
       </div>
 
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />
       <Pagination currentPage={currentPage} totalPages={10} onPageChange={handlePageChange} />
     
-      <Divider>Задачи</Divider>
+      <Divider>Дополнительные материалы</Divider>
       <a href="https://learnenglish.britishcouncil.org/general-english/video-series/starting-out/episode-11-what-time-it">
-        Задача со временем
+        Необходимо прослушать диалог и ответить на вопросы
       </a>
     </div>
   )

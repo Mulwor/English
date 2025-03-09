@@ -17,11 +17,6 @@ export const video_2 = [
   { key: '4', english: 'Nice to meet you too, Doug', russian: 'Взаимно, Даг.' },
   { key: '5', english: 'So tell me, what do you do?', russian: 'Скажи, чем ты занимаешься?' },
   { key: '6', english: 'I work in a hotel', russian: 'Я работаю в гостинице.' },
-  { key: '7', english: '-', russian: '-' },
-  { key: '8', english: 'Good morning', russian: 'Доброе утро' },
-  { key: '9', english: 'Good afternoon', russian: 'Добрый день' },
-  { key: '10', english: 'Good evening', russian: 'Добрый вечер' },
-  { key: '11', english: 'Good night', russian: 'Спокойной ночи' },
 ];
 
 // ========================================================================================================================
@@ -36,18 +31,6 @@ export const greeting_1 = [
   { key: '9', english: 'Good afternoon', russian: 'Добрый день' },
   { key: '10', english: 'Good evening', russian: 'Добрый вечер' },
   { key: '11', english: 'Good night', russian: 'Доброй ночи' },
-];
-
-export const greeting_2 = [
-  { key: '1', english: 'Hello. How are you?', russian: 'Привет. Как дела?' },
-  { key: '2', english: 'Hey, I am great, thanks. How are you?', russian: 'Привет, у меня всё отлично, спасибо. Как ты?' },
-  { key: '3', english: 'I am good, thanks. What is your name?', russian: 'У меня всё хорошо, спасибо. Как тебя зовут?' },
-  { key: '4', english: 'My name is Brian. What is your name?', russian: 'Меня зовут Брайан. А тебя?' },
-  { key: '5', english: 'My name is Emily. Where are you from?', russian: 'Меня зовут Эмили. Откуда ты?' },
-  { key: '6', english: 'I am from Boston. How about you?', russian: 'Я из Бостона. А ты?' },
-  { key: '7', english: 'I am from Tulsa', russian: 'Я из Талсы.' },
-  { key: '8', english: 'Nice to meet you!', russian: 'Приятно познакомиться!' },
-  { key: '9', english: 'You too.', russian: 'Взаимно.' },
 ];
 
 export const greeting_3 = [

@@ -1,18 +1,15 @@
 export const allTime = [
   { key: "1", english: "8:00", pronunciation: "[eɪt əˈklɒk]", russian: "8 часов" },
-  { key: "2", english: "8:10", pronunciation: "[eɪt tɛn]", russian: "8 часов 10 минут" },
-  { key: "3", english: "8:10 (quarter past eight)", pronunciation: "[ˈkwɔːrtər pæst eɪt]", russian: "8 часов 15 минут" },
-  { key: "4", english: "8:20", pronunciation: "[eɪt ˈtwɛnti]", russian: "8 часов 20 минут" },
-  { key: "5", english: "8:20 (one third past eight)", pronunciation: "[wʌn θɜːrd pæst eɪt]", russian: "8 часов 20 минут" },
-  { key: "6", english: "8:25", pronunciation: "[eɪt ˈtwɛnti faɪv]", russian: "8 часов 25 минут" },
-  { key: "7", english: "8:30 (half past 8)", pronunciation: "[hɑːf pæst eɪt]", russian: "8 часов 30 минут" },
-  { key: "8", english: "8:35", pronunciation: "[eɪt ˈθɜːrti faɪv]", russian: "8 часов 35 минут" },
-  { key: "9", english: "8:40", pronunciation: "[eɪt ˈfɔːrti]", russian: "8 часов 40 минут" },
-  { key: "10", english: "8:40 (two thirds past 8)", pronunciation: "[tuː θɜːrdz pæst eɪt]", russian: "8 часов 40 минут" },
-  { key: "11", english: "8:45", pronunciation: "[eɪt ˈfɔːrti faɪv]", russian: "8 часов 45 минут (без четверти 9)" },
-  { key: "12", english: "8:45 (quarter to nine)", pronunciation: "[ˈkwɔːrtər tu naɪn]", russian: "8 часов 45 минут (без четверти 9)" },
-  { key: "13", english: "8:50", pronunciation: "[eɪt ˈfɪfti]", russian: "8 часов 50 минут" },
-  { key: "14", english: "8:55", pronunciation: "[eɪt ˈfɪfti faɪv]", russian: "8 часов 55 минут" }
+  { key: "2", english: "8:10", pronunciation: "[eɪt tɛn]", russian: "8 часов 10 минут " },
+  { key: "2", english: "8:15 / a quarter past eight", pronunciation: "[eɪt tɛn]", russian: "8 часов 15 минут (четверть девятого)" },
+  { key: "3", english: "8:20 / one third past eight", pronunciation: "[eɪt ˈtwɛnti]", russian: "8 часов 20 минут (одна треть после восьми)" },
+  { key: "4", english: "8:25", pronunciation: "[eɪt ˈtwɛnti faɪv]", russian: "8 часов 25 минут" },
+  { key: "5", english: "8:30 / half past eight", pronunciation: "[hɑːf pæst eɪt]", russian: "8 часов 30 минут (половина восьмого)" },
+  { key: "6", english: "8:35", pronunciation: "[eɪt ˈθɜːrti faɪv]", russian: "8 часов 35 минут" },
+  { key: "7", english: "8:40 / two thirds past eight", pronunciation: "[eɪt ˈfɔːrti]", russian: "8 часов 40 минут (две трети после восьми)" },
+  { key: "8", english: "8:45 / quarter to nine", pronunciation: "[eɪt ˈfɔːrti faɪv]", russian: "8 часов 45 минут (без четверти девять)" },
+  { key: "9", english: "8:50", pronunciation: "[eɪt ˈfɪfti]", russian: "8 часов 50 минут" },
+  { key: "10", english: "8:55", pronunciation: "[eɪt ˈfɪfti faɪv]", russian: "8 часов 55 минут" }
 ]
 
 export const time_1 = [
@@ -43,18 +40,18 @@ export const time_5 = [
 export const time_3 = [
   { key: '1', english: 'What time do you wake up?', russian: 'Во сколько ты просыпаешься?' },
   { key: '2', english: 'I wake up at 7 a.m. And you?', russian: 'Я просыпаюсь в 7 утра. А ты?' },
-  { key: '3', english: 'I wake up at 6:30. I like mornings.', russian: 'Я просыпаюсь в 6:30. Мне нравятся утра.' },
-  { key: '4', english: 'Me too! What time do you go to work?', russian: 'Мне тоже! Во сколько ты уходишь на работу?' },
+  { key: '3', english: 'I wake up at 6:30.', russian: 'Я просыпаюсь в 6:30.' },
+  { key: '4', english: 'What time do you go to work?', russian: 'Во сколько ты уходишь на работу?' },
   { key: '5', english: 'At 8 o’clock.', russian: 'В 8 часов.' },
   { key: '6', english: 'I go at 8:30.', russian: 'Я ухожу в 8:30.' },
 ];
 
 export const time_4 = [
-  { key: '1', english: 'What time is the movie?', russian: 'Во сколько фильм?' },
+  { key: '1', english: 'What time is the movie?', russian: 'Во сколько этот фильм?' },
   { key: '2', english: 'It’s at 7:15 p.m.', russian: 'Он в 19:15.' },
-  { key: '3', english: 'Let’s meet at 6:45.', russian: 'Давай встретимся в 18:45.' },
+  { key: '3', english: 'Let’s meet at 6:45 p.m.', russian: 'Давай встретимся в 18:45.' },
   { key: '4', english: 'Sounds good! Where?', russian: 'Звучит хорошо! Где?' },
-  { key: '5', english: 'In front of the cinema.', russian: 'Перед кинотеатром.' },
+  { key: '5', english: 'In front of the cinema.', russian: 'Напротив кинотеатром.' },
   { key: '6', english: 'Okay! See you later!', russian: 'Окей! Увидимся позже!' },
 ];
 
@@ -69,7 +66,7 @@ export const time_6 = [
 
 export const time_7 = [
   { key: '1', english: 'Hello, doctor’s office.', russian: 'Здравствуйте, кабинет врача.' },
-  { key: '2', english: 'Hi! I need an appointment.', russian: 'Привет! Мне нужна запись на прием.' },
+  { key: '2', english: 'Hi! I need an appointment.', russian: 'Привет! Мне необходимо записаться на прием' },
   { key: '3', english: 'Sure. What day and time?', russian: 'Конечно. Какой день и время?' },
   { key: '4', english: 'Monday at 3 p.m.', russian: 'В понедельник в 15:00.' },
   { key: '5', english: 'Sorry, that time is full. How about 4 p.m.?', russian: 'Извините, это время занято. Как насчет 16:00?' },
@@ -95,34 +92,10 @@ export const time_9 = [
 ];
 
 export const time_10 = [
-  { 
-    key: '1',
-    english: 'What time does the train leave?', 
-    russian: 'Во сколько отправляется поезд?' 
-  },
-  { 
-    key: '2',
-    english: 'It leaves at 5:30 pm.', 
-    russian: 'Он отправляется в 5:30 вечера.' 
-  },
-  { 
-    key: '3',
-    english: 'Oh no, I’m late! I need to hurry.', 
-    russian: 'О нет, я опаздываю! Мне нужно поторопиться.' 
-  },
-  { 
-    key: '4',
-    english: 'Don’t worry. You still have 15 minutes.', 
-    russian: 'Не волнуйся. У тебя еще есть 15 минут.' 
-  },
-  { 
-    key: '5',
-    english: 'Thanks! How long does it take to get to the station?', 
-    russian: 'Спасибо! Сколько времени займет дорога до станции?' 
-  },
-  { 
-    key: '6',
-    english: 'It takes about 10 minutes on foot.', 
-    russian: 'Пешком это займет около 10 минут.' 
-  },
+  { key: '1', english: 'What time does the train leave?',   russian: 'Во сколько отправляется поезд?' },
+  { key: '2', english: 'It leaves at 5:30 pm.', russian: 'Он отправляется в 5:30 вечера.' },
+  { key: '3', english: 'Oh no, I’m late! I need to hurry.',  russian: 'О нет, я опаздываю! Мне нужно поторопиться.' },
+  { key: '4', english: 'Don’t worry. You still have 15 minutes.', russian: 'Не волнуйся. У тебя еще есть 15 минут.' },
+  { key: '5', english: 'Thanks! How long does it take to get to the station?', russian: 'Спасибо! Сколько времени займет дорога до станции?' },
+  { key: '6', english: 'It takes about 10 minutes on foot.', russian: 'Пешком это займет около 10 минут.' },
 ]

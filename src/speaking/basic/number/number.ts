@@ -83,7 +83,7 @@ export const numbers4 = [
   { 
     key: '1',
     english: 'How many tickets do you need?', 
-    russian: 'Сколько билетов вам нужно' 
+    russian: 'Сколько билетов вам нужно?' 
   },
   { 
     key: '2',
@@ -93,7 +93,7 @@ export const numbers4 = [
   { 
     key: '3',
     english: 'Adults or children?', 
-    russian: 'Взрослых или детских' 
+    russian: 'Взрослых или детских?' 
   },
   { 
     key: '4',

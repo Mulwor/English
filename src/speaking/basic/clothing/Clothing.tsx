@@ -22,34 +22,41 @@ export const Clothing = () => {
     <div>
       <Divider>Clothes - одежда</Divider>
 
-      <p>Базовые ресурсы: </p>
-
-      <Divider>Vocabulary</Divider>
-
-      <CollapseWithAccordion text={'Clothing List'} data={allClothes} columns={columns} />
-
-      <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem', marginBottom: '1rem'}}>
+      <div className="video">
         <Video videoId="XNhvZtjg2q8" width="410" />
         <Video videoId="E47g3P64SYw" width="410" />
       </div>
 
-      <Collapse accordion>
-        <Panel header="Dialogs video" key="1">
-          <BasicTable data={dialogsVideo} />
-          <Pagination currentPage={dialogsVideoPage} totalPages={2} onPageChange={handlePageChangeDialogsVideo} />
-        </Panel>
-      </Collapse>
+      <div className="data">
+        <Collapse accordion>
+          <Panel header="Dialogs video" key="1">
+            <BasicTable data={dialogsVideo} />
+            <Pagination currentPage={dialogsVideoPage} totalPages={2} onPageChange={handlePageChangeDialogsVideo} />
+          </Panel>
+        </Collapse>
+
+        <CollapseWithAccordion text={'Clothing List'} data={allClothes} columns={columns} />
+      </div>
+
+      <div className="links">
+        <a href="https://test-english.com/listening/a1/what-are-they-wearing-clothes-listening-test/" target="_href">
+          1. Услышь во что одет человек
+        </a>
+
+        <a href="https://test-english.com/listening/a1/what-are-they-wearing-clothes-listening-test/" target="_href">
+          2. Заполни пропуски
+        </a>
+
+        <a href="https://test-english.com/listening/a1/what-are-they-wearing-clothes-listening-test/" target="_href">
+          3. Hangman - одежда
+        </a>
+      </div>
+
 
       <Divider>Dialogs</Divider>
 
       <BasicTable data={data} />
       <Pagination currentPage={currentPage} totalPages={6} onPageChange={handlePageChange} />
-
-      <Divider>Задачи для самопроверки</Divider>
-
-      <a href="https://test-english.com/listening/a1/what-are-they-wearing-clothes-listening-test/" >
-        1. Задача на освоение устной части. Услышь во что одет человек
-      </a>
     </div>
   )
 }

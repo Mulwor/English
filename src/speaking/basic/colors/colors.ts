@@ -134,58 +134,5 @@ export const colors5 = [
   },
 ];
 
-export const colors6 = [
-  { 
-    key: '1', 
-    english: 'Do you have all your supplies for the new school year?', 
-    russian: 'У тебя есть все принадлежности к новому учебному году?' 
-  },
-  { 
-    key: '2', 
-    english: 'Not yet. I still need some notebooks.', 
-    russian: 'Еще нет. Мне все еще нужны тетради.' 
-  },
-  { 
-    key: '3', 
-    english: 'What color notebooks do you prefer?', 
-    russian: 'Какие цвета тетрадей ты предпочитаешь?' 
-  },
-  { 
-    key: '4', 
-    english: 'I like green and yellow.', 
-    russian: 'Мне нравятся зеленый и желтый.' 
-  },
-  { 
-    key: '5', 
-    english: 'Green for math and yellow for science, right?', 
-    russian: 'Зеленый для математики, а желтый для науки, правильно?' 
-  },
-  { 
-    key: '6', 
-    english: 'Yes, exactly!', 
-    russian: 'Да, точно!' 
-  },
-  { 
-    key: '7', 
-    english: 'Do you have colored pencils?', 
-    russian: 'У тебя есть цветные карандаши?' 
-  },
-  { 
-    key: '8', 
-    english: 'I need to buy a red and blue pencil, too.', 
-    russian: 'Мне нужно купить еще красный и синий карандаш.' 
-  },
-  { 
-    key: '9', 
-    english: 'Make sure you’re ready by Monday.', 
-    russian: 'Убедись, что ты готов к понедельнику.' 
-  },
-  { 
-    key: '10', 
-    english: 'I will be. Thank you for the reminder!', 
-    russian: 'Буду готов. Спасибо за напоминание!' 
-  },
-];
-
 
 // https://www.youtube.com/watch?v=_chzOtxKqP4

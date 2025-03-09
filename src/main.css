@@ -11,3 +11,20 @@ a:visited {
   color: black;
   text-decoration: none; 
 }
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.links, .data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-decoration: none;
+}

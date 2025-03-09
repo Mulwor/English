@@ -13,35 +13,39 @@ export const Weather = () => {
   return (
     <div>
       <Divider>Weather</Divider>
-      
-      <p>Базовые ресурсы: </p>
 
-      <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem'}}>
+      <div className="video">
         <Video videoId="I8GeA3anPdo"/>
         <Video videoId="CXKj7bm4Ops"/>
         <Video videoId="n72v-tPu8FI"/>
       </div>
 
-      <Divider>Vocabulary</Divider>
-      <CollapseWithAccordion text={'Weather List'} data={allWeather} columns={columns} />
+      <div className="data">
+        <CollapseWithAccordion text={'Weather List'} data={allWeather} columns={columns} />
+      </div>
+
+      <div className="links">
+        <a href="https://www.gamestolearnenglish.com/weather/" target="_href">
+          1. Закрепление материала
+        </a>
+
+        <a href="https://test-english.com/vocabulary/a2/the-weather-a2-english-vocabulary/" target="_href">
+          2. Заполни пропуски
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=HXjZL6BqEFI" target="_href">
+          3. Прослушай диалог и заполни таблицу
+        </a>
+      </div>
 
       <Divider>Dialogs</Divider>
 
       <BasicTable data={data} />
       <Pagination currentPage={currentPage} totalPages={8} onPageChange={handlePageChange} />
 
-      <Divider>Задачи</Divider>
+      <Divider>Дополнительные материалы</Divider>
 
-      <div style={{display: 'flex', flexDirection: 'column'}}>
-      <p>1. Прослушайте диалог и проставьте правильный вариант</p>
-      <Video videoId="HXjZL6BqEFI"/>
-      <a href="https://agendaweb.org/vocabulary/weather-exercises.html">2. Для закрепления можно воспользоваться данным ресурсом</a>
-      <a href="https://test-english.com/vocabulary/a2/the-weather-a2-english-vocabulary/">3. Услышь и повтори</a>
-      </div>
-
-      <Divider>Подкасты и другие видеоролики на тему weather</Divider>
-
-      <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem'}}>
+      <div className="video">
         <Video videoId="eYAaLWdx_h0"/>
         <Video videoId="40PRWD1-HWA"/>
       </div>
