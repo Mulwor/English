@@ -1,14 +1,6 @@
 import { Link } from "react-router-dom";
-import { Button, Menu } from "antd";
-import {
-  AppstoreOutlined,
-  ContainerOutlined,
-  DesktopOutlined,
-  MailOutlined,
-  MenuFoldOutlined,
-  MenuUnfoldOutlined,
-  PieChartOutlined,
-} from '@ant-design/icons';
+import { Menu } from "antd";
+import { PieChartOutlined } from '@ant-design/icons';
 import type { MenuProps } from "antd";
 import { useState } from "react";
 

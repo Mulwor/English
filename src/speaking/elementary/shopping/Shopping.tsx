@@ -1,11 +1,9 @@
-import { Table, Collapse, Divider } from "antd";
+import { Divider } from "antd";
 import { BasicTable, Pagination, Video } from "../../../components";
 import { allShopping, shopping_1, shopping_10, shopping_2, shopping_3, shopping_4, shopping_5, shopping_6, shopping_7, shopping_8, shopping_9 } from "./shopping";
 import { columns } from "../../../data/sample";
 import { usePaginatedData } from "../../../hooks/usePaginatedData";
 import { CollapseWithAccordion } from "../../../components/Collapse";
-
-const { Panel } = Collapse;
 
 export const Shopping = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(shopping_1, [
