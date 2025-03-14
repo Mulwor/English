@@ -14,6 +14,8 @@ export const Weather = () => {
     <div>
       <Divider>Weather</Divider>
 
+      <div>Добавить также про климат диалоги</div>
+
       <div className="video">
         <Video videoId="I8GeA3anPdo"/>
         <Video videoId="CXKj7bm4Ops"/>

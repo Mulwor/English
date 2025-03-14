@@ -7,6 +7,9 @@ import { MusicAndFilms } from './music/Music.tsx';
 import { DescribingPerson } from './describing-person/DescribingPerson.tsx';
 import { TalkingAboutSomeone } from './talkingAboutSomeone/TalkingAboutSomeone.tsx';
 import { Furniture } from './furnitures/Furnitures.tsx';
+import { Hotel } from './hotel/Hotel.tsx';
+import { Travel } from './travel/Travel.tsx';
+import { Holidays } from './holidays/Holidays.tsx';
 
 export {
   Shopping,
@@ -17,5 +20,8 @@ export {
   MusicAndFilms,
   DescribingPerson,
   TalkingAboutSomeone,
-  Furniture
+  Furniture,
+  Hotel,
+  Travel,
+  Holidays
 }

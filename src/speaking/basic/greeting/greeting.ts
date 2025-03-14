@@ -1,8 +1,8 @@
 export const video_1 = [
   { key: '1', english: 'Hello. How are you?', russian: 'Привет. Как дела?' },
-  { key: '2', english: 'Hey, I am great, thanks. How are you?', russian: 'Привет, у меня всё отлично, спасибо. Как ты?' },
+  { key: '2', english: 'Hey, I am great, thanks. How are you?', russian: 'Привет, великолепно, спасибо. Как ты?' },
   { key: '3', english: 'I am good, thanks. What is your name?', russian: 'У меня всё хорошо, спасибо. Как тебя зовут?' },
-  { key: '4', english: 'My name is Brian. What is your name?', russian: 'Меня зовут Брайан. А тебя?' },
+  { key: '4', english: 'My name is Brian. What is your name?', russian: 'Меня зовут Брайан. А тебя как зовут?' },
   { key: '5', english: 'My name is Emily. Where are you from?', russian: 'Меня зовут Эмили. Откуда ты?' },
   { key: '6', english: 'I am from Boston. How about you?', russian: 'Я из Бостона. А ты?' },
   { key: '7', english: 'I am from Tulsa', russian: 'Я из Талсы.' },
@@ -21,16 +21,26 @@ export const video_2 = [
 
 // ========================================================================================================================
 export const greeting_1 = [
-  { key: '1', english: 'Hi.', russian: 'Привет.' },
-  { key: '2', english: 'Hello.', russian: 'Здравствуйте.' },
-  { key: '3', english: 'How are you?', russian: 'Как дела?' },
-  { key: '4', english: 'I am good. You?', russian: 'У меня всё хорошо. А у тебя?' },
-  { key: '5', english: 'Good too.', russian: 'Тоже хорошо.' },
-  { key: '6', english: '-', russian: '-' },
-  { key: '8', english: 'Good morning', russian: 'Доброе утро' },
-  { key: '9', english: 'Good afternoon', russian: 'Добрый день' },
-  { key: '10', english: 'Good evening', russian: 'Добрый вечер' },
-  { key: '11', english: 'Good night', russian: 'Доброй ночи' },
+  { key: '1', english: 'Hi.', russian: 'Привет' },
+  { key: '2', english: 'Hello.', russian: 'Привет' },
+  { key: '3', english: 'Hey!', russian: 'Привет' },
+  { key: '4', english: '-', russian: '-' },
+  { key: '5', english: 'Good morning', russian: 'Доброе утро' },
+  { key: '6', english: 'Good afternoon', russian: 'Добрый день' },
+  { key: '7', english: 'Good evening', russian: 'Добрый вечер' },
+  { key: '8', english: '-', russian: '-' },
+  { key: '9', english: 'It is nice to meet you', russian: 'Приятно познакомится' },
+  { key: '10', english: 'It is lovely to meet you', russian: 'Приятно познакомится' },
+  { key: '11', english: 'It is a pleasure to meet you', russian: 'Приятно познакомится' },
+  { key: '12', english: '-', russian: '-' },
+  { key: '13', english: 'How are you?', russian: 'Как дела?' },
+  { key: '14', english: 'How are things?', russian: 'Как дела?' },
+  { key: '15', english: 'How is it going?', russian: 'Как дела?' },
+  { key: '16', english: 'What is up?', russian: 'Как дела?' },
+  { key: '17', english: 'What is new?', russian: 'Как дела?' },
+  { key: '18', english: '-', russian: '-' },
+  { key: '19', english: 'Long time no see', russian: 'Давно не виделись' },
+  { key: '20', english: 'It is good to see you', russian: 'Рад тебя видеть' },
 ];
 
 export const greeting_3 = [
@@ -62,8 +72,8 @@ export const greeting_5 = [
   { key: '2', english: 'Hi, Jake! I’m Anna. Nice to meet you.', russian: 'Привет, Джейк! Я Анна. Приятно познакомиться.' },
   { key: '3', english: 'Nice to meet you too! Are you a friend of Mark?', russian: 'Мне тоже приятно! Ты друг Марка?' },
   { key: '4', english: 'Yes, we work together. How do you know him?', russian: 'Да, мы работаем вместе. А как ты его знаешь?' },
-  { key: '5', english: 'We went to university together. So, do you like the party?', russian: 'Мы вместе учились в университете. Тебе нравится вечеринка?' },
-  { key: '6', english: 'Yes, it’s great! The music is really good.', russian: 'Да, отличная! Музыка очень хорошая.' },
+  { key: '5', english: 'We went to university together. So, do you like the party?', russian: 'Мы вместе ходили (учились) в университете. Тебе нравится вечеринка?' },
+  { key: '6', english: 'Yes, it’s great! The music is really good.', russian: 'Да, отличная! Музыка действительно хорошая.' },
   { key: '7', english: 'Yeah, I agree. Do you want something to drink?', russian: 'Согласен. Хочешь что-нибудь выпить?' },
   { key: '8', english: 'Sure, that would be nice! Thanks!', russian: 'Да, было бы здорово! Спасибо!' },
 ];

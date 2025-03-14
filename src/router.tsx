@@ -1,10 +1,10 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Demonstrative, Personal } from "./grammar/pronouns";
-import { Listening } from "./listening/Listening";
-import { ReadingA1 } from "./reading/ReadingA1";
+import { ReadingAndListeningA1 } from "./reading-and-listening/ReadingAndListeningA1";
 import { Clothing, Colors, Countries, Food, Greeting, Jobs, Money, Weather, Number } from "./speaking/basic";
-import { DailyRoutine, DescribingPerson, Furniture, Hobbies, MusicAndFilms, Shopping, Sport, TalkingAboutSomeone, Time } from "./speaking/elementary";
+import { Travel, DailyRoutine, DescribingPerson, Furniture, Hobbies, Hotel, MusicAndFilms, Shopping, Sport, TalkingAboutSomeone, Time, Holidays } from "./speaking/elementary";
+import { ReadingAndListeningA2 } from "./reading-and-listening/ReadingAndListeningA2";
 
 const Layout = () => (
   <div style={{ display: "flex" }}>
@@ -40,7 +40,20 @@ export const router = createBrowserRouter([
           { path: "countable-nouns", element: <div>В процессе</div> },
           { path: "past-simple", element: <div>В процессе</div> },
           { path: "present", children: [
-            { path: 'simple', element: <div>В процессе</div> },
+            { path: 'simple', element: 
+              <div>
+                <div>
+                Do – это глагол, значит требует после себя ДРУГОЙ ГЛАГОЛ!!! Особенно – глагол действие!
+      Например: Do you read? Do you sleep? Do you speak English? Do you love me? Do you want a drink?
+                </div>
+
+              <div>
+                Are – используется с прилагательными (для чайников – прилагательные – это слова, которые описывают предмет,
+                например: красивый, умный, интересный). Например: Are you happy? Are you a good girl? Are you sad? Why are you unhappy?
+                Также Are используется при выражении возраста, профессии, страны (откуда вы родом), имени и национальности. 
+              </div>
+              </div> 
+            },
             { path: 'continuous', element: <div>В процессе</div> },
             { path: 'perfect', element: <div>В процессе</div> }
           ]},
@@ -72,28 +85,40 @@ export const router = createBrowserRouter([
           { path: "sport-and-fitness", element: <Sport /> },
           { path: "music-and-films", element: <MusicAndFilms /> },
           { path: "weather", element: <Weather /> },
-          { path: "holidays", element: <div>В процессе</div> },
+          { path: "holidays", element: <Holidays /> },
           { path: "house-and-furniture", element: <Furniture /> },
-          { path: "travel", element: 
-            <div> 
-              <div>Places in the city - уметь спрашивать как дойти до туда, или где находится что-либо</div> 
-            </div> 
-          },
+          { path: "travel", element: <Travel /> },
           { path: "describing-a-person", element: <DescribingPerson /> },
           { path: "shopping", element: <Shopping />},
           { path: "money", element: <Money /> },
           { path: "clothing", element: <Clothing /> },
-          { path: "in-a-hotel", element: <div> В процессе</div> },
+          { path: "hotel", element: <Hotel /> },
+        ]
+      },
+      { path: "reading-and-listening", element: <ReadingAndListeningA1 /> },
+    ],
+  },
+  {
+    path: "a2",
+    element: <Layout />,
+    children: [
+      { 
+        path: "speaking",
+        children: [
+          { path: "animals", element: <div>В процессе</div> },
+          { path: "fears-and-phobias", element: <div>В процессе</div> },
+          { path: "family-relationships-and-friendship", element: <div>В процессе</div> },
+          { path: "life-stages-and-events", element: <div>В процессе</div> },
+          { path: "transport", element: <div>В процессе</div> },
+          { path: "city-life", element: <div>В процессе</div> },
+          { path: "education", element: <div>В процессе</div> },
+          { path: "news", element: <div>В процессе</div> },
         ]
       },
       { 
-        path: "reading",
-        element: <ReadingA1 />
+        path: "reading-and-listening",
+        element: <ReadingAndListeningA2 />
       },
-      { 
-        path: "listening",
-        element: <Listening />
-      },
-    ],
-  },
+    ]
+  }
 ]);

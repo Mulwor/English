@@ -1,6 +1,6 @@
-import { Collapse, Divider, Table } from "antd"
+import { Collapse, Divider } from "antd"
 import { columns } from "../../../data/sample";
-import { allClothes, clothes, clothes1, clothes2, clothes3, clothes4, clothes5, clothes7, clothes8 } from "./clothing";
+import { allClothes, clothes, clothes1, clothes12, clothes15, clothes13, clothes14, clothes2, clothes3, clothes4,  clothes16, clothes17, clothes5 } from "./clothing";
 import { Video } from "../../../components/Video";
 import { BasicTable } from "../../../components/Table";
 import { Pagination } from "../../../components/Pagination";
@@ -11,7 +11,8 @@ const { Panel } = Collapse;
 
 export const Clothing = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(clothes2, [
-    clothes2, clothes3, clothes4, clothes5,  clothes7, clothes8
+    clothes2, clothes3, clothes4, clothes5, clothes12, 
+    clothes13, clothes14, clothes15,  clothes16, clothes17, 
   ]);
    
   const { data: dialogsVideo, currentPage: dialogsVideoPage, handlePageChange: handlePageChangeDialogsVideo } = usePaginatedData(clothes, [
@@ -23,8 +24,8 @@ export const Clothing = () => {
       <Divider>Clothes - одежда</Divider>
 
       <div className="video">
-        <Video videoId="XNhvZtjg2q8" width="410" />
-        <Video videoId="E47g3P64SYw" width="410" />
+        <Video videoId="XNhvZtjg2q8" />
+        <Video videoId="E47g3P64SYw" />
       </div>
 
       <div className="data">
@@ -52,11 +53,10 @@ export const Clothing = () => {
         </a>
       </div>
 
-
       <Divider>Dialogs</Divider>
 
       <BasicTable data={data} />
-      <Pagination currentPage={currentPage} totalPages={6} onPageChange={handlePageChange} />
+      <Pagination currentPage={currentPage} totalPages={10} onPageChange={handlePageChange} />
     </div>
   )
 }

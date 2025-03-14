@@ -5,12 +5,13 @@ import { BasicTable } from "../../../components/Table";
 import { Pagination } from "../../../components/Pagination";
 import { usePaginatedData } from "../../../hooks/usePaginatedData";
 import { video_1, video_2 } from "./greeting";
+import { Link } from "react-router-dom";
 
 const { Panel } = Collapse
 
 export const Greeting = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(greeting_1, [
-    greeting_1, greeting_3, greeting_4, greeting_5
+  const { data, currentPage, handlePageChange } = usePaginatedData(greeting_3, [
+    greeting_3, greeting_4, greeting_5
   ]);
 
   const { data: videoContent, currentPage: videoContentPage, handlePageChange: videoContentChange } = usePaginatedData(video_1, [
@@ -20,6 +21,12 @@ export const Greeting = () => {
   return (
     <>
       <Divider>Greeting - знакомства</Divider>
+
+      <Collapse accordion>
+        <Panel header="Greeting list" key="1">
+          <BasicTable data={greeting_1} />
+        </Panel>
+      </Collapse>
 
       <div className="video">
         <Video videoId='5StvZZccECg' />
@@ -34,10 +41,12 @@ export const Greeting = () => {
         </Panel>
       </Collapse>
 
-
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />
-      <Pagination currentPage={currentPage} totalPages={4} onPageChange={handlePageChange}/>
+      <Pagination currentPage={currentPage} totalPages={3} onPageChange={handlePageChange}/>
+
+      <Divider>Grammar</Divider>
+      <Link to='/a1/grammar/present/simple'>Когда необходимо ставить: Do/does, а когда am/is/are в вопросе</Link>
     </>
   )
 }

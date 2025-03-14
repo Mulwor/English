@@ -13,6 +13,8 @@ export const Furniture = () => {
   
   return (
     <div>
+      <div> !!! Добавить также household objects</div>
+
       <Divider>House and furniture</Divider>
 
       <CollapseWithAccordion text={'Rooms'} data={allRooms} columns={columns} />
@@ -25,13 +27,13 @@ export const Furniture = () => {
       <Divider>Tasks</Divider>
 
       <li>
-        <a href='https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/'>ССылка</a>
+        <a href='https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/'>Сcылка</a>
       </li>
       <li>
-        <a href='https://agendaweb.org/vocabulary/house_furniture-exercises.html'>ССылка</a>
+        <a href='https://agendaweb.org/vocabulary/house_furniture-exercises.html'>Сcылка</a>
       </li>
       <li>
-        <a href='https://learnenglishteens.britishcouncil.org/vocabulary/a1-a2-vocabulary/bedroom'>ССылка</a>
+        <a href='https://learnenglishteens.britishcouncil.org/vocabulary/a1-a2-vocabulary/bedroom'>Сcылка</a>
       </li>
     </div>
   )

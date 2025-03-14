@@ -119,8 +119,6 @@ export const clothes3 = [
   { key: '6', english: 'It’s dark blue.', russian: 'Она тёмно-синяя.' },
   { key: '7', english: 'Do you wear it often?', russian: 'Ты часто её носишь?' },
   { key: '8', english: 'Yes, almost every day in winter.', russian: 'Да, почти каждый день зимой.' },
-  { key: '9', english: 'Is it waterproof?', russian: 'Она водонепроницаемая?' },
-  { key: '10', english: 'No, but I have an umbrella.', russian: 'Нет, но у меня есть зонтик.' }
 ];
 
 export const clothes4 = [
@@ -142,7 +140,7 @@ export const clothes5 = [
   { key: '3', english: 'Why?', russian: 'Почему?' },
   { key: '4', english: 'They’re more comfortable.', russian: 'Они более удобные.' },
   { key: '5', english: 'What do you wear to work?', russian: 'Что ты носишь на работу?' },
-  { key: '6', english: 'I wear a shirt and trousers.', russian: 'Я ношу рубашку и брюки.' },
+  { key: '6', english: 'I wear a shirt and trousers - [/ˈtraʊ.zɚz/]', russian: 'Я ношу рубашку и брюки.' },
   { key: '7', english: 'And at home?', russian: 'А дома?' },
   { key: '8', english: 'I wear T-shirts and jeans.', russian: 'Я ношу футболки и джинсы.' },
   { key: '9', english: 'Do you have formal clothes?', russian: 'У тебя есть официальная одежда?' },
@@ -215,4 +213,70 @@ export const clothes11 = [
   { key: '8', english: 'Only for special occasions.', russian: 'Только для особых случаев.' },
   { key: '9', english: 'Do you prefer ties or bow ties?', russian: 'Ты предпочитаешь галстуки или бабочки?' },
   { key: '10', english: 'Ties. They’re easier to wear.', russian: 'Галстуки. Их легче носить.' }
+];
+
+
+export const clothes12 = [
+  { key: '1', english: 'Hello! How can I help you?', russian: 'Здравствуйте! Чем я могу вам помочь?' },
+  { key: '2', english: 'Hi! I want to buy a T-shirt.', russian: 'Привет! Я хочу купить футболку.' },
+  { key: '3', english: 'Sure! What color do you like?', russian: 'Конечно! Какой цвет вам нравится?' },
+  { key: '4', english: 'I like blue. Do you have a blue T-shirt?', russian: 'Мне нравится синий. У вас есть синяя футболка?' },
+  { key: '5', english: 'Yes! Here is a blue T-shirt. What size do you need?', russian: 'Да! Вот синяя футболка. Какой размер вам нужен?' },
+  { key: '6', english: 'Medium, please.', russian: 'Средний, пожалуйста.' },
+  { key: '7', english: 'Here you go. Would you like to try it on?', russian: 'Вот, пожалуйста. Хотите примерить?' },
+  { key: '8', english: 'Yes, please. Where is the fitting room?', russian: 'Да, пожалуйста. Где примерочная?' },
+  { key: '9', english: 'It’s over there.', russian: 'Она вон там.' },
+  { key: '10', english: 'Thank you!', russian: 'Спасибо!' }
+];
+
+export const clothes13 = [
+  { key: '1', english: 'Good morning, Tom! It’s cold today. Put on your jacket.', russian: 'Доброе утро, Том! Сегодня холодно. Надень куртку.' },
+  { key: '2', english: 'Okay, Mom. Where is my jacket?', russian: 'Хорошо, мам. Где моя куртка?' },
+  { key: '3', english: 'It’s in the closet.', russian: 'Она в шкафу.' },
+  { key: '4', english: 'I see it! Should I wear a hat, too?', russian: 'Я вижу её! Мне нужно надеть шапку тоже?' },
+  { key: '5', english: 'Yes, and don’t forget your scarf and gloves.', russian: 'Да, и не забудь шарф и перчатки.' },
+  { key: '6', english: 'Got it! I’m ready to go.', russian: 'Понял! Я готов идти.' },
+  { key: '7', english: 'Great! Let’s go outside.', russian: 'Отлично! Пойдём на улицу.' }
+];
+
+export const clothes14 = [
+  { key: '1', english: 'Hi, Mike! I like your shirt. It’s very nice.', russian: 'Привет, Майк! Мне нравится твоя рубашка. Она очень красивая.' },
+  { key: '2', english: 'Thanks, Lucy! It’s new.', russian: 'Спасибо, Люси! Она новая.' },
+  { key: '3', english: 'What color is it? Blue or green?', russian: 'Какого она цвета? Синяя или зелёная?' },
+  { key: '4', english: 'It’s blue. I bought it yesterday.', russian: 'Она синяя. Я купил её вчера.' },
+  { key: '5', english: 'It looks great! Where did you buy it?', russian: 'Она выглядит отлично! Где ты её купил?' },
+  { key: '6', english: 'At the mall. They have many nice shirts there.', russian: 'В торговом центре. У них там много красивых рубашек.' },
+  { key: '7', english: 'I need a new shirt, too. I will go there tomorrow.', russian: 'Мне тоже нужна новая рубашка. Я пойду туда завтра.' },
+  { key: '8', english: 'Good idea! I hope you find something nice.', russian: 'Хорошая идея! Надеюсь, ты найдёшь что-то хорошее.' }
+];
+
+export const clothes15 = [
+  { key: '1', english: 'Hey, Sarah! I need your help. What should I wear to the party tonight?', russian: 'Эй, Сара! Мне нужна твоя помощь. Что мне надеть на вечеринку сегодня вечером?' },
+  { key: '2', english: 'Hmm, what about your red dress? It looks great on you.', russian: 'Хм, как насчет твоего красного платья? Оно отлично смотрится на тебе.' },
+  { key: '3', english: 'I was thinking about wearing something more casual. Maybe jeans and a nice blouse?', russian: 'Я думала надеть что-то более повседневное. Может быть, джинсы и красивую блузку?' },
+  { key: '4', english: 'That could work. Do you have a stylish blouse?', russian: 'Это может сработать. У тебя есть стильная блузка?' },
+  { key: '5', english: 'Yes, I have a white blouse with small flowers.', russian: 'Да, у меня есть белая блузка с маленькими цветочками.' },
+  { key: '6', english: 'Perfect! Just add some accessories, like earrings or a necklace.', russian: 'Отлично! Просто добавь немного аксессуаров, например, серьги или ожерелье.' },
+  { key: '7', english: 'Good idea! Thanks for your help.', russian: 'Хорошая идея! Спасибо за помощь.' }
+];
+
+export const clothes16 = [
+  { key: '1', english: 'Hi, Lisa. What are you doing?', russian: 'Привет, Лиза. Что ты делаешь?' },
+  { key: '2', english: 'I’m shopping for clothes online. It’s so convenient.', russian: 'Я покупаю одежду онлайн. Это так удобно.' },
+  { key: '3', english: 'Really? What are you looking for?', russian: 'Правда? Что ты ищешь?' },
+  { key: '4', english: 'A winter coat. I want something warm and comfortable.', russian: 'Зимнее пальто. Я хочу что-то теплое и удобное.' },
+  { key: '5', english: 'That sounds good. What color do you prefer?', russian: 'Звучит хорошо. Какой цвет ты предпочитаешь?' },
+  { key: '6', english: 'Maybe black or grey. They go well with everything.', russian: 'Может быть, черный или серый. Они сочетаются со всем.' },
+  { key: '7', english: 'True! Just make sure you check the size guide before you buy.', russian: 'Верно! Только обязательно проверь таблицу размеров перед покупкой.' },
+  { key: '8', english: 'Yes, I always do that. Thanks for the reminder!', russian: 'Да, я всегда так делаю. Спасибо за напоминание!' }
+];
+
+export const clothes17 = [
+  { key: '1', english: 'Wow, Rachel! Your jacket looks amazing. Is it new?', russian: 'Вау, Рэйчел! Твоя куртка выглядит потрясающе. Она новая?' },
+  { key: '2', english: 'Thanks, Tom! Yes, I bought it last week.', russian: 'Спасибо, Том! Да, я купила её на прошлой неделе.' },
+  { key: '3', english: 'The color suits you really well.', russian: 'Цвет тебе очень идёт.' },
+  { key: '4', english: 'I’m glad you like it! I was worried it might be too bright.', russian: 'Я рада, что тебе нравится! Я волновалась, что она может быть слишком яркой.' },
+  { key: '5', english: 'Not at all! It’s stylish and unique. Where did you get it?', russian: 'Совсем нет! Она стильная и уникальная. Где ты её купила?' },
+  { key: '6', english: 'From a little shop in the city center. They have really cool clothes.', russian: 'В маленьком магазине в центре города. У них действительно классная одежда.' },
+  { key: '7', english: 'I should check it out!', russian: 'Мне нужно заглянуть туда!' }
 ];

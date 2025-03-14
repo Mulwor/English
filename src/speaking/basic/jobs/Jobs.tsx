@@ -25,6 +25,8 @@ export const Jobs = () => {
     <div>
       <Divider>Jobs - работа</Divider>
 
+      <div>!!! Добавить также workplaces</div>
+
       <div className="video">
         <Video videoId='2TxVyxrOp0s' />
         <Video videoId='eejZ4UvMqoc' />

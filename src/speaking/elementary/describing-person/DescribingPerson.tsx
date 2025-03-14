@@ -16,6 +16,8 @@ export const DescribingPerson = () => {
     <div>
       <Divider>Describing person</Divider>
 
+      <div>! Разобрать Appearance and Personality</div>
+
       <CollapseWithAccordion text={'Appearance'} data={appearance} columns={columns} />
       <CollapseWithAccordion text={'Hear and eyes'} data={hairAndEyes} columns={columns} />
       <CollapseWithAccordion text={'Personality'} data={personality} columns={columns} />
