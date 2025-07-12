@@ -21,26 +21,20 @@ export const video_2 = [
 
 // ========================================================================================================================
 export const greeting_1 = [
-  { key: '1', english: 'Hi.', russian: 'Привет' },
-  { key: '2', english: 'Hello.', russian: 'Привет' },
-  { key: '3', english: 'Hey!', russian: 'Привет' },
-  { key: '4', english: '-', russian: '-' },
-  { key: '5', english: 'Good morning', russian: 'Доброе утро' },
-  { key: '6', english: 'Good afternoon', russian: 'Добрый день' },
-  { key: '7', english: 'Good evening', russian: 'Добрый вечер' },
+  { key: '1', english: 'Hi / Hello / Hey!', russian: 'Привет' },
+  { key: '2', english: 'Good morning!', russian: 'Доброе утро!' },
+  { key: '3', english: 'Good afternoon!', russian: 'Добрый день!' },
+  { key: '4', english: 'Good evening!', russian: 'Добрый вечер!' },
+  { key: '5', english: '-', russian: '-' },
+  { key: '6', english: 'How are you? / How are things? / How is it going?', russian: 'Как дела?' },
+  { key: '7', english: 'What is up? / What is new?', russian: 'Как дела?' },
   { key: '8', english: '-', russian: '-' },
   { key: '9', english: 'It is nice to meet you', russian: 'Приятно познакомится' },
   { key: '10', english: 'It is lovely to meet you', russian: 'Приятно познакомится' },
   { key: '11', english: 'It is a pleasure to meet you', russian: 'Приятно познакомится' },
   { key: '12', english: '-', russian: '-' },
-  { key: '13', english: 'How are you?', russian: 'Как дела?' },
-  { key: '14', english: 'How are things?', russian: 'Как дела?' },
-  { key: '15', english: 'How is it going?', russian: 'Как дела?' },
-  { key: '16', english: 'What is up?', russian: 'Как дела?' },
-  { key: '17', english: 'What is new?', russian: 'Как дела?' },
-  { key: '18', english: '-', russian: '-' },
-  { key: '19', english: 'Long time no see', russian: 'Давно не виделись' },
-  { key: '20', english: 'It is good to see you', russian: 'Рад тебя видеть' },
+  { key: '13', english: 'Long time no see', russian: 'Давно не виделись' },
+  { key: '14', english: 'It is good to see you', russian: 'Рад тебя видеть' },
 ];
 
 export const greeting_3 = [

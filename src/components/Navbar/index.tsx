@@ -57,8 +57,9 @@ const items: MenuItem[] = [
             key: "1-11", 
             label: <Link to="/a1/grammar/modal-verbs">Modal verbs</Link>, 
             children: [
-              { key: "1-11-1", label: <Link to="/a1/grammar/modal-verbs/can">Simple</Link> },
-              { key: '1-11-2', label: <Link to="/a1/grammar/modal-verbs/should">+ be going to, like doing</Link> },
+              { key: "1-11-1", label: <Link to="/a1/grammar/modal-verbs/can">Can</Link> },
+              { key: '1-11-2', label: <Link to="/a1/grammar/modal-verbs/should">Should</Link> },
+              { key: '1-11-3', label: <Link to="/a1/grammar/modal-verbs/must">Must</Link> },
             ] 
           },
           { key: "1-8", label: <Link to="/a1/grammar/singular-plural-nouns">Singular and plural nouns</Link> },
@@ -96,7 +97,7 @@ const items: MenuItem[] = [
           { key: "2-20", label: <Link to='/a1/speaking/hotel'>Hotel</Link> },
         ]
       },
-      // { key: "3", label: <Link to="/a1/reading-and-listening">Reading and Listening</Link>  },
+      { key: "3", label: <Link to="/a1/reading-and-listening">Reading and Listening</Link>  },
     ],
   },
   {

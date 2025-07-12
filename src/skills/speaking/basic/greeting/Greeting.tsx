@@ -1,23 +1,15 @@
 import { Collapse, Divider } from "antd"
-import { Video } from "../../../../components"
-import { greeting_4, greeting_1, greeting_3, greeting_5 } from "./greeting"
-import { BasicTable } from "../../../../components";
-import { Pagination } from "../../../../components/Pagination";
+import { BasicTable, Pagination, Video } from "../../../../components";
+import { video_1, video_2, greeting_4, greeting_1, greeting_3, greeting_5 } from "./greeting"
 import { usePaginatedData } from "../../../../hooks/usePaginatedData";
-import { video_1, video_2 } from "./greeting";
-import { Link } from "react-router-dom";
 
 const { Panel } = Collapse
 
 export const Greeting = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(greeting_3, [
-    greeting_3, greeting_4, greeting_5
+  const { data, currentPage, handlePageChange } = usePaginatedData(video_1, [
+    video_1, video_2, greeting_3, greeting_4, greeting_5
   ]);
 
-  const { data: videoContent, currentPage: videoContentPage, handlePageChange: videoContentChange } = usePaginatedData(video_1, [
-    video_1, video_2
-  ]);
-      
   return (
     <>
       <Divider>Greeting - знакомства</Divider>
@@ -34,19 +26,9 @@ export const Greeting = () => {
         <Video videoId='Fw0rdSHzWFY' />
       </div>
 
-      <Collapse accordion>
-        <Panel header="Dialogue from video" key="1">
-          <BasicTable data={videoContent} />
-          <Pagination currentPage={videoContentPage} totalPages={2} onPageChange={videoContentChange}/>
-        </Panel>
-      </Collapse>
-
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />
-      <Pagination currentPage={currentPage} totalPages={3} onPageChange={handlePageChange}/>
-
-      <Divider>Grammar</Divider>
-      <Link to='/a1/grammar/present/simple'>Когда необходимо ставить: Do/does, а когда am/is/are в вопросе</Link>
+      <Pagination currentPage={currentPage} totalPages={5} onPageChange={handlePageChange}/>
     </>
   )
 }
