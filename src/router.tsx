@@ -1,10 +1,10 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import { Demonstrative, Personal } from "./grammar/pronouns";
-import { ReadingAndListeningA1 } from "./reading-and-listening/ReadingAndListeningA1";
-import { Clothing, Colors, Countries, Food, Greeting, Jobs, Money, Weather, Number } from "./speaking/basic";
-import { Travel, DailyRoutine, DescribingPerson, Furniture, Hobbies, Hotel, MusicAndFilms, Shopping, Sport, TalkingAboutSomeone, Time, Holidays } from "./speaking/elementary";
-import { ReadingAndListeningA2 } from "./reading-and-listening/ReadingAndListeningA2";
+import { Demonstrative, Personal } from "./skills/grammar/pronouns";
+import { ReadingAndListeningA1 } from "./skills/reading-and-listening/ReadingAndListeningA1";
+import { Clothing, Colors, Countries, Food, Greeting, Jobs, Money, Weather, Number } from "./skills/speaking/basic";
+import { Travel, DailyRoutine, DescribingPerson, Furniture, Hobbies, Hotel, MusicAndFilms, Shopping, Sport, TalkingAboutSomeone, Time, Holidays } from "./skills/speaking/elementary";
+import { ReadingAndListeningA2 } from "./skills/reading-and-listening/ReadingAndListeningA2";
 
 const Layout = () => (
   <div style={{ display: "flex" }}>
