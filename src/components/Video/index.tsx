@@ -5,7 +5,7 @@ interface VideoProps {
   startTimeVideo?: number
 }
 
-export const Video = ({videoId, width = '410', height='315'}: VideoProps) => {
+export const Video = ({videoId, width = '350', height='350'}: VideoProps) => {
   return (
     <iframe
       width={width}
