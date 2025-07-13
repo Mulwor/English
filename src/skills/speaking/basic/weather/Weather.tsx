@@ -1,9 +1,11 @@
-import { Divider } from "antd"
+import { Divider, Collapse } from "antd"
 import { allWeather, weather_1, weather_10, weather_11, weather_2, weather_3, weather_4, weather_5, weather_6 } from "./weather";
 import { BasicTable, Pagination, Video } from "../../../../components";
 import { columns } from "../../../../data/sample";
 import { usePaginatedData } from "../../../../hooks/usePaginatedData";
 import { CollapseWithAccordion } from "../../../../components/Collapse";
+
+const { Panel } = Collapse;
 
 export const Weather = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(weather_1, [
@@ -12,20 +14,27 @@ export const Weather = () => {
 
   return (
     <div>
-      <Divider>Weather</Divider>
+      <Divider>Weather - погода</Divider>
 
-      <div>Добавить также про климат диалоги</div>
-
-      <div className="video">
-        <Video videoId="I8GeA3anPdo"/>
-        <Video videoId="CXKj7bm4Ops"/>
-        <Video videoId="n72v-tPu8FI"/>
+      <div>!!! Добавить также про климат диалоги</div>
+  
+       <div className="data">
+        <CollapseWithAccordion text={'Vocabulary'} data={allWeather} columns={columns} />
       </div>
 
-      <div className="data">
-        <CollapseWithAccordion text={'Weather List'} data={allWeather} columns={columns} />
-      </div>
+      <Divider>Listening</Divider>
 
+      <Collapse accordion>
+        <Panel header="Videos" key="1">
+          <div className='video'>
+            <Video videoId="I8GeA3anPdo"/>
+            <Video videoId="CXKj7bm4Ops"/>
+            <Video videoId="n72v-tPu8FI"/>
+          </div>
+        </Panel>
+      </Collapse>
+
+      <Divider>Tasks</Divider>
       <div className="links">
         <a href="https://www.gamestolearnenglish.com/weather/" target="_href">
           1. Закрепление материала
@@ -45,12 +54,16 @@ export const Weather = () => {
       <BasicTable data={data} />
       <Pagination currentPage={currentPage} totalPages={8} onPageChange={handlePageChange} />
 
-      <Divider>Дополнительные материалы</Divider>
+      <Divider>A2+ videos</Divider>
 
-      <div className="video">
-        <Video videoId="eYAaLWdx_h0"/>
-        <Video videoId="40PRWD1-HWA"/>
-      </div>
+      <Collapse accordion>
+        <Panel header="Videos" key="2">
+          <div className="video">
+            <Video videoId="eYAaLWdx_h0"/>
+           <Video videoId="40PRWD1-HWA"/>
+          </div>
+        </Panel>
+      </Collapse>
     </div>
   )
 }

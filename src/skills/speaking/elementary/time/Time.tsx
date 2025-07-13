@@ -1,4 +1,4 @@
-import { Divider } from "antd"
+import { Divider, Collapse } from "antd"
 import { BasicTable } from "../../../../components"
 import { usePaginatedData } from "../../../../hooks/usePaginatedData";
 import { time_1, time_2, time_3, time_4, time_5, time_6, time_7, time_8, time_9, time_10, allTime } from "./time";
@@ -6,6 +6,8 @@ import { Pagination } from "../../../../components/Pagination";
 import { Video } from "../../../../components";
 import { columns } from "../../../../data/sample";
 import { CollapseWithAccordion } from "../../../../components/Collapse";
+
+const { Panel } = Collapse
 
 export const Time = () => {
     const { data, currentPage, handlePageChange } = usePaginatedData(time_1, [
@@ -15,15 +17,21 @@ export const Time = () => {
     
   return (
     <div>
-      <Divider>Time</Divider>
+      <Divider>Time - время</Divider>
 
-      <div className='video'>
-        <Video videoId="WLAZpKY-9Ks" />
-        <Video videoId="HQDaZOL1I5Y" />
-        <Video videoId="DvTkgW19KeI" />
-      </div>
+      <CollapseWithAccordion text={'Vocabulary'} data={allTime} columns={columns} />
+      
+      <Divider>Listening</Divider>
 
-      <CollapseWithAccordion text={'Times vocabulary'} data={allTime} columns={columns} />
+      <Collapse accordion>
+        <Panel header="Videos" key="2">
+          <div className='video'>
+            <Video videoId="WLAZpKY-9Ks" />
+            <Video videoId="HQDaZOL1I5Y" />
+            <Video videoId="DvTkgW19KeI" />
+          </div>
+        </Panel>
+      </Collapse>
 
       <div className="links">
         <a href="https://www.gamestolearnenglish.com/telling-the-time/" target="_blank">Задача: ответь правильно и заставь пройти через мостик</a>

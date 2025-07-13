@@ -16,9 +16,13 @@ export const Money = () => {
 
   return (
     <div>
-      <Divider>Hobbies</Divider>
+      <Divider>Money - деньги</Divider>
 
-      <CollapseWithAccordion text={'Money list'} data={allMoneyVocabulary} columns={columns} />
+      <CollapseWithAccordion
+        text={'Vocabulary'} 
+        data={allMoneyVocabulary}
+        columns={columns}
+      />
 
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />

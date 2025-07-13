@@ -1,11 +1,13 @@
 import { useState, useEffect, KeyboardEvent } from 'react';
-import { Divider, Button, Input, message } from 'antd';
+import { Divider, Button, Input, Collapse, message } from 'antd';
 import './Colors.css';
 import { BasicTable } from '../../../../components';
 import { colors, colors2, colors3, colors4, colors5 } from './colors';
 import { Pagination } from '../../../../components/Pagination';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { Video } from '../../../../components';
+
+const { Panel } = Collapse
 
 const getRandomColor = () => {
   const colors = [
@@ -42,11 +44,15 @@ export const Colors = () => {
 
   return (
     <div>
-      <Divider>Colors</Divider>
+      <Divider>Colors - цвета</Divider>
 
-      <div style={{display: 'flex', gap: '1rem'}}>
-        <Video videoId='4QakVc28CEc' />
-        <img src='/src/assets/colors.png' width={555} />
+      <div style={{display: 'flex', gap: '1rem',  flexDirection: 'column'}}>
+        <Collapse accordion>
+          <Panel header="Vocabulary" key="1">
+            <Video videoId='4QakVc28CEc' />
+            <img src='/src/assets/colors.png' width={555} />
+          </Panel>
+        </Collapse>
       </div>
 
       <Divider>Writing</Divider>

@@ -27,25 +27,34 @@ export const Jobs = () => {
 
       <div>!!! Добавить также workplaces</div>
 
-      <div className="video">
-        <Video videoId='2TxVyxrOp0s' />
-        <Video videoId='eejZ4UvMqoc' />
-      </div>
+      <Collapse accordion>
+        <Panel header="Vocabulary" key="1">
+          <Table dataSource={allJobs} columns={columns} pagination={false} size="small" />
+        </Panel>
+      </Collapse>
+    
+      <Divider>Listening</Divider>
 
-      <div className='data'>
-        <Collapse accordion>
-          <Panel header="Dialogs video" key="1">
-            <BasicTable data={dialogsVideo} />
-            <Pagination currentPage={dialogsVideoPage} totalPages={2} onPageChange={handlePageChangeDialogsVideo} />
-          </Panel>
-        </Collapse>
+      <Collapse accordion>
+        <Panel header="Videos" key="2">
+          <div className='video'>
+            <Video videoId='2TxVyxrOp0s' />
+            <Video videoId='eejZ4UvMqoc' />
+            <Video videoId='RUup841pZrs' />
+          </div>
 
-        <Collapse accordion>
-          <Panel header="Jobs List" key="1">
-            <Table dataSource={allJobs} columns={columns} pagination={false} size="small" />
-          </Panel>
+          <Divider>Video-script</Divider>
+
+          <Collapse accordion>
+            <Panel header="Dialogs video" key="3">
+              <BasicTable data={dialogsVideo} />
+              <Pagination currentPage={dialogsVideoPage} totalPages={2} onPageChange={handlePageChangeDialogsVideo} />
+            </Panel>
         </Collapse>
-      </div>
+        </Panel>
+      </Collapse>
+
+      <Divider>Tasks</Divider>
 
       <div className="links">
         <a href="https://www.gamestolearnenglish.com/jobs/" target="_href">
@@ -62,13 +71,16 @@ export const Jobs = () => {
       <BasicTable data={data} />
       <Pagination currentPage={currentPage} totalPages={9} onPageChange={handlePageChange} />
 
-      <Divider>Дополнительные материалы</Divider>
-        
-      <div className="video">
-        <Video videoId='RUup841pZrs' />
-        <Video videoId='0x1WRY4fvz4' />
-        <Video videoId='v95eemWZ-4s' />
-      </div>
+      <Divider>A2+ videos</Divider>
+
+      <Collapse accordion>
+        <Panel header="Videos" key="2">
+          <div className="video">
+            <Video videoId='0x1WRY4fvz4' />
+            <Video videoId='v95eemWZ-4s' />
+          </div>
+        </Panel>
+      </Collapse>
     </div>
   )
 }

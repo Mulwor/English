@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Divider, Button, Input, message } from 'antd';
+import { Divider, Button, Input, Collapse, message } from 'antd';
 import { toWords } from 'number-to-words';
 import './Number.css';
 import { Video, BasicTable, Pagination } from '../../../../components';
@@ -7,6 +7,8 @@ import { numbers1, numbers2, numbers4 } from './number';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 
 const getRandomNumber = () => Math.floor(Math.random() * 1000);
+
+const { Panel } = Collapse
 
 export const Number = () => {
   const [randomNumber, setRandomNumber] = useState(getRandomNumber);
@@ -38,12 +40,16 @@ export const Number = () => {
 
   return (
     <div>
-      <Divider>Numbers</Divider>
+      <Divider>Numbers - числа</Divider>
 
-      <div className='video'>
-        <Video videoId='e0dJWfQHF8Y' />
-        <img src='/src/assets/numb.jpg' width={394} />
-      </div>
+      <Collapse accordion>
+        <Panel header="Vocabulary" key="1">
+          <div className='video'>
+            <Video videoId='e0dJWfQHF8Y' />
+            <img src='/src/assets/numb.jpg' width={394} />
+          </div>
+        </Panel>
+      </Collapse>
 
       <Divider>Writing</Divider>
       <div className='container'>
@@ -59,11 +65,15 @@ export const Number = () => {
 
       <Divider>Listening</Divider>
 
-      <div className='video'>
-        <Video videoId='-5TuoZWAhQI'/>
-        <Video videoId='G6c8NjhS1YE'/>
-        <Video videoId='PhJ5VIR6ExM'/>
-      </div>
+      <Collapse accordion>
+        <Panel header="Videos" key="1">
+          <div className='video'>
+            <Video videoId='-5TuoZWAhQI'/>
+            <Video videoId='G6c8NjhS1YE'/>
+            <Video videoId='PhJ5VIR6ExM'/>
+          </div>
+        </Panel>
+      </Collapse>
 
       <Divider>Dialogs</Divider>
       <BasicTable data={numbers} />

@@ -14,16 +14,22 @@ export const Greeting = () => {
     <>
       <Divider>Greeting - знакомства</Divider>
 
-      <Collapse accordion>
-        <Panel header="Greeting list" key="1">
-          <BasicTable data={greeting_1} />
-        </Panel>
-      </Collapse>
+      <div style={{ display: 'flex', gap: '1rem', flexDirection: 'column'}}>
+        <Collapse accordion>
+          <Panel header="Vocabulary" key="1">
+            <BasicTable data={greeting_1} />
+          </Panel>
+        </Collapse>
 
-      <div className="video">
-        <Video videoId='5StvZZccECg' />
-        <Video videoId='RLs9lIy5WT0' />
-        <Video videoId='Fw0rdSHzWFY' />
+        <Collapse accordion>
+          <Panel header="Videos" key="2">
+            <div className="video">
+              <Video videoId='5StvZZccECg' />
+              <Video videoId='RLs9lIy5WT0' />
+              <Video videoId='Fw0rdSHzWFY' />
+            </div>
+          </Panel>
+        </Collapse>
       </div>
 
       <Divider>Dialogs</Divider>
