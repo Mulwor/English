@@ -1,5 +1,3 @@
 export const Demonstrative = () => {
-  return (
-    <div>Check work</div>
-  )
-}
+  return <div>Check work</div>;
+};

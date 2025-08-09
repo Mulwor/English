@@ -1,7 +1,4 @@
-import { Personal } from "./Personal";
-import { Demonstrative } from "./Demonstrative";
+import { Personal } from './Personal';
+import { Demonstrative } from './Demonstrative';
 
-export {
-  Personal,
-  Demonstrative
-}
+export { Personal, Demonstrative };

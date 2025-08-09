@@ -1,6 +1,6 @@
 import { Shopping } from './shopping/Shopping.tsx';
 import { Time } from './time/Time.tsx';
-import { DailyRoutine}  from './dailyRoutine/DailyRoutine.tsx';
+import { DailyRoutine } from './dailyRoutine/DailyRoutine.tsx';
 import { Hobbies } from './hobbies/Hobbies.tsx';
 import { Sport } from './sport/Sport.tsx';
 import { MusicAndFilms } from './music/Music.tsx';
@@ -23,5 +23,5 @@ export {
   Furniture,
   Hotel,
   Travel,
-  Holidays
-}
+  Holidays,
+};

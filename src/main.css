@@ -9,7 +9,7 @@ ul {
 
 a:visited {
   color: black;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .video {
@@ -20,7 +20,8 @@ a:visited {
   margin-bottom: 8px;
 }
 
-.links, .data {
+.links,
+.data {
   display: flex;
   flex-direction: column;
   gap: 1rem;
