@@ -26,6 +26,7 @@ import {
   Time,
   Holidays,
 } from './skills/speaking/elementary';
+import { Pronouns, Nouns } from './skills/grammar/basic';
 
 const Layout = () => (
   <div style={{ display: 'flex' }}>
@@ -105,23 +106,11 @@ export const router = createBrowserRouter([
     path: 'grammar',
     element: <Layout />,
     children: [
-      {
-        path: 'pronouns',
-        element: <div>Personal, Possessive pronouns and possessive adjectives, demonstrative</div>,
-      },
+      { path: 'pronouns', element: <Pronouns /> },
+      { path: 'nouns', element: <Nouns /> },
       { path: 'to-be', element: <div>В процессе</div> },
-      {
-        path: 'countable-nouns',
-        element: <div>Countable and uncountable nouns, Singular and plural nouns</div>,
-      },
-      {
-        path: 'articles',
-        element: <div>Articles: a/an, the, no article</div>,
-      },
-      {
-        path: 'quantifiers',
-        element: <div>any, some, few, a lot of, a piece of</div>,
-      },
+      { path: 'articles', element: <div>Articles: a/an, the, no article</div> },
+      { path: 'quantifiers', element: <div>any, some, few, a lot of, a piece of</div> },
       // { path: "subject-pronouns", element: <div>В процессе</div> },
       // { path: "countable-nouns", element: <div>В процессе</div> },
       // { path: "past-simple", element: <div>В процессе</div> },
@@ -164,55 +153,6 @@ export const router = createBrowserRouter([
       // { path: "there-is-are", element: <div>В процессе</div> },
       // { path: "word-order-questions", element: <div>В процессе</div> },
       // { path: "comparative-superlative", element: <div>В процессе</div> },
-    ],
-  },
-  {
-    path: 'arch',
-    element: <Layout />,
-    children: [
-      {
-        path: 'speaking',
-        element: (
-          <ul>
-            <li>Family and Personality</li>
-            <li>Describing people’s appearance and character</li>
-            <li>Jobs, Money and Success</li>
-            <li>Business</li>
-            <li>Education</li>
-            <li>Modern manners</li>
-            <li>Transport and Travelling</li>
-            <li>Places to live</li>
-            <li>Nature and Environment</li>
-            <li>Climate and Natural disasters</li>
-            <li>Communication</li>
-            <li>Television and Media</li>
-            <li>Cinema and Movies</li>
-            <li>Art</li>
-            <li>Shopping</li>
-            <li>Food and Restaurants</li>
-            <li>Lifestyle</li>
-            <li>Sport</li>
-            <li>Friendship</li>
-            <li>Challenges and Success</li>
-            <li>Good and bad luck</li>
-            <li>Crime and Punishment</li>
-          </ul>
-        ),
-      },
-      {
-        path: 'grammar',
-        element: (
-          <ul>
-            <li>Action and state verbs</li>
-            <li>Future forms (to be going to, Present Continuous, will/shall)</li>
-            <li>Comparative and superlative adjectives</li>
-            <li>Relative clauses: defining and non-defining</li>
-            <li>Reported Speech: statements, questions, commands</li>
-            <li>Question tags</li>
-            <li>Phrasal verbs</li>
-          </ul>
-        ),
-      },
     ],
   },
 ]);
