@@ -10,7 +10,7 @@ interface PaginationProps {
 export const Pagination: React.FC<PaginationProps> = ({
   currentPage,
   totalPages,
-  onPageChange
+  onPageChange,
 }) => {
   const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
 

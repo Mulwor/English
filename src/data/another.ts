@@ -23,7 +23,11 @@ export const family = [
   { key: '6', english: 'And these are our children', russian: '' },
   { key: '7', english: 'Hello!', russian: '' },
   { key: '8', english: 'What are their names?', russian: '' },
-  { key: '9', english: 'Her name is Emma, and his name is Oliver', russian: '' },
+  {
+    key: '9',
+    english: 'Her name is Emma, and his name is Oliver',
+    russian: '',
+  },
   { key: '10', english: 'And this is our cat', russian: '' },
   { key: '11', english: 'Oh, cute! What is its name?', russian: '' },
   { key: '12', english: 'Her name is Princess. She is a girl', russian: '' },
