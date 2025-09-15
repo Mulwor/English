@@ -29,8 +29,6 @@ export const TalkingAboutSomeone = () => {
 
   return (
     <div>
-      <Divider>Talking about yourself, family and friend</Divider>
-
       <Collapse accordion>
         <Panel
           header={'Talking about yourself, family and friends'}
@@ -119,6 +117,8 @@ export const TalkingAboutSomeone = () => {
         общительный. Живем мы в Санкт-Петербурге уже более 20 лет. Моего лучшего друга зовут Олег,
         если его описывать, то он высокий и умный. Мы с ним дружим уже более 20 лет.
       </p>
+
+       <Divider>Для уровня B1: Family and Personality</Divider>
     </div>
   );
 };

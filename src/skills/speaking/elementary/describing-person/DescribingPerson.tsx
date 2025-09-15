@@ -101,6 +101,8 @@ export const DescribingPerson = () => {
 
       <Divider>Reading and listening</Divider>
       <Video videoId='etGK_zflaZE' />
+
+      <Divider>Для уровня B1: Describing people’s appearance and character </Divider>
     </div>
   );
 };

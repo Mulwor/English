@@ -1,5 +1,5 @@
 import { createBrowserRouter, Outlet } from 'react-router-dom';
-import { Navbar } from './components/Navbar';
+import { Navbar } from './navbar';
 import { ReadingAndListeningA1 } from './skills/reading-and-listening/ReadingAndListeningA1';
 import {
   Clothing,
@@ -27,6 +27,8 @@ import {
   Holidays,
 } from './skills/speaking/elementary';
 import { Pronouns, Nouns } from './skills/grammar/basic';
+import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
+import { Lesson01 } from './arab/Lesson01';
 
 const Layout = () => (
   <div style={{ display: 'flex' }}>
@@ -41,17 +43,17 @@ const Layout = () => (
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Navbar />,
+    element: <Layout />,
   },
   {
-    path: 'a1',
+    path: 'beginner-and-elementary',
     element: <Layout />,
     children: [
       {
         path: 'speaking',
         children: [
           { path: 'greeting', element: <Greeting /> },
-          { path: 'talking-about-smth', element: <TalkingAboutSomeone /> },
+          { path: 'talking', element: <TalkingAboutSomeone /> },
           { path: 'countries', element: <Countries /> },
           { path: 'numbers', element: <Number /> },
           { path: 'time', element: <Time /> },
@@ -77,7 +79,7 @@ export const router = createBrowserRouter([
     ],
   },
   {
-    path: 'a2',
+    path: 'pre-intermediate',
     element: <Layout />,
     children: [
       {
@@ -85,15 +87,13 @@ export const router = createBrowserRouter([
         children: [
           { path: 'animals', element: <div>В процессе</div> },
           { path: 'fears-and-phobias', element: <div>В процессе</div> },
-          {
-            path: 'family-relationships-and-friendship',
-            element: <div>В процессе</div>,
-          },
+          { path: 'family-relationships-and-friendship', element: <div>В процессе</div>},
           { path: 'life-stages-and-events', element: <div>В процессе</div> },
           { path: 'transport', element: <div>В процессе</div> },
           { path: 'city-life', element: <div>В процессе</div> },
           { path: 'education', element: <div>В процессе</div> },
           { path: 'news', element: <div>В процессе</div> },
+          { path: 'phrasal-verbs', element: <AllPhrasalVerbs /> },
         ],
       },
       {
@@ -155,4 +155,11 @@ export const router = createBrowserRouter([
       // { path: "comparative-superlative", element: <div>В процессе</div> },
     ],
   },
+  // {
+  //   path: 'arab',
+  //   element: <Layout />,
+  //   children: [
+  //     { path: 'lesson-01', element: <Lesson01 />},
+  //   ]
+  // }
 ]);

@@ -18,13 +18,8 @@
 
 Активно используете в речи конструкции neither... nor, in addition to, as well as, apart from, due to, because of.
 
-- Family and Personality
-- Describing people’s appearance and character
-- Jobs, Money and Success
 - Business
-- Education
 - Modern manners
-- Transport and Travelling
 - Places to live
 - Nature and Environment
 - Climate and Natural disasters
