@@ -46,6 +46,8 @@ export const Money = () => {
         totalPages={9}
         onPageChange={handlePageChange}
       />
+
+      <Divider>Для уровня B1 (Jobs, money and success)</Divider>
     </div>
   );
 };
