@@ -36,6 +36,8 @@
 - Good and bad luck
 - Crime and Punishment
 
+
+
 #### Grammar
 
 - Action and state verbs
@@ -66,3 +68,40 @@
 - Вы отличаете акцент носителей языка от акцента неанглоязычных спикеров.
 - Вы смотрите фильмы и сериалы на языке оригинала с субтитрами.
 - Вы можете слушать несложные оригинальные или адаптированные для вашего уровня аудиокниги.
+
+
+A1 (beginner)
+
+- Знакомство
+- Семья и друзья
+- Люди, страны и национальности
+- Числа и цвета
+- Еда и напитки
+- Работа
+- Хобби
+- Распорядок дня
+- Погода
+- Путешествия
+- Посещение магазинов и ресторанов
+- Деньги
+- Одежда
+- В гостинице, на заправке, в офисе
+
+A1 (elementary)
+
+- About myself and my family
+- Countries and Nationalities
+- Personal Preferences (likes/dislikes)
+- Jobs
+- Daily Routine
+- Holidays
+- The weather
+- Food and drinks
+- Sports and fitness
+- Music and Films
+- Houses and Furniture
+- Places in city
+- Transport
+- In shops (clothes, coffee)
+- Dates and Numbers
+- Describing a person

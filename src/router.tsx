@@ -29,6 +29,7 @@ import {
 import { Pronouns, Nouns } from './skills/grammar/basic';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
 import { Lesson01 } from './arab/Lesson01';
+import { Relationship } from './skills/speaking/pre-intermediate/Relationship';
 
 const Layout = () => (
   <div style={{ display: 'flex' }}>
@@ -87,7 +88,7 @@ export const router = createBrowserRouter([
         children: [
           { path: 'animals', element: <div>В процессе</div> },
           { path: 'fears-and-phobias', element: <div>В процессе</div> },
-          { path: 'family-relationships-and-friendship', element: <div>В процессе</div>},
+          { path: 'family-relationships-and-friendship', element: <Relationship />},
           { path: 'life-stages-and-events', element: <div>В процессе</div> },
           { path: 'transport', element: <div>В процессе</div> },
           { path: 'city-life', element: <div>В процессе</div> },
