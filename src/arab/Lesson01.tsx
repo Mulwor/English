@@ -46,7 +46,7 @@ const dataSource = [
 export const Lesson01 = () => {
   const [audio] = useState(new Audio());
   
-  const playSound = (audioSrc) => {
+  const playSound = (audioSrc: any) => {
     audio.pause();
     audio.src = audioSrc;
     audio.play().catch(error => {
@@ -54,7 +54,7 @@ export const Lesson01 = () => {
     });
   };
 
-  const renderClickableCell = (text, record) => (
+  const renderClickableCell = (text: string, record: any) => (
     <span 
       style={{ 
         fontSize: '24px', 
@@ -76,7 +76,7 @@ export const Lesson01 = () => {
     </span>
   );
 
-  const renderClickableCellWithTooltip = (text, record) => (
+  const renderClickableCellWithTooltip = (text: string, record: any) => (
     <Tooltip title={record.tooltip} placement="top">
       <span 
         style={{ 
@@ -105,32 +105,32 @@ export const Lesson01 = () => {
       title: 'Название', 
       dataIndex: 'name', 
       key: 'name',
-      render: (text) => <span>{text}</span>
+      render: (text: string) => <span>{text}</span>
     },
     { 
       number: '№',
       title: 'Отдельная форма', 
       dataIndex: 'zero', 
       key: 'zero',
-      render: (text, record) => renderClickableCellWithTooltip(text, record) // С тултипом
+      render: (text: string, record: any) => renderClickableCellWithTooltip(text, record) // С тултипом
     },
     { 
       title: 'В начале', 
       dataIndex: 'first', 
       key: 'first',
-      render: (text, record) => renderClickableCell(text, record) // Без тултипа
+      render: (text: string, record: any) => renderClickableCell(text, record) // Без тултипа
     },
     { 
       title: 'В середине', 
       dataIndex: 'second', 
       key: 'second',
-      render: (text, record) => renderClickableCell(text, record) // Без тултипа
+      render: (text: string, record: any) => renderClickableCell(text, record) // Без тултипа
     },
     { 
       title: 'В конце', 
       dataIndex: 'third', 
       key: 'third',
-      render: (text, record) => renderClickableCell(text, record) // Без тултипа
+      render: (text: string, record: any) => renderClickableCell(text, record) // Без тултипа
     },
   ];
 

@@ -1,4 +1,5 @@
 import { Divider, Table, Tooltip } from "antd";
+import { ReactNode } from "react";
 
 export interface TooltipForRender {
   ex: any;
@@ -474,7 +475,7 @@ export const columns = [
     title: "Examples", 
     dataIndex: "examples", 
     key: "Examples",
-    render: (examples: TooltipForRender[]) => (
+    render: (examples: ReactNode[]) => (
       <ul style={{ margin: 0 }}>
         {examples.map((ex, idx) => (
           <li key={idx}>{ex}</li>

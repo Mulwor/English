@@ -28,7 +28,6 @@ import {
 } from './skills/speaking/elementary';
 import { Pronouns, Nouns } from './skills/grammar/basic';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
-import { Lesson01 } from './arab/Lesson01';
 import { Relationship } from './skills/speaking/pre-intermediate/Relationship';
 
 const Layout = () => (

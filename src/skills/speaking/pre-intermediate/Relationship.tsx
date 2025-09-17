@@ -1,5 +1,4 @@
 import { Divider } from "antd";
-import { Link } from "react-router-dom";
 import { CollapseWithAccordion } from "../../../components";
 import { appearance } from "../elementary/describing-person/describing-person";
 import { columns } from "../../../data/sample";
