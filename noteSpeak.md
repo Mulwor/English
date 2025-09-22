@@ -15,8 +15,8 @@ A1 (beginner)
 - Одежда
 - В гостинице, на заправке, в офисе
 
-A1 (elementary)
 
+A1 (Elementary)
 - About myself and my family
 - Countries and Nationalities
 - Personal Preferences (likes/dislikes)
