@@ -29,7 +29,6 @@ import {
 import { Pronouns, Nouns } from './skills/grammar/basic';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
 import { Relationship } from './skills/speaking/pre-intermediate/Relationship';
-import NavbarV2 from './NavbarV2';
 import { Speaking } from './skills/speaking/Speaking';
 
 const Layout = () => (
