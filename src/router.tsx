@@ -29,14 +29,16 @@ import {
 import { Pronouns, Nouns } from './skills/grammar/basic';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
 import { Relationship } from './skills/speaking/pre-intermediate/Relationship';
+import NavbarV2 from './NavbarV2';
+import { Speaking } from './skills/speaking/Speaking';
 
 const Layout = () => (
-  <div style={{ display: 'flex' }}>
+  <div style={{display: 'flex'}}>
     <Navbar />
 
     <div style={{ marginLeft: 20, padding: '10px', width: '100%' }}>
       <Outlet />
-    </div>
+    </div> 
   </div>
 );
 
@@ -101,6 +103,13 @@ export const router = createBrowserRouter([
         element: <ReadingAndListeningA1 />,
       },
     ],
+  },
+  {
+    path: 'main',
+    element: <Layout />,
+    children: [
+      { path: 'speaking', element: <Speaking />}
+    ]
   },
   {
     path: 'grammar',

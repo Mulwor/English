@@ -7,7 +7,7 @@ type MenuItem = Required<MenuProps>['items'][number];
 const items: MenuItem[] = [
   {
     key: 'S-01',
-    label: 'Speaking',
+    label: <Link to='/main/speaking'>Speaking</Link>,
     children: [
       // ! Beginner and elementary
       { key: 'S-01-1', label: <Link to='/beginner-and-elementary/speaking/greeting'>Greeting</Link> },
