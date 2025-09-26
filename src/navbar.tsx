@@ -129,9 +129,8 @@ export const Navbar = () => {
   return (
     <Menu
       onClick={onClick}
-      style={{ height: '100vh', maxWidth: '250px' }}
-      defaultOpenKeys={['sub1']}
-      mode='inline'
+      // defaultOpenKeys={['S-01']}
+      mode='horizontal'
       items={items}
     />
   );

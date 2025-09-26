@@ -70,7 +70,7 @@ export const Number = () => {
       label: 'A1',
       children: (
         <>
-          <Divider>Numbers for A1 (Beginner - Elementary)</Divider>
+          <Divider>Numbers for A1 (Beginner and elementary)</Divider>
 
           <Collapse accordion>
             <Panel header='Vocabulary' key='1'>
@@ -111,16 +111,12 @@ export const Number = () => {
           <Divider>Dialogs</Divider>
           <BasicTable data={numbers} />
           <Pagination currentPage={numbersPage} totalPages={10} onPageChange={handleNumbersPageChange} />
-
+        
           <Divider>Полезные выражения</Divider>
           <ol>
-            <li>I live at forty-two Maple Street, apartment twelve - Я живу на Мэйпл-стрит, 42, квартира 12</li>
-            <li>How much does this cost? - Сколько это стоит?</li>
-            <li>It costs fifteen dollars and ninety-nine cents - Это стоит 15 долларов 99 центов</li>
-            <li>There are seven days in a week - В неделе семь дней</li>
-            <li>This book has three hundred pages - В этой книге триста страниц</li>
-            <li>The meeting is at nine o’clock - Встреча в девять часов </li>
-            <li>I have been to three countries - Я был(а) в трёх странах</li>
+            <li>That will be 40 dollars	- Это будет стоить 40</li>
+            <li>Here you are. Keep the change. - Держите. Сдачи не надо</li>
+            <li>The total is 200 rubles - Итоговая сумма: 200 руб</li>
           </ol>
         </>
       )
@@ -140,6 +136,17 @@ export const Number = () => {
           <Divider>Полезные выражения</Divider>
           <ol>
             <li>I am here for two weeks. - Я здесь на две недели.</li>
+          </ol>
+
+          <Divider>Полезные выражения - 2</Divider>
+          <ol>
+            <li>I live at forty-two Maple Street, apartment twelve - Я живу на Мэйпл-стрит, 42, квартира 12</li>
+            <li>How much does this cost? - Сколько это стоит?</li>
+            <li>It costs fifteen dollars and ninety-nine cents - Это стоит 15 долларов 99 центов</li>
+            <li>There are seven days in a week - В неделе семь дней</li>
+            <li>This book has three hundred pages - В этой книге триста страниц</li>
+            <li>The meeting is at nine o’clock - Встреча в девять часов </li>
+            <li>I have been to three countries - Я был(а) в трёх странах</li>
           </ol>
         </>
       ),

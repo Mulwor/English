@@ -32,20 +32,20 @@ import { Relationship } from './skills/speaking/pre-intermediate/Relationship';
 import { Speaking } from './skills/speaking/Speaking';
 
 const Layout = () => (
-  <div style={{display: 'flex'}}>
-    <Navbar />
+  <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #C5C5C5'}}>
+      <h3 style={{ fontSize: '18px', padding: '1rem'}}>English</h3>
+      <Navbar />
+    </div>
 
-    <div style={{ marginLeft: 20, padding: '10px', width: '100%' }}>
+    <div style={{ flex: 1, padding: '10px' }}>
       <Outlet />
-    </div> 
+    </div>
   </div>
 );
 
 export const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Layout />,
-  },
+  { path: '/', element: <Layout /> },
   {
     path: 'beginner-and-elementary',
     element: <Layout />,
