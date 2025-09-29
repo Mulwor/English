@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Divider, Drawer, List } from "antd";
+import { Divider, Drawer } from "antd";
 
 export const Speaking = () => {
   const [drawerVisible, setDrawerVisible] = useState(false);
