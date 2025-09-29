@@ -1,4 +1,4 @@
-import { createBrowserRouter, Outlet } from 'react-router-dom';
+import { createBrowserRouter, Link, Outlet } from 'react-router-dom';
 import { Navbar } from './navbar';
 import { ReadingAndListeningA1 } from './skills/reading-and-listening/ReadingAndListeningA1';
 import {
@@ -34,7 +34,7 @@ import { Speaking } from './skills/speaking/Speaking';
 const Layout = () => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #C5C5C5'}}>
-      <h3 style={{ fontSize: '18px', padding: '1rem'}}>English</h3>
+      <h3 style={{ fontSize: '18px', padding: '1rem'}}><Link to="/">English</Link></h3>
       <Navbar />
     </div>
 
@@ -45,7 +45,20 @@ const Layout = () => (
 );
 
 export const router = createBrowserRouter([
-  { path: '/', element: <Layout /> },
+  { 
+    path: '/', 
+    element: <Layout />,
+    children: [
+      {
+        index: true,
+        element: (
+          <>
+            <Speaking />
+          </>
+        )
+      }
+    ]
+  },
   {
     path: 'beginner-and-elementary',
     element: <Layout />,

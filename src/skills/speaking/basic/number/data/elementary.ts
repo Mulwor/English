@@ -27,21 +27,3 @@ export const numbers_elementary_03 = [
   { key: '5', english: 'Okay, thank you. Here is fifteen dollars.', russian: 'Хорошо, спасибо. Вот 15 долларов.' },
   { key: '6', english: 'Your change is two dollars and fifty cents. Have a nice day!', russian: 'Ваша сдача — 2 доллара 50 центов. Хорошего дня!' },
 ];
-
-export const numbers_elementary_04 = [
-  { key: '1', english: 'What time does the train leave?', russian: 'Во сколько отправляется поезд?' },
-  { key: '2', english: 'It leaves at 5:30 pm.', russian: 'Он отправляется в 5:30 вечера.' },
-  { key: '3', english: 'Oh no, I’m late! I need to hurry.', russian: 'О нет, я опаздываю! Мне нужно поторопиться.' },
-  { key: '4', english: 'Don’t worry. You still have 15 minutes.', russian: 'Не волнуйся. У тебя еще есть 15 минут.' },
-  { key: '5', english: 'Thanks! How long does it take to get to the station?', russian: 'Спасибо! Сколько времени займет дорога до станции?' },
-  { key: '6', english: 'It takes about 10 minutes on foot.', russian: 'Пешком это займет около 10 минут.' },
-];
-
-export const numbers_elementary_05 = [
-  { key: '1', english: 'You have a very nice apartment! How many people live here?', russian: 'У тебя очень милая квартира! Сколько человек здесь живёт?' },
-  { key: '2', english: 'Thank you! Just me and my sister. So, two people.', russian: 'Спасибо! Только я и моя сестра. Так что двое.' },
-  { key: '3', english: 'Nice. How many rooms are there?', russian: 'Здорово. А сколько здесь комнат?' },
-  { key: '4', english: 'There are three rooms: a living room, and two bedrooms.', russian: 'Всего три комнаты: гостиная и две спальни.' },
-  { key: '5', english: 'Perfect for two people. How many guests are coming today?', russian: 'Идеально для двоих. А сколько гостей придёт сегодня?' },
-  { key: '6', english: 'About six or seven people. I hope everyone fits!', russian: 'Примерно шесть или семь человек. Надеюсь, все поместятся!' },
-];

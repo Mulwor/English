@@ -7,7 +7,7 @@ type MenuItem = Required<MenuProps>['items'][number];
 const items: MenuItem[] = [
   {
     key: 'S-01',
-    label: <Link to='/main/speaking'>Speaking</Link>,
+    label: 'Speaking',
     children: [
       // ! Beginner and elementary
       { key: 'S-01-1', label: <Link to='/beginner-and-elementary/speaking/greeting'>Greeting</Link> },
@@ -31,7 +31,7 @@ const items: MenuItem[] = [
       { key: 'S-01-19', label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link> },
       { key: 'S-01-20', label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link> },
       { key: 'S-01-21', label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link> },
-      { key: 'S-01-22', label: '-----------------------------' },
+      { key: 'S-01-22', label: '------------- A2 (start) ------------' },
       // ! Pre-intermediate
       { key: 'S-02-1', label: <Link to='/pre-intermediate/speaking/family-relationships-and-friendship'>Family relationships and friendship</Link>},
       { key: 'S-02-2', label: <Link to='/pre-intermediate/speaking/life-stages-and-events'>Life stages and events</Link>},

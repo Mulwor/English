@@ -5,7 +5,7 @@ import './Number.css';
 import { Video, BasicTable, Pagination } from '../../../../components';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { numbers_basic_01, numbers_basic_02, numbers_basic_03, numbers_basic_04, numbers_basic_05 } from './data/basic';
-import { numbers_elementary_01, numbers_elementary_02, numbers_elementary_03, numbers_elementary_04, numbers_elementary_05 } from './data/elementary';
+import { numbers_elementary_01, numbers_elementary_02, numbers_elementary_03 } from './data/elementary';
 import { numbers6, numbers8, numbers9 } from './data/preIntermediate';
 
 const getRandomNumber = () => Math.floor(Math.random() * 1000);
@@ -29,8 +29,6 @@ export const Number = () => {
     numbers_basic_05, 
     numbers_elementary_02,
     numbers_elementary_03,
-    numbers_elementary_04,
-    numbers_elementary_05
   ]);
 
   const { 
@@ -110,7 +108,7 @@ export const Number = () => {
 
           <Divider>Dialogs</Divider>
           <BasicTable data={numbers} />
-          <Pagination currentPage={numbersPage} totalPages={10} onPageChange={handleNumbersPageChange} />
+          <Pagination currentPage={numbersPage} totalPages={8} onPageChange={handleNumbersPageChange} />
         
           <Divider>Полезные выражения</Divider>
           <ol>
