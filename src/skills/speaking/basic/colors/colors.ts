@@ -201,5 +201,3 @@ export const colors5 = [
     russian: 'Они идеально подошли. Я их возьму.',
   },
 ];
-
-// https://www.youtube.com/watch?v=_chzOtxKqP4
