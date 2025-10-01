@@ -91,10 +91,44 @@ export const Speaking = () => {
         "Animals",
         "News",
       ]
+    },
+    b1: {
+      title: "B1 (Intermediate)",
+      items: [
+        "Вы говорите четко, обладаете хорошим произношением, окружающие понимают вашу речь.",
+        "Вы понимаете, где делать логические паузы в предложениях, в какой части предложения повышать или понижать голос.",
+        "Вы говорите довольно бегло, не делаете длительные паузы во время разговора.",
+        "Вы можете описывать внешность, рассказывать о своем образовании и опыте работы, выражаете свое мнение по разным вопросам, можете говорить практически на любую тему.",
+        "Вы используете в речи фразовые глаголы и некоторые идиомы.",
+        "Вы не упрощаете речь, используете довольно сложные грамматические конструкции: разные типы условных предложений, пассивный залог, различные времена, косвенную речь",
+        "-------------------------------- Список тем: ---------------------------------",
+        "Family and Personality",
+        "Describing people’s appearance and character",
+        "Jobs, Money and Success",
+        "Business",
+        "Education",
+        "Modern manners",
+        "Transport and travelling",
+        "Places to live",
+        "Nature and environment",
+        "Climate and natural disasters",
+        "Communication",
+        "Television and media",
+        "Cinema and movies",
+        "Art",
+        "Shopping",
+        "Food and restaurants",
+        "Lifestyle",
+        "Sport",
+        "Friendship",
+        "Challenges and success",
+        "Good and bad luck",
+        "Crime and punishment",
+      ]
     }
   };
 
-  const handleLevelClick = (level: 'a0' | 'a1' | 'a2') => {
+  const handleLevelClick = (level: 'a0' | 'a1' | 'a2' | 'b1') => {
     setDrawerContent(levelData[level]);
     setDrawerVisible(true);
   };
@@ -122,36 +156,43 @@ export const Speaking = () => {
 
         <p>
           Теперь разберем каждый уровень по отдельности: 
-            <span 
+            <button 
               style={{ 
-                textDecoration: 'underline',
                 cursor: 'pointer',
                 marginLeft: '3px'
               }} 
               onClick={() => handleLevelClick('a0')}
             >
-              A0 (beginner / starter);
-            </span>
+              A0 (beginner / starter)
+            </button>;
 
-            <span  
+            <button  
               style={{
-                textDecoration: 'underline',
                 cursor: 'pointer',
                 marginLeft: '3px'
               }}
               onClick={() => handleLevelClick('a1')}>
                 A1 (elementary)
-              </span>:
+              </button>;
 
-            <span  
+            <button  
               style={{
-                textDecoration: 'underline',
                 cursor: 'pointer',
                 marginLeft: '3px'
               }}
               onClick={() => handleLevelClick('a2')}>
                 A2 (pre-intermediate)
-              </span>:
+            </button>;
+            
+            <button  
+              style={{
+                cursor: 'pointer',
+                marginLeft: '3px'
+              }}
+              onClick={() => handleLevelClick('b1')}>
+                B1 (Intermediate)
+            </button>
+            :
           </p>
         <p style={{marginTop: '1rem'}}>
           Лучшим решением будет в начале изучить все диалоги уровня А1, а 
