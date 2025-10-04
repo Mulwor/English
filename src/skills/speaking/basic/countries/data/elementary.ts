@@ -4,7 +4,7 @@ export const elementary_country_01 = [
   { key: '3', english: 'Wow! Italian food is amazing.', russian: 'Вау! Итальянская еда потрясающая.' },
   { key: '4', english: 'Thank you! Are you from France?', russian: 'Спасибо! Вы из Франции?' },
   { key: '5', english: 'No, I’m from Canada.', russian: 'Нет, я из Канады.' },
-  { key: '6', english: 'Oh, so you’re Canadian! Do you like traveling?', russian: 'О, так вы канадец! Вам нравится путешествовать?'},
+  { key: '6', english: 'Oh, so you’re Canadian! Do you like traveling?', russian: 'О, так вы канадец! Вам нравится путешествовать?' },
   { key: '7', english: 'Yes, I love it! This is my first time in Italy.', russian: 'Да, очень! Я впервые в Италии.' },
 ];
 

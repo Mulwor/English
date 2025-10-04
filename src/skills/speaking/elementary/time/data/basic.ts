@@ -1,5 +1,5 @@
 export const basic_time_01 = [
-  { key: '1', english: 'Excuse me, what time is it?', russian: 'Извините, который час?'},
+  { key: '1', english: 'Excuse me, what time is it?', russian: 'Извините, который час?' },
   { key: '2', english: 'It’s five o’clock.', russian: 'Сейчас пять часов.' },
   { key: '3', english: 'Thank you!', russian: 'Спасибо!' },
   { key: '4', english: 'You’re welcome!', russian: 'Пожалуйста!' },
@@ -13,7 +13,7 @@ export const basic_time_01 = [
 export const basic_time_02 = [
   { key: '1', english: 'What day is today?', russian: 'Какой сегодня день?' },
   { key: '2', english: 'Today is Monday.', russian: 'Сегодня понедельник.' },
-  { key: '3', english: 'Oh! I have a meeting at 10 o’clock.', russian: 'О! У меня встреча в 10 часов.'},
+  { key: '3', english: 'Oh! I have a meeting at 10 o’clock.', russian: 'О! У меня встреча в 10 часов.' },
   { key: '4', english: 'What time is it now?', russian: 'Сколько сейчас времени?' },
   { key: '5', english: 'It’s 9:30. I must go!', russian: 'Сейчас 9:30. Мне нужно идти!' },
   { key: '6', english: 'Good luck!', russian: 'Удачи!' },

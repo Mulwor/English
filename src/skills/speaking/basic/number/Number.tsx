@@ -15,31 +15,23 @@ const { Panel } = Collapse;
 export const Number = () => {
   const [randomNumber, setRandomNumber] = useState(getRandomNumber);
   const [inputValue, setInputValue] = useState('');
-  
+
   const {
     data: numbers,
     currentPage: numbersPage,
     handlePageChange: handleNumbersPageChange,
   } = usePaginatedData(numbers_basic_01, [
-    numbers_basic_01, 
-    numbers_basic_02, 
-    numbers_basic_03, 
-    numbers_basic_04, 
+    numbers_basic_01,
+    numbers_basic_02,
+    numbers_basic_03,
+    numbers_basic_04,
     numbers_elementary_01,
-    numbers_basic_05, 
+    numbers_basic_05,
     numbers_elementary_02,
     numbers_elementary_03,
   ]);
 
-  const { 
-    data: a2Data, 
-    currentPage: a2CurrentPage, 
-    handlePageChange: a2HandlePageChange 
-    } = usePaginatedData(numbers6, [
-      numbers6,
-      numbers8,
-      numbers9
-  ]);
+  const { data: a2Data, currentPage: a2CurrentPage, handlePageChange: a2HandlePageChange } = usePaginatedData(numbers6, [numbers6, numbers8, numbers9]);
 
   useEffect(() => {
     setInputValue('');
@@ -71,10 +63,16 @@ export const Number = () => {
           <Divider>Numbers for A1 (Beginner and elementary)</Divider>
 
           <Collapse accordion>
-            <Panel header='Vocabulary' key='1'>
+            <Panel
+              header='Vocabulary'
+              key='1'
+            >
               <div className='video'>
                 <Video videoId='e0dJWfQHF8Y' />
-                <img src='/src/assets/numb.jpg' width={394} />
+                <img
+                  src='/src/assets/numb.jpg'
+                  width={394}
+                />
               </div>
             </Panel>
           </Collapse>
@@ -91,13 +89,21 @@ export const Number = () => {
               onKeyDown={handleKeyPress}
             />
 
-            <Button type='primary' onClick={checkSpelling}>Check your spelling</Button>
+            <Button
+              type='primary'
+              onClick={checkSpelling}
+            >
+              Check your spelling
+            </Button>
           </div>
 
           <Divider>Listening</Divider>
 
           <Collapse accordion>
-            <Panel header='Videos' key='1'>
+            <Panel
+              header='Videos'
+              key='1'
+            >
               <div className='video'>
                 <Video videoId='-5TuoZWAhQI' />
                 <Video videoId='G6c8NjhS1YE' />
@@ -108,16 +114,20 @@ export const Number = () => {
 
           <Divider>Dialogs</Divider>
           <BasicTable data={numbers} />
-          <Pagination currentPage={numbersPage} totalPages={8} onPageChange={handleNumbersPageChange} />
-        
+          <Pagination
+            currentPage={numbersPage}
+            totalPages={8}
+            onPageChange={handleNumbersPageChange}
+          />
+
           <Divider>Полезные выражения</Divider>
           <ol>
-            <li>That will be 40 dollars	- Это будет стоить 40</li>
+            <li>That will be 40 dollars - Это будет стоить 40</li>
             <li>Here you are. Keep the change. - Держите. Сдачи не надо</li>
             <li>The total is 200 rubles - Итоговая сумма: 200 руб</li>
           </ol>
         </>
-      )
+      ),
     },
     {
       key: 'a2',
@@ -125,11 +135,15 @@ export const Number = () => {
       children: (
         <>
           <Divider>Numbers for A2 (Pre-intermediate)</Divider>
-        
+
           <Divider>Dialogs</Divider>
 
           <BasicTable data={a2Data} />
-          <Pagination currentPage={a2CurrentPage} totalPages={3}  onPageChange={a2HandlePageChange} />
+          <Pagination
+            currentPage={a2CurrentPage}
+            totalPages={3}
+            onPageChange={a2HandlePageChange}
+          />
 
           <Divider>Полезные выражения</Divider>
           <ol>
@@ -149,14 +163,14 @@ export const Number = () => {
         </>
       ),
     },
-  ]
+  ];
 
   return (
-    <Tabs 
-      defaultActiveKey="a1" 
+    <Tabs
+      defaultActiveKey='a1'
       items={tabItems}
-      tabPosition="top"
-      type="card"
+      tabPosition='top'
+      type='card'
     />
   );
 };

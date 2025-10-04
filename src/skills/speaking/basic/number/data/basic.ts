@@ -45,5 +45,5 @@ export const numbers_basic_05 = [
   { key: '4', english: 'The oldest is seven, the middle one is five, and the youngest is two.', russian: 'Старшему семь, среднему пять, а младшему два года.' },
   { key: '5', english: 'Lovely ages! And you have one dog?', russian: 'Прекрасные возрасты! И у вас одна собака?' },
   { key: '6', english: 'Yes, and two cats!', russian: 'Да, и две кошки!' },
-  { key: '7', english: 'A full house! That\'s wonderful.', russian: 'Полный дом! Это замечательно.' },
+  { key: '7', english: "A full house! That's wonderful.", russian: 'Полный дом! Это замечательно.' },
 ];

@@ -1,6 +1,5 @@
 export const time_7 = [
-  { key: '1', english: 'Hello, doctor’s office.', russian: 'Здравствуйте, кабинет врача.',
-  },
+  { key: '1', english: 'Hello, doctor’s office.', russian: 'Здравствуйте, кабинет врача.' },
   {
     key: '2',
     english: 'Hi! I need an appointment.',

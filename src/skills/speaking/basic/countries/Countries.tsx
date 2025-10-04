@@ -32,15 +32,26 @@ export const Countries = () => {
       <Divider>Countries and nationality - страны и национальности</Divider>
 
       <Collapse accordion>
-        <Panel header='Vocabulary' key='1'>
-          <Table dataSource={allCountries} columns={columns} pagination={false} size='small' />
+        <Panel
+          header='Vocabulary'
+          key='1'
+        >
+          <Table
+            dataSource={allCountries}
+            columns={columns}
+            pagination={false}
+            size='small'
+          />
         </Panel>
       </Collapse>
 
       <Divider>Listening</Divider>
 
       <Collapse accordion>
-        <Panel header='Videos' key='2'>
+        <Panel
+          header='Videos'
+          key='2'
+        >
           <div className='video'>
             <Video videoId='NJVV1LDt2hE' />
             <Video videoId='PQE52ke83oI' />
@@ -51,12 +62,19 @@ export const Countries = () => {
 
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />
-      <Pagination currentPage={currentPage} totalPages={7} onPageChange={handlePageChange}/>
+      <Pagination
+        currentPage={currentPage}
+        totalPages={7}
+        onPageChange={handlePageChange}
+      />
 
       <Divider>A2+ videos</Divider>
 
       <Collapse accordion>
-        <Panel header='Videos' key='3'>
+        <Panel
+          header='Videos'
+          key='3'
+        >
           <div className='video'>
             <Video videoId='2Qpa1VPWSJg' />
             <Video videoId='qLR9QD8vxK8' />
