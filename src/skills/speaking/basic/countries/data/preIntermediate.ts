@@ -3,7 +3,7 @@ export const preIntermediate_country_01 = [
   { key: '2', english: 'Yes, I visited Paris last year.', russian: 'Да, я посетил Париж в прошлом году.' },
   { key: '3', english: 'That’s great! Did you like it?', russian: 'Здорово! Тебе понравилось?' },
   { key: '4', english: 'Yes, it was amazing. French food is very delicious.', russian: 'Да, это было потрясающе. Французская еда очень вкусная.' },
-  { key: '5', english: 'I want to visit Germany next year.', russian: 'Я хочу посетить Германию в следующем году.' },
+  { key: '5', english: '* I want to visit Germany next year.', russian: 'Я хочу посетить Германию в следующем году.' },
   { key: '6', english: 'Germany is beautiful, especially in the summer.', russian: 'Германия красивая, особенно летом.' },
   { key: '7', english: 'Have you been there?', russian: 'Ты был там?' },
   { key: '8', english: 'Yes, I visited Berlin. The people were very friendly.', russian: 'Да, я посетил Берлин. Люди были очень дружелюбные.' },
