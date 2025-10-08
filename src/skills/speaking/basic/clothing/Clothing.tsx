@@ -28,17 +28,17 @@ import {
 const { Panel } = Collapse;
 
 export const Clothing = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(basic_clothes_02, [
-    basic_clothes_02,
-    basic_clothes_03,
-    basic_clothes_04,
-    basic_clothes_05,
+  const { data, currentPage, handlePageChange } = usePaginatedData(elementary_clothes_01, [
     elementary_clothes_01,
+    basic_clothes_04,
+    basic_clothes_03,
+    elementary_clothes_06,
+    basic_clothes_02,
+    basic_clothes_05,
     elementary_clothes_02,
     elementary_clothes_03,
     elementary_clothes_04,
     elementary_clothes_05,
-    elementary_clothes_06,
   ]);
 
   const {
