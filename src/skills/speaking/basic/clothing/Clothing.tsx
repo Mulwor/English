@@ -37,7 +37,6 @@ export const Clothing = () => {
     basic_clothes_05,
     elementary_clothes_02,
     elementary_clothes_03,
-    elementary_clothes_04,
     elementary_clothes_05,
   ]);
 
@@ -46,6 +45,7 @@ export const Clothing = () => {
     currentPage: a2CurrentPage,
     handlePageChange: a2HandlePageChange,
   } = usePaginatedData(preIntermediate_clothes_02, [
+    elementary_clothes_04,
     preIntermediate_clothes_02,
     preIntermediate_clothes_03,
     preIntermediate_clothes_04,
@@ -100,9 +100,18 @@ export const Clothing = () => {
           <BasicTable data={data} />
           <Pagination
             currentPage={currentPage}
-            totalPages={10}
+            totalPages={9}
             onPageChange={handlePageChange}
           />
+
+          <Divider>Полезные выражения</Divider>
+
+          <ol>
+            <li>made of wool - сделан из шерсти</li>
+            <li>did you knit it yourself? - ты сама это связала</li>
+            <li>try it on - примерить</li>
+            <li>fitting room - примерочная</li>
+          </ol>
         </>
       ),
     },
@@ -117,7 +126,7 @@ export const Clothing = () => {
           <BasicTable data={a2Data} />
           <Pagination
             currentPage={a2CurrentPage}
-            totalPages={9}
+            totalPages={10}
             onPageChange={a2HandlePageChange}
           />
         </>

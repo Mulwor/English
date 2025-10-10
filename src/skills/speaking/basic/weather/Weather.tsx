@@ -3,17 +3,7 @@ import { BasicTable, Pagination, Video } from '../../../../components';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
-import {
-  a1_weather_01,
-  a1_weather_02,
-  a1_weather_03,
-  a1_weather_04,
-  a1_weather_05,
-  a1_weather_06,
-  a1_weather_07,
-  a1_weather_08,
-  vocabulary_for_weather,
-} from './data/a1';
+import { a1_weather_01, a1_weather_02, a1_weather_03, a1_weather_04, a1_weather_05, a1_weather_06, a1_weather_08, vocabulary_for_weather } from './data/a1';
 import { a2_weather_01, a2_weather_02, a2_weather_03, a2_weather_04, a2_weather_05, a2_weather_06 } from './data/a2';
 
 const { Panel } = Collapse;
@@ -26,7 +16,6 @@ export const Weather = () => {
     a1_weather_04,
     a1_weather_05,
     a1_weather_06,
-    a1_weather_07,
     a1_weather_08,
   ]);
 
@@ -99,9 +88,15 @@ export const Weather = () => {
           <BasicTable data={data} />
           <Pagination
             currentPage={currentPage}
-            totalPages={8}
+            totalPages={7}
             onPageChange={handlePageChange}
           />
+
+          <Divider> Полезные выражение </Divider>
+          <ol>
+            <li>turn on the fan - Включи вентилятор</li>
+            <li>stay warm - согреется</li>
+          </ol>
         </div>
       ),
     },

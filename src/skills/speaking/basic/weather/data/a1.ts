@@ -67,178 +67,55 @@ export const vocabulary_for_weather = [
 ];
 
 export const a1_weather_01 = [
-  {
-    key: '1',
-    english: 'What is the weather like today?',
-    russian: 'Какая сегодня погода?',
-  },
-  { key: '2', english: 'It is sunny.', russian: 'Солнечно.' },
-  {
-    key: '3',
-    english: 'Do you like sunny weather?',
-    russian: 'Тебе нравится солнечная погода?',
-  },
-  { key: '4', english: 'Yes, I do.', russian: 'Да, нравится.' },
-  {
-    key: '5',
-    english: 'Do you want to go outside?',
-    russian: 'Ты хочешь выйти на улицу?',
-  },
-  {
-    key: '6',
-    english: 'Yes, let’s go to the park.',
-    russian: 'Да, давай пойдем в парк.',
-  },
-  { key: '7', english: 'Should we take water?', russian: 'Нам взять воду?' },
-  { key: '8', english: 'Yes, it is hot today.', russian: 'Да, сегодня жарко.' },
-  {
-    key: '9',
-    english: 'Do we need sunglasses?',
-    russian: 'Нам нужны солнцезащитные очки?',
-  },
-  {
-    key: '10',
-    english: 'Yes, the sun is bright!',
-    russian: 'Да, солнце яркое!',
-  },
+  { key: '1', english: 'What is the weather like today? - It is sunny.', russian: 'Какая сегодня погода? - Солнечно' },
+  { key: '2', english: 'Do you like sunny weather? - Yes, I do.', russian: 'Тебе нравится солнечная погода? - Да, нравится.' },
+  { key: '3', english: 'Do you want to go outside? - Yes, let’s go to the park.', russian: 'Ты хочешь выйти на улицу? - Да, давай пойдем в парк.' },
+  { key: '4', english: 'Should we take water? - Yes, it is hot today', russian: 'Нам взять воду? - Да, сегодня жарко.' },
+  { key: '5', english: 'Do we need sunglasses? - Yes, the sun is bright!', russian: 'Нам нужны солнцезащитные очки? - Да, солнце яркое!' },
 ];
 
 export const a1_weather_02 = [
-  { key: '1', english: 'Is it raining today?', russian: 'Сегодня идет дождь?' },
-  { key: '2', english: 'Yes, it is rainy.', russian: 'Да, дождливо.' },
-  {
-    key: '3',
-    english: 'Should we take an umbrella?',
-    russian: 'Нам взять зонтик?',
-  },
-  { key: '4', english: 'Yes, don’t forget it.', russian: 'Да, не забудь его.' },
-  {
-    key: '5',
-    english: 'I don’t like rainy weather.',
-    russian: 'Мне не нравится дождливая погода.',
-  },
-  { key: '6', english: 'Me neither.', russian: 'Мне тоже.' },
-  {
-    key: '7',
-    english: 'Do you want to stay home?',
-    russian: 'Ты хочешь остаться дома?',
-  },
-  {
-    key: '8',
-    english: 'Yes, let’s watch a movie.',
-    russian: 'Да, давай посмотрим фильм.',
-  },
-  {
-    key: '9',
-    english: 'What movie should we watch?',
-    russian: 'Какой фильм будем смотреть?',
-  },
-  { key: '10', english: 'Something happy!', russian: 'Что-нибудь веселое!' },
+  { key: '1', english: 'Is it raining today? - Yes, it is rainy.', russian: 'Сегодня идет дождь? - Да, дождливо.' },
+  { key: '2', english: 'Should we take an umbrella? - Yes, don’t forget it.', russian: 'Нам взять зонтик? - Да, не забудь его.' },
+  { key: '3', english: 'I don’t like rainy weather. - Me neither.', russian: 'Мне не нравится дождливая погода. - Мне тоже.' },
+  { key: '4', english: 'Do you want to stay home? - Yes, let’s watch a movie.', russian: 'Ты хочешь остаться дома? - Да, давай посмотрим фильм.' },
+  { key: '5', english: 'What movie should we watch? - Something happy!', russian: 'Какой фильм будем смотреть? - Что-нибудь веселое!' },
 ];
 
 export const a1_weather_03 = [
-  { key: '1', english: 'Is it snowing today?', russian: 'Сегодня идет снег?' },
-  { key: '2', english: 'Yes, it is snowy.', russian: 'Да, снежно.' },
-  {
-    key: '3',
-    english: 'Do you want to make a snowman?',
-    russian: 'Хочешь слепить снеговика?',
-  },
-  { key: '4', english: 'Yes, that sounds fun!', russian: 'Да, звучит весело!' },
-  { key: '5', english: 'Let’s go outside.', russian: 'Пойдем на улицу.' },
-  {
-    key: '6',
-    english: 'Don’t forget your gloves.',
-    russian: 'Не забудь свои перчатки.',
-  },
-  { key: '7', english: 'It is cold today.', russian: 'Сегодня холодно.' },
-  {
-    key: '8',
-    english: 'Yes, but the snow is beautiful.',
-    russian: 'Да, но снег красивый.',
-  },
-  { key: '9', english: 'Let’s take a photo.', russian: 'Давай сделаем фото.' },
-  { key: '10', english: 'Great idea!', russian: 'Отличная идея!' },
+  { key: '1', english: 'Is it snowing today? - Yes, it is snowy.', russian: 'Сегодня идет снег? - Да, снежно.' },
+  { key: '2', english: 'Do you want to make a snowman? - Yes, that sounds fun!', russian: 'Хочешь слепить снеговика? - Да, звучит весело!' },
+  { key: '3', english: 'Let’s go outside. - Don’t forget your gloves.', russian: 'Пойдем на улицу. - Не забудь свои перчатки' },
+  { key: '4', english: 'It is cold today. - Yes, but the snow is beautiful.', russian: 'Сегодня холодно. - Да, но этот снег красивый' },
+  { key: '5', english: 'Let’s take a photo. - Great idea!', russian: 'Давай сделаем фото. - Отличная идея!' },
 ];
 
 export const a1_weather_04 = [
-  { key: '1', english: 'Is it hot today?', russian: 'Сегодня жарко?' },
-  { key: '2', english: 'Yes, it’s very hot.', russian: 'Да, очень жарко.' },
+  { key: '1', english: 'Is it hot today? - Yes, it’s very hot', russian: 'Сегодня жарко? - Да, очень жарко.' },
   {
-    key: '3',
-    english: 'Should we stay inside?',
-    russian: 'Нам лучше остаться дома?',
+    key: '2',
+    english: 'Should we stay inside? - Yes, it’s too hot to go outside.',
+    russian: 'Нам лучше остаться дома? - Да, слишком жарко для прогулок (чтобы выйти на улицу)',
   },
-  {
-    key: '4',
-    english: 'Yes, it’s too hot to go outside.',
-    russian: 'Да, слишком жарко для прогулок.',
-  },
-  {
-    key: '5',
-    english: 'Let’s turn on the fan.',
-    russian: 'Давай включим вентилятор.',
-  },
-  { key: '6', english: 'Good idea.', russian: 'Хорошая идея.' },
-  {
-    key: '7',
-    english: 'Do you want a cold drink?',
-    russian: 'Хочешь холодный напиток?',
-  },
-  { key: '8', english: 'Yes, please!', russian: 'Да, пожалуйста!' },
-  { key: '9', english: 'Water or juice?', russian: 'Вода или сок?' },
-  { key: '10', english: 'Juice, thank you.', russian: 'Сок, спасибо.' },
+  { key: '3', english: 'Let’s turn on the fan. - Good idea.', russian: 'Давай включим вентилятор. - Хорошая идея.' },
+  { key: '4', english: 'Do you want a cold drink? - Yes, please!', russian: 'Хочешь холодный напиток? - Да, пожалуйста!' },
+  { key: '5', english: 'Water or juice? - Juice, thank you.', russian: 'Вода или сок? - Сок, спасибо.' },
 ];
 
 export const a1_weather_05 = [
-  { key: '1', english: 'Is it cold today?', russian: 'Сегодня холодно?' },
-  { key: '2', english: 'Yes, very cold.', russian: 'Да, очень холодно.' },
-  {
-    key: '3',
-    english: 'Should we wear coats?',
-    russian: 'Нам нужно надеть пальто?',
-  },
-  { key: '4', english: 'Yes, and hats too.', russian: 'Да, и шапки тоже.' },
-  {
-    key: '5',
-    english: 'Do you want hot tea?',
-    russian: 'Хочешь горячего чая?',
-  },
-  {
-    key: '6',
-    english: 'Yes, that sounds nice.',
-    russian: 'Да, это звучит хорошо.',
-  },
-  { key: '7', english: 'Let’s stay warm.', russian: 'Давай согреемся.' },
-  { key: '8', english: 'Good idea!', russian: 'Хорошая идея!' },
-  {
-    key: '9',
-    english: 'Maybe we can read a book.',
-    russian: 'Может, почитаем книгу?',
-  },
-  { key: '10', english: 'Yes, let’s do that.', russian: 'Да, давай.' },
+  { key: '1', english: 'Is it cold today? - Yes, very cold.', russian: 'Сегодня холодно? - Да, очень холодно.' },
+  { key: '2', english: 'Should we wear coats? - Yes, and hats too', russian: 'Нам нужно надеть (носить) пальто? - Да, и шапки тоже.' },
+  { key: '3', english: 'Do you want hot tea? - Yes, that sounds nice', russian: 'Хочешь горячего чая? - Да, это звучит хорошо.' },
+  { key: '4', english: 'Let’s stay warm. - Good idea!', russian: 'Давай согреемся. - Хорошая идея!' },
+  { key: '5', english: 'Maybe we can read a book. - Yes, let’s do that.', russian: 'Может, почитаем книгу? - Да, давай.' },
 ];
 
 export const a1_weather_06 = [
-  { key: '1', english: 'What’s the weather like today?', russian: 'Какая сегодня погода?' },
-  { key: '2', english: 'It is cloudy.', russian: 'Облачно.' },
-  { key: '3', english: 'Do you like cloudy days?', russian: 'Тебе нравятся облачные дни?' },
-  { key: '4', english: 'Not really. I like sunny days.', russian: 'Не очень. Я люблю солнечные дни.' },
-  { key: '5', english: 'Should we go for a short walk?', russian: 'Нам стоит пойти на короткую прогулку?' },
-  { key: '6', english: 'Yes, why not?', russian: 'Да, почему бы и нет?' },
-  { key: '7', english: 'Don’t forget your jacket.', russian: 'Не забудь куртку.' },
-  { key: '8', english: 'Okay, thanks!', russian: 'Хорошо, спасибо!' },
-];
-
-export const a1_weather_07 = [
-  { key: '1', english: 'It’s windy today.', russian: 'Сегодня ветрено.' },
-  { key: '2', english: 'Yes, very windy.', russian: 'Да, очень ветрено.' },
-  { key: '3', english: 'Do you want to fly a kite?', russian: 'Хочешь запустить воздушного змея?' },
-  { key: '4', english: 'That sounds fun!', russian: 'Звучит весело!' },
-  { key: '5', english: 'Let’s go to the field.', russian: 'Пойдем на поле.' },
-  { key: '6', english: 'Good idea!', russian: 'Хорошая идея!' },
-  { key: '7', english: 'Should we take a jacket?', russian: 'Нам взять куртку?' },
-  { key: '8', english: 'Yes, it feels cold.', russian: 'Да, холодно.' },
+  { key: '1', english: 'What’s the weather like today? - It is cloudy.', russian: 'Какая сегодня погода? - Облачно' },
+  { key: '2', english: 'Do you like cloudy days? - Not really. I like sunny days.', russian: 'Тебе нравятся облачные дни? - Не очень. Я люблю солнечные дни.' },
+  { key: '3', english: 'Should we go for a short walk? - Yes, why not?', russian: 'Нам стоит пойти на короткую прогулку? - Да, почему бы и нет?' },
+  { key: '4', english: 'Don’t forget your jacket. - Okay, thanks!', russian: 'Не забудь куртку. - Хорошо, спасибо!' },
+  { key: '5', english: 'Okay, thanks!', russian: 'Хорошо, спасибо!' },
 ];
 
 export const a1_weather_08 = [
