@@ -10,10 +10,10 @@ export const numbers_basic_01 = [
 
 export const numbers_basic_02 = [
   { key: '1', english: 'How many tickets do you need?', russian: 'Сколько билетов вам нужно?' },
-  { key: '2', english: 'Four tickets, please.', russian: '4, пожалуйста' },
+  { key: '2', english: 'Four tickets, please.', russian: 'Четыре, пожалуйста' },
   { key: '3', english: 'Adults or children?', russian: 'Взрослых или детских?' },
-  { key: '4', english: 'Two adults and two children.', russian: '2 взрослых и двое детских' },
-  { key: '5', english: 'That will be 40 dollars', russian: 'Это будет стоить 40 долларов' },
+  { key: '4', english: 'Two adults and two children.', russian: 'Двое взрослых и двое детских' },
+  { key: '5', english: 'That will be 40 dollars', russian: 'Это будет (стоить) 40 долларов' },
   { key: '6', english: 'Here is my card.', russian: 'Держите мою карту' },
   { key: '7', english: 'Thank you!', russian: 'Спасибо' },
 ];
@@ -45,5 +45,5 @@ export const numbers_basic_05 = [
   { key: '4', english: 'The oldest is seven, the middle one is five, and the youngest is two.', russian: 'Старшему семь, среднему пять, а младшему два года.' },
   { key: '5', english: 'Lovely ages! And you have one dog?', russian: 'Прекрасные возрасты! И у вас одна собака?' },
   { key: '6', english: 'Yes, and two cats!', russian: 'Да, и две кошки!' },
-  { key: '7', english: 'A full house! That\'s wonderful.', russian: 'Полный дом! Это замечательно.' },
+  { key: '7', english: "A full house! That's wonderful.", russian: 'Полный дом! Это замечательно.' },
 ];

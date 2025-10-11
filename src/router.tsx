@@ -183,4 +183,14 @@ export const router = createBrowserRouter([
   //     { path: 'lesson-01', element: <Lesson01 />},
   //   ]
   // }
+  {
+    path: 'allTogether',
+    element: <Layout />,
+    children: [
+      { 
+        path: "speak",
+        element: <div>В разработке</div>
+      }
+    ]
+  }
 ]);

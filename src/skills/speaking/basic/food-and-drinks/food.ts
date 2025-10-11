@@ -319,7 +319,7 @@ export const food_1 = [
   {
     key: '9',
     english: 'What do you have for lunch?',
-    russian: 'Что ты ешь на обед?',
+    russian: 'Что ты ешь на обед (ланч)?',
   },
   {
     key: '10',

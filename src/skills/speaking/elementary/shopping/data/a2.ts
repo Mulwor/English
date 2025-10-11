@@ -1,4 +1,4 @@
-export const shopping_9 = [
+export const a2_shopping_01 = [
   {
     key: '1',
     english: 'What size do you wear?',
@@ -43,7 +43,7 @@ export const shopping_9 = [
   },
 ];
 
-export const shopping_10 = [
+export const a2_shopping_02 = [
   {
     key: '1',
     english: 'How much did your shoes cost?',
@@ -80,7 +80,7 @@ export const shopping_10 = [
   },
 ];
 
-export const shopping_11 = [
+export const a2_shopping_03 = [
   {
     key: '1',
     english: 'I want to buy a gift, but I don’t know what to choose. Do you have any recommendations?',
@@ -108,7 +108,7 @@ export const shopping_11 = [
   },
 ];
 
-export const shopping_12 = [
+export const a2_shopping_04 = [
   {
     key: '1',
     english: 'I want to buy a gift, but I don’t know what to choose. Do you have any recommendations?',

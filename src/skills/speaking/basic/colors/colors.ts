@@ -2,7 +2,7 @@ export const colors = [
   {
     key: '1',
     english: 'Hello, how can I help you?',
-    russian: 'Здравствуйте, чем я могу вам помочь??',
+    russian: 'Здравствуйте, чем я могу вам помочь?',
   },
   {
     key: '2',
@@ -130,7 +130,7 @@ export const colors4 = [
   {
     key: '7',
     english: 'Yes, here is the light gray and beige sample.',
-    russian: 'Да, вот образцы светло-серого и бежевого цветов.',
+    russian: 'Да, вот (здесь) образцы светло-серого и бежевого цветов.',
   },
   {
     key: '8',
@@ -201,5 +201,3 @@ export const colors5 = [
     russian: 'Они идеально подошли. Я их возьму.',
   },
 ];
-
-// https://www.youtube.com/watch?v=_chzOtxKqP4
