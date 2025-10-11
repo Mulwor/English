@@ -277,148 +277,58 @@ export const a1_jobs_01 = [
 ];
 
 export const a1_jobs_02 = [
-  { key: '1', english: 'What is your name?', russian: 'Как тебя зовут?' },
-  { key: '2', english: 'My name is Anna.', russian: 'Меня зовут Анна.' },
-  {
-    key: '3',
-    english: 'Do you have a job now?',
-    russian: 'У тебя есть работа сейчас?',
-  },
-  { key: '4', english: 'No, I don`t.', russian: 'Нет, у меня нет.' },
-  {
-    key: '5',
-    english: 'Can you work on weekends?',
-    russian: 'Ты можешь работать по выходным?',
-  },
-  { key: '6', english: 'Yes, I can.', russian: 'Да, могу.' },
-  {
-    key: '7',
-    english: 'What job do you want?',
-    russian: 'Какую работу ты хочешь?',
-  },
-  {
-    key: '8',
-    english: 'I want to be a shop assistant.',
-    russian: 'Я хочу быть продавцом.',
-  },
-  {
-    key: '9',
-    english: 'Do you have experience?',
-    russian: 'У тебя есть опыт?',
-  },
-  {
-    key: '10',
-    english: 'Yes, I worked for one year.',
-    russian: 'Да, я работала один год.',
-  },
-  {
-    key: '11',
-    english: 'Why do you want this job?',
-    russian: 'Почему ты хочешь эту работу?',
-  },
-  {
-    key: '12',
-    english: 'I like working with people.',
-    russian: 'Мне нравится работать с людьми.',
-  },
+  { key: '1', english: 'Do you have a job now? - No, I don`t.', russian: 'У тебя есть работа сейчас? - Нет, у меня нет.' },
+  { key: '2', english: 'Can you work on weekends? - Yes, I can.', russian: 'Ты можешь работать по выходным? - Да, могу.' },
+  { key: '3', english: 'What job do you want? - I want to be a shop assistant.', russian: 'Какую работу ты хочешь? - Я хочу быть продавцом.' },
+  { key: '4', english: 'Do you have experience? - Yes, I worked for one year.', russian: 'У тебя есть опыт? - Да, я работала один год.' },
+  { key: '5', english: 'Why do you want this job? - I like working with people.', russian: 'Почему ты хочешь эту работу? - Мне нравится работать с людьми.' },
 ];
 
 export const a1_jobs_03 = [
-  { key: '1', english: 'What do you do?', russian: 'Что ты делаешь?' },
-  { key: '2', english: 'I am a teacher.', russian: 'Я учитель.' },
+  { key: '1', english: 'What do you do? - I am a teacher.', russian: 'Что ты делаешь? - Я учитель.' },
+  { key: '2', english: 'Do you like your job? - Yes, I do.', russian: 'Тебе нравится твоя работа? - Да, нравится.' },
+  { key: '3', english: 'Where do you work? - I work at Green School.', russian: 'Где ты работаешь? - Я работаю в школе Green School.' },
   {
-    key: '3',
-    english: 'Do you like your job?',
-    russian: 'Тебе нравится твоя работа?',
-  },
-  { key: '4', english: 'Yes, I do.', russian: 'Да, нравится.' },
-  { key: '5', english: 'Where do you work?', russian: 'Где ты работаешь?' },
-  {
-    key: '6',
-    english: 'I work at Green School.',
-    russian: 'Я работаю в школе Green School.',
+    key: '4',
+    english: 'Do you work every day? - No, I work from Monday to Friday.',
+    russian: 'Ты работаешь каждый день? - Нет, я работаю с понедельника по пятницу.',
   },
   {
-    key: '7',
-    english: 'Do you work every day?',
-    russian: 'Ты работаешь каждый день?',
+    key: '5',
+    english: 'Do you have long holidays? - Yes, I do.',
+    russian: 'У тебя длинные каникулы? - Да, у меня есть.',
   },
-  {
-    key: '8',
-    english: 'No, I work from Monday to Friday.',
-    russian: 'Нет, я работаю с понедельника по пятницу.',
-  },
-  {
-    key: '9',
-    english: 'Do you have long holidays?',
-    russian: 'У тебя длинные каникулы?',
-  },
-  { key: '10', english: 'Yes, I do.', russian: 'Да, у меня есть.' },
 ];
 
 export const a1_jobs_04 = [
-  { key: '1', english: 'Where do you work?', russian: 'Где ты работаешь?' },
+  { key: '1', english: 'Where do you work? - I work in a hospital.', russian: 'Где ты работаешь? - Я работаю в больнице.' },
+  { key: '2', english: 'Are you a doctor? - No, I am a nurse.', russian: 'Ты врач? - Нет, я медсестра.' },
   {
-    key: '2',
-    english: 'I work in a hospital.',
-    russian: 'Я работаю в больнице.',
+    key: '3',
+    english: 'What do you do every day? - I help doctors and take care of patients.',
+    russian: 'Что ты делаешь каждый день? - Я помогаю врачам и забочусь о пациентах.',
   },
-  { key: '3', english: 'Are you a doctor?', russian: 'Ты врач?' },
-  { key: '4', english: 'No, I am a nurse.', russian: 'Нет, я медсестра.' },
-  {
-    key: '5',
-    english: 'What do you do every day?',
-    russian: 'Что ты делаешь каждый день?',
-  },
-  {
-    key: '6',
-    english: 'I help doctors and take care of patients.',
-    russian: 'Я помогаю врачам и забочусь о пациентах.',
-  },
-  { key: '7', english: 'Do you like it?', russian: 'Тебе нравится?' },
-  {
-    key: '8',
-    english: 'Yes, it is interesting.',
-    russian: 'Да, это интересно.',
-  },
-  {
-    key: '9',
-    english: 'Do you work at night?',
-    russian: 'Ты работаешь ночью?',
-  },
-  {
-    key: '10',
-    english: 'Sometimes, but not every week.',
-    russian: 'Иногда, но не каждую неделю.',
-  },
+  { key: '4', english: 'Do you like it? - Yes, it is interesting.', russian: 'Тебе нравится?- Да, это интересно.' },
+  { key: '5', english: 'Do you work at night? - Sometimes, but not every week.', russian: 'Ты работаешь ночью? - Иногда, но не каждую неделю.' },
 ];
 
 export const a1_jobs_05 = [
   {
     key: '1',
-    english: 'Excuse me, are you the shop assistant?',
-    russian: 'Извините, вы продавец?',
+    english: 'Excuse me, are you the shop assistant? - Yes, how can I help you?',
+    russian: 'Извините, вы продавец? - Да, чем могу помочь?',
   },
   {
     key: '2',
-    english: 'Yes, how can I help you?',
-    russian: 'Да, чем могу помочь?',
+    english: 'Do you have any blue shirts? - Yes, over here.',
+    russian: 'У вас есть синие рубашки? - Да, вот они.',
   },
   {
     key: '3',
-    english: 'Do you have any blue shirts?',
-    russian: 'У вас есть синие рубашки?',
+    english: 'Do you have my size? - What size are you? - Medium',
+    russian: 'У вас есть мой размер? - Какой у вас размер? - Средний',
   },
-  { key: '4', english: 'Yes, over here.', russian: 'Да, вот они.' },
-  {
-    key: '5',
-    english: 'Do you have my size?',
-    russian: 'У вас есть мой размер?',
-  },
-  { key: '6', english: 'What size are you?', russian: 'Какой у вас размер?' },
-  { key: '7', english: 'Medium.', russian: 'Средний.' },
-  { key: '8', english: 'Yes, here it is.', russian: 'Да, вот он.' },
-  { key: '9', english: 'Thank you.', russian: 'Спасибо.' },
+  { key: '4', english: 'Yes, here it is.', russian: 'Да, вот он.' },
 ];
 
 export const a1_jobs_06 = [
