@@ -6,10 +6,7 @@ interface initialDataProps {
   russian: string;
 }
 
-export const usePaginatedData = (
-  initialData: initialDataProps[],
-  pagesData: initialDataProps[][],
-) => {
+export const usePaginatedData = (initialData: initialDataProps[], pagesData: initialDataProps[][]) => {
   const [data, setData] = useState(initialData);
   const [currentPage, setCurrentPage] = useState(1);
 

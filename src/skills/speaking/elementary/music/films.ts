@@ -318,9 +318,7 @@ export const films_08 = [
   },
   {
     key: '6',
-    english:
-      'Yes, it leaves you with a lot of questions. It’s one of those films you can watch many times.',
-    russian:
-      'Да, он оставляет много вопросов. Это один из тех фильмов, которые можно смотреть много раз.',
+    english: 'Yes, it leaves you with a lot of questions. It’s one of those films you can watch many times.',
+    russian: 'Да, он оставляет много вопросов. Это один из тех фильмов, которые можно смотреть много раз.',
   },
 ];

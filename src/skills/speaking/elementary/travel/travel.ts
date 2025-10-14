@@ -547,10 +547,8 @@ export const travel_08 = [
   },
   {
     key: '6',
-    english:
-      'The museum is a 10-minute walk from here, and the park is a bit further, but you can take bus 12.',
-    russian:
-      'Музей в 10 минутах ходьбы отсюда, а парк немного дальше, но вы можете поехать на автобусе 12.',
+    english: 'The museum is a 10-minute walk from here, and the park is a bit further, but you can take bus 12.',
+    russian: 'Музей в 10 минутах ходьбы отсюда, а парк немного дальше, но вы можете поехать на автобусе 12.',
   },
   {
     key: '7',

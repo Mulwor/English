@@ -1,27 +1,7 @@
 import { Divider } from 'antd';
 import { BasicTable, Pagination } from '../../../../components';
-import {
-  allFilms,
-  films_01,
-  films_02,
-  films_03,
-  films_04,
-  films_05,
-  films_06,
-  films_07,
-  films_08,
-} from './films';
-import {
-  allMusic,
-  music_01,
-  music_02,
-  music_03,
-  music_04,
-  music_05,
-  music_06,
-  music_07,
-  music_08,
-} from './music';
+import { allFilms, films_01, films_02, films_03, films_04, films_05, films_06, films_07, films_08 } from './films';
+import { allMusic, music_01, music_02, music_03, music_04, music_05, music_06, music_07, music_08 } from './music';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
@@ -31,31 +11,13 @@ export const MusicAndFilms = () => {
     data: musicData,
     currentPage: musicCurrentPage,
     handlePageChange: musicHandlePageChange,
-  } = usePaginatedData(music_01, [
-    music_01,
-    music_02,
-    music_03,
-    music_04,
-    music_05,
-    music_06,
-    music_07,
-    music_08,
-  ]);
+  } = usePaginatedData(music_01, [music_01, music_02, music_03, music_04, music_05, music_06, music_07, music_08]);
 
   const {
     data: filmsData,
     currentPage: filmsCurrentPage,
     handlePageChange: filmsHandlePageChange,
-  } = usePaginatedData(films_01, [
-    films_01,
-    films_02,
-    films_03,
-    films_04,
-    films_05,
-    films_06,
-    films_07,
-    films_08,
-  ]);
+  } = usePaginatedData(films_01, [films_01, films_02, films_03, films_04, films_05, films_06, films_07, films_08]);
 
   return (
     <div>

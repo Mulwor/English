@@ -56,17 +56,13 @@ export const Furniture = () => {
       <Divider>Tasks</Divider>
 
       <li>
-        <a href='https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/'>
-          Сcылка
-        </a>
+        <a href='https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/'>Сcылка</a>
       </li>
       <li>
         <a href='https://agendaweb.org/vocabulary/house_furniture-exercises.html'>Сcылка</a>
       </li>
       <li>
-        <a href='https://learnenglishteens.britishcouncil.org/vocabulary/a1-a2-vocabulary/bedroom'>
-          Сcылка
-        </a>
+        <a href='https://learnenglishteens.britishcouncil.org/vocabulary/a1-a2-vocabulary/bedroom'>Сcылка</a>
       </li>
     </div>
   );

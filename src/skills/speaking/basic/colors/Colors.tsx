@@ -10,35 +10,14 @@ import { Video } from '../../../../components';
 const { Panel } = Collapse;
 
 const getRandomColor = () => {
-  const colors = [
-    'red',
-    'blue',
-    'green',
-    'yellow',
-    'purple',
-    'orange',
-    'pink',
-    'brown',
-    'gray',
-    'black',
-    'white',
-    'violet',
-    'indigo',
-    'cyan',
-  ];
+  const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown', 'gray', 'black', 'white', 'violet', 'indigo', 'cyan'];
   return colors[Math.floor(Math.random() * colors.length)];
 };
 
 export const Colors = () => {
   const [randomColor, setRandomColor] = useState(getRandomColor());
   const [inputValue, setInputValue] = useState('');
-  const { data, currentPage, handlePageChange } = usePaginatedData(colors, [
-    colors,
-    colors2,
-    colors3,
-    colors4,
-    colors5,
-  ]);
+  const { data, currentPage, handlePageChange } = usePaginatedData(colors, [colors, colors2, colors3, colors4, colors5]);
 
   useEffect(() => {
     setInputValue('');

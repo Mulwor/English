@@ -9,11 +9,7 @@ export interface TooltipForRender {
 
 export const pronouncePersonalTable = [
   {
-    title: (
-      <Tooltip title='Личные местоимения — могут употребляться вместо подлежащего и обозначать лицо, выполняющее действие.'>
-        Personal pronouns
-      </Tooltip>
-    ),
+    title: <Tooltip title='Личные местоимения — могут употребляться вместо подлежащего и обозначать лицо, выполняющее действие.'>Personal pronouns</Tooltip>,
     dataIndex: 'personal',
     key: 'personal',
     render: (value: TooltipForRender) => (
@@ -143,19 +139,15 @@ export const Pronouns = () => {
   return (
     <>
       <Divider>Pronouns - местоимения</Divider>
-
       <p>
-        Местоимения - это слова, заменяющие существительные в предложении. Существует несколько
-        видов местоимения (pronouns) - personal (личные); possessive (притяжательные); demonstrative
-        (указательные); reflexive (возвратные); interrogative (вопросительные); negative
-        (отрицательные), indefinite (неопределенные)
+        Местоимения - это слова, заменяющие существительные в предложении. Существует несколько видов местоимения (pronouns) - personal (личные); possessive
+        (притяжательные); demonstrative (указательные); reflexive (возвратные); interrogative (вопросительные); negative (отрицательные), indefinite
+        (неопределенные)
       </p>
-
       <p>
-        Разберем в начале personal pronounce, possessive adjectives, possessive pronounce, reflexive
-        pronounce. При наведение на таблицу выходит tooltip с поясняющей подсказкой.
+        Разберем в начале personal pronounce, possessive adjectives, possessive pronounce, reflexive pronounce. При наведение на таблицу выходит tooltip с
+        поясняющей подсказкой.
       </p>
-
       <Table
         columns={pronouncePersonalTable}
         dataSource={data}
@@ -163,10 +155,16 @@ export const Pronouns = () => {
         bordered
         size='small'
       />
-
       <div style={{ display: 'flex', gap: '2px', flexDirection: 'column', marginTop: '2px' }}>
-        <Collapse accordion size='small' className="my-collapse">
-          <Panel header='Personal pronouns examples' key='1'>
+        <Collapse
+          accordion
+          size='small'
+          className='my-collapse'
+        >
+          <Panel
+            header='Personal pronouns examples'
+            key='1'
+          >
             <ol>
               <li>I am happy. – Я счастлив.</li>
               <li>You are my friend. – Ты мой друг.</li>
@@ -176,8 +174,14 @@ export const Pronouns = () => {
             </ol>
           </Panel>
         </Collapse>
-        <Collapse accordion size='small'>
-          <Panel header='Possessive adjectives examples' key='2'>
+        <Collapse
+          accordion
+          size='small'
+        >
+          <Panel
+            header='Possessive adjectives examples'
+            key='2'
+          >
             <ol>
               <li>My book is on the table. – Моя книга на столе.</li>
               <li>Your dog is very friendly. – Твоя собака очень дружелюбная.</li>
@@ -187,8 +191,14 @@ export const Pronouns = () => {
             </ol>
           </Panel>
         </Collapse>
-        <Collapse accordion size='small'>
-          <Panel header='Possessive pronouns examples' key='3'>
+        <Collapse
+          accordion
+          size='small'
+        >
+          <Panel
+            header='Possessive pronouns examples'
+            key='3'
+          >
             <ol>
               <li>This book is mine. – Эта книга моя.</li>
               <li>That dog is yours. – Та собака твоя. </li>
@@ -198,8 +208,14 @@ export const Pronouns = () => {
             </ol>
           </Panel>
         </Collapse>
-        <Collapse accordion size='small'>
-          <Panel header='Reflexive pronouns examples' key='3'>
+        <Collapse
+          accordion
+          size='small'
+        >
+          <Panel
+            header='Reflexive pronouns examples'
+            key='3'
+          >
             <ol>
               <li>I made this cake myself. – Я сделал этот торт сам.</li>
               <li>She looked at herself in the mirror. – Она посмотрела на себя в зеркало.</li>
@@ -210,65 +226,72 @@ export const Pronouns = () => {
           </Panel>
         </Collapse>
       </div>
-
       <p>
-        Теперь разберем следующие местоимения - demonstrative (указательные), interrogative
-        (вопросительные), negative (отрицательные), indefinite (неопределенные)
+        Теперь разберем следующие местоимения - demonstrative (указательные), interrogative (вопросительные), negative (отрицательные), indefinite
+        (неопределенные)
       </p>
       <Divider>Demonstrative pronouns</Divider>
       <p>
         К <strong>указательным местоимением</strong> относятся такие слова как:&nbsp;
         <strong>this</strong> - <em>это, этот, эта</em>; <strong>that</strong> - <em>то</em>;&nbsp;
-        <strong>these</strong> - <em>эти</em>; <strong>those</strong> - <em>те</em>. Стоит отметить,
-        что this и that используются в единственном числе и означают, что предмет близко, a these и those
-        используются во множественном числе и означает что предмет далеко. Вот несколько примеров
-        использование указательных местоимений:
+        <strong>these</strong> - <em>эти</em>; <strong>those</strong> - <em>те</em>. Стоит отметить, что this и that используются в единственном числе и
+        означают, что предмет близко, a these и those используются во множественном числе и означает что предмет далеко. Вот несколько примеров использование
+        указательных местоимений:
       </p>
-
-      <Collapse accordion size='small'>
-        <Panel header='Demonstrative pronouns examples' key='5'>
+      <Collapse
+        accordion
+        size='small'
+      >
+        <Panel
+          header='Demonstrative pronouns examples'
+          key='5'
+        >
           <ol>
             <li>This box is heavier than that one – Эта коробка тяжелее, чем та</li>
             <li>These cupcakes are mine, and those on the table are Katya’s – Эти кексики мои, а вон те на столе – Катины.</li>
             <li>This morning I saw you – Я видел тебя этим утром</li>
             <li>That day was wonderful – Тот день был чудесным</li>
             <li>These towels are wet but those are dry already – Эти полотенца мокрые, а вон те уже сухие.</li>
-           </ol>
-         </Panel>
+          </ol>
+        </Panel>
       </Collapse>
-
       <Divider>Interrogative pronouns</Divider>
       <p>
         К <strong>вопросительным местоимениям </strong>относятся такие слова как:&nbsp;
         <strong>What?</strong>-<em>что?</em>; <strong>Which?</strong>-<em>который, какой?</em>&nbsp;
         <strong>Whose?</strong>-<em>чей?</em>; <strong>Who?</strong>-<em>кто?</em>
-        <strong>Whom?</strong>-<em>Кому, кем?</em> Вот несколько примеров использование указательных
-        местоимений:
+        <strong>Whom?</strong>-<em>Кому, кем?</em> Вот несколько примеров использование указательных местоимений:
       </p>
-
-      <Collapse accordion size='small'>
-        <Panel header='Interrogative pronouns examples' key='5'>
+      <Collapse
+        accordion
+        size='small'
+      >
+        <Panel
+          header='Interrogative pronouns examples'
+          key='5'
+        >
           <ol>
             <li> What do you want for dinner? – Что ты хочешь на ужин?</li>
             <li>Whose backpack is this? – Чей это рюкзак? </li>
             <li>Who won yesterday? – Кто вчера победил?</li>
             <li>I wonder what we’re doing tomorrow. - Мне интересно, что мы будем делать завтра. </li>
             <li> You should ask whom to call. - Тебе следует спросить, кому позвонить.</li>
-           </ol>
-         </Panel>
+          </ol>
+        </Panel>
       </Collapse>
-
       <Divider>Negative pronouns</Divider>
-      
-      <strong> Отрицательные местоимения </strong> используются для того, чтобы придать 
-      предложению отрицательное значение. К нему относятся следующие слова: 
-      <strong> no</strong> - <em>никакой</em>; <strong>nothing</strong> — <em>ничего, ничто</em> 
-      <strong> nobody</strong> — <em>никто</em>; <strong> no one</strong> — <em>никто</em>; 
-      <strong> none</strong> — <em>ни один из, ничто</em>; <strong> neither</strong> — <em> ни тот 
-      ни другой, ни один, никто</em>. 
-
-      <Collapse accordion size='small'>
-        <Panel header='Negative pronouns examples' key='5'>
+      <strong> Отрицательные местоимения </strong> используются для того, чтобы придать предложению отрицательное значение. К нему относятся следующие слова:
+      <strong> no</strong> - <em>никакой</em>; <strong>nothing</strong> — <em>ничего, ничто</em>
+      <strong> nobody</strong> — <em>никто</em>; <strong> no one</strong> — <em>никто</em>;<strong> none</strong> — <em>ни один из, ничто</em>;{' '}
+      <strong> neither</strong> — <em> ни тот ни другой, ни один, никто</em>.
+      <Collapse
+        accordion
+        size='small'
+      >
+        <Panel
+          header='Negative pronouns examples'
+          key='5'
+        >
           <ol>
             <li>I have no idea what to do with his attitude – У меня нет никаких идей насчет того, что делать с его поведением. </li>
             <li>No journalist talked about this case – Ни один журналист не говорил об этом случае. </li>
@@ -281,26 +304,29 @@ export const Pronouns = () => {
             <li>Оn this festival I saw none of the celebrities I wanted – На этом фестивале я не увидел никого из знаменитостей, на кого хотел посмотреть.</li>
             <li>Would you like some tea or coffee? Neither. – Вам кофе или чаю? Ни того, ни другого. </li>
             <li>Neither of them was looking for a job – Никто из них не искал работу.</li>
-           </ol>
-         </Panel>
+          </ol>
+        </Panel>
       </Collapse>
-
-     
       <Divider>Indefinite pronouns</Divider>
-
-      Неопределенные местоимения нужны в тех случаях, когда вы не хотите или не можете назвать
-      конкретный предмет или персону: <strong> something</strong> - <em> кое-что, нечто, что-нибудь</em>;
-      <strong> somebody / someone</strong> - <em> кто-нибудь, кто-то</em>; <strong> anything</strong> - <em>что-нибудь, 
-      всё, что угодно</em>; <strong> anybody / anyone</strong> - <em>кто-нибудь, всякий, любой</em>.
-
-      <Collapse accordion size='small'>
-        <Panel header='Indefinite pronouns examples' key='5'>
+      Неопределенные местоимения нужны в тех случаях, когда вы не хотите или не можете назвать конкретный предмет или персону: <strong>
+        {' '}
+        something
+      </strong> - <em> кое-что, нечто, что-нибудь</em>;<strong> somebody / someone</strong> - <em> кто-нибудь, кто-то</em>; <strong> anything</strong> -{' '}
+      <em>что-нибудь, всё, что угодно</em>; <strong> anybody / anyone</strong> - <em>кто-нибудь, всякий, любой</em>.
+      <Collapse
+        accordion
+        size='small'
+      >
+        <Panel
+          header='Indefinite pronouns examples'
+          key='5'
+        >
           <ol>
             <li>Everybody enjoyed the concert. - Все насладились концертом. </li>
             <li>I opened the door but there was no one at home. - Я открыл дверь, но никого не было дома.</li>
             <li>It was a very clear day. We could see everything. - Это был ясный день. Мы могли видеть все вокруг.</li>
-           </ol>
-         </Panel>
+          </ol>
+        </Panel>
       </Collapse>
     </>
   );

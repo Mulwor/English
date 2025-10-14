@@ -393,8 +393,7 @@ export const furniture_06 = [
   },
   {
     key: '2',
-    english:
-      'Sure! It’s a two-story house. There are three bedrooms, a kitchen, a living room, and two bathrooms.',
+    english: 'Sure! It’s a two-story house. There are three bedrooms, a kitchen, a living room, and two bathrooms.',
     russian: 'Конечно! Это двухэтажный дом. Есть три спальни, кухня, гостиная и две ванные.',
   },
   {
@@ -539,7 +538,6 @@ export const furniture_08 = [
     russian: 'Нет, его нет. Но у меня есть маленький коврик рядом с раковиной.',
   },
 ];
-
 
 export const numbers_elementary_04 = [
   { key: '1', english: 'You have a very nice apartment! How many people live here?', russian: 'У тебя очень милая квартира! Сколько человек здесь живёт?' },

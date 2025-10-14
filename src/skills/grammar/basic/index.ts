@@ -1,2 +1,2 @@
-export { Pronouns } from "./Pronouns";
+export { Pronouns } from './Pronouns';
 export { Nouns } from './Nouns';

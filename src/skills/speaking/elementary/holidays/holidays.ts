@@ -579,10 +579,8 @@ export const holidays_08 = [
   },
   {
     key: '4',
-    english:
-      'We are planning to visit beautiful beaches, explore ancient ruins, and try local food.',
-    russian:
-      'Мы планируем посетить красивые пляжи, исследовать древние руины и попробовать местную еду.',
+    english: 'We are planning to visit beautiful beaches, explore ancient ruins, and try local food.',
+    russian: 'Мы планируем посетить красивые пляжи, исследовать древние руины и попробовать местную еду.',
   },
   {
     key: '5',

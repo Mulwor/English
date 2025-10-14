@@ -10,15 +10,12 @@ export const Listening = () => {
         >
           Muzzy{' '}
         </a>
-        is an educational animated series created by the BBC for learning English. It is designed
-        for beginners (A1 level) and is suitable for both children and adults who are just starting
-        to learn the language.
+        is an educational animated series created by the BBC for learning English. It is designed for beginners (A1 level) and is suitable for both children and
+        adults who are just starting to learn the language.
       </li>
 
       <li>
-        <a href='https://www.youtube.com/playlist?list=PLc0_DKGuWp_2GK_ZyY81hiV_vdMaUmezE'>
-          Podcasts
-        </a>
+        <a href='https://www.youtube.com/playlist?list=PLc0_DKGuWp_2GK_ZyY81hiV_vdMaUmezE'>Podcasts</a>
       </li>
 
       <li>
@@ -28,8 +25,7 @@ export const Listening = () => {
         >
           Extra{' '}
         </a>
-        is an educational sitcom designed for English learners at the A2-B1 level. It consists of 30
-        episodes and is a fun way to practice English.
+        is an educational sitcom designed for English learners at the A2-B1 level. It consists of 30 episodes and is a fun way to practice English.
       </li>
     </ul>
   );

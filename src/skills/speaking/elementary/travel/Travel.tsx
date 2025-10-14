@@ -1,16 +1,5 @@
 import { Divider } from 'antd';
-import {
-  allTravel,
-  travel_01,
-  travel_02,
-  travel_03,
-  travel_05,
-  travel_06,
-  travel_07,
-  travel_08,
-  travel_09,
-  travel_10,
-} from './travel';
+import { allTravel, travel_01, travel_02, travel_03, travel_05, travel_06, travel_07, travel_08, travel_09, travel_10 } from './travel';
 import { columns } from '../../../../data/sample';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
@@ -68,9 +57,7 @@ export const Travel = () => {
         onPageChange={handlePageChange}
       />
 
-      <Divider>
-        Places in the city - уметь спрашивать как дойти до туда, или где находится что-либо
-      </Divider>
+      <Divider>Places in the city - уметь спрашивать как дойти до туда, или где находится что-либо</Divider>
 
       <BasicTable data={location} />
       <Pagination
