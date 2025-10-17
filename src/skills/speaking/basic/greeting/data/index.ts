@@ -8,5 +8,3 @@ export {
   greeting_elementary_05,
   greeting_elementary_06,
 } from './elementary';
-
-export { greeting_6, greeting_5 } from './preIntermediate';

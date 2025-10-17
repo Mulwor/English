@@ -1,0 +1,16 @@
+export const dialogs = [
+  { key: '1', english: '', russian: '' },
+  { key: '2', english: '', russian: '' },
+  { key: '3', english: '', russian: '' },
+  { key: '4', english: '', russian: '' },
+  { key: '5', english: '', russian: '' },
+  { key: '6', english: '', russian: '' },
+  { key: '7', english: '', russian: '' },
+  { key: '8', english: '', russian: '' },
+  { key: '9', english: '', russian: '' },
+  { key: '10', english: '', russian: '' },
+  { key: '11', english: '', russian: '' },
+  { key: '12', english: '', russian: '' },
+  { key: '13', english: '', russian: '' },
+  { key: '14', english: '', russian: '' },
+];

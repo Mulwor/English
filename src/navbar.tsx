@@ -7,42 +7,171 @@ type MenuItem = Required<MenuProps>['items'][number];
 const items: MenuItem[] = [
   {
     key: 'S-01',
-    label: 'Speaking',
+    label: 'A1 (Basic - Elementary)',
     children: [
       // ! Beginner and elementary
-      { key: 'S-01-1', label: <Link to='/beginner-and-elementary/speaking/greeting'>Greeting (A1/A2)</Link> },
-      { key: 'S-01-2', label: <Link to='/beginner-and-elementary/speaking/numbers'>Numbers (A1/A2)</Link> },
-      { key: 'S-01-3', label: <Link to='/beginner-and-elementary/speaking/time'>Time (A1/A2)</Link> },
-      { key: 'S-01-4', label: <Link to='/beginner-and-elementary/speaking/countries'>Countries (A1)</Link> },
-      { key: 'S-01-5', label: <Link to='/beginner-and-elementary/speaking/colors'>Colors (A1)</Link> },
-      { key: 'S-010-EX', label: '----------------' },
-      { key: 'S-01-6', label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes (A1/A2)</Link> },
-      { key: 'S-01-7', label: <Link to='/beginner-and-elementary/speaking/weather'>Weather (A1/A2)</Link> },
-      { key: 'S-01-8', label: <Link to='/beginner-and-elementary/speaking/jobs'>Jobs (A1/A2)</Link> },
-      { key: 'S-01-9', label: <Link to='/beginner-and-elementary/speaking/money'> Money (A1)</Link> },
-      { key: 'S-01-10', label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping (A1/A2)</Link> },
-      { key: 'S-01-11', label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks (A1)</Link> },
+      {
+        key: 'S-01-1',
+        label: <Link to='/beginner-and-elementary/speaking/greeting'>Greeting</Link>,
+      },
+      {
+        key: 'S-01-2',
+        label: <Link to='/beginner-and-elementary/speaking/numbers'>Numbers</Link>,
+      },
+      {
+        key: 'S-01-3',
+        label: <Link to='/beginner-and-elementary/speaking/time'>Time</Link>,
+      },
+      {
+        key: 'S-01-4',
+        label: <Link to='/beginner-and-elementary/speaking/countries'>Countries</Link>,
+      },
+      {
+        key: 'S-01-5',
+        label: <Link to='/beginner-and-elementary/speaking/colors'>Colors</Link>,
+      },
+      {
+        key: 'S-01-6',
+        label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes</Link>,
+      },
+      {
+        key: 'S-01-7',
+        label: <Link to='/beginner-and-elementary/speaking/weather'>Weather</Link>,
+      },
+      {
+        key: 'S-01-8',
+        label: <Link to='/beginner-and-elementary/speaking/jobs'>Jobs</Link>,
+      },
+      {
+        key: 'S-01-9',
+        label: <Link to='/beginner-and-elementary/speaking/money'>Money</Link>,
+      },
+      {
+        key: 'S-01-10',
+        label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping</Link>,
+      },
+      {
+        key: 'S-01-11',
+        label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,
+      },
       { key: 'S-011-EX', label: '----------------' },
-      { key: 'S-01-12', label: <Link to='/beginner-and-elementary/speaking/hobbies'>Hobbies</Link> },
-      { key: 'S-01-13', label: <Link to='/beginner-and-elementary/speaking/music-and-films'>Music and films</Link> },
-      { key: 'S-01-14', label: <Link to='/beginner-and-elementary/speaking/sport-and-fitness'>Sports and fitness</Link> },
-      { key: 'S-01-15', label: <Link to='/beginner-and-elementary/speaking/daily-routine'>Daily routine</Link> },
-      { key: 'S-01-16', label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link> },
-      { key: 'S-01-17', label: <Link to='/beginner-and-elementary/speaking/talking'>Talking about someone</Link> },
-      { key: 'S-01-18', label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link> },
-      { key: 'S-01-19', label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link> },
+      {
+        key: 'S-01-12',
+        label: <Link to='/beginner-and-elementary/speaking/hobbies'>Hobbies</Link>,
+      },
+      {
+        key: 'S-01-13',
+        label: <Link to='/beginner-and-elementary/speaking/music-and-films'>Music and films</Link>,
+      },
+      {
+        key: 'S-01-14',
+        label: <Link to='/beginner-and-elementary/speaking/sport-and-fitness'>Sports and fitness</Link>,
+      },
+      {
+        key: 'S-01-15',
+        label: <Link to='/beginner-and-elementary/speaking/daily-routine'>Daily routine</Link>,
+      },
+      {
+        key: 'S-01-16',
+        label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link>,
+      },
+      {
+        key: 'S-01-17',
+        label: <Link to='/beginner-and-elementary/speaking/talking'>Talking about someone</Link>,
+      },
+      {
+        key: 'S-01-18',
+        label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
+      },
+      {
+        key: 'S-01-19',
+        label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link>,
+      },
       { key: 'S-01-20', label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link> },
       { key: 'S-01-21', label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link> },
-      { key: 'S-02-1', label: <Link to='/pre-intermediate/speaking/family-relationships-and-friendship'>Family relationships and friendship (A2) </Link> },
-      { key: 'S-02-2', label: <Link to='/pre-intermediate/speaking/life-stages-and-events'>Life stages and events (A2)</Link> },
-      { key: 'S-02-3', label: <Link to='/pre-intermediate/speaking/city-life'>City life (A2)</Link> },
-      { key: 'S-02-4', label: <Link to='/pre-intermediate/speaking/transport'>Transport (A2)</Link> },
-      { key: 'S-02-5', label: <Link to='/pre-intermediate/speaking/education'>Education (A2)</Link> },
-      { key: 'S-02-6', label: <Link to='/pre-intermediate/speaking/fears-and-phobias'>Fears and phobias (A2)</Link> },
-      { key: 'S-02-7', label: <Link to='/pre-intermediate/speaking/animals'>Animals (A2)</Link> },
-      { key: 'S-02-8', label: <Link to='/pre-intermediate/speaking/news'>News (A2)</Link> },
-      { key: 'S-02-9', label: <Link to='/pre-intermediate/speaking/phrasal-verbs'>Phrasal verbs</Link> },
     ],
+  },
+  {
+    key: 'S-02',
+    label: 'A2 (Pre-intermediate)',
+    children: [
+      {
+        key: 'S-02-1',
+        label: <Link to='/pre-intermediate/speaking/family-relationships-and-friendship'>Family relationships and friendship</Link>,
+      },
+      {
+        key: 'S-02-2',
+        label: <Link to='/pre-intermediate/speaking/life-stages-and-events'>Life stages and events</Link>,
+      },
+      {
+        key: 'S-02-3',
+        label: <Link to='/pre-intermediate/speaking/appearance-and-personality'>Appearance and Personality</Link>,
+      },
+      {
+        key: 'S-02-4',
+        label: <Link to='/pre-intermediate/speaking/jobs-profession-and-workplaces'>Jobs, profession and workplaces</Link>,
+      },
+      {
+        key: 'S-02-5',
+        label: <Link to='/pre-intermediate/speaking/daily-activities'>Daily (everyday) activities</Link>,
+      },
+      {
+        key: 'S-02-6',
+        label: <Link to='/pre-intermediate/speaking/household-objects'>Household objects</Link>,
+      },
+      {
+        key: 'S-02-7',
+        label: <Link to='/pre-intermediate/speaking/hobbies'>Hobbies (sport, music)</Link>,
+      },
+      {
+        key: 'S-02-8',
+        label: <Link to='/pre-intermediate/speaking/food-and-health'>Food and health</Link>,
+      },
+      {
+        key: 'S-02-9',
+        label: <Link to='/pre-intermediate/speaking/holidays-and-travelling'>Holidays and travelling</Link>,
+      },
+      {
+        key: 'S-02-10',
+        label: <Link to='/pre-intermediate/speaking/city-life'>City life</Link>,
+      },
+      {
+        key: 'S-02-11',
+        label: <Link to='/pre-intermediate/speaking/transport'>Transport</Link>,
+      },
+      {
+        key: 'S-02-12',
+        label: <Link to='/pre-intermediate/speaking/clothes-and-shopping'>Clothes and shopping</Link>,
+      },
+      {
+        key: 'S-02-13',
+        label: <Link to='/pre-intermediate/speaking/climate-and-weather'>Climate and weather</Link>,
+      },
+      {
+        key: 'S-02-14',
+        label: <Link to='/pre-intermediate/speaking/education'>Education</Link>,
+      },
+      {
+        key: 'S-02-15',
+        label: <Link to='/pre-intermediate/speaking/fears-and-phobias'>Fears and phobias</Link>,
+      },
+      {
+        key: 'S-02-16',
+        label: <Link to='/pre-intermediate/speaking/animals'>Animals</Link>,
+      },
+      {
+        key: 'S-02-17',
+        label: <Link to='/pre-intermediate/speaking/news'>News</Link>,
+      },
+      // {
+      //   key: 'S-02-18',
+      //   label: <Link to='/pre-intermediate/speaking/phrasal-verbs'>Phrasal verbs</Link>,
+      // },
+    ],
+  },
+  {
+    key: 'S-03',
+    label: 'B1 (Intermediate)',
   },
   // {
   //   key: 'S-V2-01',
@@ -121,10 +250,10 @@ const items: MenuItem[] = [
   //     { key: 'G-02-19', label: <Link to=''>Indirect (Reported) speech</Link> },
   //   ],
   // },
-  {
-    key: 'R-04',
-    label: <Link to='/beginner-and-elementary/reading-and-listening'>Reading and Listening</Link>,
-  },
+  // {
+  //   key: 'R-04',
+  //   label: <Link to='/beginner-and-elementary/reading-and-listening'>Reading and Listening</Link>,
+  // },
   // {
   //   key: "Arab",
   //   label: "Арабский язык",

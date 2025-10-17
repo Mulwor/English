@@ -72,39 +72,26 @@ export const vocabulary_money = [
 ];
 
 export const a1_money_01 = [
-  { key: '1', english: 'Do you have money?', russian: 'У тебя есть деньги?' },
+  { key: '1', english: 'Do you have money? - Yes, I have some coins.', russian: 'У тебя есть деньги? - Да, у меня есть несколько монет.' },
   {
     key: '2',
-    english: 'Yes, I have some coins.',
-    russian: 'Да, у меня есть несколько монет.',
-  },
-  {
-    key: '3',
     english: 'I want to buy a drink.',
     russian: 'Я хочу купить напиток.',
   },
-  { key: '4', english: 'How much is it?', russian: 'Сколько это стоит?' },
   {
-    key: '5',
-    english: 'It is two dollars.',
-    russian: 'Это стоит два доллара.',
+    key: '3',
+    english: 'How much is it? - It is two dollars. - Here is the money.',
+    russian: 'Сколько это стоит? - Это стоит два доллара. - Вот деньги.',
   },
-  { key: '6', english: 'Here is the money.', russian: 'Вот деньги.' },
   { key: '7', english: '-', russian: '-' },
   { key: '8', english: 'I need a wallet.', russian: 'Мне нужен кошелек.' },
-  { key: '9', english: 'Do you have money?', russian: 'У тебя есть деньги?' },
-  {
-    key: '10',
-    english: 'Yes, I have cash.',
-    russian: 'Да, у меня есть наличные.',
-  },
+  { key: '9', english: 'Do you have money? - Yes, I have cash.', russian: 'У тебя есть деньги? - Да, у меня есть наличные.' },
   {
     key: '11',
     english: 'The wallet is cheap.',
     russian: 'Этот кошелек дешевый.',
   },
-  { key: '12', english: 'How much?', russian: 'Сколько?' },
-  { key: '13', english: 'Five dollars.', russian: 'Пять долларов.' },
+  { key: '12', english: 'How much? - Five dollars.', russian: 'Сколько? - Пять долларов.' },
 ];
 
 export const a1_money_02 = [
@@ -113,33 +100,25 @@ export const a1_money_02 = [
     english: 'This ice cream is expensive!',
     russian: 'Это мороженое дорогое!',
   },
-  { key: '2', english: 'How much is it?', russian: 'Сколько это стоит?' },
-  { key: '3', english: 'Three dollars.', russian: 'Три доллара.' },
+  { key: '2', english: 'How much is it? - Three dollars.', russian: 'Сколько это стоит? - Три доллара.' },
   {
-    key: '4',
+    key: '3',
     english: 'I have only two dollars.',
     russian: 'У меня есть только два доллара.',
   },
   {
-    key: '5',
+    key: '4',
     english: 'I have one dollar!',
     russian: 'У меня есть один доллар!',
   },
-  { key: '6', english: 'Thank you!', russian: 'Спасибо!' },
-  { key: '7', english: '-', russian: '-' },
+  { key: '5', english: '-', russian: '-' },
   {
-    key: '8',
+    key: '6',
     english: 'I want to buy this bag.',
     russian: 'Я хочу купить эту сумку.',
   },
-  { key: '9', english: 'How much is it?', russian: 'Сколько это стоит?' },
-  {
-    key: '10',
-    english: 'It’s $30, but I have a discount.',
-    russian: 'Это стоит 30 долларов, но у меня есть скидка.',
-  },
-  { key: '11', english: 'How much is the discount?', russian: 'Какая скидка?' },
-  { key: '12', english: '10%.', russian: '10%.' },
+  { key: '7', english: 'How much is it? - It’s $30, but I have a discount.', russian: 'Сколько это стоит? - Это стоит 30 долларов, но у меня есть скидка.' },
+  { key: '8', english: 'How much is the discount? - 10%', russian: 'Какая скидка? - 10%' },
 ];
 
 export const a1_money_03 = [
@@ -148,39 +127,28 @@ export const a1_money_03 = [
     english: 'I want to buy a book.',
     russian: 'Я хочу купить книгу.',
   },
-  { key: '2', english: 'Do you have money?', russian: 'У тебя есть деньги?' },
+  { key: '2', english: 'Do you have money? - Yes, I have ten dollars.', russian: 'У тебя есть деньги? - Да, у меня есть десять долларов.' },
   {
     key: '3',
-    english: 'Yes, I have ten dollars.',
-    russian: 'Да, у меня есть десять долларов.',
-  },
-  {
-    key: '4',
     english: 'The book is eight dollars.',
     russian: 'Эта книга стоит восемь долларов.',
   },
-  { key: '5', english: 'Here is the money.', russian: 'Вот деньги.' },
-  { key: '6', english: 'Here is your book!', russian: 'Вот ваша книга!' },
-  { key: '7', english: '-', russian: '-' },
+  { key: '4', english: 'Here is the money.', russian: 'Вот деньги.' },
+  { key: '5', english: 'Here is your book!', russian: 'Вот ваша книга!' },
+  { key: '6', english: '-', russian: '-' },
   {
-    key: '8',
+    key: '7',
     english: 'I want to buy a car, but it’s too expensive.',
     russian: 'Я хочу купить машину, но она слишком дорогая.',
   },
-  { key: '9', english: 'How much is it?', russian: 'Сколько она стоит?' },
-  { key: '10', english: '$15,000.', russian: '15 000 долларов.' },
+  { key: '8', english: 'How much is it? - $15,000.', russian: 'Сколько она стоит? - 15 000 долларов.' },
   {
-    key: '11',
-    english: 'Can you afford it?',
-    russian: 'Ты можешь себе это позволить?',
+    key: '9',
+    english: 'Can you afford it? - No, I need a loan.',
+    russian: 'Ты можешь себе это позволить? - Нет, мне нужен кредит.',
   },
   {
-    key: '12',
-    english: 'No, I need a loan.',
-    russian: 'Нет, мне нужен кредит.',
-  },
-  {
-    key: '13',
+    key: '10',
     english: 'Be careful with debts!',
     russian: 'Будь осторожен с долгами!',
   },
@@ -189,47 +157,37 @@ export const a1_money_03 = [
 export const a1_money_04 = [
   {
     key: '1',
-    english: 'How much does this coffee cost?',
-    russian: 'Сколько стоит этот кофе?',
+    english: 'How much does this coffee cost? - It costs $4.',
+    russian: 'Сколько стоит этот кофе? - Он стоит 4 доллара.',
   },
-  { key: '2', english: 'It costs $4.', russian: 'Он стоит 4 доллара.' },
   {
-    key: '3',
+    key: '2',
     english: 'I only have $3.',
     russian: 'У меня есть только 3 доллара.',
   },
   {
-    key: '4',
+    key: '3',
     english: 'I can pay one dollar for you.',
     russian: 'Я могу заплатить за тебя один доллар.',
   },
   {
-    key: '5',
+    key: '4',
     english: 'Thank you! Here is the money.',
     russian: 'Спасибо! Вот деньги.',
   },
-  { key: '6', english: 'You’re welcome!', russian: 'Пожалуйста!' },
-];
-
-export const a1_money_05 = [
+  { key: '5', english: 'You’re welcome!', russian: 'Пожалуйста!' },
+  { key: '6', english: '-', russian: '-' },
   {
-    key: '1',
-    english: 'Do you take cash or card?',
-    russian: 'Вы принимаете наличные или карту?',
+    key: '7',
+    english: 'Do you take cash or card? - We take both.',
+    russian: 'Вы принимаете наличные или карту? - Мы принимаем и то, и другое.',
   },
   {
-    key: '2',
-    english: 'We take both.',
-    russian: 'Мы принимаем и то, и другое.',
-  },
-  {
-    key: '3',
+    key: '8',
     english: 'Okay, I will pay with my credit card.',
     russian: 'Хорошо, я оплачу кредитной картой.',
   },
-  { key: '4', english: 'Here is your receipt.', russian: 'Вот ваш чек.' },
-  { key: '5', english: 'Thank you.', russian: 'Спасибо.' },
-  { key: '6', english: 'Have a nice day!', russian: 'Хорошего дня!' },
+  { key: '9', english: 'Here is your receipt and have a nice day.', russian: 'Вот ваш чек и хорошего дня.' },
 ];
 
 export const a1_money_06 = [
@@ -238,21 +196,11 @@ export const a1_money_06 = [
     english: 'I want to buy a new phone.',
     russian: 'Я хочу купить новый телефон.',
   },
-  { key: '2', english: 'Is it expensive?', russian: 'Он дорогой?' },
-  {
-    key: '3',
-    english: 'Yes, it is $500.',
-    russian: 'Да, он стоит 500 долларов.',
-  },
+  { key: '2', english: 'Is it expensive? - Yes, it is $500.', russian: 'Он дорогой? - Да, он стоит 500 долларов.' },
   {
     key: '4',
-    english: 'Do you have enough money?',
-    russian: 'У тебя достаточно денег?',
-  },
-  {
-    key: '5',
-    english: 'No, I need a loan.',
-    russian: 'Нет, мне нужен кредит.',
+    english: 'Do you have enough money? - No, I need a loan.',
+    russian: 'У тебя достаточно денег? - Нет, мне нужен кредит.',
   },
   {
     key: '6',

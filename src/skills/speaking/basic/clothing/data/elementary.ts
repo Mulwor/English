@@ -203,3 +203,61 @@ export const elementary_clothes_06 = [
     russian: 'Иногда. Это весело, но я не люблю тратить слишком много денег.',
   },
 ];
+
+export const preIntermediate_clothes_01 = [
+  {
+    key: '1',
+    english: 'That is a nice sweater - А. Thank you',
+    russian: 'Это красивый свитер. - А? Спасибо.',
+  },
+  {
+    key: '2',
+    english: 'That is a nice color shirt - Thank you very much',
+    russian: 'Это рубашка красивого цвета. - Большое спасибо.',
+  },
+  {
+    key: '3',
+    english: 'That is a really nice tie you are wearing - Thank you. I like it too',
+    russian: 'Это очень красивый галстук. - Спасибо. Мне тоже нравится.',
+  },
+  {
+    key: '4',
+    english: 'Is that a new Blouse? - Yes is it my sister bought it for me',
+    russian: 'Это новая блузка? - Да, моя сестра купила её для меня.',
+  },
+  {
+    key: '5',
+    english: 'Do you like that color? - i do. Navy blue is my favorite color',
+    russian: 'Тебе нравится этот цвет? - Да, темно-синий мой любимый цвет.',
+  },
+  {
+    key: '6',
+    english: 'Do you often wear black - Not often, red is another favorite color of mine',
+    russian: 'Ты часто носишь черное? - Не часто, красный тоже мой любимый цвет.',
+  },
+  {
+    key: '7',
+    english: 'Is green a favorite color of yours? - Yes, I also like yellow too',
+    russian: 'Зеленый твой любимый цвет? - Да, мне также нравится желтый.',
+  },
+  {
+    key: '8',
+    english: 'What other colors do you like to wear? - I like wearing blue, purples and white',
+    russian: 'Какие еще цвета тебе нравятся носить? - Мне нравится носить синий, фиолетовый и белый.',
+  },
+  {
+    key: '9',
+    english: 'Do you mind if i ask you a question? - Not at all',
+    russian: 'Ты не против, если я задам тебе вопрос? - Совсем нет.',
+  },
+  {
+    key: '10',
+    english: 'Do you need new shoes? - I always need new shoes',
+    russian: 'Тебе нужны новые туфли? - Мне всегда нужны новые туфли.',
+  },
+  {
+    key: '11',
+    english: 'Tell me, do you need a new pair of shoes? - I do not think so',
+    russian: 'Скажи, тебе нужна новая пара обуви? - Не думаю.',
+  },
+];
