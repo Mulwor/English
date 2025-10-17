@@ -54,7 +54,7 @@ const items: MenuItem[] = [
         key: 'S-01-11',
         label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,
       },
-      { key: 'S-011-EX', label: '----------------' },
+      { key: 'S-011-EX', label: '---------------------' },
       {
         key: 'S-01-12',
         label: <Link to='/beginner-and-elementary/speaking/hobbies'>Hobbies</Link>,
