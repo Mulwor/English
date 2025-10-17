@@ -1,4 +1,4 @@
-import { Divider, Collapse, Tabs } from 'antd';
+import { Divider, Collapse } from 'antd';
 import { BasicTable, Pagination, Video } from '../../../../components';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
