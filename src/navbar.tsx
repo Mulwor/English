@@ -46,6 +46,7 @@ const items: MenuItem[] = [
         key: 'S-01-9',
         label: <Link to='/beginner-and-elementary/speaking/money'>Money</Link>,
       },
+      { key: 'S-011-EX', label: '---------------------' },
       {
         key: 'S-01-10',
         label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping</Link>,
@@ -54,7 +55,6 @@ const items: MenuItem[] = [
         key: 'S-01-11',
         label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,
       },
-      { key: 'S-011-EX', label: '---------------------' },
       {
         key: 'S-01-12',
         label: <Link to='/beginner-and-elementary/speaking/hobbies'>Hobbies</Link>,
@@ -71,13 +71,10 @@ const items: MenuItem[] = [
         key: 'S-01-15',
         label: <Link to='/beginner-and-elementary/speaking/daily-routine'>Daily routine</Link>,
       },
+      { key: 'S-011-EX', label: '---------------------' },
       {
         key: 'S-01-16',
         label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link>,
-      },
-      {
-        key: 'S-01-17',
-        label: <Link to='/beginner-and-elementary/speaking/talking'>Talking about someone</Link>,
       },
       {
         key: 'S-01-18',
@@ -106,6 +103,10 @@ const items: MenuItem[] = [
       {
         key: 'S-02-3',
         label: <Link to='/pre-intermediate/speaking/appearance-and-personality'>Appearance and Personality</Link>,
+      },
+      {
+        key: 'S-01-17',
+        label: <Link to='/beginner-and-elementary/speaking/talking'>Talking about someone</Link>,
       },
       {
         key: 'S-02-4',

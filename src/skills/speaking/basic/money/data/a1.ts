@@ -118,7 +118,7 @@ export const a1_money_02 = [
     russian: 'Я хочу купить эту сумку.',
   },
   { key: '7', english: 'How much is it? - It’s $30, but I have a discount.', russian: 'Сколько это стоит? - Это стоит 30 долларов, но у меня есть скидка.' },
-  { key: '8', english: 'How much is the discount? - 10%', russian: 'Какая скидка? - 10%' },
+  { key: '8', english: 'How much is the discount? - 10%', russian: 'Сколько у тебя скидка? - 10%' },
 ];
 
 export const a1_money_03 = [
@@ -141,7 +141,7 @@ export const a1_money_03 = [
     english: 'I want to buy a car, but it’s too expensive.',
     russian: 'Я хочу купить машину, но она слишком дорогая.',
   },
-  { key: '8', english: 'How much is it? - $15,000.', russian: 'Сколько она стоит? - 15 000 долларов.' },
+  { key: '8', english: 'How much is it? - $15,000 (fifteen thousand).', russian: 'Сколько она стоит? - 15 000 долларов.' },
   {
     key: '9',
     english: 'Can you afford it? - No, I need a loan.',
@@ -187,7 +187,7 @@ export const a1_money_04 = [
     english: 'Okay, I will pay with my credit card.',
     russian: 'Хорошо, я оплачу кредитной картой.',
   },
-  { key: '9', english: 'Here is your receipt and have a nice day.', russian: 'Вот ваш чек и хорошего дня.' },
+  { key: '9', english: 'Here is your receipt [/rɪˈsiːt/] and have a nice day.', russian: 'Вот ваш чек и хорошего дня.' },
 ];
 
 export const a1_money_06 = [

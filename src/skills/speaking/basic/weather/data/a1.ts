@@ -115,14 +115,4 @@ export const a1_weather_06 = [
   { key: '2', english: 'Do you like cloudy days? - Not really. I like sunny days.', russian: 'Тебе нравятся облачные дни? - Не очень. Я люблю солнечные дни.' },
   { key: '3', english: 'Should we go for a short walk? - Yes, why not?', russian: 'Нам стоит пойти на короткую прогулку? - Да, почему бы и нет?' },
   { key: '4', english: 'Don’t forget your jacket. - Okay, thanks!', russian: 'Не забудь куртку. - Хорошо, спасибо!' },
-  { key: '5', english: 'Okay, thanks!', russian: 'Хорошо, спасибо!' },
-];
-
-export const a1_weather_08 = [
-  { key: '1', english: 'It is foggy outside.', russian: 'На улице туманно.' },
-  { key: '2', english: 'Yes, I can’t see very far.', russian: 'Да, я не вижу далеко.' },
-  { key: '3', english: 'Should we go to school now?', russian: 'Нам идти в школу сейчас?' },
-  { key: '4', english: 'Yes, but let’s walk slowly.', russian: 'Да, но пойдем медленно.' },
-  { key: '5', english: 'Okay, stay close to me.', russian: 'Хорошо, иди рядом со мной.' },
-  { key: '6', english: 'I will. Thank you!', russian: 'Я буду. Спасибо!' },
 ];

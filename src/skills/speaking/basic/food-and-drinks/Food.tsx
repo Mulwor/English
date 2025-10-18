@@ -29,12 +29,12 @@ export const Food = () => {
 
       <div style={{ display: 'flex', gap: '1rem', flexDirection: 'column' }}>
         <CollapseWithAccordion
-          text={'Food list'}
+          text={'Food vocabulary'}
           data={allFood}
           columns={columns}
         />
         <CollapseWithAccordion
-          text={'Drinks list'}
+          text={'Drinks vocabulary'}
           data={allDrinks}
           columns={columns}
         />

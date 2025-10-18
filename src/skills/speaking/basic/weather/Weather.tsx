@@ -3,7 +3,7 @@ import { BasicTable, Pagination, Video } from '../../../../components';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
-import { a1_weather_01, a1_weather_02, a1_weather_03, a1_weather_04, a1_weather_05, a1_weather_06, a1_weather_08, vocabulary_for_weather } from './data/a1';
+import { a1_weather_01, a1_weather_02, a1_weather_03, a1_weather_04, a1_weather_05, a1_weather_06, vocabulary_for_weather } from './data/a1';
 
 const { Panel } = Collapse;
 
@@ -15,7 +15,6 @@ export const Weather = () => {
     a1_weather_04,
     a1_weather_05,
     a1_weather_06,
-    a1_weather_08,
   ]);
 
   return (
@@ -77,7 +76,7 @@ export const Weather = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={7}
+        totalPages={6}
         onPageChange={handlePageChange}
       />
 

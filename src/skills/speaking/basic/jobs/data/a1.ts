@@ -278,7 +278,7 @@ export const a1_jobs_01 = [
 
 export const a1_jobs_02 = [
   { key: '1', english: 'Do you have a job now? - No, I don`t.', russian: 'У тебя есть работа сейчас? - Нет, у меня нет.' },
-  { key: '2', english: 'Can you work on weekends? - Yes, I can.', russian: 'Ты можешь работать по выходным? - Да, могу.' },
+  { key: '2', english: 'Can you work on weekends? - Yes, I can.', russian: 'Можешь ли работать по выходным? - Да, могу.' },
   { key: '3', english: 'What job do you want? - I want to be a shop assistant.', russian: 'Какую работу ты хочешь? - Я хочу быть продавцом.' },
   { key: '4', english: 'Do you have experience? - Yes, I worked for one year.', russian: 'У тебя есть опыт? - Да, я работала один год.' },
   { key: '5', english: 'Why do you want this job? - I like working with people.', russian: 'Почему ты хочешь эту работу? - Мне нравится работать с людьми.' },
@@ -287,7 +287,7 @@ export const a1_jobs_02 = [
 export const a1_jobs_03 = [
   { key: '1', english: 'What do you do? - I am a teacher.', russian: 'Что ты делаешь? - Я учитель.' },
   { key: '2', english: 'Do you like your job? - Yes, I do.', russian: 'Тебе нравится твоя работа? - Да, нравится.' },
-  { key: '3', english: 'Where do you work? - I work at Green School.', russian: 'Где ты работаешь? - Я работаю в школе Green School.' },
+  { key: '3', english: 'Where do you work? - I work at Green School.', russian: 'Где ты работаешь? - Я работаю в Green School.' },
   {
     key: '4',
     english: 'Do you work every day? - No, I work from Monday to Friday.',
@@ -337,20 +337,17 @@ export const a1_jobs_06 = [
     english: 'Can you work late tomorrow?',
     russian: 'Можете ли вы работать поздно завтра?',
   },
-  { key: '2', english: 'How late?', russian: 'Как поздно?' },
-  { key: '3', english: 'Until 8 PM.', russian: 'До 8 вечера.' },
+  { key: '2', english: 'How late? - Until 8 PM.', russian: 'Как поздно? - До 8 вечера.' },
   {
-    key: '4',
+    key: '3',
     english: 'OK, I can do that.',
     russian: 'Хорошо, я могу это сделать.',
   },
-  { key: '5', english: 'Thank you.', russian: 'Спасибо.' },
-  { key: '6', english: 'No problem.', russian: 'Без проблем.' },
+  { key: '4', english: 'Thank you. - No problem.', russian: 'Спасибо. - Без проблем.' },
   {
-    key: '7',
-    english: 'Do you usually work late?',
-    russian: 'Вы обычно работаете поздно?',
+    key: '5',
+    english: 'Do you usually work late? - No, only sometimes.',
+    russian: 'Вы обычно работаете поздно? - Нет, только иногда.',
   },
-  { key: '8', english: 'No, only sometimes.', russian: 'Нет, только иногда.' },
-  { key: '9', english: 'I will buy you coffee.', russian: 'Я куплю вам кофе.' },
+  { key: '6', english: 'I will buy you coffee.', russian: 'Я куплю вам кофе.' },
 ];
