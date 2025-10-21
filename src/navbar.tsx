@@ -101,10 +101,6 @@ const items: MenuItem[] = [
         label: <Link to='/pre-intermediate/speaking/life-stages-and-events'>Life stages and events</Link>,
       },
       {
-        key: 'S-02-3',
-        label: <Link to='/pre-intermediate/speaking/appearance-and-personality'>Appearance and Personality</Link>,
-      },
-      {
         key: 'S-01-17',
         label: <Link to='/beginner-and-elementary/speaking/talking'>Talking about someone</Link>,
       },

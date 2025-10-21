@@ -4,7 +4,7 @@ import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
 import { vocabulary_shopping } from './data/a1';
-import { a1_shopping_01, a1_shopping_02, a1_shopping_03, a1_shopping_04, a1_shopping_05, a1_shopping_06, a1_shopping_07, a1_shopping_08 } from './data/a1';
+import { a1_shopping_01, a1_shopping_02, a1_shopping_03, a1_shopping_04, a1_shopping_06, a1_shopping_07, a1_shopping_08 } from './data/a1';
 
 const { Panel } = Collapse;
 
@@ -14,7 +14,6 @@ export const Shopping = () => {
     a1_shopping_02,
     a1_shopping_03,
     a1_shopping_04,
-    a1_shopping_05,
     a1_shopping_06,
     a1_shopping_07,
     a1_shopping_08,
@@ -68,7 +67,7 @@ export const Shopping = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={8}
+        totalPages={7}
         onPageChange={handlePageChange}
       />
     </div>

@@ -189,16 +189,6 @@ export const a1_shopping_04 = [
   },
 ];
 
-export const a1_shopping_05 = [
-  { key: '1', english: 'Excuse me. What are those? - They are caps.', russian: 'Извините. Что это там? - Это кепки.' },
-  { key: '2', english: 'How much are they? - They are $20', russian: 'Сколько они стоят? - Они стоят 20 долларов.' },
-  { key: '3', english: 'And how much are these key chains? - They are $20', russian: 'А сколько стоят эти брелоки? - Они стоят 20 долларов.' },
-  { key: '4', english: 'And this mug? - $20', russian: 'А эта кружка? - $20' },
-  { key: '5', english: 'Is that a Yankees T-shirt? - No, it is a Mets T-shirt.', russian: 'Это футболка команды «Янкиз»? - Нет, это футболка команды «Метс».' },
-  { key: '6', english: 'How much is it? - $30.', russian: 'Сколько она стоит? - 30 долларов.' },
-  { key: '7', english: 'Oh...no. Thank you. Bye.', russian: 'О... нет. Спасибо. До свидания.' },
-];
-
 export const a1_shopping_06 = [
   {
     key: '1',
