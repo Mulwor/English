@@ -3,13 +3,8 @@ import { Divider, Drawer } from 'antd';
 
 export const Speaking = () => {
   const [drawerVisible, setDrawerVisible] = useState(false);
-  const [drawerContent, setDrawerContent] = useState<{
-    title: string;
-    items: string[];
-  }>({
-    title: '',
-    items: [],
-  });
+  const [drawerContent, setDrawerContent] = useState<{ title: string; items: string[];
+  }>({ title: '', items: [] });
 
   const levelData = {
     a0: {
@@ -145,14 +140,20 @@ export const Speaking = () => {
 
   return (
     <div>
-      <ol className='a1'>
+      <ol className='a1' style={{marginTop: '8px'}}>
         <p>
-          Уровни владения английским языком делится на следующие уровни: starter/beginner (A0), elementary (A1), pre-intermediate (A2), intermediate (B1),
-          upper-intermediate (B2), advanced (C1).
+          &nbsp; &nbsp; В английском языке существует несколько уровней владения: A0 (Starter или Beginner; иногда его рассматривают 
+          как подуровень A1), A1 (Elementary), A2 (Pre-Intermediate), B1 (Intermediate), B2 (Upper-Intermediate) и так далее.
         </p>
-        <p style={{ marginTop: '1rem' }}>
-          Стоит отметить, что в некоторых ресурсах отмечается, что А1 - это beginner и подуровень его elementary, я решил поступить также объединить в один
-          уровень A1 (starter / beginner - elementary). А потом на уровне А2 будут диалоги чуть посложнее (elementary plus - pre-intermediate)
+
+        <p style={{marginTop: '8px'}}>
+          &nbsp; &nbsp; Чтобы овладеть английским, нужно развивать пять основных навыков: чтение (reading), говорение (speaking), 
+          письмо (writing), аудирование (listening) и знание грамматики (grammar). 
+        </p>
+
+        <p style={{marginTop: '8px'}}>
+          &nbsp; &nbsp; Главная рекомендация для достижения быстрых результатов - выбрать именно два определенных навыка. Я основываю 
+          свой выбор на говорении (speaking) и аудировании (listening).
         </p>
 
         <Divider>Speaking</Divider>

@@ -1,18 +1,13 @@
 export const basic_time_01 = [
-  { key: '1', english: 'Excuse me, what time is it?', russian: 'Извините, который час?' },
-  { key: '2', english: 'It’s five o’clock.', russian: 'Сейчас пять часов.' },
-  { key: '3', english: 'Thank you!', russian: 'Спасибо!' },
-  { key: '4', english: 'You’re welcome!', russian: 'Пожалуйста!' },
-  { key: '5', english: '---', russian: '---' },
-  { key: '6', english: 'Hi! What time is lunch?', russian: 'Привет! Во сколько обед (ланч)?' },
-  { key: '7', english: 'At 12 o’clock.', russian: 'В 12 часов.' },
-  { key: '8', english: 'Great! I’m hungry.', russian: 'Отлично! Я голоден.' },
-  { key: '9', english: 'Me too!', russian: 'Я тоже!' },
-  { key: '10', english: '---', russian: '---' },
-  { key: '11', english: 'What day is it today?', russian: 'Какой сегодня день?' },
-  { key: '12', english: 'It’s Friday.', russian: 'Сегодня пятница.' },
-  { key: '13', english: 'Oh! Weekend is coming!', russian: 'О! Скоро выходные!' },
-  { key: '14', english: 'Yes, I’m happy!', russian: 'Да, я рад!' },
+  { key: '1', english: 'Excuse me, what time is it? - It’s five o’clock.', russian: 'Извините, который час? - Сейчас пять часов.' },
+  { key: '2', english: 'Thank you! - You’re welcome!', russian: 'Спасибо! - Пожалуйста!' },
+  { key: '3', english: '---', russian: '---' },
+  { key: '4', english: 'Hi! What time is lunch? - At 12 o’clock.', russian: 'Привет! Во сколько обед (ланч)? - В 12 часов.' },
+  { key: '5', english: 'Great! I’m hungry. - Me too!', russian: 'Отлично! Я голоден. - Я тоже!' },
+  { key: '6', english: '---', russian: '---' },
+  { key: '7', english: 'What day is it today? - It’s Friday.', russian: 'Какой сегодня день? - Сегодня пятница.' },
+  { key: '8', english: 'Oh! Weekend is coming!', russian: 'О! Скоро выходные!' },
+  { key: '9', english: 'Yes, I’m happy!', russian: 'Да, я рад!' },
 ];
 
 export const basic_time_02 = [

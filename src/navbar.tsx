@@ -7,7 +7,7 @@ type MenuItem = Required<MenuProps>['items'][number];
 const items: MenuItem[] = [
   {
     key: 'S-01',
-    label: 'A1 (Basic - Elementary)',
+    label: 'A1 (Beginner - elementary)',
     children: [
       // ! Beginner and elementary
       {
@@ -22,6 +22,7 @@ const items: MenuItem[] = [
         key: 'S-01-3',
         label: <Link to='/beginner-and-elementary/speaking/time'>Time</Link>,
       },
+      { key: 'S-011-EX1', label: '---------------------' },
       {
         key: 'S-01-4',
         label: <Link to='/beginner-and-elementary/speaking/countries'>Countries</Link>,
@@ -34,6 +35,7 @@ const items: MenuItem[] = [
         key: 'S-01-6',
         label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes</Link>,
       },
+      { key: 'S-011-EX2', label: '---------------------' },
       {
         key: 'S-01-7',
         label: <Link to='/beginner-and-elementary/speaking/weather'>Weather</Link>,

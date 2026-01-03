@@ -35,7 +35,7 @@ export const Time = () => {
 
   return (
     <>
-      <Divider>Time for A1 (Beginner and elementary)</Divider>
+      <Divider>Time - время</Divider>
       <CollapseWithAccordion
         text={'Vocabulary'}
         data={allTime}

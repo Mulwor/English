@@ -20,14 +20,14 @@ export const greeting_elementary_02 = [
 ];
 
 export const greeting_elementary_03 = [
-  { key: '1', english: 'Good afternoon. You are new here, right?', russian: 'Добрый день. Ты здесь новенький, да?' },
-  { key: '2', english: "Yes, it's my first day. My name is Ben.", russian: 'Да, это мой первый день. Меня зовут Бен.' },
+  { key: '1', english: 'Good afternoon. You are new here, right?', russian: 'Добрый день. Ты здесь новенький, правильно?' },
+  { key: '2', english: "Yes, it's my first day (informal) / this's my first day (formal). My name is Ben.", russian: 'Да, это мой первый день. Меня зовут Бен.' },
   { key: '3', english: "Nice to meet you, Ben. I'm Clara.", russian: 'Приятно познакомиться, Бен. Я Клара.' },
   { key: '4', english: 'Nice to meet you too, Clara. What do you do in the company?', russian: 'Взаимно, Клара. Чем ты занимаешься в компании?' },
   { key: '5', english: "I'm a designer. I work on the second floor.", russian: 'Я дизайнер. Я работаю на втором этаже.' },
   { key: '6', english: "I'm a programmer. I'm on the third floor.", russian: 'Я программист. Я на третьем этаже.' },
   { key: '7', english: 'Great! Let me know if you need any help.', russian: 'Отлично! Дай мне знать, если тебе нужна помощь.' },
-  { key: '8', english: "Thank you, Clara. That's very kind.", russian: 'Спасибо, Клара. Это очень мило с твоей стороны.' },
+  { key: '8', english: "Thank you, Clara. That's very kind of you.", russian: 'Спасибо, Клара. Это очень мило с твоей стороны.' },
 ];
 
 export const greeting_elementary_04 = [

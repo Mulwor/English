@@ -1,5 +1,3 @@
-// ! A1 => Beginner и elementary
-
 export const greeting_basic_01 = [
   { key: '1', english: 'Hi / Hello / Hey!', russian: 'Привет' },
   { key: '2', english: 'Good morning!', russian: 'Доброе утро!' },

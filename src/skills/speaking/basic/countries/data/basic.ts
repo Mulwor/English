@@ -219,20 +219,15 @@ export const allCountries = [
 ];
 
 export const basic_country_01 = [
-  { key: '1', english: 'Hi there! Where are you from?', russian: 'Привет! Откуда ты?' },
-  { key: '2', english: 'I’m from Australia. How about you?', russian: 'Я из Австралии. А ты?' },
-  { key: '3', english: 'I’m from Canada.', russian: 'Я из Канады.' },
-  { key: '4', english: '-', russian: '-' },
-  { key: '5', english: 'What’s your nationality?', russian: 'Кто ты по национальности?' },
-  { key: '6', english: 'I’m Italian. How about you?', russian: 'Я итальянец. А ты?' },
-  { key: '7', english: 'I’m Spanish', russian: 'Я испанец.' },
-  { key: '8', english: '-', russian: '-' },
-  { key: '9', english: 'Are you Chinese?', russian: 'Ты китаец?' },
-  { key: '10', english: 'No, I’m Japanese.', russian: 'Нет, я японец.' },
-  { key: '11', english: '-', russian: '-' },
-  { key: '12', english: 'Where do you come from?', russian: 'Откуда ты родом?' },
-  { key: '13', english: 'I come from India.', russian: 'Я родом из Индии.' },
-  { key: '14', english: 'Oh, nice! I’ve heard India is a beautiful country.', russian: 'О, здорово! Я слышал, Индия — красивая страна.' },
+  { key: '1', english: 'Where are you from? - I’m from Australia. How about you?', russian: 'Откуда ты? - Я из Австралии.' },
+  { key: '2', english: 'How about you? - I’m from Canada.', russian: 'А ты? - Я из Канады.' },
+  { key: '3', english: '-', russian: '-' },
+  { key: '4', english: 'What’s your nationality? - I’m Italian / spanish.', russian: 'Кто ты по национальности? - Я итальянец / испанец.' },
+  { key: '5', english: 'Are you Chinese? - No, I’m Japanese', russian: 'Ты китаец? - Нет, я японец.' },
+  { key: '6', english: '-', russian: '-' },
+  { key: '7', english: 'Where do you come from?', russian: 'Откуда ты родом?' },
+  { key: '8', english: 'I come from India.', russian: 'Я родом из Индии.' },
+  { key: '9', english: 'Oh, nice! I’ve heard India is a beautiful country.', russian: 'О, здорово! Я слышал, Индия — красивая страна.' },
 ];
 
 export const basic_country_02 = [

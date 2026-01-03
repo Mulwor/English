@@ -153,7 +153,7 @@ export const hobbies_02 = [
   {
     key: '3',
     english: 'What kind of movies do you like?',
-    russian: 'Какие фильмы тебе нравятся?',
+    russian: 'Какие фильмы тебе нравятся? (П.С. имеется ввиду жанр)',
   },
   {
     key: '4',
@@ -195,7 +195,7 @@ export const hobbies_03 = [
   },
   {
     key: '5',
-    english: 'I want to learn the guitar.',
+    english: 'I want to learn play the guitar.',
     russian: 'Я хочу научиться играть на гитаре.',
   },
   {
@@ -229,7 +229,7 @@ export const hobbies_04 = [
   {
     key: '5',
     english: 'That’s great! I like running.',
-    russian: 'Это здорово! Мне нравится бег.',
+    russian: 'Это здорово! Мне нравится бегать.',
   },
   {
     key: '6',
@@ -246,7 +246,7 @@ export const hobbies_05 = [
   },
   {
     key: '2',
-    english: 'Hi, Emma! Yes, I like playing soccer.',
+    english: 'Hi, Emma! Yes, I like playing soccer [sɔkə].',
     russian: 'Привет, Эмма! Да, я люблю играть в футбол.',
   },
   {
@@ -256,23 +256,8 @@ export const hobbies_05 = [
   },
   {
     key: '4',
-    english: 'I play every weekend with my friends. What about you?',
-    russian: 'Я играю каждый уикенд с друзьями. А ты?',
-  },
-  {
-    key: '5',
-    english: 'I love painting. I paint flowers and animals.',
-    russian: 'Я люблю рисовать. Я рисую цветы и животных.',
-  },
-  {
-    key: '6',
-    english: 'That sounds fun! Do you paint every day?',
-    russian: 'Звучит здорово! Ты рисуешь каждый день?',
-  },
-  {
-    key: '7',
-    english: 'Not every day, but I try to paint on weekends.',
-    russian: 'Не каждый день, но я стараюсь рисовать на выходных.',
+    english: 'I play every weekend with my friends.',
+    russian: 'Я играю каждый уикенд с друзьями.',
   },
 ];
 
@@ -343,7 +328,7 @@ export const hobbies_07 = [
   {
     key: '4',
     english: 'I started learning how to cook.',
-    russian: 'Я начала учиться готовить.',
+    russian: 'Я начала учиться (как) готовить.',
   },
   {
     key: '5',
@@ -353,7 +338,7 @@ export const hobbies_07 = [
   {
     key: '6',
     english: 'Yesterday, I made pasta. It was delicious!',
-    russian: 'Вчера я приготовила пасту. Было вкусно!',
+    russian: 'Вчера я сделал пасту. Было вкусно!',
   },
   {
     key: '7',
@@ -364,92 +349,5 @@ export const hobbies_07 = [
     key: '8',
     english: 'You should try! It’s fun and useful.',
     russian: 'Тебе стоит попробовать! Это весело и полезно.',
-  },
-];
-
-export const hobbies_08 = [
-  {
-    key: '1',
-    english: 'Hey, Lucas! Do you have any plans for the weekend?',
-    russian: 'Привет, Лукас! У тебя есть планы на выходные?',
-  },
-  {
-    key: '2',
-    english: 'Hi, Olivia! Yes, I’m going to ride my bike in the park.',
-    russian: 'Привет, Оливия! Да, я собираюсь кататься на велосипеде в парке.',
-  },
-  {
-    key: '3',
-    english: 'That sounds nice! Do you ride often?',
-    russian: 'Звучит здорово! Ты часто катаешься?',
-  },
-  {
-    key: '4',
-    english: 'Yes, I ride my bike almost every day. It’s my favorite hobby.',
-    russian: 'Да, я катаюсь на велосипеде почти каждый день. Это мое любимое хобби.',
-  },
-  {
-    key: '5',
-    english: 'I prefer indoor hobbies. I like knitting and watching movies.',
-    russian: 'Я предпочитаю занятия дома. Мне нравится вязать и смотреть фильмы.',
-  },
-  {
-    key: '6',
-    english: 'Knitting? That’s interesting! What do you make?',
-    russian: 'Вязание? Это интересно! Что ты вяжешь?',
-  },
-  {
-    key: '7',
-    english: 'I make scarves and sweaters.',
-    russian: 'Я вяжу шарфы и свитера.',
-  },
-  {
-    key: '8',
-    english: 'That’s cool! Maybe you can make a scarf for me?',
-    russian: 'Здорово! Может, ты сможешь сделать для меня шарф?',
-  },
-  { key: '9', english: 'Haha, maybe!', russian: 'Ха-ха, может быть!' },
-];
-
-export const hobbies_09 = [
-  {
-    key: '1',
-    english: 'Hey, Sophia! You look busy. What are you doing?',
-    russian: 'Привет, София! Ты выглядишь занятым. Чем ты занимаешься?',
-  },
-  {
-    key: '2',
-    english: 'Hi, David! I’m practicing photography.',
-    russian: 'Привет, Дэвид! Я практикуюсь в фотографии.',
-  },
-  {
-    key: '3',
-    english: 'Oh, that’s interesting! When did you start?',
-    russian: 'О, это интересно! Когда ты начал?',
-  },
-  {
-    key: '4',
-    english: 'Last month. I love taking pictures of nature.',
-    russian: 'Месяц назад. Я люблю фотографировать природу.',
-  },
-  {
-    key: '5',
-    english: 'Do you use a camera or your phone?',
-    russian: 'Ты используешь камеру или телефон?',
-  },
-  {
-    key: '6',
-    english: 'I use a camera. It takes better pictures.',
-    russian: 'Я использую камеру. Она делает лучшие фотографии.',
-  },
-  {
-    key: '7',
-    english: 'Can you teach me how to take good photos?',
-    russian: 'Ты можешь научить меня делать хорошие фотографии?',
-  },
-  {
-    key: '8',
-    english: 'Of course! Let’s go outside and take some pictures together.',
-    russian: 'Конечно! Давай выйдем на улицу и сделаем несколько фотографий вместе.',
   },
 ];
