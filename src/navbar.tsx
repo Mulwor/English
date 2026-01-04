@@ -22,7 +22,6 @@ const items: MenuItem[] = [
         key: 'S-01-3',
         label: <Link to='/beginner-and-elementary/speaking/time'>Time</Link>,
       },
-      { key: 'S-011-EX1', label: '---------------------' },
       {
         key: 'S-01-4',
         label: <Link to='/beginner-and-elementary/speaking/countries'>Countries</Link>,
@@ -31,11 +30,11 @@ const items: MenuItem[] = [
         key: 'S-01-5',
         label: <Link to='/beginner-and-elementary/speaking/colors'>Colors</Link>,
       },
+      { key: 'S-011-EX2', label: '---------------------' },
       {
         key: 'S-01-6',
         label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes</Link>,
       },
-      { key: 'S-011-EX2', label: '---------------------' },
       {
         key: 'S-01-7',
         label: <Link to='/beginner-and-elementary/speaking/weather'>Weather</Link>,
@@ -48,11 +47,11 @@ const items: MenuItem[] = [
         key: 'S-01-9',
         label: <Link to='/beginner-and-elementary/speaking/money'>Money</Link>,
       },
-      { key: 'S-011-EX', label: '---------------------' },
       {
         key: 'S-01-10',
         label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping</Link>,
       },
+      { key: 'S-011-EX', label: '---------------------' },
       {
         key: 'S-01-11',
         label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,

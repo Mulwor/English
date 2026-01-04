@@ -225,9 +225,8 @@ export const basic_country_01 = [
   { key: '4', english: 'What’s your nationality? - I’m Italian / spanish.', russian: 'Кто ты по национальности? - Я итальянец / испанец.' },
   { key: '5', english: 'Are you Chinese? - No, I’m Japanese', russian: 'Ты китаец? - Нет, я японец.' },
   { key: '6', english: '-', russian: '-' },
-  { key: '7', english: 'Where do you come from?', russian: 'Откуда ты родом?' },
-  { key: '8', english: 'I come from India.', russian: 'Я родом из Индии.' },
-  { key: '9', english: 'Oh, nice! I’ve heard India is a beautiful country.', russian: 'О, здорово! Я слышал, Индия — красивая страна.' },
+  { key: '7', english: 'Where do you come from? - I come from India.', russian: 'Откуда ты родом? - Я родом из Индии.' },
+  { key: '8', english: 'Oh, nice! I’ve heard India is a beautiful country.', russian: 'О, здорово! Я слышал, Индия — красивая страна.' },
 ];
 
 export const basic_country_02 = [
