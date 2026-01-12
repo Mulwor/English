@@ -82,8 +82,8 @@ export const Weather = () => {
 
       <Divider> Полезные выражение </Divider>
       <ol>
-        <li>turn on the fan - Включи вентилятор</li>
-        <li>stay warm - согреется</li>
+        <li>turn on the fan - включи вентилятор</li>
+        <li>stay warm - согреться (оставаться в тепле)</li>
       </ol>
     </>
   );

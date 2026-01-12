@@ -34,20 +34,6 @@ export const Travel = () => {
         data={allTravel}
         columns={columns}
       />
-      <div>
-        <a
-          href='https://www.learnenglishfeelgood.com/travelenglish/index.html'
-          className='links'
-        >
-          1. Дополнительные задание
-        </a>
-        <a
-          href='https://www.talkenglish.com/speaking/listtravel.aspx'
-          className='links'
-        >
-          2. Дополнительные задание
-        </a>
-      </div>
 
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />

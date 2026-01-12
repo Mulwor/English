@@ -31,7 +31,7 @@ export const elementary_clothes_02 = [
   {
     key: '1',
     english: 'What is your favorite piece of clothing?',
-    russian: 'Какая у тебя любимая одежда?',
+    russian: 'Какая у тебя любимая (часть) одежда(ы)?',
   },
   { key: '2', english: 'I love my jacket.', russian: 'Я люблю свою куртку.' },
   { key: '3', english: 'Is it warm?', russian: 'Она тёплая?' },
@@ -165,7 +165,7 @@ export const elementary_clothes_06 = [
   {
     key: '1',
     english: 'Hi, Peter! What are you wearing today?',
-    russian: 'Привет, Питер! Что ты сегодня надел?',
+    russian: 'Привет, Питер! Что на тебе сегодня (ты сегодня надел)?',
   },
   {
     key: '2',
@@ -194,12 +194,12 @@ export const elementary_clothes_06 = [
   },
   {
     key: '7',
-    english: 'Cool! Do you like shopping for clothes?',
+    english: 'Cool! Do you like shopping for (buying) clothes?',
     russian: 'Круто! Тебе нравится покупать одежду?',
   },
   {
     key: '8',
-    english: 'Sometimes. It’s fun, but I don’t like to spend too much money.',
+    english: 'Sometimes. It’s fun, but I don’t like to spend too much (spending a lot of) money.',
     russian: 'Иногда. Это весело, но я не люблю тратить слишком много денег.',
   },
 ];

@@ -1,9 +1,11 @@
-import { Divider } from 'antd';
+import { Collapse, Divider } from 'antd';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
 import { allHotel, hotel_01, hotel_02, hotel_03, hotel_04, hotel_05, hotel_06, hotel_07, hotel_08, hotel_09, hotel_10 } from './hotel';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { BasicTable, Pagination, Video } from '../../../../components';
+
+const { Panel } = Collapse;
 
 export const Hotel = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(hotel_01, [
@@ -28,11 +30,17 @@ export const Hotel = () => {
         columns={columns}
       />
 
-      <div className='video'>
-        <Video videoId='av9XRDVsbd8' />
-        <Video videoId='G1FoU1p1YPI' />
-        <Video videoId='0_yzAhXRgRw' />
-      </div>
+      <Divider>Listening</Divider>
+      <Collapse accordion>
+        <Panel header='Videos' key='1'>
+                 <div className='video'>
+
+          <Video videoId='av9XRDVsbd8' />
+          <Video videoId='G1FoU1p1YPI' />
+          <Video videoId='0_yzAhXRgRw' />
+                 </div>
+        </Panel>
+      </Collapse>
 
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />

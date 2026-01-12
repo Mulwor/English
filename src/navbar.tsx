@@ -30,7 +30,6 @@ const items: MenuItem[] = [
         key: 'S-01-5',
         label: <Link to='/beginner-and-elementary/speaking/colors'>Colors</Link>,
       },
-      { key: 'S-011-EX2', label: '---------------------' },
       {
         key: 'S-01-6',
         label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes</Link>,
@@ -51,7 +50,6 @@ const items: MenuItem[] = [
         key: 'S-01-10',
         label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping</Link>,
       },
-      { key: 'S-011-EX', label: '---------------------' },
       {
         key: 'S-01-11',
         label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,
@@ -103,7 +101,7 @@ const items: MenuItem[] = [
       },
       {
         key: 'S-01-17',
-        label: <Link to='/beginner-and-elementary/speaking/talking'>Talking about someone</Link>,
+        label: <Link to='/beginner-and-elementary/speaking/talking'>Appearance and Personality</Link>,
       },
       {
         key: 'S-02-4',

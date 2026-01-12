@@ -279,7 +279,7 @@ export const a1_jobs_01 = [
 export const a1_jobs_02 = [
   { key: '1', english: 'Do you have a job now? - No, I don`t.', russian: 'У тебя есть работа сейчас? - Нет, у меня нет.' },
   { key: '2', english: 'Can you work on weekends? - Yes, I can.', russian: 'Можешь ли работать по выходным? - Да, могу.' },
-  { key: '3', english: 'What job do you want? - I want to be a shop assistant.', russian: 'Какую работу ты хочешь? - Я хочу быть продавцом.' },
+  { key: '3', english: 'What job do you want? - I want to be a shop assistant (salesman).', russian: 'Какую работу ты хочешь? - Я хочу быть продавцом.' },
   { key: '4', english: 'Do you have experience? - Yes, I worked for one year.', russian: 'У тебя есть опыт? - Да, я работала один год.' },
   { key: '5', english: 'Why do you want this job? - I like working with people.', russian: 'Почему ты хочешь эту работу? - Мне нравится работать с людьми.' },
 ];

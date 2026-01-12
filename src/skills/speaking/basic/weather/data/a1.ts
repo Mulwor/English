@@ -79,7 +79,7 @@ export const a1_weather_02 = [
   { key: '2', english: 'Should we take an umbrella? - Yes, don’t forget it.', russian: 'Нам взять зонтик? - Да, не забудь его.' },
   { key: '3', english: 'I don’t like rainy weather. - Me neither.', russian: 'Мне не нравится дождливая погода. - Мне тоже.' },
   { key: '4', english: 'Do you want to stay home? - Yes, let’s watch a movie.', russian: 'Ты хочешь остаться дома? - Да, давай посмотрим фильм.' },
-  { key: '5', english: 'What movie should we watch? - Something happy!', russian: 'Какой фильм будем смотреть? - Что-нибудь веселое!' },
+  { key: '5', english: 'What movie should we watch? - Something happy!', russian: 'Какой фильм будем смотреть? - Что-нибудь радостное!' },
 ];
 
 export const a1_weather_03 = [
@@ -113,6 +113,6 @@ export const a1_weather_05 = [
 export const a1_weather_06 = [
   { key: '1', english: 'What’s the weather like today? - It is cloudy.', russian: 'Какая сегодня погода? - Облачно' },
   { key: '2', english: 'Do you like cloudy days? - Not really. I like sunny days.', russian: 'Тебе нравятся облачные дни? - Не очень. Я люблю солнечные дни.' },
-  { key: '3', english: 'Should we go for a short walk? - Yes, why not?', russian: 'Нам стоит пойти на короткую прогулку? - Да, почему бы и нет?' },
+  { key: '3', english: 'Should we go for a short walk? - Yes, why not?', russian: 'Нам стоит пойти на небольшую прогулку? - Да, почему бы и нет?' },
   { key: '4', english: 'Don’t forget your jacket. - Okay, thanks!', russian: 'Не забудь куртку. - Хорошо, спасибо!' },
 ];

@@ -36,7 +36,7 @@ export const Holidays = () => {
       <Divider>Holidays</Divider>
 
       <CollapseWithAccordion
-        text={'Rooms'}
+        text={'Vocabulary'}
         data={allHolidays}
         columns={columns}
       />
