@@ -2,7 +2,7 @@ export const colors = [
   {
     key: '1',
     english: 'Hello, how can I help you?',
-    russian: 'Здравствуйте, чем я могу вам помочь??',
+    russian: 'Здравствуйте, чем я могу вам помочь?',
   },
   {
     key: '2',
@@ -29,32 +29,24 @@ export const colors2 = [
   },
   {
     key: '3',
-    english: 'We have it in green',
-    russian: 'У нас есть и в зеленом цвете',
+    english: 'We have it in green - I will try it on',
+    russian: 'У нас есть и в зеленом цвете - Я (обязательно его) примерю',
   },
   {
     key: '4',
-    english: 'I will try it on',
-    russian: 'Я (обязательно его) примерю',
+    english: 'The green is perfect - I am not sure',
+    russian: 'Зеленый цвет просто идеален - Я не знаю ...',
   },
   {
     key: '5',
-    english: 'The green is perfect',
-    russian: 'Зеленый цвет просто идеален',
+    english: 'We have it in white - I will try it on',
+    russian: 'У нас есть и в белом цвете - Я примерю',
   },
-  { key: '6', english: 'I am not sure', russian: 'Я не знаю ...' },
   {
-    key: '7',
-    english: 'We have it in white',
-    russian: 'У нас есть и в белом цвете',
+    key: '6',
+    english: 'The white is so good - I am not sure yet',
+    russian: 'Белый цвет тоже хороший - Я пока не уверена',
   },
-  { key: '8', english: 'I will try it on', russian: 'Я примерю' },
-  {
-    key: '9',
-    english: 'The white is so good',
-    russian: 'Белый цвет тоже хороший',
-  },
-  { key: '10', english: 'I am not sure yet', russian: 'Я пока не уверена' },
 ];
 
 export const colors3 = [
@@ -77,12 +69,12 @@ export const colors3 = [
   {
     key: '5',
     english: 'I prefer blue.',
-    russian: 'Мне больше нравится синий.',
+    russian: 'Я предпочитаю синий.',
   },
   {
     key: '6',
     english: 'Blue is calm and peaceful.',
-    russian: 'Синий — спокойный и умиротворяющий.',
+    russian: 'Синий - спокойный и умиротворяющий.',
   },
   {
     key: '7',
@@ -130,7 +122,7 @@ export const colors4 = [
   {
     key: '7',
     english: 'Yes, here is the light gray and beige sample.',
-    russian: 'Да, вот образцы светло-серого и бежевого цветов.',
+    russian: 'Да, вот (здесь) образцы светло-серого и бежевого цветов.',
   },
   {
     key: '8',
@@ -201,5 +193,3 @@ export const colors5 = [
     russian: 'Они идеально подошли. Я их возьму.',
   },
 ];
-
-// https://www.youtube.com/watch?v=_chzOtxKqP4

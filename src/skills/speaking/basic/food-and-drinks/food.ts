@@ -287,83 +287,60 @@ export const food_1 = [
   },
   {
     key: '2',
-    english: 'I like fruit. My favourite fruit is an apple.',
-    russian: 'Я люблю фрукты. Мой любимый фрукт — яблоко.',
+    english: 'I like fruit. My favourite fruit is an apple. - I love apples too! ',
+    russian: 'Я люблю фрукты. Мой любимый фрукт — яблоко. - Я тоже люблю яблоки!',
   },
   {
     key: '3',
-    english: 'I love apples too! What about drinks?',
-    russian: 'Я тоже люблю яблоки! А как насчет напитков?',
+    english: 'What about drinks? - I like juice. Orange juice is the best!',
+    russian: 'А как насчет напитков? - Я люблю сок. Апельсиновый сок — лучший!',
   },
   {
     key: '4',
-    english: 'I like juice. Orange juice is the best!',
-    russian: 'Я люблю сок. Апельсиновый сок — лучший!',
+    english: 'But I prefer water. - Water is good. I drink it every day',
+    russian: 'Но я предпочитаю воду. - Вода хорошая. Я пью её каждый день.',
   },
-  {
-    key: '5',
-    english: 'I like juice too. But I prefer water.',
-    russian: 'Я тоже люблю сок. Но я предпочитаю воду.',
-  },
+  { key: '5', english: 'Do you like milk? - Yes, I drink milk with my breakfast.', russian: 'Ты любишь молоко? - Да, я пью молоко на завтрак.' },
   {
     key: '6',
-    english: 'Water is good. I drink it every day.',
-    russian: 'Вода хорошая. Я пью её каждый день.',
-  },
-  { key: '7', english: 'Do you like milk?', russian: 'Ты любишь молоко?' },
-  {
-    key: '8',
-    english: 'Yes, I drink milk with my breakfast.',
-    russian: 'Да, я пью молоко на завтрак.',
-  },
-  {
-    key: '9',
-    english: 'What do you have for lunch?',
-    russian: 'Что ты ешь на обед?',
-  },
-  {
-    key: '10',
-    english: 'I usually have a sandwich with cheese and tomato.',
-    russian: 'Обычно я ем бутерброд с сыром и помидором.',
+    english: 'What do you have for lunch? - I usually have a sandwich with cheese and tomato.',
+    russian: 'Что ты ешь на обед (ланч)? - Обычно я ем бутерброд с сыром и помидором.',
   },
 ];
 
 export const food_2 = [
   {
     key: '1',
-    english: 'Hi! What do you want to eat?',
-    russian: 'Привет! Что ты хочешь поесть?',
+    english: 'Hi! What do you want to eat? - I’ll have a sandwich with cheese and chicken.',
+    russian: 'Привет! Что ты хочешь поесть? - Я возьму бутерброд с сыром и курицей.',
   },
   {
     key: '2',
-    english: 'I’ll have a sandwich with cheese and chicken.',
-    russian: 'Я возьму бутерброд с сыром и курицей.',
+    english: 'That sounds good! - I’ll have a pizza.',
+    russian: 'Звучит хорошо! - Я возьму пиццу.',
   },
   {
     key: '3',
-    english: 'That sounds good! I’ll have a pizza.',
-    russian: 'Звучит хорошо! Я возьму пиццу.',
+    english: 'What drink do you want? - I want some soda, please',
+    russian: 'Какой напиток ты хочешь? - Я хочу газировку, пожалуйста.',
   },
   {
     key: '4',
-    english: 'What drink do you want?',
-    russian: 'Какой напиток ты хочешь?',
+    english: 'I’ll have lemonade.',
+    russian: 'Я возьму лимонад.',
   },
   {
     key: '5',
-    english: 'I want some soda, please',
-    russian: 'Я хочу газировку, пожалуйста.',
+    english: 'Do you want dessert? - Yes, I want some cake.',
+    russian: 'Ты хочешь десерт? - Да, я хочу торт.',
   },
-  { key: '6', english: 'I’ll have lemonade.', russian: 'Я возьму лимонад.' },
-  { key: '7', english: 'Do you want dessert?', russian: 'Ты хочешь десерт?' },
-  { key: '8', english: 'Yes, I want some cake.', russian: 'Да, я хочу торт.' },
   {
-    key: '9',
+    key: '6',
     english: 'I prefer fruit. Maybe some apples.',
     russian: 'Я предпочитаю фрукты. Может быть яблоки.',
   },
   {
-    key: '10',
+    key: '7',
     english: 'Apples are healthy! I should eat more fruit.',
     russian: 'Яблоки полезны! Мне стоит есть больше фруктов.',
   },
@@ -372,88 +349,60 @@ export const food_2 = [
 export const food_3 = [
   {
     key: '1',
-    english: 'What are you eating for lunch today?',
-    russian: 'Что ты ешь на обед сегодня?',
+    english: 'What are you eating for lunch today? - I’m having soup and salad.',
+    russian: 'Что ты собираешься кушать на обед сегодня? - Я ем суп и салат.',
   },
   {
     key: '2',
-    english: 'I’m having soup and salad. What about you?',
-    russian: 'Я ем суп и салат. А ты?',
+    english: 'What about you? - I’m having pasta with cheese.',
+    russian: 'А ты? - Я ем пасту с сыром.',
   },
   {
     key: '3',
-    english: 'I’m having pasta with cheese.',
-    russian: 'Я ем пасту с сыром.',
+    english: 'That sounds delicious! Do you drink anything with lunch? - I usually drink water.',
+    russian: 'Звучит вкусно! Ты пьешь что-то на обед? - Обычно я пью воду.',
   },
   {
     key: '4',
-    english: 'That sounds delicious! Do you drink anything with lunch?',
-    russian: 'Звучит вкусно! Ты пьешь что-то на обед?',
-  },
-  {
-    key: '5',
-    english: 'I usually drink water.',
-    russian: 'Обычно я пью воду.',
-  },
-  {
-    key: '6',
     english: 'I like tea with my lunch.',
     russian: 'Я люблю пить чай на обед.',
   },
   {
-    key: '7',
-    english: 'What kind of tea do you drink?',
-    russian: 'Какой чай ты пьешь?',
+    key: '5',
+    english: 'What kind of tea do you drink? - I drink black tea, sometimes with milk.',
+    russian: 'Какой (вид) чай ты пьешь? - Я пью черный чай, иногда с молоком.',
   },
-  {
-    key: '8',
-    english: 'I drink black tea, sometimes with milk.',
-    russian: 'Я пью черный чай, иногда с молоком.',
-  },
-  { key: '9', english: 'I like green tea.', russian: 'Я люблю зеленый чай.' },
-  {
-    key: '10',
-    english: 'Green tea is healthy!',
-    russian: 'Зеленый чай полезен!',
-  },
+  { key: '6', english: 'I like green tea. Green tea is healthy!', russian: 'Я люблю зеленый чай. Зеленый чай полезен!' },
 ];
 
 export const food_4 = [
   {
     key: '1',
-    english: 'What are you making for dinner?',
-    russian: 'Что ты готовишь на ужин?',
+    english: 'What are you making for dinner? - I’m making pasta with cheese.',
+    russian: 'Что ты готовишь на ужин? - Я готовлю пасту с сыром',
   },
   {
     key: '2',
-    english: 'I’m making pasta with cheese.',
-    russian: 'Я готовлю пасту с сыром.',
-  },
-  {
-    key: '3',
     english: 'That sounds delicious! I’ll make a salad.',
     russian: 'Звучит вкусно! Я приготовлю салат.',
   },
   {
+    key: '3',
+    english: 'Great idea! What drink will you have? - I’ll have some juice.',
+    russian: 'Отличная идея! Какой напиток ты будешь пить? - Я возьму сок.',
+  },
+  {
     key: '4',
-    english: 'Great idea! What drink will you have?',
-    russian: 'Отличная идея! Какой напиток ты будешь пить?',
+    english: 'I prefer milk. - Do you want some bread with that? - Yes, please!',
+    russian: 'Я предпочитаю молоко. - Ты хочешь хлеб с этим? - Да, пожалуйста!',
   },
-  { key: '5', english: 'I’ll have some juice.', russian: 'Я возьму сок.' },
-  { key: '6', english: 'I prefer milk.', russian: 'Я предпочитаю молоко.' },
   {
-    key: '7',
-    english: 'Do you want some bread with that?',
-    russian: 'Ты хочешь хлеб с этим?',
-  },
-  { key: '8', english: 'Yes, please!', russian: 'Да, пожалуйста!' },
-  {
-    key: '9',
+    key: '5',
     english: 'I’ll also make some cake for dessert.',
     russian: 'Я также приготовлю торт на десерт.',
   },
   {
-    key: '10',
+    key: '6',
     english: 'Yummy! I love cake.',
     russian: 'Вкусно! Я люблю торт.',
   },
@@ -462,141 +411,83 @@ export const food_4 = [
 export const food_5 = [
   {
     key: '1',
-    english: 'What would you like to eat?',
-    russian: 'Что ты хотел бы поесть?',
+    english: 'What would you like to eat? - I want a sandwich with cheese and ham.',
+    russian: 'Что бы ты хотел съесть? - Я хочу бутерброд с сыром и ветчиной.',
   },
   {
     key: '2',
-    english: 'I want a sandwich with cheese and ham.',
-    russian: 'Я хочу бутерброд с сыром и ветчиной.',
-  },
-  {
-    key: '3',
     english: 'I think I’ll have a salad.',
     russian: 'Я думаю, я возьму салат.',
   },
   {
-    key: '4',
-    english: 'Salad is healthy! What drink will you have?',
-    russian: 'Салат полезен! Какой напиток ты будешь пить?',
+    key: '3',
+    english: 'Salad is healthy! What drink will you have? - I’ll have some water.',
+    russian: 'Салат полезен! Какой напиток ты будешь пить? - Я возьму воду.',
   },
-  { key: '5', english: 'I’ll have some water.', russian: 'Я возьму воду.' },
   {
-    key: '6',
+    key: '4',
     english: 'I’ll have lemonade, please.',
     russian: 'Я возьму лимонад, пожалуйста.',
   },
   {
-    key: '7',
-    english: 'Do you want some fruit for dessert?',
-    russian: 'Ты хочешь фрукты на десерт?',
-  },
-  {
-    key: '8',
-    english: 'Yes, I love strawberries!',
-    russian: 'Да, я люблю клубнику!',
-  },
-  {
-    key: '9',
-    english: 'I prefer apples. They are very fresh.',
-    russian: 'Я предпочитаю яблоки. Они очень свежие.',
-  },
-  {
-    key: '10',
-    english: 'Apples are nice too! I like them with peanut butter.',
-    russian: 'Яблоки тоже хороши! Я люблю их с арахисовым маслом.',
+    key: '5',
+    english: 'Do you want some fruit for dessert? - Yes, I love strawberries!',
+    russian: 'Ты хочешь фрукты на десерт? - Да, я люблю клубнику!',
   },
 ];
 
 export const food_6 = [
   {
     key: '1',
-    english: 'What do you want for dinner?',
-    russian: 'Что ты хочешь на ужин?',
+    english: 'What do you want for dinner? - I think I’ll have pizza. What about you?',
+    russian: 'Что ты хочешь на ужин? - Я думаю, я возьму пиццу. А ты?',
   },
   {
     key: '2',
-    english: 'I think I’ll have pizza. What about you?',
-    russian: 'Я думаю, я возьму пиццу. А ты?',
-  },
-  {
-    key: '3',
     english: 'I’ll have pasta with tomato sauce.',
     russian: 'Я возьму пасту с томатным соусом.',
   },
   {
-    key: '4',
-    english: 'That sounds delicious! What drink will you get?',
-    russian: 'Звучит вкусно! Какой напиток ты возьмешь?',
+    key: '3',
+    english: 'That sounds delicious! What drink will you get? - I’ll have a glass of juice.',
+    russian: 'Звучит вкусно! Какой напиток ты возьмешь? - Я возьму стакан сока.',
   },
-  {
-    key: '5',
-    english: 'I’ll have a glass of juice.',
-    russian: 'Я возьму стакан сока.',
-  },
-  { key: '6', english: 'I’ll take soda.', russian: 'Я возьму газировку.' },
-  { key: '7', english: 'Do you want dessert?', russian: 'Ты хочешь десерт?' },
-  { key: '8', english: 'Yes, I want a cake!', russian: 'Да, я хочу торт!' },
-  {
-    key: '9',
-    english: 'I’ll have some fruit, maybe apples.',
-    russian: 'Я возьму фрукты, возможно яблоки.',
-  },
-  {
-    key: '10',
-    english: 'Apples are healthy. I should eat more fruit!',
-    russian: 'Яблоки полезны. Мне нужно есть больше фруктов!',
-  },
+  { key: '4', english: 'I’ll take soda.', russian: 'Я возьму газировку.' },
 ];
 
 export const food_7 = [
   {
     key: '1',
-    english: 'What do you want for dinner today?',
-    russian: 'Что ты хочешь на ужин сегодня?',
+    english: 'What do you want for dinner today? - I’m thinking about sushi',
+    russian: 'Что ты хочешь на ужин сегодня? - Я подумываю о суши',
   },
   {
     key: '2',
-    english: 'I’m thinking about pizza. What about you?',
-    russian: 'Я подумываю о пицце. А ты?',
+    english: 'What about you? - I’d like cheeseburger.',
+    russian: 'А ты? - Я бы хотел чизбургер.',
   },
   {
     key: '3',
-    english: 'I’d like pasta with tomato sauce.',
-    russian: 'Я бы хотел пасту с томатным соусом.',
+    english: 'That sounds good! - I’ll have a glass of Coffee.',
+    russian: 'Звучит хорошо! - Я возьму стакан кофе.',
   },
   {
     key: '4',
-    english: 'That sounds good! Do you want a drink with that?',
-    russian: 'Звучит хорошо! Ты хочешь напиток с этим?',
+    english: 'What will you drink? - I’ll have some iced tea, please.',
+    russian: 'Что ты будешь пить? - Я возьму холодный чай, пожалуйста.',
   },
   {
     key: '5',
-    english: 'I’ll have a glass of lemonade. What will you drink?',
-    russian: 'Я возьму стакан лимонада. Что ты будешь пить?',
+    english: 'That’s a good choice! Do you want some dessert? - Yes, I want a piece of cake.',
+    russian: 'Это хороший выбор! Ты хочешь десерт? - Да, я хочу кусочек торта.',
   },
   {
     key: '6',
-    english: 'I’ll have some iced tea, please.',
-    russian: 'Я возьму холодный чай, пожалуйста.',
-  },
-  {
-    key: '7',
-    english: 'That’s a good choice! Do you want some dessert?',
-    russian: 'Это хороший выбор! Ты хочешь десерт?',
-  },
-  {
-    key: '8',
-    english: 'Yes, I want a piece of cake.',
-    russian: 'Да, я хочу кусочек торта.',
-  },
-  {
-    key: '9',
     english: 'I’m not sure... maybe some fruit. I love strawberries.',
     russian: 'Я не уверен... может быть фрукты. Я люблю клубнику.',
   },
   {
-    key: '10',
+    key: '7',
     english: 'Strawberries are great! But I prefer a milkshake.',
     russian: 'Клубника отличная! Но я предпочитаю молочный коктейль.',
   },
@@ -605,196 +496,33 @@ export const food_7 = [
 export const food_8 = [
   {
     key: '1',
-    english: 'What do you usually eat for breakfast?',
-    russian: 'Что ты обычно ешь на завтрак?',
+    english: 'What do you usually eat for breakfast? - I usually have eggs and toast.',
+    russian: 'Что ты обычно ешь на завтрак? - Обычно я ем яйца и тосты.',
   },
   {
     key: '2',
-    english: 'I usually have eggs and toast. What about you?',
-    russian: 'Обычно я ем яйца и тосты. А ты?',
+    english: 'What about you? - I like to have cereal [sɪərɪəl] with milk.',
+    russian: 'А ты? - Мне нравится есть хлопья с молоком.',
   },
   {
     key: '3',
-    english: 'I like to have cereal with milk.',
-    russian: 'Мне нравится есть хлопья с молоком.',
+    english: 'Cereal is nice. Do you drink coffee in the morning? - Yes, I drink coffee every day.',
+    russian: 'Хлопья хорошие. Ты пьешь кофе по утрам? - Да, я пью кофе каждый день',
   },
   {
     key: '4',
-    english: 'Cereal is nice. Do you drink coffee in the morning?',
-    russian: 'Хлопья хорошие. Ты пьешь кофе по утрам?',
-  },
-  {
-    key: '5',
-    english: 'Yes, I drink coffee every day.',
-    russian: 'Да, я пью кофе каждый день.',
-  },
-  {
-    key: '6',
     english: 'I prefer tea. I drink hot tea every morning.',
     russian: 'Я предпочитаю чай. Я пью горячий чай каждое утро.',
   },
   {
-    key: '7',
-    english: 'That’s good! Do you eat fruit for breakfast?',
-    russian: 'Это хорошо! Ты ешь фрукты на завтрак?',
-  },
-  {
-    key: '8',
-    english: 'Sometimes I have bananas or oranges.',
-    russian: 'Иногда я ем бананы или апельсины.',
-  },
-  {
-    key: '9',
-    english: 'I eat apples in the morning. They are so fresh!',
-    russian: 'Я ем яблоки по утрам. Они такие свежие!',
-  },
-  {
-    key: '10',
-    english: 'Apples are my favourite too!',
-    russian: 'Яблоки тоже мои любимые!',
-  },
-];
-
-export const food_9 = [
-  {
-    key: '1',
-    english: 'What are you cooking for dinner tonight?',
-    russian: 'Что ты готовишь на ужин сегодня?',
-  },
-  {
-    key: '2',
-    english: 'I’m making chicken with vegetables.',
-    russian: 'Я готовлю курицу с овощами.',
-  },
-  {
-    key: '3',
-    english: 'Sounds good! Do you want some rice with that?',
-    russian: 'Звучит хорошо! Ты хочешь рис с этим?',
-  },
-  {
-    key: '4',
-    english: 'Yes, rice would be perfect.',
-    russian: 'Да, рис будет отлично.',
-  },
-  {
     key: '5',
-    english: 'I’ll bring some bread, too.',
-    russian: 'Я тоже принесу хлеб.',
+    english: 'That’s good! Do you eat fruit for breakfast? - Sometimes I have bananas or oranges',
+    russian: 'Это хорошо! Ты ешь фрукты на завтрак? - Иногда я ем бананы или апельсины.',
   },
   {
     key: '6',
-    english: 'Great! What drink do you want?',
-    russian: 'Отлично! Какой напиток ты хочешь?',
-  },
-  {
-    key: '7',
-    english: 'I’ll have some lemonade.',
-    russian: 'Я возьму лимонад.',
-  },
-  { key: '8', english: 'I’ll drink soda.', russian: 'Я буду пить газировку.' },
-  { key: '9', english: 'Do you want a dessert?', russian: 'Ты хочешь десерт?' },
-  {
-    key: '10',
-    english: 'I’m thinking about a milkshake',
-    russian: 'Я подумываю о молочном коктейле.',
-  },
-];
-
-export const food_10 = [
-  {
-    key: '1',
-    english: 'What do we need to buy in the store?',
-    russian: 'Что нам нужно купить в магазине?',
-  },
-  {
-    key: '2',
-    english: 'We need some bread and cheese.',
-    russian: 'Нам нужно немного хлеба и сыра.',
-  },
-  { key: '3', english: 'Do we need milk?', russian: 'Нам нужно молоко?' },
-  {
-    key: '4',
-    english: 'Yes, we do. And we need some juice too.',
-    russian: 'Да, нужно. И нам нужно немного сока.',
-  },
-  {
-    key: '5',
-    english: 'What about fruit? Do we need apples?',
-    russian: 'А как насчет фруктов? Нам нужны яблоки?',
-  },
-  {
-    key: '6',
-    english: 'Yes, apples and bananas.',
-    russian: 'Да, яблоки и бананы.',
-  },
-  {
-    key: '7',
-    english: 'Do we need anything for dessert?',
-    russian: 'Нам нужно что-то для десерта?',
-  },
-  {
-    key: '8',
-    english: 'We should get some cake.',
-    russian: 'Нам стоит купить немного торта.',
-  },
-  {
-    key: '9',
-    english: 'I’ll also buy some vegetables for dinner.',
-    russian: 'Я также куплю немного овощей для ужина.',
-  },
-  {
-    key: '10',
-    english: 'Good idea! We can make a salad.',
-    russian: 'Хорошая идея! Мы можем сделать салат.',
-  },
-];
-
-export const food_11 = [
-  {
-    key: '1',
-    english: 'What do you want to cook for dinner?',
-    russian: 'Что ты хочешь готовить на ужин?',
-  },
-  {
-    key: '2',
-    english: 'How about chicken with rice?',
-    russian: 'Как насчет курицы с рисом?',
-  },
-  {
-    key: '3',
-    english: 'That sounds great! Should we add vegetables?',
-    russian: 'Звучит здорово! Нам добавить овощи?',
-  },
-  {
-    key: '4',
-    english: 'Yes, we can have carrots and broccoli.',
-    russian: 'Да, можно добавить морковь и брокколи.',
-  },
-  {
-    key: '5',
-    english: 'What drink do you want with dinner?',
-    russian: 'Какой напиток ты хочешь к ужину?',
-  },
-  { key: '6', english: 'I’ll have some soda.', russian: 'Я возьму газировку.' },
-  {
-    key: '7',
-    english: 'I prefer water with my food.',
-    russian: 'Я предпочитаю воду с едой.',
-  },
-  {
-    key: '8',
-    english: 'Water is healthy! What about dessert?',
-    russian: 'Вода полезна! А что насчет десерта?',
-  },
-  {
-    key: '9',
-    english: 'I want some fruit. Maybe oranges or strawberries.',
-    russian: 'Я хочу немного фруктов. Может быть апельсины или клубнику.',
-  },
-  {
-    key: '10',
-    english: 'Strawberries are my favourite!',
-    russian: 'Клубника — моя любимая!',
+    english: 'I eat apples in the morning. They are so fresh! - Apples are my favourite too!',
+    russian: 'Я ем яблоки по утрам. Они такие свежие! - Яблоки тоже мои любимые фрукты!',
   },
 ];
 
@@ -811,7 +539,7 @@ export const food_12 = [
   },
   {
     key: '3',
-    english: 'I’ll have a steak, medium rare.',
+    english: 'I’ll have a steak, medium rare [reə].',
     russian: 'Я возьму стейк, средней прожарки.',
   },
   {
@@ -841,7 +569,7 @@ export const food_12 = [
   },
   {
     key: '9',
-    english: 'I prefer fruit. Maybe some berries.',
+    english: 'I prefer fruit. Maybe some berries [berɪ`es] .',
     russian: 'Я предпочитаю фрукты. Может быть, немного ягод.',
   },
   {

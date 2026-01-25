@@ -1,17 +1,7 @@
 import { createBrowserRouter, Link, Outlet } from 'react-router-dom';
 import { Navbar } from './navbar';
 import { ReadingAndListeningA1 } from './skills/reading-and-listening/ReadingAndListeningA1';
-import {
-  Clothing,
-  Colors,
-  Countries,
-  Food,
-  Greeting,
-  Jobs,
-  Money,
-  Weather,
-  Number,
-} from './skills/speaking/basic';
+import { Clothing, Colors, Countries, Food, Greeting, Jobs, Money, Weather, Number } from './skills/speaking/basic';
 import {
   Travel,
   DailyRoutine,
@@ -28,13 +18,16 @@ import {
 } from './skills/speaking/elementary';
 import { Pronouns, Nouns } from './skills/grammar/basic';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
-import { Relationship } from './skills/speaking/pre-intermediate/Relationship';
+import { Relationship } from './skills/speaking/pre-intermediate/relationship/Relationship';
 import { Speaking } from './skills/speaking/Speaking';
+import { LifeStages } from './skills/speaking/pre-intermediate/lifeStages/LifeStages';
 
 const Layout = () => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #C5C5C5'}}>
-      <h3 style={{ fontSize: '18px', padding: '1rem'}}><Link to="/">English</Link></h3>
+    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #C5C5C5' }}>
+      <h3 style={{ fontSize: '18px', padding: '1rem' }}>
+        <Link to='/'>English</Link>
+      </h3>
       <Navbar />
     </div>
 
@@ -45,8 +38,8 @@ const Layout = () => (
 );
 
 export const router = createBrowserRouter([
-  { 
-    path: '/', 
+  {
+    path: '/',
     element: <Layout />,
     children: [
       {
@@ -55,9 +48,9 @@ export const router = createBrowserRouter([
           <>
             <Speaking />
           </>
-        )
-      }
-    ]
+        ),
+      },
+    ],
   },
   {
     path: 'beginner-and-elementary',
@@ -101,13 +94,21 @@ export const router = createBrowserRouter([
         children: [
           { path: 'animals', element: <div>В процессе</div> },
           { path: 'fears-and-phobias', element: <div>В процессе</div> },
-          { path: 'family-relationships-and-friendship', element: <Relationship />},
-          { path: 'life-stages-and-events', element: <div>В процессе</div> },
+          { path: 'family-relationships-and-friendship', element: <Relationship /> },
+          { path: 'jobs-profession-and-workplaces',  element: <div>В процессе</div>  },
+          { path: 'life-stages-and-events', element: <LifeStages /> },
           { path: 'transport', element: <div>В процессе</div> },
           { path: 'city-life', element: <div>В процессе</div> },
           { path: 'education', element: <div>В процессе</div> },
           { path: 'news', element: <div>В процессе</div> },
           { path: 'phrasal-verbs', element: <AllPhrasalVerbs /> },
+          { path: 'household-objects', element: <div>В процессе</div> },
+          { path: 'daily-activities', element: <div>В процессе</div> },
+          { path: 'holidays-and-travelling', element: <div>В процессе</div> },
+          { path: 'clothes-and-shopping', element: <div>В процессе</div> },
+          { path: 'climate-and-weather', element: <div>В процессе</div> },
+          { path: 'food-and-health', element: <div>В процессе</div> },
+          { path: 'hobbies', element: <div>В процессе</div> }
         ],
       },
       {
@@ -119,9 +120,7 @@ export const router = createBrowserRouter([
   {
     path: 'main',
     element: <Layout />,
-    children: [
-      { path: 'speaking', element: <Speaking />}
-    ]
+    children: [{ path: 'speaking', element: <Speaking /> }],
   },
   {
     path: 'grammar',
@@ -183,4 +182,14 @@ export const router = createBrowserRouter([
   //     { path: 'lesson-01', element: <Lesson01 />},
   //   ]
   // }
+  {
+    path: 'allTogether',
+    element: <Layout />,
+    children: [
+      {
+        path: 'speak',
+        element: <div>В разработке</div>,
+      },
+    ],
+  },
 ]);

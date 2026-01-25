@@ -1,50 +1,64 @@
 import { Divider, Collapse } from 'antd';
-import {
-  allWeather,
-  weather_1,
-  weather_10,
-  weather_11,
-  weather_2,
-  weather_3,
-  weather_4,
-  weather_5,
-  weather_6,
-} from './weather';
 import { BasicTable, Pagination, Video } from '../../../../components';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
+import { a1_weather_01, a1_weather_02, a1_weather_03, a1_weather_04, a1_weather_05, a1_weather_06, vocabulary_for_weather } from './data/a1';
 
 const { Panel } = Collapse;
 
 export const Weather = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(weather_1, [
-    weather_1,
-    weather_2,
-    weather_3,
-    weather_4,
-    weather_5,
-    weather_6,
-    weather_10,
-    weather_11,
+  const { data, currentPage, handlePageChange } = usePaginatedData(a1_weather_01, [
+    a1_weather_01,
+    a1_weather_02,
+    a1_weather_03,
+    a1_weather_04,
+    a1_weather_05,
+    a1_weather_06,
   ]);
 
   return (
-    <div>
+    <>
       <Divider>Weather - погода</Divider>
-
-      <div>!!! Добавить также про климат диалоги</div>
-
       <div className='data'>
         <CollapseWithAccordion
           text={'Vocabulary'}
-          data={allWeather}
+          data={vocabulary_for_weather}
           columns={columns}
         />
+
+        <Collapse accordion>
+          <Panel
+            header='Tasks'
+            key='1'
+          >
+            <div className='links'>
+              <a
+                href='https://www.gamestolearnenglish.com/weather/'
+                target='_href'
+              >
+                1. Закрепление материала
+              </a>
+
+              <a
+                href='https://test-english.com/vocabulary/a2/the-weather-a2-english-vocabulary/'
+                target='_href'
+              >
+                2. Заполни пропуски
+              </a>
+
+              <a
+                href='https://www.youtube.com/watch?v=HXjZL6BqEFI'
+                target='_href'
+              >
+                3. Прослушай диалог и заполни таблицу
+              </a>
+            </div>
+          </Panel>
+        </Collapse>
       </div>
 
       <Divider>Listening</Divider>
-
       <Collapse accordion>
         <Panel
           header='Videos'
@@ -58,52 +72,19 @@ export const Weather = () => {
         </Panel>
       </Collapse>
 
-      <Divider>Tasks</Divider>
-      <div className='links'>
-        <a
-          href='https://www.gamestolearnenglish.com/weather/'
-          target='_href'
-        >
-          1. Закрепление материала
-        </a>
-
-        <a
-          href='https://test-english.com/vocabulary/a2/the-weather-a2-english-vocabulary/'
-          target='_href'
-        >
-          2. Заполни пропуски
-        </a>
-
-        <a
-          href='https://www.youtube.com/watch?v=HXjZL6BqEFI'
-          target='_href'
-        >
-          3. Прослушай диалог и заполни таблицу
-        </a>
-      </div>
-
       <Divider>Dialogs</Divider>
-
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={8}
+        totalPages={6}
         onPageChange={handlePageChange}
       />
 
-      <Divider>A2+ videos</Divider>
-
-      <Collapse accordion>
-        <Panel
-          header='Videos'
-          key='2'
-        >
-          <div className='video'>
-            <Video videoId='eYAaLWdx_h0' />
-            <Video videoId='40PRWD1-HWA' />
-          </div>
-        </Panel>
-      </Collapse>
-    </div>
+      <Divider> Полезные выражение </Divider>
+      <ol>
+        <li>turn on the fan - включи вентилятор</li>
+        <li>stay warm - согреться (оставаться в тепле)</li>
+      </ol>
+    </>
   );
 };

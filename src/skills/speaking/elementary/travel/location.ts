@@ -6,10 +6,8 @@ export const location_01 = [
   },
   {
     key: '2',
-    english:
-      'Sure! It’s not far from here. Walk straight for two blocks, then turn left. The museum is on your right.',
-    russian:
-      'Конечно! Это недалеко отсюда. Идите прямо два квартала, затем поверните налево. Музей будет справа.',
+    english: 'Sure! It’s not far from here. Walk straight for two blocks, then turn left. The museum is on your right.',
+    russian: 'Конечно! Это недалеко отсюда. Идите прямо два квартала, затем поверните налево. Музей будет справа.',
   },
   {
     key: '3',
@@ -41,10 +39,8 @@ export const location_02 = [
   },
   {
     key: '2',
-    english:
-      'Yes! There’s a nice one called “Green Garden.” Go straight, then turn right at the traffic light. It’s on the left side.',
-    russian:
-      'Да! Есть отличный ресторан под названием «Green Garden». Идите прямо, затем поверните направо на светофоре. Он будет слева.',
+    english: 'Yes! There’s a nice one called “Green Garden.” Go straight, then turn right at the traffic light. It’s on the left side.',
+    russian: 'Да! Есть отличный ресторан под названием «Green Garden». Идите прямо, затем поверните направо на светофоре. Он будет слева.',
   },
   {
     key: '3',
@@ -86,8 +82,7 @@ export const location_03 = [
   },
   {
     key: '2',
-    english:
-      'Sure! It’s just around the corner. Walk straight and turn left. You’ll see it on your right.',
+    english: 'Sure! It’s just around the corner. Walk straight and turn left. You’ll see it on your right.',
     russian: 'Конечно! Она прямо за углом. Идите прямо и поверните налево. Вы увидите её справа.',
   },
   {

@@ -1,4 +1,4 @@
-import { Divider } from 'antd';
+import { Collapse, Divider } from 'antd';
 import { BasicTable, Pagination, Video } from '../../../../components';
 import {
   sport_01,
@@ -19,6 +19,8 @@ import {
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
+
+const { Panel } = Collapse;
 
 export const Sport = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(sport_01, [
@@ -42,30 +44,31 @@ export const Sport = () => {
 
       <div style={{ display: 'flex', gap: '1rem', flexDirection: 'column' }}>
         <CollapseWithAccordion
-          text={'Sport and verb list'}
+          text={'Sport and verb vocabulary'}
           data={sportsTypes}
           columns={columns}
         />
         <CollapseWithAccordion
-          text={'Place and inventory list'}
+          text={'Place and inventory vocabulary'}
           data={sportsData}
           columns={columns}
         />
       </div>
 
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          gap: '1rem',
-          marginTop: '1rem',
-          marginBottom: '1rem',
-        }}
-      >
-        <Video videoId='JUpxmE1MuQQ' />
-        <Video videoId='_RN6DjnslOM' />
-        <Video videoId='mgSm4EoUYTQ' />
-      </div>
+      <Divider>Listening</Divider>
+
+      <Collapse accordion>
+        <Panel
+          header='Videos'
+          key='2'
+        >
+          <div className='video'>
+            <Video videoId='JUpxmE1MuQQ' />
+            <Video videoId='_RN6DjnslOM' />
+            <Video videoId='mgSm4EoUYTQ' />
+          </div>
+        </Panel>
+      </Collapse>
 
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />

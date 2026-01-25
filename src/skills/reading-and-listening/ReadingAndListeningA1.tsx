@@ -6,25 +6,21 @@ export const ReadingAndListeningA1 = () => {
       <Divider>Reading and Listening</Divider>
 
       <h4>
-        В этом разделе необходимо увеличить словарный запас и начать читать адаптированные книги.
-        Это те книги, которые подстроены под уровни владения языком.
+        В этом разделе необходимо увеличить словарный запас и начать читать адаптированные книги. Это те книги, которые подстроены под уровни владения языком.
       </h4>
 
       <ul>
         <Divider>Reading</Divider>
 
         <p>
-          Для того, чтобы читать адаптированные книги уровня beginner (starter) необходимо знать
-          около 600-800 слов, а для чтения уровня elementary около 1500 слов, а для уровня
-          pre-intermediate уже должен знать от 1500-2500 слов.
+          Для того, чтобы читать адаптированные книги уровня beginner (starter) необходимо знать около 600-800 слов, а для чтения уровня elementary около 1500
+          слов, а для уровня pre-intermediate уже должен знать от 1500-2500 слов.
         </p>
 
         <p>
-          Данный словарный запас можно получить двумя способами - выучить все слова без контекста
-          или сразу разбирать в контексте через адаптированные книги. Стоит отметить, что первый
-          способ должен быть только до уровня elementary, а затем все слова начиная с уровня
-          pre-intermediate выучить уже в контексте. Также у некоторых адаптированных книг есть
-          аудио-дорожка с помощью него можно улучшить и listening
+          Данный словарный запас можно получить двумя способами - выучить все слова без контекста или сразу разбирать в контексте через адаптированные книги.
+          Стоит отметить, что первый способ должен быть только до уровня elementary, а затем все слова начиная с уровня pre-intermediate выучить уже в
+          контексте. Также у некоторых адаптированных книг есть аудио-дорожка с помощью него можно улучшить и listening
         </p>
 
         <li>
@@ -76,9 +72,8 @@ export const ReadingAndListeningA1 = () => {
       <Divider>Listening</Divider>
 
       <p>
-        Иногда бывает так, что у нас есть словарный запас необходимый и мы хотим прокачать только
-        listening, но не затрагивая адаптированные книги. В этом нам поможет уже адаптированные
-        listening под определенные уровни.
+        Иногда бывает так, что у нас есть словарный запас необходимый и мы хотим прокачать только listening, но не затрагивая адаптированные книги. В этом нам
+        поможет уже адаптированные listening под определенные уровни.
       </p>
 
       <ul>
@@ -90,9 +85,8 @@ export const ReadingAndListeningA1 = () => {
             Muzzy
           </a>
           <span style={{ marginLeft: '3px' }}>
-            - образовательный анимационный сериал, созданный BBC для изучения английского языка. Он
-            рассчитан на начинающих (уровень beginner-elementary) и подходит как детям, так и
-            взрослым, которые только начинают изучать язык.
+            - образовательный анимационный сериал, созданный BBC для изучения английского языка. Он рассчитан на начинающих (уровень beginner-elementary) и
+            подходит как детям, так и взрослым, которые только начинают изучать язык.
           </span>
         </li>
 
@@ -113,8 +107,7 @@ export const ReadingAndListeningA1 = () => {
           >
             Extra
           </a>
-          is an educational sitcom designed for English learners at the A2-B1 level. It consists of
-          30 episodes and is a fun way to practice English.
+          is an educational sitcom designed for English learners at the A2-B1 level. It consists of 30 episodes and is a fun way to practice English.
         </li>
 
         <li>
@@ -124,9 +117,7 @@ export const ReadingAndListeningA1 = () => {
           >
             Podcasts
           </a>
-          <span style={{ marginLeft: '3px' }}>
-            - для уровня elementary plus или pre-intermediate
-          </span>
+          <span style={{ marginLeft: '3px' }}>- для уровня elementary plus или pre-intermediate</span>
         </li>
 
         <li>
@@ -136,9 +127,7 @@ export const ReadingAndListeningA1 = () => {
           >
             Podcasts
           </a>
-          <span style={{ marginLeft: '3px' }}>
-            - для уровня pre-intermediate и intermediate minus
-          </span>
+          <span style={{ marginLeft: '3px' }}>- для уровня pre-intermediate и intermediate minus</span>
         </li>
       </ul>
     </>

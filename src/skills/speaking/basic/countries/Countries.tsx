@@ -1,18 +1,11 @@
 import { Table, Collapse, Divider } from 'antd';
-import {
-  allCountries,
-  country,
-  country1,
-  country2,
-  country3,
-  country4,
-  country5,
-  country6,
-} from './countries';
 import { Video } from '../../../../components';
 import { BasicTable } from '../../../../components';
 import { Pagination } from '../../../../components/Pagination';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
+import { allCountries, basic_country_01, basic_country_02, basic_country_03 } from './data/basic';
+import { elementary_country_01, elementary_country_02 } from './data/elementary';
+import { preIntermediate_country_01, preIntermediate_country_02 } from './data/preIntermediate';
 
 const { Panel } = Collapse;
 
@@ -24,14 +17,14 @@ const columns = [
 ];
 
 export const Countries = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(country, [
-    country,
-    country1,
-    country2,
-    country3,
-    country4,
-    country5,
-    country6,
+  const { data, currentPage, handlePageChange } = usePaginatedData(basic_country_01, [
+    basic_country_01,
+    basic_country_02,
+    basic_country_03,
+    elementary_country_01,
+    elementary_country_02,
+    preIntermediate_country_01,
+    preIntermediate_country_02,
   ]);
 
   return (
@@ -68,7 +61,6 @@ export const Countries = () => {
       </Collapse>
 
       <Divider>Dialogs</Divider>
-
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
@@ -81,7 +73,7 @@ export const Countries = () => {
       <Collapse accordion>
         <Panel
           header='Videos'
-          key='2'
+          key='3'
         >
           <div className='video'>
             <Video videoId='2Qpa1VPWSJg' />

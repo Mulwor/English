@@ -1,4 +1,4 @@
-import { Divider } from 'antd';
+import { Collapse, Divider } from 'antd';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
 import { columns } from '../../../../data/sample';
 import {
@@ -22,16 +22,18 @@ import {
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { Pagination, BasicTable, Video } from '../../../../components';
 
+const { Panel } = Collapse;
+
 export const DescribingPerson = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(describingPerson_01, [
     describingPerson_01,
     describingPerson_02,
-    describingPerson_03,
     describingPerson_04,
     describingPerson_05,
     describingPerson_06,
     describingPerson_07,
     describingPerson_08,
+    describingPerson_03,
     describingPerson_09,
     describingPerson_10,
     describingPerson_11,
@@ -43,38 +45,39 @@ export const DescribingPerson = () => {
     <div>
       <Divider>Describing person</Divider>
 
-      <div>! Разобрать Appearance and Personality</div>
-
-      <CollapseWithAccordion
-        text={'Appearance'}
-        data={appearance}
-        columns={columns}
-      />
-      <CollapseWithAccordion
-        text={'Hear and eyes'}
-        data={hairAndEyes}
-        columns={columns}
-      />
-      <CollapseWithAccordion
-        text={'Personality'}
-        data={personality}
-        columns={columns}
-      />
-
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          gap: '1rem',
-          marginTop: '1rem',
-          marginBottom: '1rem',
-        }}
-      >
-        <Video videoId='KRO9MhBo604' />
-        <Video videoId='x0YQX7gGkQs' />
-        <Video videoId='Uwk_rJcTcBg' />
-        <Video videoId='zT5IiE9m9oY' />
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '100%' }}>
+        <CollapseWithAccordion
+          text={'Appearance'}
+          data={appearance}
+          columns={columns}
+        />
+        <CollapseWithAccordion
+          text={'Hear and eyes'}
+          data={hairAndEyes}
+          columns={columns}
+        />
+        <CollapseWithAccordion
+          text={'Personality'}
+          data={personality}
+          columns={columns}
+        />
       </div>
+
+      <Divider>Listening</Divider>
+
+      <Collapse accordion>
+        <Panel
+          header='Videos'
+          key='1'
+        >
+          <div className='video'>
+            <Video videoId='KRO9MhBo604' />
+            <Video videoId='x0YQX7gGkQs' />
+            <Video videoId='Uwk_rJcTcBg' />
+            <Video videoId='zT5IiE9m9oY' />
+          </div>
+        </Panel>
+      </Collapse>
 
       <Divider>Dialogs</Divider>
       <BasicTable data={data} />
@@ -84,25 +87,19 @@ export const DescribingPerson = () => {
         onPageChange={handlePageChange}
       />
 
-      <Divider>Tasks</Divider>
-
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          gap: '1rem',
-          marginTop: '1rem',
-          marginBottom: '1rem',
-        }}
-      >
-        <Video videoId='XK22iAxg3BI' />
-        <Video videoId='YsDfuAiIzDE' />
-      </div>
-
-      <Divider>Reading and listening</Divider>
-      <Video videoId='etGK_zflaZE' />
-
-      <Divider>Для уровня B1: Describing people’s appearance and character </Divider>
+      <Divider>Tasks and listening</Divider>
+      <Collapse accordion>
+        <Panel
+          header='Videos'
+          key='1'
+        >
+          <div className='video'>
+            <Video videoId='XK22iAxg3BI' />
+            <Video videoId='YsDfuAiIzDE' />
+            <Video videoId='etGK_zflaZE' />
+          </div>
+        </Panel>
+      </Collapse>
     </div>
   );
 };

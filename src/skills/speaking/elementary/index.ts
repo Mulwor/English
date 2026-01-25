@@ -11,17 +11,4 @@ import { Hotel } from './hotel/Hotel.tsx';
 import { Travel } from './travel/Travel.tsx';
 import { Holidays } from './holidays/Holidays.tsx';
 
-export {
-  Shopping,
-  Time,
-  DailyRoutine,
-  Hobbies,
-  Sport,
-  MusicAndFilms,
-  DescribingPerson,
-  TalkingAboutSomeone,
-  Furniture,
-  Hotel,
-  Travel,
-  Holidays,
-};
+export { Shopping, Time, DailyRoutine, Hobbies, Sport, MusicAndFilms, DescribingPerson, TalkingAboutSomeone, Furniture, Hotel, Travel, Holidays };

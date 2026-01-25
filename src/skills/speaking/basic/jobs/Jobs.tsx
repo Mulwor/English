@@ -1,19 +1,6 @@
 import { Collapse, Divider, Table } from 'antd';
 import { BasicTable, Pagination, Video } from '../../../../components';
-import {
-  jobs2,
-  jobs3,
-  jobs4,
-  jobs5,
-  jobs6,
-  jobs7,
-  jobs8,
-  jobs9,
-  jobs10,
-  jobs,
-  jobs1,
-  allJobs,
-} from './jobs';
+import { a1_jobs, a1_jobs_01, a1_jobs_02, a1_jobs_03, a1_jobs_04, a1_jobs_05, a1_jobs_06, vocabulary_jobs } from './data/a1';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 
 const { Panel } = Collapse;
@@ -25,43 +12,56 @@ const columns = [
 ];
 
 export const Jobs = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(jobs2, [
-    jobs2,
-    jobs3,
-    jobs4,
-    jobs5,
-    jobs6,
-    jobs7,
-    jobs8,
-    jobs9,
-    jobs10,
-  ]);
+  const { data, currentPage, handlePageChange } = usePaginatedData(a1_jobs_02, [a1_jobs_02, a1_jobs_03, a1_jobs_04, a1_jobs_05, a1_jobs_06]);
 
   const {
     data: dialogsVideo,
     currentPage: dialogsVideoPage,
     handlePageChange: handlePageChangeDialogsVideo,
-  } = usePaginatedData(jobs, [jobs, jobs1]);
+  } = usePaginatedData(a1_jobs, [a1_jobs, a1_jobs_01]);
 
   return (
-    <div>
+    <>
       <Divider>Jobs - работа</Divider>
 
-      <div>!!! Добавить также workplaces</div>
+      <div className='data'>
+        <Collapse accordion>
+          <Panel
+            header='Vocabulary'
+            key='1'
+          >
+            <Table
+              dataSource={vocabulary_jobs}
+              columns={columns}
+              pagination={false}
+              size='small'
+            />
+          </Panel>
+        </Collapse>
 
-      <Collapse accordion>
-        <Panel
-          header='Vocabulary'
-          key='1'
-        >
-          <Table
-            dataSource={allJobs}
-            columns={columns}
-            pagination={false}
-            size='small'
-          />
-        </Panel>
-      </Collapse>
+        <Collapse accordion>
+          <Panel
+            header='Tasks'
+            key='1'
+          >
+            <div className='links'>
+              <a
+                href='https://www.gamestolearnenglish.com/jobs/'
+                target='_href'
+              >
+                1. Закрепление материала
+              </a>
+
+              <a
+                href='https://test-english.com/listening/a1/whats-your-job-a1-english-listening-test/'
+                target='_href'
+              >
+                2. Заполни пропуски
+              </a>
+            </div>
+          </Panel>
+        </Collapse>
+      </div>
 
       <Divider>Listening</Divider>
 
@@ -75,8 +75,6 @@ export const Jobs = () => {
             <Video videoId='eejZ4UvMqoc' />
             <Video videoId='RUup841pZrs' />
           </div>
-
-          <Divider>Video-script</Divider>
 
           <Collapse accordion>
             <Panel
@@ -94,46 +92,13 @@ export const Jobs = () => {
         </Panel>
       </Collapse>
 
-      <Divider>Tasks</Divider>
-
-      <div className='links'>
-        <a
-          href='https://www.gamestolearnenglish.com/jobs/'
-          target='_href'
-        >
-          1. Закрепление материала
-        </a>
-
-        <a
-          href='https://test-english.com/listening/a1/whats-your-job-a1-english-listening-test/'
-          target='_href'
-        >
-          2. Заполни пропуски
-        </a>
-      </div>
-
       <Divider>Dialogs</Divider>
-
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={9}
+        totalPages={5}
         onPageChange={handlePageChange}
       />
-
-      <Divider>A2+ videos</Divider>
-
-      <Collapse accordion>
-        <Panel
-          header='Videos'
-          key='2'
-        >
-          <div className='video'>
-            <Video videoId='0x1WRY4fvz4' />
-            <Video videoId='v95eemWZ-4s' />
-          </div>
-        </Panel>
-      </Collapse>
-    </div>
+    </>
   );
 };
