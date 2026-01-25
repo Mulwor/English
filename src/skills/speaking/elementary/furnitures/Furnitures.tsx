@@ -34,17 +34,17 @@ export const Furniture = () => {
     <div>
       <Divider>House and furniture</Divider>
 
-      <div style={{display: 'flex', flexDirection: 'column', gap: '8px', width: '100%'}}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '100%' }}>
         <CollapseWithAccordion
           text={'Rooms'}
           data={allRooms}
           columns={columns}
-          />
+        />
         <CollapseWithAccordion
           text={'Furniture'}
           data={allFurniture}
           columns={columns}
-          />
+        />
       </div>
 
       <Divider>Dialogs</Divider>
@@ -57,13 +57,26 @@ export const Furniture = () => {
 
       <Divider>Tasks</Divider>
       <Collapse accordion>
-        <Panel header='Videos' key='1'>
-            <li>
-              <a href='https://agendaweb.org/vocabulary/house_furniture-exercises.html' target='_blank'>Заучивание слов через разные способы</a>
-            </li>
-            <li>
-              <a href='https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/' target='_blank'>Вставь пропущенное слово</a>
-            </li>
+        <Panel
+          header='Videos'
+          key='1'
+        >
+          <li>
+            <a
+              href='https://agendaweb.org/vocabulary/house_furniture-exercises.html'
+              target='_blank'
+            >
+              Заучивание слов через разные способы
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/'
+              target='_blank'
+            >
+              Вставь пропущенное слово
+            </a>
+          </li>
         </Panel>
       </Collapse>
     </div>

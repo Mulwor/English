@@ -64,11 +64,9 @@ export const describingPerson_01 = [
 
 export const describingPerson_02 = [
   { key: '1', english: 'What does he look like?', russian: 'Как он выглядит?' },
-  { key: '2',
-    english: 'He is tall and slim. He has brown hair.',
-    russian: 'Он высокий и стройный. У него коричневые волосы.',
-  },
-  { key: '3',
+  { key: '2', english: 'He is tall and slim. He has brown hair.', russian: 'Он высокий и стройный. У него коричневые волосы.' },
+  {
+    key: '3',
     english: 'Does he have a beard? - No, he does not. But he has a mustache.',
     russian: 'У него есть борода? - Нет, у него нет бороды. Но у него есть усы.',
   },
@@ -118,9 +116,7 @@ export const describingPerson_04 = [
   { key: '3', english: 'Is he funny?', russian: 'Он смешной?' },
   { key: '4', english: 'Yes, he is very funny!', russian: 'Да, он очень смешной!' },
   { key: '5', english: 'Is he shy?', russian: 'Он застенчивый?' },
-  { key: '6', english: 'No, he is not shy. He is very talkative.',
-    russian: 'Нет, он не застенчивый. Он очень разговорчивый.',
-  },
+  { key: '6', english: 'No, he is not shy. He is very talkative.', russian: 'Нет, он не застенчивый. Он очень разговорчивый.' },
   {
     key: '7',
     english: 'He sounds like a really good friend!',

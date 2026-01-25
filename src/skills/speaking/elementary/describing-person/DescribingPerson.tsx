@@ -45,7 +45,7 @@ export const DescribingPerson = () => {
     <div>
       <Divider>Describing person</Divider>
 
-      <div style={{display: 'flex', flexDirection: 'column', gap: '8px', width: '100%'}}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '100%' }}>
         <CollapseWithAccordion
           text={'Appearance'}
           data={appearance}
@@ -63,7 +63,6 @@ export const DescribingPerson = () => {
         />
       </div>
 
-      
       <Divider>Listening</Divider>
 
       <Collapse accordion>
@@ -75,7 +74,7 @@ export const DescribingPerson = () => {
             <Video videoId='KRO9MhBo604' />
             <Video videoId='x0YQX7gGkQs' />
             <Video videoId='Uwk_rJcTcBg' />
-            <Video videoId='zT5IiE9m9oY' />  
+            <Video videoId='zT5IiE9m9oY' />
           </div>
         </Panel>
       </Collapse>
@@ -90,7 +89,10 @@ export const DescribingPerson = () => {
 
       <Divider>Tasks and listening</Divider>
       <Collapse accordion>
-        <Panel header='Videos' key='1'>
+        <Panel
+          header='Videos'
+          key='1'
+        >
           <div className='video'>
             <Video videoId='XK22iAxg3BI' />
             <Video videoId='YsDfuAiIzDE' />

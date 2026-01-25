@@ -21,7 +21,11 @@ export const greeting_elementary_02 = [
 
 export const greeting_elementary_03 = [
   { key: '1', english: 'Good afternoon. You are new here, right?', russian: 'Добрый день. Ты здесь новенький, правильно?' },
-  { key: '2', english: "Yes, it's my first day (informal) / this's my first day (formal). My name is Ben.", russian: 'Да, это мой первый день. Меня зовут Бен.' },
+  {
+    key: '2',
+    english: "Yes, it's my first day (informal) / this's my first day (formal). My name is Ben.",
+    russian: 'Да, это мой первый день. Меня зовут Бен.',
+  },
   { key: '3', english: "Nice to meet you, Ben. I'm Clara.", russian: 'Приятно познакомиться, Бен. Я Клара.' },
   { key: '4', english: 'Nice to meet you too, Clara. What do you do in the company?', russian: 'Взаимно, Клара. Чем ты занимаешься в компании?' },
   { key: '5', english: "I'm a designer. I work on the second floor.", russian: 'Я дизайнер. Я работаю на втором этаже.' },

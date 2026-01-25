@@ -32,13 +32,15 @@ export const Hotel = () => {
 
       <Divider>Listening</Divider>
       <Collapse accordion>
-        <Panel header='Videos' key='1'>
-                 <div className='video'>
-
-          <Video videoId='av9XRDVsbd8' />
-          <Video videoId='G1FoU1p1YPI' />
-          <Video videoId='0_yzAhXRgRw' />
-                 </div>
+        <Panel
+          header='Videos'
+          key='1'
+        >
+          <div className='video'>
+            <Video videoId='av9XRDVsbd8' />
+            <Video videoId='G1FoU1p1YPI' />
+            <Video videoId='0_yzAhXRgRw' />
+          </div>
         </Panel>
       </Collapse>
 

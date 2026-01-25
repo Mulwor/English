@@ -15,7 +15,7 @@ export const Hobbies = () => {
     hobbies_04,
     hobbies_05,
     hobbies_06,
-    hobbies_07
+    hobbies_07,
   ]);
 
   return (
@@ -30,7 +30,10 @@ export const Hobbies = () => {
 
       <Divider>Listening</Divider>
       <Collapse accordion>
-        <Panel header='Videos' key='1'>
+        <Panel
+          header='Videos'
+          key='1'
+        >
           <div className='video'>
             <Video videoId='sKPKYRX311Q' />
             <Video videoId='tgVtVoxzwDI' />
