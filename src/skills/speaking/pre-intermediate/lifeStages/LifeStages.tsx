@@ -1,5 +1,5 @@
-import { Collapse, Divider } from 'antd';
-import { BasicTable, CollapseWithAccordion, Pagination, Video } from '../../../../components';
+import { Divider } from 'antd';
+import { BasicTable, CollapseWithAccordion, Pagination } from '../../../../components';
 import { columns } from '../../../../data/sample';
 import { lifeStagesVocab, lifeEventsVocab, keyVerbs } from './vocabulary';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
@@ -8,8 +8,6 @@ import {
   life_dialogs_02,
   life_dialogs_03,
 } from './dialogs';
-
-const { Panel } = Collapse;
 
 export const LifeStages = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(life_dialogs_01, [
