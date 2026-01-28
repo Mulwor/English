@@ -108,7 +108,7 @@ export const router = createBrowserRouter([
           { path: 'clothes-and-shopping', element: <div>В процессе</div> },
           { path: 'climate-and-weather', element: <div>В процессе</div> },
           { path: 'food-and-health', element: <div>В процессе</div> },
-          { path: 'hobbies', element: <div>В процессе</div> }
+          { path: 'hobbies', element: <div>Изучить тему более глубоко и разобраться с хобби человека - фильмы, музыка, спорт</div> }
         ],
       },
       {

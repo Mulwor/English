@@ -79,60 +79,51 @@ export const allFilms = [
 export const films_02 = [
   {
     key: '1',
-    english: 'Do you watch movies at the cinema?',
-    russian: 'Ты смотришь фильмы в кино?',
+    english: 'Do you watch movies at the cinema? - Yes, I do. I love the big screen!',
+    russian: 'Ты смотришь фильмы в кино? - Да, люблю. Мне нравится большой экран!',
   },
   {
     key: '2',
-    english: 'Yes, I do. I love the big screen!',
-    russian: 'Да, люблю. Мне нравится большой экран!',
+    english: 'What movie did you watch last? - I watched a new superhero movie.',
+    russian: 'Какой фильм ты смотрел в последний раз? - Я смотрел новый фильм о супергероев.',
   },
-  {
-    key: '3',
-    english: 'What movie did you watch last?',
-    russian: 'Какой фильм ты смотрел в последний раз?',
+  { 
+    key: '3', 
+    english: 'Was it good? - Yes, it was amazing! I loved the action scenes.', 
+    russian: 'Он был хорош? - Да, это было потрясающе! Мне очень понравились сцены с экшеном.' 
   },
   {
     key: '4',
-    english: 'I watched a new superhero movie.',
-    russian: 'Я смотрел новый фильм о супергероях.',
+    english: '---',
+    russian: '---',
   },
-  { key: '5', english: 'Was it good?', russian: 'Он был хорош?' },
-  {
-    key: '6',
-    english: 'Yes, it was amazing! I loved the action scenes.',
-    russian: 'Да, это было потрясающе! Мне очень понравились сцены с экшеном.',
-  },
-];
-
-export const films_03 = [
-  {
-    key: '1',
+    {
+    key: '5',
     english: 'Do you like watching movies at home or at the cinema?',
     russian: 'Тебе нравится смотреть фильмы дома или в кино?',
   },
   {
-    key: '2',
+    key: '6',
     english: 'I prefer watching movies at home. It’s more comfortable.',
     russian: 'Я предпочитаю смотреть фильмы дома. Это удобнее.',
   },
   {
-    key: '3',
+    key: '7',
     english: 'What kind of movies do you usually watch at home?',
     russian: 'Какие фильмы ты обычно смотришь дома?',
   },
   {
-    key: '4',
+    key: '8',
     english: 'I usually watch action movies or thrillers.',
     russian: 'Обычно я смотрю боевики или триллеры.',
   },
   {
-    key: '5',
+    key: '9',
     english: 'Do you watch them alone or with friends?',
     russian: 'Ты смотришь их один или с друзьями?',
   },
   {
-    key: '6',
+    key: '10',
     english: 'I usually watch with friends. It’s more fun.',
     russian: 'Обычно я смотрю с друзьями. Это веселее.',
   },
@@ -185,7 +176,7 @@ export const films_05 = [
   {
     key: '3',
     english: 'What is your favorite drama film?',
-    russian: 'Какой твой любимый драмеди?',
+    russian: 'Какой твой любимый фильм-драма?',
   },
   {
     key: '4',

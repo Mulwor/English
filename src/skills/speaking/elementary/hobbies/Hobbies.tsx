@@ -1,7 +1,7 @@
 import { Collapse, Divider } from 'antd';
 import { BasicTable, Pagination, Video } from '../../../../components';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
-import { allHobbies, hobbies_01, hobbies_02, hobbies_03, hobbies_04, hobbies_05, hobbies_06, hobbies_07 } from './hobbies';
+import { allHobbies, hobbies_01, hobbies_03, hobbies_06, hobbies_07 } from './hobbies';
 import { columns } from '../../../../data/sample';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
 
@@ -10,10 +10,7 @@ const { Panel } = Collapse;
 export const Hobbies = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(hobbies_01, [
     hobbies_01,
-    hobbies_02,
     hobbies_03,
-    hobbies_04,
-    hobbies_05,
     hobbies_06,
     hobbies_07,
   ]);
@@ -46,7 +43,7 @@ export const Hobbies = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={7}
+        totalPages={4}
         onPageChange={handlePageChange}
       />
     </div>
