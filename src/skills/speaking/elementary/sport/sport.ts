@@ -190,7 +190,7 @@ export const sport_01 = [
   {
     key: '6',
     english: 'What sport do you like? - I like tennis.',
-    russian: 'Какой вид спорта тебе нравится? - Мне нравится теннис.',
+    russian: 'Какой спорта тебе нравится? - Мне нравится теннис.',
   },
   {
     key: '7',
@@ -364,7 +364,7 @@ export const sport_07 = [
   {
     key: '10',
     english: 'That’s awesome! Is basketball easy to learn?',
-    russian: 'Здорово! Легко ли учиться играть в баскетбол?',
+    russian: 'Здорово! А в баскетбол легко научится (играть)?',
   },
   {
     key: '11',
@@ -407,9 +407,12 @@ export const sport_09 = [
   {
     key: '7',
     english: 'Have you ever tried rugby? - Yes, I tried rugby in school.',
-    russian: 'Ты когда-нибудь играл в регби? - Да, я пробовал играть в регби в школе.',
+    russian: 'Ты когда-нибудь пытался (играл в) регби? - Да, я пробовал (играть в) регби в школе.',
   },
-  { key: '8', english: 'How was it? - It was fun, but also very tiring!', russian: 'Как это было? - Это было весело, но также очень утомительно!' },
+  { 
+    key: '8', 
+    english: 'How was it? - It was fun, but also very tiring!',
+    russian: 'Как это было? - Это было весело, но также очень утомительно!' },
   {
     key: '9',
     english: 'I’ve never played it. Is it like football?',
