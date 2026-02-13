@@ -349,7 +349,7 @@ export const sport_07 = [
   {
     key: '7',
     english: 'That’s exciting! What sport do you want to try? - I think I’ll try basketball.',
-    russian: 'Здорово! Какой вид спорта ты хочешь попробовать? - Думаю, я попробую баскетбол.',
+    russian: 'Здорово! Каким спортом ты хочешь заняться? - Думаю, я попробую баскетбол.',
   },
   {
     key: '8',
@@ -493,7 +493,7 @@ export const sport_12 = [
   {
     key: '3',
     english: 'Do you go skiing every year?',
-    russian: 'Ты катаешься на лыжах каждый год?',
+    russian: 'Ты каждый год ездите кататься на лыжах??',
   },
   {
     key: '4',
@@ -518,6 +518,6 @@ export const sport_12 = [
   {
     key: '8',
     english: 'Yes, I usually go to the mountains in the Alps.',
-    russian: 'Да, я обычно катаюсь в горах в Альпах.',
+    russian: 'Да, Обычно я езжу в горы, в Альпы.',
   },
 ];

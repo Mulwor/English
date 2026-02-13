@@ -158,6 +158,16 @@ export const Speaking = () => {
           (speaking) и аудировании (listening).
         </p>
 
+        ---
+
+        <ul>
+          Мой нынешний уровень владения английским языком
+          <li>Reading/Grammar - B1 (B1+)</li>
+          <li>Writing (B1-)</li>
+          <li>Listening (A1)</li>
+          <li>Speaking (A1)</li>
+        </ul>
+
         <Divider>Speaking</Divider>
 
         <p>

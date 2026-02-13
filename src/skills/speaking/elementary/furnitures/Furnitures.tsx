@@ -3,11 +3,8 @@ import {
   allFurniture,
   allRooms,
   furniture_01,
-  furniture_02,
   furniture_03,
-  furniture_04,
   furniture_05,
-  furniture_06,
   furniture_07,
   furniture_08,
 } from './furniture';
@@ -21,13 +18,10 @@ const { Panel } = Collapse;
 export const Furniture = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(furniture_01, [
     furniture_01,
-    furniture_02,
-    furniture_03,
-    furniture_04,
-    furniture_05,
-    furniture_06,
-    furniture_07,
     furniture_08,
+    furniture_03,
+    furniture_05,
+    furniture_07,
   ]);
 
   return (
@@ -51,7 +45,7 @@ export const Furniture = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={8}
+        totalPages={5}
         onPageChange={handlePageChange}
       />
 

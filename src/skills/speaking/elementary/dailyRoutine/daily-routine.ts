@@ -450,7 +450,7 @@ export const dailyRoutine_07 = [
   {
     key: '3',
     english: 'Yes, I always have toast and tea.',
-    russian: 'Да, я всегда ем тосты и пью чай.',
+    russian: 'Да, я всегда ем тосты и (пью) чай.',
   },
   {
     key: '4',
