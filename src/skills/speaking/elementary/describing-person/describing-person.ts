@@ -53,7 +53,7 @@ export const describingPerson_01 = [
   {
     key: '3',
     english: 'What color is her hair? - She has blonde hair.',
-    russian: 'Какого цвета её волосы? - У неё светлые волосы.',
+    russian: 'Какого цвета её волосы? - У неё светлые волосы (блондинка).',
   },
   {
     key: '4',
@@ -63,60 +63,55 @@ export const describingPerson_01 = [
   {
     key: '5',
     english: '-',
-    russian: '-'
+    russian: '-',
   },
-  { 
-    key: '6', 
+  {
+    key: '6',
     english: 'What does he look like? - He is tall and slim. He has brown hair.',
-    russian: 'Как он выглядит? - Он высокий и стройный. У него коричневые волосы.' 
+    russian: 'Как он выглядит? - Он высокий и стройный. У него коричневые волосы.',
   },
   {
     key: '7',
-    english: 'Does he have a beard? - No, he does not. But he has a mustache.',
+    english: 'Does he have a beard? - No, he does not. But he has a mustache `[məstɑːʃ].',
     russian: 'У него есть борода? - Нет, у него нет бороды. Но у него есть усы.',
   },
   {
     key: '8',
     english: 'What color are his eyes? - His eyes are green.',
-    russian: 'Какого цвета его глаза? - У него зеленые глаза.',
+    russian: 'Какого цвета его глаза? - У него зеленые глаза или его глаза зеленого цвета.',
   },
   {
     key: '9',
-    english: 'He sounds interesting!',
-    russian: 'Он звучит интересно!',
+    english: '-',
+    russian: '-',
   },
   {
     key: '10',
-    english: '-',
-    russian: '-'
-  },
-  { 
-    key: '11', 
-    english: 'What is he like? - He is very kind and polite.', 
-    russian: 'Какой он по характеру? - Он очень добрый и вежливый' 
-  },
-  { 
-    key: '12', 
-    english: 'Is he funny? - Yes, he is very funny!', 
-    russian: 'Он смешной? - Да, он очень смешной!' 
-  },
-  { 
-    key: '13',
-    english: 'Is he shy? - No, he is not shy. He is very talkative.', 
-    russian: 'Он застенчивый? - Нет, он не застенчивый. Он очень разговорчивый.' 
+    english: 'What is he like? - He is very kind and polite.',
+    russian: 'Какой он по характеру? - Он очень добрый и вежливый',
   },
   {
-    key: '14',
-    english: 'He sounds like a really good friend!',
-    russian: 'Он звучит как настоящий хороший друг!',
+    key: '11',
+    english: 'Is he funny? - Yes, he is very funny!',
+    russian: 'Он смешной? - Да, он очень смешной!',
+  },
+  {
+    key: '12',
+    english: 'Is he shy? - No, he is not shy. He is very talkative. [tɔːkətɪv]',
+    russian: 'Он застенчивый? - Нет, он не застенчивый. Он очень разговорчивый.',
+  },
+  {
+    key: '13',
+    english: 'He is a really good friend!',
+    russian: 'Он и в самом деле хороший друг!',
   },
 ];
 
 export const describingPerson_03 = [
   {
     key: '1',
-    english: 'What kind of hair do you have? - I have short, curly hair. It is brown.',
-    russian: 'Какие у тебя волосы? - У меня короткие, вьющиеся волосы. Они коричневые.',
+    english: 'What kind of hair do you have? - I have short, curly [kɜːlɪ] hair. It is brown.',
+    russian: 'Какие у тебя волосы или какой у тебя тип волос? - У меня короткие, вьющиеся волосы. Они коричневые.',
   },
   {
     key: '2',
@@ -130,51 +125,61 @@ export const describingPerson_03 = [
   },
   {
     key: '4',
-    english: "That's great! It must look cute.",
-    russian: 'Здорово! Наверное, они выглядят мило.',
+    english: '-',
+    russian: '-',
   },
   {
     key: '5',
-    english: '-',
-    russian: '-'
-  },
-  {
-    key: '6',
     english: 'What does she look like? - She is tall and beautiful. She has long black hair.',
     russian: 'Как она выглядит? - Она высокая и красивая. У неё длинные чёрные волосы.',
   },
   {
-    key: '7',
+    key: '6',
     english: 'Is her hair straight or wavy? - It is straight and shiny. ',
     russian: 'Её волосы прямые или волнистые? - Они прямые и блестящие.',
   },
   {
-    key: '8',
+    key: '7',
     english: 'What color are her eyes? - She has big, brown eyes.',
     russian: 'Какого цвета её глаза? - У неё большие, карие глаза.',
   },
   {
+    key: '8',
+    english: '-',
+    russian: '-',
+  },
+  {
     key: '9',
-    english: 'She sounds very pretty!',
-    russian: 'Она звучит очень красиво!',
+    english: 'Does she have straight or curly hair? - She has curly hair. It is brown and very soft.',
+    russian: 'У неё прямые или вьющиеся волосы? - У неё вьющиеся волосы. Они коричневые и очень мягкие.',
+  },
+  {
+    key: '10',
+    english: 'What about her eyes? - She has big, green eyes.',
+    russian: 'А как насчёт её глаз? - У неё большие, зелёные глаза.',
+  },
+  {
+    key: '11',
+    english: 'Is she tall or short? - She is of average height.',
+    russian: 'Она высокая или низкая? - Она среднего роста.',
   },
 ];
 
 export const describingPerson_06 = [
   {
     key: '1',
-    english: 'Does he have a beard? - No, he does not. But he has a mustache.' ,
-    russian: 'У него есть борода? - Нет, у него нет бороды. Но у него есть усы.',
+    english: 'Does he have a beard? - No, he does not. But he has a mustache.',
+    russian: 'У него есть борода? - Нет, (у него нет бороды). Но у него есть усы.',
   },
   {
     key: '2',
-    english: 'What about his body? Is he slim or fat? - he is slim and muscular',
+    english: 'What about his body? Is he slim or fat? - he is slim and muscular [mʌskjulə]',
     russian: 'А как насчёт его тела? Он стройный или толстый? - Он стройный и мускулистый.',
   },
-  { 
-    key: '3', 
-    english: 'Does he wear glasses? - Yes, he wears glasses.', 
-    russian: 'Он носит очки? - Да, он носит очки.' 
+  {
+    key: '3',
+    english: 'Does he wear glasses? - Yes, he wears glasses.',
+    russian: 'Он носит очки? - Да, он носит очки.',
   },
   {
     key: '4',
@@ -184,55 +189,50 @@ export const describingPerson_06 = [
   {
     key: '5',
     english: '-',
-    russian: '-'
+    russian: '-',
   },
-  { 
+  {
     key: '6',
-    english: 'Are you creative? - Yes, I am. I love drawing and painting.', 
-    russian: 'Ты креативный? - Да, я креативный. Я люблю рисовать и живопись.' 
+    english: 'Are you creative? - Yes, I am. I like drawing as a hobby.',
+    russian: 'Ты креативный? - Да, я креативный. Просто я люблю рисовать. (Мое хобби это рисование)',
   },
   {
     key: '7',
-    english: 'What about your friend? Is he creative? - Yes, he is too. He likes photography.',
+    english: 'What about your friend? Is he creative? - Yes, he is too. He likes to take photos',
     russian: 'А твой друг? Он креативный? - Да, он тоже. Ему нравится фотография.',
   },
   {
     key: '8',
     english: "That's great! What else do you like to do?",
-    russian: 'Здорово! Чем ещё тебе нравится заниматься?',
+    russian: 'Это здорово! Чем ещё тебе нравится заниматься?',
   },
   {
     key: '9',
     english: 'I enjoy playing video games and reading manga.',
-    russian: 'Мне нравится играть в видеоигры и читать мангу.',
-  },
-  {
-    key: '10',
-    english: 'That sounds fun! What games do you play?',
-    russian: 'Звучит весело! В какие игры ты играешь?',
+    russian: 'Я наслаждаю играя в видеоигры и читая мангу.',
   },
 ];
 
 export const describingPerson_08 = [
-  { 
-    key: '1', 
-    english: 'What does he look like? - He is tall, with short black hair.', 
-    russian: 'Как он выглядит? - Он высокий, с короткими чёрными волосами.' 
+  {
+    key: '1',
+    english: 'What does he look like? - He is tall, with short black hair.',
+    russian: 'Как он выглядит? - Он высокий, с короткими чёрными волосами.',
   },
-  { 
-    key: '2', 
-    english: 'Is he handsome? - Yes, he is handsome and has a nice smile.', 
-    russian: 'Он красивый? - Да, он красивый и у него хорошая улыбка.' 
+  {
+    key: '2',
+    english: 'Is he handsome? - Yes, he is handsome and has a sweet smile.',
+    russian: 'Он красивый (исп. в сторону мужчины)? - Да, он красивый и у него милая улыбка.',
   },
   {
     key: '3',
     english: 'Is he serious or funny? - He is funny and very friendly.',
     russian: 'Он серьёзный или смешной? - Он смешной и очень дружелюбный.',
   },
-  { 
-    key: '4', 
-    english: 'Is he hardworking? - Yes, he is very hardworking. he works a lot.', 
-    russian: 'Он трудолюбивый? - Да, он очень трудолюбивый. Он много работает.' 
+  {
+    key: '4',
+    english: 'Is he hardworking? - Yes, he is very hardworking. he works a lot.',
+    russian: 'Он трудолюбивый? - Да, он очень трудолюбивый. Он много работает.',
   },
   {
     key: '5',
@@ -254,99 +254,82 @@ export const describingPerson_08 = [
 export const describingPerson_10 = [
   {
     key: '1',
-    english: 'Does she have straight or curly hair? - She has curly hair. It is brown and very soft.',
-    russian: 'У неё прямые или вьющиеся волосы? - У неё вьющиеся волосы. Они коричневые и очень мягкие.',
+    english: 'Is he polite? - Yes, he is very polite and friendly.',
+    russian: 'Он вежливый? - Да, он очень вежливый и дружелюбный.',
   },
   {
     key: '2',
-    english: 'What about her eyes? - She has big, green eyes.',
-    russian: 'А как насчёт её глаз? - У неё большие, зелёные глаза.',
+    english: 'What does he look like? - He is muscular and tall. He has dark brown eyes.',
+    russian: 'Как он выглядит? - Он мускулистый и высокий. У него тёмно-карие глаза.',
   },
   {
     key: '3',
-    english: 'Is she tall or short? - She is of average height.',
-    russian: 'Она высокая или низкая? - Она среднего роста.',
-  },
-  {
-    key: '4',
-    english: '-',
-    russian: '-'
-  },
-  { 
-    key: '5', 
-    english: 'Is he polite? - Yes, he is very polite and friendly.', 
-    russian: 'Он вежливый? - Да, он очень вежливый и дружелюбный.' 
-  },
-  { 
-    key: '6', 
-    english: 'What does he look like? - He is muscular and tall. He has dark brown eyes.',
-    russian: 'Как он выглядит? - Он мускулистый и высокий. У него тёмно-карие глаза.' 
-  },
-  {
-    key: '7',
     english: 'Does he have a mustache or beard? - He has a beard.',
     russian: 'У него есть усы или борода? - У него есть борода.',
   },
   {
-    key: '8',
+    key: '4',
     english: 'I see. Sounds like a nice person.',
     russian: 'Понял. Звучит как хороший человек.',
   },
-];
-
-export const describingPerson_11 = [
   {
-    key: '1',
+    key: '5',
+    english: '-',
+    russian: '-',
+  },
+
+  {
+    key: '6',
     english: 'Tell me about your friend.',
     russian: 'Расскажи мне о своём друге.',
   },
   {
-    key: '2',
+    key: '7',
     english: 'He is kind and very funny. He has short brown hair.',
     russian: 'Он добрый и очень смешной. У него короткие коричневые волосы.',
   },
   {
-    key: '3',
+    key: '8',
     english: 'What color are his eyes? - His eyes are dark brown.',
-    russian: 'Какого цвета его глаза? - У него тёмно-карие глаза.',
+    russian: 'Какого цвета его глаза? - Его глаза - тёмно-карие.',
   },
   {
-    key: '4',
+    key: '9',
     english: 'Is he serious or talkative? - He is talkative. He loves talking to everyone.',
     russian: 'Он серьёзный или разговорчивый? - Он разговорчивый. Он любит общаться со всеми.',
   },
   {
-    key: '5',
+    key: '10',
     english: 'He sounds like a fun person!',
     russian: 'Он звучит как весёлый человек!',
   },
   {
-    key: '6',
+    key: '11',
     english: '-',
-    russian: '-'
+    russian: '-',
   },
-   {
-    key: '7',
+  {
+    key: '12',
     english: 'What does she look like? - She has long, wavy blonde hair.',
     russian: 'Как она выглядит? - У неё длинные, волнистые светлые волосы.',
   },
   {
-    key: '8',
+    key: '13',
     english: 'Does she have a beard? - No, she does not. She is a woman.',
     russian: 'У неё есть борода? - Нет, у неё нет бороды. Она женщина.',
   },
   {
-    key: '9',
+    key: '14',
     english: 'What kind of clothes does she wear?',
     russian: 'Какую одежду она носит?',
   },
   {
-    key: '10',
+    key: '15',
     english: 'She likes wearing dresses and jackets.',
     russian: 'Она любит носить платья и куртки.',
   },
   {
-    key: '1',
+    key: '16',
     english: 'She must look very stylish!',
     russian: 'Наверное, она выглядит очень стильно!',
   },

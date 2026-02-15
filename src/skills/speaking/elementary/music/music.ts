@@ -127,10 +127,10 @@ export const music_01 = [
 ];
 
 export const music_02 = [
-  { 
-    key: '1', 
-    english: 'Can you sing? - A little, but not very well.', 
-    russian: 'Ты умеешь петь? - Немного, но не очень хорошо.' 
+  {
+    key: '1',
+    english: 'Can you sing? - A little, but not very well.',
+    russian: 'Ты умеешь петь? - Немного, но не очень хорошо.',
   },
   {
     key: '2',
@@ -142,10 +142,10 @@ export const music_02 = [
     english: 'Oh, fine. Do you know this song? - Yes! It’s very popular.',
     russian: 'Ладно, ты знаешь эту песню? - Да! Она очень популярная',
   },
-  { 
-    key: '4', 
-    english: 'Let’s sing together! - Okay! It will be fun!', 
-    russian: 'Давай споем вместе! - Окей! Это будет весело!' 
+  {
+    key: '4',
+    english: 'Let’s sing together! - Okay! It will be fun!',
+    russian: 'Давай споем вместе! - Окей! Это будет весело!',
   },
   {
     key: '5',
@@ -157,10 +157,10 @@ export const music_02 = [
     english: 'Do you play the guitar? - No, but I want to learn.',
     russian: 'Ты играешь на гитаре? - Нет, но я хочу научиться.',
   },
-  { 
+  {
     key: '7',
     english: 'I can teach you! - Really? That’s great!',
-    russian: 'Я могу тебя научить! - Правда? Это здорово!' 
+    russian: 'Я могу тебя научить! - Правда? Это здорово!',
   },
   {
     key: '8',
@@ -200,7 +200,7 @@ export const music_04 = [
     english: '-----',
     russian: '-----',
   },
-    {
+  {
     key: '5',
     english: 'Do you go to concerts - [ˈkɒnsət] ? - Sometimes. I like live music.',
     russian: 'Ты ходишь на концерты? - Иногда. Мне нравится живая музыка.',
@@ -210,17 +210,17 @@ export const music_04 = [
     english: 'Have you been to a concert this year? - No, but I want to go.',
     russian: 'Ты был на концерте в этом году? - Нет, но я хочу пойти.',
   },
-  { 
-    key: '7', 
+  {
+    key: '7',
     english: 'Let’s go together! - Good idea! It will be fun.',
-    russian: 'Давай пойдём вместе! - Хорошая идея! Это будет весело.' 
+    russian: 'Давай пойдём вместе! - Хорошая идея! Это будет весело.',
   },
   {
     key: '8',
     english: '-----',
     russian: '-----',
   },
-    {
+  {
     key: '9',
     english: 'Do you like to dance to music? - Yes! Dancing is fun.',
     russian: 'Тебе нравится танцевать под музыку? - Да! Танцевать – это весело.',
@@ -230,9 +230,9 @@ export const music_04 = [
     english: 'Can you dance well? - Not really, but I try!',
     russian: 'Ты умеешь хорошо танцевать? - Не очень, но я стараюсь!',
   },
-  { 
-    key: '11', 
-    english: 'Let’s dance now! - Okay! Let’s play some music.', 
-    russian: 'Давай потанцуем сейчас! - Окей! Давай включим музыку.' 
+  {
+    key: '11',
+    english: 'Let’s dance now! - Okay! Let’s play some music.',
+    russian: 'Давай потанцуем сейчас! - Окей! Давай включим музыку.',
   },
 ];

@@ -246,15 +246,16 @@ const items: MenuItem[] = [
   //   key: 'R-04',
   //   label: <Link to='/beginner-and-elementary/reading-and-listening'>Reading and Listening</Link>,
   // },
-  // {
-  //   key: "Arab",
-  //   label: "Арабский язык",
-  //   children: [
-  //     {
-  //       key: "AR-01", label: <Link to="/arab/lesson-01">Урок №1</Link>
-  //     }
-  //   ]
-  // }
+  {
+    key: 'Arab',
+    label: 'Арабский язык',
+    children: [
+      {
+        key: 'AR-01',
+        label: <Link to='/arab/lesson-01'>Урок №1</Link>,
+      },
+    ],
+  },
 ];
 
 export const Navbar = () => {

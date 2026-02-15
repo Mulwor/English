@@ -87,17 +87,17 @@ export const films_02 = [
     english: 'What movie did you watch last? - I watched a new superhero movie.',
     russian: 'Какой фильм ты смотрел в последний раз? - Я смотрел новый фильм о супергероев.',
   },
-  { 
-    key: '3', 
-    english: 'Was it good? - Yes, it was amazing! I loved the action scenes.', 
-    russian: 'Он был хорош? - Да, это было потрясающе! Мне очень понравились сцены с экшеном.' 
+  {
+    key: '3',
+    english: 'Was it good? - Yes, it was amazing! I loved the action scenes.',
+    russian: 'Он был хорош? - Да, это было потрясающе! Мне очень понравились сцены с экшеном.',
   },
   {
     key: '4',
     english: '---',
     russian: '---',
   },
-    {
+  {
     key: '5',
     english: 'Do you like watching movies at home or at the cinema?',
     russian: 'Тебе нравится смотреть фильмы дома или в кино?',

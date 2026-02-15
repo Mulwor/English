@@ -1,25 +1,14 @@
 import { Collapse, Divider } from 'antd';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
 import { columns } from '../../../../data/sample';
-import {
-  allDailyRoutineList,
-  dailyRoutine_01,
-  dailyRoutine_03,
-  dailyRoutine_05,
-  dailyRoutine_07
-} from './daily-routine';
+import { allDailyRoutineList, dailyRoutine_01, dailyRoutine_03, dailyRoutine_05, dailyRoutine_07 } from './daily-routine';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { BasicTable, Pagination, Video } from '../../../../components';
 
 const { Panel } = Collapse;
 
 export const DailyRoutine = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(dailyRoutine_01, [
-    dailyRoutine_01,
-    dailyRoutine_03,
-    dailyRoutine_05,
-    dailyRoutine_07,
-  ]);
+  const { data, currentPage, handlePageChange } = usePaginatedData(dailyRoutine_01, [dailyRoutine_01, dailyRoutine_03, dailyRoutine_05, dailyRoutine_07]);
 
   return (
     <div>
@@ -53,7 +42,10 @@ export const DailyRoutine = () => {
       <Divider>Listening</Divider>
 
       <Collapse accordion>
-        <Panel header='Videos' key='2'>
+        <Panel
+          header='Videos'
+          key='2'
+        >
           <div className='video'>
             <Video videoId='aQ0w2I0Eb9I' />
             <Video videoId='fRyG93nGEog' />

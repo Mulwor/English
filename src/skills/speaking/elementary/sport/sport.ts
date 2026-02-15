@@ -185,7 +185,7 @@ export const sport_01 = [
   {
     key: '5',
     english: '-',
-    russian: '-'
+    russian: '-',
   },
   {
     key: '6',
@@ -243,7 +243,7 @@ export const sport_03 = [
   {
     key: '6',
     english: '-',
-    russian: '-'
+    russian: '-',
   },
   {
     key: '7',
@@ -291,7 +291,7 @@ export const sport_05 = [
   {
     key: '5',
     english: '-',
-    russian: '-'
+    russian: '-',
   },
   {
     key: '6',
@@ -339,7 +339,7 @@ export const sport_07 = [
   {
     key: '5',
     english: '-',
-    russian: '-'
+    russian: '-',
   },
   {
     key: '6',
@@ -402,17 +402,18 @@ export const sport_09 = [
   {
     key: '6',
     english: '-',
-    russian: '-'
+    russian: '-',
   },
   {
     key: '7',
     english: 'Have you ever tried rugby? - Yes, I tried rugby in school.',
     russian: 'Ты когда-нибудь пытался (играл в) регби? - Да, я пробовал (играть в) регби в школе.',
   },
-  { 
-    key: '8', 
+  {
+    key: '8',
     english: 'How was it? - It was fun, but also very tiring!',
-    russian: 'Как это было? - Это было весело, но также очень утомительно!' },
+    russian: 'Как это было? - Это было весело, но также очень утомительно!',
+  },
   {
     key: '9',
     english: 'I’ve never played it. Is it like football?',
@@ -433,7 +434,6 @@ export const sport_09 = [
     english: 'You should! It’s a lot of fun.',
     russian: 'Тебе стоит попробовать! Это очень весело.',
   },
-
 ];
 
 export const sport_11 = [

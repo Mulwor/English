@@ -1,13 +1,5 @@
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
-import {
-  allFurniture,
-  allRooms,
-  furniture_01,
-  furniture_03,
-  furniture_05,
-  furniture_07,
-  furniture_08,
-} from './furniture';
+import { allFurniture, allRooms, furniture_01, furniture_03, furniture_05, furniture_07, furniture_08 } from './furniture';
 import { Collapse, Divider } from 'antd';
 import { columns } from '../../../../data/sample';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
@@ -16,13 +8,7 @@ import { BasicTable, Pagination } from '../../../../components';
 const { Panel } = Collapse;
 
 export const Furniture = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(furniture_01, [
-    furniture_01,
-    furniture_08,
-    furniture_03,
-    furniture_05,
-    furniture_07,
-  ]);
+  const { data, currentPage, handlePageChange } = usePaginatedData(furniture_01, [furniture_01, furniture_08, furniture_03, furniture_05, furniture_07]);
 
   return (
     <div>

@@ -307,15 +307,15 @@ export const dailyRoutine_01 = [
     english: 'I brush my teeth and get dressed.',
     russian: 'Я чищу зубы и одеваюсь.',
   },
-  { 
-    key: '4', 
-    english: 'Do you have breakfast? - Yes, I eat cereal with milk.', 
-    russian: 'Ты завтракаешь? - Да, я ем кашу с молоком.' 
+  {
+    key: '4',
+    english: 'Do you have breakfast? - Yes, I eat cereal with milk.',
+    russian: 'Ты завтракаешь? - Да, я ем кашу с молоком.',
   },
   {
-    key: '5', 
-    english: '---', 
-    russian: '---' 
+    key: '5',
+    english: '---',
+    russian: '---',
   },
   {
     key: '6',
@@ -339,7 +339,6 @@ export const dailyRoutine_01 = [
   },
 ];
 
-
 export const dailyRoutine_03 = [
   {
     key: '1',
@@ -362,9 +361,9 @@ export const dailyRoutine_03 = [
     russian: 'Какие игры тебе нравятся? - Мне нравятся экшен-игры.',
   },
   {
-    key: '5', 
-    english: '---', 
-    russian: '---' 
+    key: '5',
+    english: '---',
+    russian: '---',
   },
   {
     key: '6',
@@ -404,15 +403,15 @@ export const dailyRoutine_05 = [
     english: 'How long do you walk? - About 15 minutes.',
     russian: 'Как долго ты гуляешь? - Около 15 минут.',
   },
-  { 
-    key: '4', 
-    english: 'And then? - Then, I have breakfast and get ready for work.', 
-    russian: 'А потом? - Потом я завтракаю и готовлюсь к работе.' 
+  {
+    key: '4',
+    english: 'And then? - Then, I have breakfast and get ready for work.',
+    russian: 'А потом? - Потом я завтракаю и готовлюсь к работе.',
   },
   {
-    key: '5', 
-    english: '---', 
-    russian: '---' 
+    key: '5',
+    english: '---',
+    russian: '---',
   },
   {
     key: '6',
@@ -430,9 +429,9 @@ export const dailyRoutine_05 = [
     russian: 'Что ты делаешь в воскресенье? - Я отдыхаю и смотрю телевизор.',
   },
   {
-    key: '9', 
-    english: 'What do you watch? - I watch movies and cartoons.', 
-    russian: 'Что ты смотришь? - Я смотрю фильмы и мультфильмы' 
+    key: '9',
+    english: 'What do you watch? - I watch movies and cartoons.',
+    russian: 'Что ты смотришь? - Я смотрю фильмы и мультфильмы',
   },
 ];
 
@@ -468,19 +467,19 @@ export const dailyRoutine_07 = [
     russian: 'Во сколько ты покидаешь дом? - Я выхожу в 7:30 утра.',
   },
   {
-    key: '7', 
-    english: '---', 
-    russian: '---' 
+    key: '7',
+    english: '---',
+    russian: '---',
   },
   {
     key: '8',
     english: 'What’s your evening routine like? - In the evening, I cook dinner.',
     russian: 'Какова твоя вечерняя рутина? - По вечерам я готовлю ужин.',
   },
-  { 
-    key: '9', 
+  {
+    key: '9',
     english: 'What do you cook? - I cook pasta or rice with vegetables.',
-    russian: 'Что ты готовишь? - Я готовлю пасту или рис с овощами.'
+    russian: 'Что ты готовишь? - Я готовлю пасту или рис с овощами.',
   },
   {
     key: '10',
@@ -489,7 +488,7 @@ export const dailyRoutine_07 = [
   },
   {
     key: '11',
-    english: 'What time do you eat? - I usually eat at 7 PM.', 
-    russian: 'Во сколько ты ешь? - Обычно я ем в 7 вечера.' 
+    english: 'What time do you eat? - I usually eat at 7 PM.',
+    russian: 'Во сколько ты ешь? - Обычно я ем в 7 вечера.',
   },
 ];

@@ -1,7 +1,7 @@
 import { Divider } from 'antd';
 import { BasicTable, Pagination } from '../../../../components';
 import { allFilms, films_02, films_04, films_05 } from './films';
-import { allMusic, music_01, music_02, music_04} from './music';
+import { allMusic, music_01, music_02, music_04 } from './music';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { CollapseWithAccordion } from '../../../../components/Collapse';

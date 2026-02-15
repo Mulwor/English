@@ -8,12 +8,7 @@ import { CollapseWithAccordion } from '../../../../components/Collapse';
 const { Panel } = Collapse;
 
 export const Hobbies = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(hobbies_01, [
-    hobbies_01,
-    hobbies_03,
-    hobbies_06,
-    hobbies_07,
-  ]);
+  const { data, currentPage, handlePageChange } = usePaginatedData(hobbies_01, [hobbies_01, hobbies_03, hobbies_06, hobbies_07]);
 
   return (
     <div>

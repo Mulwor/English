@@ -253,15 +253,15 @@ export const holidays_01 = [
     english: 'Nice! How long will you stay? - We will stay for two weeks.',
     russian: 'Здорово! Как долго ты там пробудешь? - Мы останемся на две недели.',
   },
-  { 
-    key: '5', 
-    english: 'Enjoy your holiday!', 
-    russian: 'Приятного отпуска!' 
+  {
+    key: '5',
+    english: 'Enjoy your holiday!',
+    russian: 'Приятного отпуска!',
   },
-  { 
-    key: '6', 
-    english: '---', 
-    russian: '---' 
+  {
+    key: '6',
+    english: '---',
+    russian: '---',
   },
   {
     key: '7',
@@ -331,10 +331,10 @@ export const holidays_03 = [
     english: 'Perfect. Can I pay by card? - Yes, of course. - Enjoy your stay! - Thank you very much!',
     russian: 'Прекрасно. Могу я оплатить картой? - Да, конечно. Приятного пребывания! - Большое спасибо!',
   },
-  { 
-    key: '8', 
-    english: '---', 
-    russian: '---' 
+  {
+    key: '8',
+    english: '---',
+    russian: '---',
   },
   {
     key: '9',
@@ -356,10 +356,10 @@ export const holidays_03 = [
     english: 'Nice! How long will you stay? - I will stay for one week.',
     russian: 'Отлично! Как долго вы будете там? - Я пробуду там одну неделю.',
   },
-  { 
+  {
     key: '13',
-    english: 'Enjoy your trip! - Thank you!', 
-    russian: 'Приятного путешествия! - Спасибо!' 
+    english: 'Enjoy your trip! - Thank you!',
+    russian: 'Приятного путешествия! - Спасибо!',
   },
 ];
 
@@ -389,10 +389,10 @@ export const holidays_05 = [
     english: 'Here is the money. Thank you! - You’re welcome! Have a nice day!',
     russian: 'Вот деньги. Спасибо! - Пожалуйста! Хорошего дня!',
   },
-  { 
-    key: '6', 
-    english: '---', 
-    russian: '---' 
+  {
+    key: '6',
+    english: '---',
+    russian: '---',
   },
   {
     key: '7',
@@ -414,10 +414,10 @@ export const holidays_05 = [
     english: 'That sounds amazing! How long will you stay? - We will stay for five days.',
     russian: 'Звучит потрясающе! Как долго вы пробудете там? - Мы останемся на пять дней.',
   },
-  { 
-    key: '11', 
-    english: 'Have a great holiday! - Thank you!', 
-    russian: 'Отличного отпуска! - Спасибо!' 
+  {
+    key: '11',
+    english: 'Have a great holiday! - Thank you!',
+    russian: 'Отличного отпуска! - Спасибо!',
   },
 ];
 

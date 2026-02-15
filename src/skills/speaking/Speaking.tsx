@@ -147,19 +147,15 @@ export const Speaking = () => {
           &nbsp; &nbsp; В английском языке существует несколько уровней владения: A0 (Starter или Beginner; иногда его рассматривают как подуровень A1), A1
           (Elementary), A2 (Pre-Intermediate), B1 (Intermediate), B2 (Upper-Intermediate) и так далее.
         </p>
-
         <p style={{ marginTop: '8px' }}>
           &nbsp; &nbsp; Чтобы овладеть английским, нужно развивать пять основных навыков: чтение (reading), говорение (speaking), письмо (writing), аудирование
           (listening) и знание грамматики (grammar).
         </p>
-
         <p style={{ marginTop: '8px' }}>
           &nbsp; &nbsp; Главная рекомендация для достижения быстрых результатов - выбрать именно два определенных навыка. Я основываю свой выбор на говорении
           (speaking) и аудировании (listening).
         </p>
-
         ---
-
         <ul>
           Мой нынешний уровень владения английским языком
           <li>Reading/Grammar - B1 (B1+)</li>
@@ -167,9 +163,7 @@ export const Speaking = () => {
           <li>Listening (A1)</li>
           <li>Speaking (A1)</li>
         </ul>
-
         <Divider>Speaking</Divider>
-
         <p>
           Теперь разберем каждый уровень по отдельности:
           <button

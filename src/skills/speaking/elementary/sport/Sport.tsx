@@ -1,16 +1,6 @@
 import { Collapse, Divider } from 'antd';
 import { BasicTable, Pagination, Video } from '../../../../components';
-import {
-  sport_01,
-  sport_03,
-  sport_05,
-  sport_07,
-  sport_09,
-  sport_11,
-  sport_12,
-  sportsData,
-  sportsTypes,
-} from './sport';
+import { sport_01, sport_03, sport_05, sport_07, sport_09, sport_11, sport_12, sportsData, sportsTypes } from './sport';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
@@ -18,15 +8,7 @@ import { CollapseWithAccordion } from '../../../../components/Collapse';
 const { Panel } = Collapse;
 
 export const Sport = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(sport_01, [
-    sport_01,
-    sport_03,
-    sport_05,
-    sport_07,
-    sport_09,
-    sport_11,
-    sport_12,
-  ]);
+  const { data, currentPage, handlePageChange } = usePaginatedData(sport_01, [sport_01, sport_03, sport_05, sport_07, sport_09, sport_11, sport_12]);
 
   return (
     <div>

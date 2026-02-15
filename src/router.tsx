@@ -95,7 +95,7 @@ export const router = createBrowserRouter([
           { path: 'animals', element: <div>В процессе</div> },
           { path: 'fears-and-phobias', element: <div>В процессе</div> },
           { path: 'family-relationships-and-friendship', element: <Relationship /> },
-          { path: 'jobs-profession-and-workplaces',  element: <div>В процессе</div>  },
+          { path: 'jobs-profession-and-workplaces', element: <div>В процессе</div> },
           { path: 'life-stages-and-events', element: <LifeStages /> },
           { path: 'transport', element: <div>В процессе</div> },
           { path: 'city-life', element: <div>В процессе</div> },
@@ -108,7 +108,7 @@ export const router = createBrowserRouter([
           { path: 'clothes-and-shopping', element: <div>В процессе</div> },
           { path: 'climate-and-weather', element: <div>В процессе</div> },
           { path: 'food-and-health', element: <div>В процессе</div> },
-          { path: 'hobbies', element: <div>Изучить тему более глубоко и разобраться с хобби человека - фильмы, музыка, спорт</div> }
+          { path: 'hobbies', element: <div>Изучить тему более глубоко и разобраться с хобби человека - фильмы, музыка, спорт</div> },
         ],
       },
       {
@@ -181,15 +181,5 @@ export const router = createBrowserRouter([
   //   children: [
   //     { path: 'lesson-01', element: <Lesson01 />},
   //   ]
-  // }
-  {
-    path: 'allTogether',
-    element: <Layout />,
-    children: [
-      {
-        path: 'speak',
-        element: <div>В разработке</div>,
-      },
-    ],
-  },
+  // },
 ]);

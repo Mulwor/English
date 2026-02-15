@@ -8,7 +8,6 @@ import {
   describingPerson_06,
   describingPerson_08,
   describingPerson_10,
-  describingPerson_11,
   hairAndEyes,
   personality,
 } from './describing-person';
@@ -24,7 +23,6 @@ export const DescribingPerson = () => {
     describingPerson_08,
     describingPerson_03,
     describingPerson_10,
-    describingPerson_11,
   ]);
 
   return (
@@ -69,7 +67,7 @@ export const DescribingPerson = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={6}
+        totalPages={5}
         onPageChange={handlePageChange}
       />
 

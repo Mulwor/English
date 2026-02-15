@@ -70,13 +70,12 @@ export const Relationship = () => {
           key='1'
         >
           <li>
-             <a href='https://www.tinytap.com/activities/g4plf/play/describing-people-game?srsltid=AfmBOoobuyNLzsZ0hAYOHgS41xuyecfppuFddsbIPZkPhJFG21ASSZIO'>
-        Прочитал предложение необходимо соотнести с картинкой
-      </a>
+            <a href='https://www.tinytap.com/activities/g4plf/play/describing-people-game?srsltid=AfmBOoobuyNLzsZ0hAYOHgS41xuyecfppuFddsbIPZkPhJFG21ASSZIO'>
+              Прочитал предложение необходимо соотнести с картинкой
+            </a>
           </li>
         </Panel>
       </Collapse>
-
 
       <Divider>Dialogs</Divider>
       <p>

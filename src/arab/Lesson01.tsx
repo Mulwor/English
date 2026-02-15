@@ -124,40 +124,40 @@ export const Lesson01 = () => {
       title: 'Отдельная форма',
       dataIndex: 'zero',
       key: 'zero',
-      render: (text: string, record: any) => renderClickableCellWithTooltip(text, record), // С тултипом
+      render: (text: string, record: any) => renderClickableCellWithTooltip(text, record),
     },
     {
       title: 'В начале',
       dataIndex: 'first',
       key: 'first',
-      render: (text: string, record: any) => renderClickableCell(text, record), // Без тултипа
+      render: (text: string, record: any) => renderClickableCell(text, record),
     },
     {
       title: 'В середине',
       dataIndex: 'second',
       key: 'second',
-      render: (text: string, record: any) => renderClickableCell(text, record), // Без тултипа
+      render: (text: string, record: any) => renderClickableCell(text, record),
     },
     {
       title: 'В конце',
       dataIndex: 'third',
       key: 'third',
-      render: (text: string, record: any) => renderClickableCell(text, record), // Без тултипа
+      render: (text: string, record: any) => renderClickableCell(text, record),
     },
   ];
 
   return (
     <>
-      <Divider>Урок №1 - алфавит и таджвид</Divider>
+      <Divider>Урок №1: Алфавит и таджвид</Divider>
 
-      <p>
-        В арабском языке всего 28 букв, и почти все они согласные, за исключением буквы Алиф. В данном уроке будут рассмотрены первые 4 буквы арабского алфавита
-        в трех формах - как они пишутся в начале предложения, середине и конца.
-      </p>
+      <p>Арабский алфавит состоит из 28 букв. Почти все они — согласные, и только Алиф обозначает долгий гласный звук.</p>
+      <p>В этом уроке мы разберем первые 4 буквы. Ты увидишь, как каждая из них пишется в трех позициях: в начале, в середине и в конце слова.</p>
 
-      <p>
-        По нажатию на любую букву будет читаться текст (его произношение), а также по наведению на отдельную форму будет всплывать поясняющий текст чтения буквы
-      </p>
+      <ol>
+        Как работать с уроком:
+        <li>Нажми на любую букву, чтобы услышать ее произношение.</li>
+        <li>Наведи курсор на отдельную форму буквы, чтобы увидеть подсказку с правилами чтения.</li>
+      </ol>
 
       <Table
         dataSource={dataSource}

@@ -95,15 +95,15 @@ export const furniture_01 = [
     english: 'What furniture do you have there? - I have a sofa and a table.',
     russian: 'Какая мебель у тебя там? - У меня есть диван и стол',
   },
-  { 
-    key: '8', 
-    english: 'Do you have a TV? - Yes, I have a TV. It’s on the table.', 
-    russian: 'У тебя есть телевизор? - Да, у меня есть телевизор. Он на столе.' 
+  {
+    key: '8',
+    english: 'Do you have a TV? - Yes, I have a TV. It’s on the table.',
+    russian: 'У тебя есть телевизор? - Да, у меня есть телевизор. Он на столе.',
   },
-  { 
-    key: '9', 
-    english: 'Do you have a lamp? - Yes, I have a lamp next to the sofa. - That’s great!', 
-    russian: 'У тебя есть лампа? - Да, у меня есть лампа рядом с диваном. - Это здорово!' 
+  {
+    key: '9',
+    english: 'Do you have a lamp? - Yes, I have a lamp next to the sofa. - That’s great!',
+    russian: 'У тебя есть лампа? - Да, у меня есть лампа рядом с диваном. - Это здорово!',
   },
 ];
 
@@ -118,10 +118,10 @@ export const furniture_03 = [
     english: 'What furniture do you have in your bedroom? - I have a bed, a wardrobe, and a bedside table.',
     russian: 'Какая мебель у тебя в спальне? - У меня есть кровать, шкаф и прикроватная тумбочка.',
   },
-  { 
-    key: '3', 
-    english: 'Do you have a lamp? - Yes, I have a lamp on the bedside table.', 
-    russian: 'У тебя есть лампа? - Да, у меня есть лампа на прикроватной тумбочке' 
+  {
+    key: '3',
+    english: 'Do you have a lamp? - Yes, I have a lamp on the bedside table.',
+    russian: 'У тебя есть лампа? - Да, у меня есть лампа на прикроватной тумбочке',
   },
   {
     key: '4',
@@ -259,7 +259,7 @@ export const furniture_07 = [
     english: '---',
     russian: '---',
   },
-   {
+  {
     key: '8',
     english: 'What’s in your bedroom? - I have a bed, a wardrobe, and a desk.',
     russian: 'Что в твоей спальне? - У меня есть кровать, шкаф и письменный стол.',
@@ -287,34 +287,34 @@ export const furniture_07 = [
 ];
 
 export const furniture_08 = [
-  { 
-    key: '1', 
-    english: 'You have a very nice apartment! How many people live here?', 
-    russian: 'У тебя очень милая квартира! Сколько человек здесь живёт?' 
+  {
+    key: '1',
+    english: 'You have a very nice apartment! How many people live here?',
+    russian: 'У тебя очень милая квартира! Сколько человек здесь живёт?',
   },
-  { 
-    key: '2', 
-    english: 'Thank you! Just me and my sister. So, two people.', 
-    russian: 'Спасибо! Только я и моя сестра. Так что двое.' 
+  {
+    key: '2',
+    english: 'Thank you! Just me and my sister. So, two people.',
+    russian: 'Спасибо! Только я и моя сестра. Так что двое.',
   },
-  { 
-    key: '3', 
-    english: 'Nice. How many rooms are there?', 
-    russian: 'Здорово. А сколько здесь комнат?'
+  {
+    key: '3',
+    english: 'Nice. How many rooms are there?',
+    russian: 'Здорово. А сколько здесь комнат?',
   },
-  { 
+  {
     key: '4',
-    english: 'There are three rooms: a living room, and two bedrooms.', 
-    russian: 'Всего три комнаты: гостиная и две спальни.' 
+    english: 'There are three rooms: a living room, and two bedrooms.',
+    russian: 'Всего три комнаты: гостиная и две спальни.',
   },
-  { 
-    key: '5', 
-    english: 'Perfect for two people. How many guests are coming today?', 
-    russian: 'Идеально для двоих. А сколько гостей придёт сегодня?' 
+  {
+    key: '5',
+    english: 'Perfect for two people. How many guests are coming today?',
+    russian: 'Идеально для двоих. А сколько гостей придёт сегодня?',
   },
-  { 
-    key: '6', 
-    english: 'About six or seven people. I hope everyone fits!', 
-    russian: 'Примерно шесть или семь человек. Надеюсь, все поместятся!' 
+  {
+    key: '6',
+    english: 'About six or seven people. I hope everyone fits!',
+    russian: 'Примерно шесть или семь человек. Надеюсь, все поместятся!',
   },
 ];
