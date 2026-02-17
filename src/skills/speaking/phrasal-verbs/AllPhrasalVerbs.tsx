@@ -1,9 +1,10 @@
-import { PhrasalVerbsA1 } from './PhrasalVerbsA1';
+import { PhrasalVerbsA2 } from './PhrasalVerbsA2';
 
 export const AllPhrasalVerbs = () => {
   return (
     <div>
-      <PhrasalVerbsA1 />
+      {/* <PhrasalVerbsA1 /> */}
+      <PhrasalVerbsA2 />
     </div>
   );
 };

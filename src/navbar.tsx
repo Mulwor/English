@@ -76,12 +76,12 @@ const items: MenuItem[] = [
         label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link>,
       },
       {
-        key: 'S-01-18',
-        label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
-      },
-      {
         key: 'S-01-19',
         label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link>,
+      },
+      {
+        key: 'S-01-18',
+        label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
       },
       { key: 'S-01-20', label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link> },
       { key: 'S-01-21', label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link> },
@@ -155,10 +155,10 @@ const items: MenuItem[] = [
         key: 'S-02-17',
         label: <Link to='/pre-intermediate/speaking/news'>News</Link>,
       },
-      // {
-      //   key: 'S-02-18',
-      //   label: <Link to='/pre-intermediate/speaking/phrasal-verbs'>Phrasal verbs</Link>,
-      // },
+      {
+        key: 'S-02-18',
+        label: <Link to='/pre-intermediate/speaking/phrasal-verbs'>Phrasal verbs</Link>,
+      },
     ],
   },
   {

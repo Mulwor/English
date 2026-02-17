@@ -115,18 +115,18 @@ export const furniture_03 = [
   },
   {
     key: '2',
-    english: 'What furniture do you have in your bedroom? - I have a bed, a wardrobe, and a bedside table.',
-    russian: 'Какая мебель у тебя в спальне? - У меня есть кровать, шкаф и прикроватная тумбочка.',
+    english: 'What furniture do you have in your bedroom? - I have a bed, a closet, and a bedside table.',
+    russian: 'Какая мебель у тебя есть в спальне? - У меня есть кровать, шкаф и тумбочка.',
   },
   {
     key: '3',
     english: 'Do you have a lamp? - Yes, I have a lamp on the bedside table.',
-    russian: 'У тебя есть лампа? - Да, у меня есть лампа на прикроватной тумбочке',
+    russian: 'У тебя есть лампа? - Да, у меня есть лампа на тумбочке',
   },
   {
     key: '4',
-    english: 'That sounds nice. Do you have a window? - Yes, I have a big window.',
-    russian: 'Звучит здорово. У тебя есть окно? - Да, у меня большое окно.',
+    english: 'Do you have a window? - Yes, I have a big window.',
+    russian: 'У тебя есть окно? - Да, у меня большое окно.',
   },
   {
     key: '5',
@@ -136,12 +136,12 @@ export const furniture_03 = [
   {
     key: '6',
     english: 'What rooms are in your house? - I have a kitchen, a bedroom, a bathroom, and a living room.',
-    russian: 'Какие комнаты есть в твоём доме? - У меня есть кухня, спальня, ванная и гостиная.',
+    russian: 'Какие комнаты в твоём доме? - У меня есть кухня, спальня, ванная и гостиная.',
   },
   {
     key: '7',
-    english: 'What furniture do you have in your kitchen? - I have a fridge, a stove, and a cupboard.',
-    russian: 'Какая мебель у тебя на кухне? - У меня есть холодильник, плита и шкаф.',
+    english: 'What furniture do you have in your kitchen? - I have a fridge [frɪʤ], a stove, and a cupboard.',
+    russian: 'Какая мебель у тебя есть на кухне? - У меня есть холодильник, плита и шкаф.',
   },
   {
     key: '8',
@@ -151,7 +151,7 @@ export const furniture_03 = [
   {
     key: '9',
     english: 'What’s in your bedroom? - I have a bed, a wardrobe, and a bedside table.',
-    russian: 'Что в твоей спальне? - У меня есть кровать, шкаф и прикроватная тумбочка.',
+    russian: 'Что в твоей спальне? - У меня есть кровать, шкаф и тумбочка.',
   },
 ];
 
@@ -173,7 +173,7 @@ export const furniture_05 = [
   },
   {
     key: '4',
-    english: 'Do you like your kitchen? - Yes, I like it. It has a fridge, an oven, and a microwave.',
+    english: 'Do you like your kitchen? - Yes, I like it. It has a fridge, an oven, and a microwave [maɪkrə(u)weɪv].',
     russian: 'Тебе нравится твоя кухня? - Да, мне нравится. У меня есть холодильник, плита и микроволновка.',
   },
   {
@@ -213,13 +213,8 @@ export const furniture_05 = [
   },
   {
     key: '12',
-    english: 'That sounds nice. Do you have a wardrobe in your bedroom?',
-    russian: 'Звучит здорово. У тебя есть шкаф в спальне?',
-  },
-  {
-    key: '13',
-    english: 'Yes, I do. It’s very big and fits all my clothes.',
-    russian: 'Да, есть. Он очень большой и вмещает всю мою одежду.',
+    english: 'Do you have a wardrobe in your bedroom? - Yes, I do. It’s very big and fits all my clothes',
+    russian: ' У тебя есть шкаф в спальне? - Да, есть. Он очень большой и вмещает всю мою одежду.',
   },
 ];
 
@@ -236,51 +231,46 @@ export const furniture_07 = [
   },
   {
     key: '3',
-    english: 'That sounds nice. What furniture do you have on the balcony?',
-    russian: 'Звучит здорово. Какая мебель у тебя на балконе?',
+    english: 'What furniture do you have on the balcony? - I have two chairs and a small table.',
+    russian: 'Какая мебель у тебя на балконе? - У меня есть два стула и маленький столик',
   },
   {
     key: '4',
-    english: 'I have two chairs and a small table.',
-    russian: 'У меня есть два стула и маленький столик.',
-  },
-  {
-    key: '5',
     english: 'Is there a garden in your house? - Yes, there is. It’s behind the house, and it’s very beautiful.',
     russian: 'Есть ли в твоём доме сад? - Да, есть. Он сзади дома и очень красивый.',
   },
   {
-    key: '6',
+    key: '5',
     english: 'I’d love to see it sometime!',
     russian: 'Я бы хотел увидеть его как-нибудь!',
   },
   {
-    key: '7',
+    key: '6',
     english: '---',
     russian: '---',
   },
   {
-    key: '8',
+    key: '7',
     english: 'What’s in your bedroom? - I have a bed, a wardrobe, and a desk.',
     russian: 'Что в твоей спальне? - У меня есть кровать, шкаф и письменный стол.',
   },
   {
-    key: '9',
+    key: '8',
     english: 'Do you have a bookshelf? - Yes, I have a bookshelf next to the bed.',
     russian: 'У тебя есть книжная полка? - Да, у меня есть книжная полка рядом с кроватью.',
   },
   {
-    key: '10',
+    key: '9',
     english: 'Do you have a mirror? - Yes, I have a mirror on the wall near the wardrobe.',
     russian: 'У тебя есть зеркало? - Да, у меня есть зеркало на стене рядом с шкафом.',
   },
   {
-    key: '11',
+    key: '10',
     english: 'That’s nice. What about your bathroom? - In the bathroom, I have a sink, a shower, and a mirror.',
     russian: 'Это здорово. Что насчёт твоей ванной? - В ванной у меня есть раковина, душ и зеркало.',
   },
   {
-    key: '12',
+    key: '11',
     english: 'Is there a carpet in your bathroom? - No, there isn’t. But I have a small rug near the sink.',
     russian: 'Есть ли ковёр в твоей ванной? - Нет, его нет. Но у меня есть маленький коврик рядом с раковиной.',
   },

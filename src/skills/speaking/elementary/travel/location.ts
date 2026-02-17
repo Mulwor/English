@@ -11,66 +11,39 @@ export const location_01 = [
   },
   {
     key: '3',
-    english: 'Thank you! Is it near the park?',
-    russian: 'Спасибо! Это рядом с парком?',
+    english: 'Thank you! Is it near the park? - Yes, it’s right next to the park. You can’t miss it.',
+    russian: 'Спасибо! Это рядом с парком? - Да, он прямо рядом с парком. Вы не пропустите.',
   },
   {
     key: '4',
-    english: 'Yes, it’s right next to the park. You can’t miss it.',
-    russian: 'Да, он прямо рядом с парком. Вы не пропустите.',
+    english: 'Great! Thanks again. - You’re welcome! Enjoy your visit.',
+    russian: 'Отлично! Спасибо еще раз. - Пожалуйста! Приятного посещения.',
   },
-  {
-    key: '5',
-    english: 'Great! Thanks again.',
-    russian: 'Отлично! Спасибо еще раз.',
-  },
+  { key: '5', english: '-------------', russian: '-------------' },
   {
     key: '6',
-    english: 'You’re welcome! Enjoy your visit.',
-    russian: 'Пожалуйста! Приятного посещения.',
-  },
-];
-
-export const location_02 = [
-  {
-    key: '1',
     english: 'Excuse me, do you know where I can find a good restaurant around here?',
     russian: 'Извините, вы не знаете, где можно найти хороший ресторан поблизости?',
   },
   {
-    key: '2',
+    key: '7',
     english: 'Yes! There’s a nice one called “Green Garden.” Go straight, then turn right at the traffic light. It’s on the left side.',
     russian: 'Да! Есть отличный ресторан под названием «Green Garden». Идите прямо, затем поверните направо на светофоре. Он будет слева.',
   },
   {
-    key: '3',
-    english: 'How far is it from here?',
-    russian: 'Как далеко это отсюда?',
-  },
-  {
-    key: '4',
-    english: 'About ten minutes on foot.',
-    russian: 'Примерно десять минут пешком.',
-  },
-  {
-    key: '5',
-    english: 'Thanks! Is it expensive?',
-    russian: 'Спасибо! Это дорого?',
-  },
-  {
-    key: '6',
-    english: 'No, it’s quite affordable and the food is really good.',
-    russian: 'Нет, это довольно доступно, и еда очень вкусная.',
-  },
-  {
-    key: '7',
-    english: 'Perfect! Thanks for your help.',
-    russian: 'Отлично! Спасибо за помощь.',
-  },
-  {
     key: '8',
-    english: 'No problem! Enjoy your meal.',
-    russian: 'Не за что! Приятного аппетита.',
+    english: 'How far is it from here? - About ten minutes on foot.',
+    russian: 'Как далеко это отсюда? - Примерно десять минут пешком.',
+  },
+  {
+    key: '9',
+    english: 'Thanks! Is it expensive? - No, it’s quite affordable and the food is really good.',
+    russian: 'Спасибо! Это дорого? - Нет, это довольно доступно, и еда очень вкусная.',
+  },
+  {
+    key: '10',
+    english: 'Perfect! Thanks for your help. - No problem! Enjoy your meal.',
+    russian: 'Отлично! Спасибо за помощь. - Не за что! Приятного аппетита.',
   },
 ];
 
@@ -97,61 +70,33 @@ export const location_03 = [
   },
   {
     key: '5',
-    english: 'Awesome! Thanks a lot.',
-    russian: 'Здорово! Большое спасибо.',
+    english: 'Awesome! Thanks a lot. - You’re welcome! Have a good day.',
+    russian: 'Здорово! Большое спасибо. - Пожалуйста! Хорошего дня.',
   },
-  {
-    key: '6',
-    english: 'You’re welcome! Have a good day.',
-    russian: 'Пожалуйста! Хорошего дня.',
-  },
-];
-
-export const location_04 = [
-  {
-    key: '1',
-    english: 'Excuse me! Can you help me, please?',
-    russian: 'Извините! Вы можете мне помочь, пожалуйста?',
-  },
-  {
-    key: '2',
-    english: 'Sure! What do you need?',
-    russian: 'Конечно! Чем могу помочь?',
-  },
-  {
-    key: '3',
-    english: 'I am looking for the museum. Where is it?',
-    russian: 'Я ищу музей. Где он находится?',
-  },
-  {
-    key: '4',
-    english: 'The museum is near the park.',
-    russian: 'Музей рядом с парком.',
-  },
-  {
-    key: '5',
-    english: 'How do I get there?',
-    russian: 'Как мне туда попасть?',
-  },
-  {
-    key: '6',
-    english: 'Go straight and turn left at the second street. The museum is on the right.',
-    russian: 'Идите прямо и поверните налево на второй улице. Музей будет справа.',
-  },
+  { key: '6', english: '-------------', russian: '-------------' },
   {
     key: '7',
-    english: 'Thank you! How long does it take to walk there?',
-    russian: 'Спасибо! Сколько времени займет, чтобы дойти туда?',
+    english: 'Excuse me! Can you help me, please? - Sure! What do you need?',
+    russian: 'Извините! Вы можете мне помочь, пожалуйста? - Конечно! Чем могу помочь?',
   },
-  { key: '8', english: 'About 10 minutes.', russian: 'Примерно 10 минут.' },
+  {
+    key: '8',
+    english: 'I am looking for the museum. Where is it? - The museum is near the park.',
+    russian: 'Я ищу музей. Где он находится? - Музей рядом с парком.',
+  },
   {
     key: '9',
-    english: 'That’s great. Thank you so much!',
-    russian: 'Здорово. Большое спасибо!',
+    english: 'How do I get there? - Go straight and turn left at the second street. The museum is on the right.',
+    russian: 'Как мне туда попасть? - Идите прямо и поверните налево на второй улице. Музей будет справа.',
   },
   {
     key: '10',
-    english: 'You’re welcome! Enjoy your visit!',
-    russian: 'Пожалуйста! Наслаждайтесь визитом!',
+    english: 'Thank you! How long does it take to walk there? - About 10 minutes.',
+    russian: 'Спасибо! Сколько времени займет, чтобы дойти туда? - Примерно 10 минут.',
+  },
+  {
+    key: '11',
+    english: 'That’s great. Thank you so much! - You’re welcome! Enjoy your visit!',
+    russian: 'Здорово. Большое спасибо! - Пожалуйста! Наслаждайтесь визитом!',
   },
 ];
