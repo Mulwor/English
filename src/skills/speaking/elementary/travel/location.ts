@@ -23,7 +23,7 @@ export const location_01 = [
   {
     key: '6',
     english: 'Excuse me, do you know where I can find a good restaurant around here?',
-    russian: 'Извините, вы не знаете, где можно найти хороший ресторан поблизости?',
+    russian: 'Извините, вы знаете где найти хороший ресторан поблизости?',
   },
   {
     key: '7',
@@ -51,7 +51,7 @@ export const location_03 = [
   {
     key: '1',
     english: 'Hi! Sorry to bother you. Do you know where the nearest bus stop is?',
-    russian: 'Привет! Извините за беспокойство. Вы не знаете, где ближайшая автобусная остановка?',
+    russian: 'Привет! Извините за беспокойство. Вы знаете, где ближайшая автобусная остановка?',
   },
   {
     key: '2',

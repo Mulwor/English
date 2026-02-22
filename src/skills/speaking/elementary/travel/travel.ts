@@ -300,7 +300,7 @@ export const travel_01 = [
   },
   {
     key: '10',
-    english: 'Thank you. Do you have any luggage? - Yes, I have one suitcase.',
+    english: 'Thank you. Do you have any luggage - [ˈlʌgɪʤ]? - Yes, I have one suitcase.',
     russian: 'Спасибо. У вас есть багаж? - Да, у меня один чемодан.',
   },
   {
@@ -372,12 +372,6 @@ export const travel_03 = [
     english: 'Thanks for your help. - You’re welcome! Enjoy your day!',
     russian: 'Спасибо за помощь. - Пожалуйста! Хорошего дня!',
   },
-  {
-    key: '13',
-    english: 'You’re welcome! Enjoy your day!',
-    russian: 'Пожалуйста! Хорошего дня!',
-  },
-
 ];
 
 export const travel_06 = [
