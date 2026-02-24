@@ -691,7 +691,12 @@ export const columns = [
     render: (examples: ReactNode[]) => (
       <ul style={{ margin: 0, paddingLeft: 20 }}>
         {examples.map((ex, idx) => (
-          <li key={idx} style={{ marginBottom: 8 }}>{ex}</li>
+          <li
+            key={idx}
+            style={{ marginBottom: 8 }}
+          >
+            {ex}
+          </li>
         ))}
       </ul>
     ),

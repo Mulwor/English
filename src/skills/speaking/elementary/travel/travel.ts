@@ -277,15 +277,15 @@ export const travel_01 = [
     english: 'Thank you. Here is your ticket. The train leaves at 10:30.',
     russian: 'Спасибо. Вот ваш билет. Поезд отправляется в 10:30.',
   },
-  { 
-    key: '5', 
-    english: 'Where is platform 4? - It’s to your left.', 
-    russian: 'Где платформа 4? - Она слева от вас.' 
+  {
+    key: '5',
+    english: 'Where is platform 4? - It’s to your left.',
+    russian: 'Где платформа 4? - Она слева от вас.',
   },
-  { 
-    key: '6', 
-    english: 'Thanks a lot! - You’re welcome! Have a good trip!', 
-    russian: 'Большое спасибо! - Пожалуйста! Хорошего пути!'
+  {
+    key: '6',
+    english: 'Thanks a lot! - You’re welcome! Have a good trip!',
+    russian: 'Большое спасибо! - Пожалуйста! Хорошего пути!',
   },
   { key: '7', english: '-------------', russian: '-------------' },
   {
@@ -293,10 +293,10 @@ export const travel_01 = [
     english: 'Hello! Where is the check-in desk? - Hello! The check-in desk is over there.',
     russian: 'Здравствуйте! Где стойка регистрации? - Здравствуйте! Стойка регистрации там.',
   },
-  { 
-    key: '9', 
-    english: 'Thank you. - You’re welcome. May I see your passport and ticket, please? - Yes, here you are.', 
-    russian: 'Спасибо - Пожалуйста. Могу я увидеть ваш паспорт и билет? - Да, вот они..' 
+  {
+    key: '9',
+    english: 'Thank you. - You’re welcome. May I see your passport and ticket, please? - Yes, here you are.',
+    russian: 'Спасибо - Пожалуйста. Могу я увидеть ваш паспорт и билет? - Да, вот они..',
   },
   {
     key: '10',
@@ -312,7 +312,7 @@ export const travel_01 = [
     key: '12',
     english: 'Great. Here is your boarding pass. Your gate is A12.',
     russian: 'Отлично. Вот ваш посадочный талон. Ваш выход A12.',
-  }
+  },
 ];
 
 export const travel_03 = [

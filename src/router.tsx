@@ -17,10 +17,23 @@ import {
   Holidays,
 } from './skills/speaking/elementary';
 import { Pronouns, Nouns } from './skills/grammar/basic';
-import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
-import { Relationship } from './skills/speaking/pre-intermediate/relationship/Relationship';
 import { Speaking } from './skills/speaking/Speaking';
-import { LifeStages } from './skills/speaking/pre-intermediate/lifeStages/LifeStages';
+import {
+  Animals,
+  CityLife,
+  ClimateAndWeather,
+  ClothesAndShopping,
+  DailyActivities,
+  Education,
+  FearsAndPhobias,
+  FoodAndHealth,
+  HobbiesAndFreeTime,
+  HouseholdObjects,
+  LifeStages,
+  Relationship,
+  Transport,
+} from './skills/speaking/pre-intermediate';
+import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
 
 const Layout = () => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -92,23 +105,30 @@ export const router = createBrowserRouter([
       {
         path: 'speaking',
         children: [
-          { path: 'animals', element: <div>В процессе</div> },
-          { path: 'fears-and-phobias', element: <div>В процессе</div> },
+          { path: 'animals', element: <Animals /> },
+          { path: 'fears-and-phobias', element: <FearsAndPhobias /> },
           { path: 'family-relationships-and-friendship', element: <Relationship /> },
-          { path: 'jobs-profession-and-workplaces', element: <div>В процессе</div> },
+          { path: 'jobs-profession-and-workplaces', element: <Jobs /> },
           { path: 'life-stages-and-events', element: <LifeStages /> },
-          { path: 'transport', element: <div>В процессе</div> },
-          { path: 'city-life', element: <div>В процессе</div> },
-          { path: 'education', element: <div>В процессе</div> },
-          { path: 'news', element: <div>В процессе</div> },
+          { path: 'transport', element: <Transport /> },
+          { path: 'city-life', element: <CityLife /> },
+          { path: 'education', element: <Education /> },
           { path: 'phrasal-verbs', element: <AllPhrasalVerbs /> },
-          { path: 'household-objects', element: <div>В процессе</div> },
-          { path: 'daily-activities', element: <div>В процессе</div> },
-          { path: 'holidays-and-travelling', element: <div>В процессе</div> },
-          { path: 'clothes-and-shopping', element: <div>В процессе</div> },
-          { path: 'climate-and-weather', element: <div>В процессе</div> },
-          { path: 'food-and-health', element: <div>В процессе</div> },
-          { path: 'hobbies', element: <div>Изучить тему более глубоко и разобраться с хобби человека - фильмы, музыка, спорт</div> },
+          { path: 'household-objects', element: <HouseholdObjects /> },
+          { path: 'daily-activities', element: <DailyActivities /> },
+          { path: 'holidays-and-travelling', element: <Holidays /> },
+          { path: 'clothes-and-shopping', element: <ClothesAndShopping /> },
+          { path: 'climate-and-weather', element: <ClimateAndWeather /> },
+          { path: 'food-and-health', element: <FoodAndHealth /> },
+          {
+            path: 'hobbies',
+            element: (
+              <>
+                <div>Изучить тему более глубоко и разобраться с хобби человека - фильмы, музыка, спорт</div>
+                <HobbiesAndFreeTime />
+              </>
+            ),
+          },
         ],
       },
       {

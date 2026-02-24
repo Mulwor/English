@@ -267,8 +267,8 @@ export const hotel_01 = [
   },
   {
     key: '4',
-    english: 'Alright. May I have your name, please? - Anna Smith.',
-    russian: 'Хорошо. Ваше имя, пожалуйста? - Анна Смит.',
+    english: 'Alright. May I have (know) your name, please? - Anna Smith.',
+    russian: 'Хорошо. Могу я узнать ваше имя, пожалуйста? - Анна Смит.',
   },
   {
     key: '5',
@@ -278,7 +278,7 @@ export const hotel_01 = [
   {
     key: '6',
     english: '--__--',
-    russian: '--__--'
+    russian: '--__--',
   },
   {
     key: '7',
@@ -326,7 +326,7 @@ export const hotel_03 = [
   {
     key: '5',
     english: '--__--',
-    russian: '--__--'
+    russian: '--__--',
   },
   {
     key: '6',
@@ -347,14 +347,14 @@ export const hotel_03 = [
     key: '9',
     english: 'Great! And where is the bathroom? - The bathroom is inside your room.',
     russian: 'Отлично! А где ванная комната? - Ванная комната находится в вашем номере.',
-  }
+  },
 ];
 
 export const hotel_05 = [
-  { 
-    key: '1', 
-    english: 'Excuse me! - Yes, how can I help you? - There is a problem with my room.', 
-    russian: 'Извините! - Да, чем могу помочь? - У меня проблема с номером.'
+  {
+    key: '1',
+    english: 'Excuse me! - Yes, how can I help you? - There is a problem with my room.',
+    russian: 'Извините! - Да, чем могу помочь? - У меня проблема с номером.',
   },
   {
     key: '2',
@@ -364,7 +364,7 @@ export const hotel_05 = [
   {
     key: '3',
     english: 'I see. We will fix it right away. - Thank you!',
-    russian: 'Понял. Мы сразу все исправим. - Спасибо!',
+    russian: 'Понял. Мы сейчас же (немедленно) починим. - Спасибо!',
   },
   {
     key: '4',
@@ -379,7 +379,7 @@ export const hotel_05 = [
   {
     key: '6',
     english: '--__--',
-    russian: '--__--'
+    russian: '--__--',
   },
   {
     key: '7',
@@ -406,10 +406,10 @@ export const hotel_05 = [
     english: 'Thank you. Can I pay by card? - Yes, of course.',
     russian: 'Спасибо. Могу ли я заплатить картой? - Да, конечно.',
   },
-  { 
-    key: '12', 
-    english: 'Here you go. - Thank you. Have a nice day! - You too!', 
-    russian: 'Вот, пожалуйста. - Спасибо. Хорошего дня! - Вам тоже!'
+  {
+    key: '12',
+    english: 'Here you go. - Thank you. Have a nice day! - You too!',
+    russian: 'Вот, пожалуйста. - Спасибо. Хорошего дня! - Вам тоже!',
   },
 ];
 
@@ -429,15 +429,15 @@ export const hotel_07 = [
     english: 'Great! And do you offer laundry service? - Yes, we do. You can leave your clothes at the reception.',
     russian: 'Отлично! А у вас есть услуга прачечной? - Да, есть. Вы можете оставить свою одежду на ресепшн.',
   },
-  { 
+  {
     key: '4',
-    english: 'Perfect, thank you! - You are welcome!', 
-    russian: 'Отлично, спасибо! - Пожалуйста!' 
+    english: 'Perfect, thank you! - You are welcome!',
+    russian: 'Отлично, спасибо! - Пожалуйста!',
   },
   {
     key: '5',
     english: '--__--',
-    russian: '--__--'
+    russian: '--__--',
   },
   {
     key: '6',
@@ -459,10 +459,10 @@ export const hotel_07 = [
     english: 'Certainly. We have a room at the back of the hotel. I can prepare it for you.',
     russian: 'Конечно. У нас есть номер сзади отеля. Я могу подготовить его для вас.',
   },
-  { 
-    key: '10', 
-    english: 'Thank you so much! - My pleasure!', 
-    russian: 'Большое спасибо! - Пожалуйста!' 
+  {
+    key: '10',
+    english: 'Thank you so much! - My pleasure!',
+    russian: 'Большое спасибо! - Пожалуйста!',
   },
 ];
 
@@ -482,15 +482,15 @@ export const hotel_09 = [
     english: 'Alright. Anything else? - No, that’s all. How long will it take? - About 20 minutes.',
     russian: 'Хорошо. Что-то еще? - Нет, это все. Сколько времени это займет? - Примерно 20 минут.',
   },
-  { 
-    key: '4', 
-    english: 'Perfect. Thank you! - You’re welcome! Enjoy your meal!', 
-    russian: 'Отлично. Спасибо! - Пожалуйста! Приятного аппетита!' 
+  {
+    key: '4',
+    english: 'Perfect. Thank you! - You’re welcome! Enjoy your meal!',
+    russian: 'Отлично. Спасибо! - Пожалуйста! Приятного аппетита!',
   },
   {
     key: '5',
     english: '--__--',
-    russian: '--__--'
+    russian: '--__--',
   },
   {
     key: '6',
@@ -505,7 +505,7 @@ export const hotel_09 = [
   {
     key: '8',
     english: 'Let me check... Yes, we have availability.',
-    russian: 'Дайте мне проверить... Да, у нас есть свободные номера.',
+    russian: 'Дайте мне проверить... Да, на эти дни свободно.',
   },
   {
     key: '9',

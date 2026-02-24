@@ -66,7 +66,7 @@ export const location_03 = [
   {
     key: '4',
     english: 'Yes, take bus number 5. It stops at the train station.',
-    russian: 'Да, садитесь на автобус номер 5. Он останавливается у вокзала.',
+    russian: 'Да, садитесь на автобус номер 5. Он останавливается в вокзала.',
   },
   {
     key: '5',
@@ -87,16 +87,11 @@ export const location_03 = [
   {
     key: '9',
     english: 'How do I get there? - Go straight and turn left at the second street. The museum is on the right.',
-    russian: 'Как мне туда попасть? - Идите прямо и поверните налево на второй улице. Музей будет справа.',
+    russian: 'Как мне туда попасть? - Идите прямо и поверните налево на второй улице. Музей - справа.',
   },
   {
     key: '10',
     english: 'Thank you! How long does it take to walk there? - About 10 minutes.',
     russian: 'Спасибо! Сколько времени займет, чтобы дойти туда? - Примерно 10 минут.',
-  },
-  {
-    key: '11',
-    english: 'That’s great. Thank you so much! - You’re welcome! Enjoy your visit!',
-    russian: 'Здорово. Большое спасибо! - Пожалуйста! Наслаждайтесь визитом!',
   },
 ];

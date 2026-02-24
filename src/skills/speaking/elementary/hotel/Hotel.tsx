@@ -8,13 +8,7 @@ import { BasicTable, Pagination, Video } from '../../../../components';
 const { Panel } = Collapse;
 
 export const Hotel = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(hotel_01, [
-    hotel_01,
-    hotel_03,
-    hotel_05,
-    hotel_07,
-    hotel_09,
-  ]);
+  const { data, currentPage, handlePageChange } = usePaginatedData(hotel_01, [hotel_01, hotel_03, hotel_05, hotel_07, hotel_09]);
 
   return (
     <div>

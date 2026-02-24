@@ -152,10 +152,6 @@ const items: MenuItem[] = [
         label: <Link to='/pre-intermediate/speaking/animals'>Animals</Link>,
       },
       {
-        key: 'S-02-17',
-        label: <Link to='/pre-intermediate/speaking/news'>News</Link>,
-      },
-      {
         key: 'S-02-18',
         label: <Link to='/pre-intermediate/speaking/phrasal-verbs'>Phrasal verbs</Link>,
       },
@@ -176,7 +172,9 @@ const items: MenuItem[] = [
   //         { key: 'S-V2-02_01', label: <Link to='/beginner-and-elementary/speaking/firstModule'>First module</Link> },
   //         { key: 'S-V2-02_02', label: <Link to='/beginner-and-elementary/speaking/secondModule'>Second module</Link> },
   //         { key: 'S-V2-02_03', label: <Link to='/beginner-and-elementary/speaking/thirdModule'>Third module</Link> },
-  //       ],
+  //     { key: 'S-02-17', label: <Link to='/pre-intermediate/speaking/news'>News</Link>, },
+  // ],
+
   //     },
   //   ]
   // },

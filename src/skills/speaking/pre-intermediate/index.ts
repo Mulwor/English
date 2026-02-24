@@ -1,0 +1,13 @@
+export { Animals } from './animals/Animals';
+export { ClimateAndWeather } from './weather/Weather';
+export { FoodAndHealth } from './food/FoodAndHealth';
+export { ClothesAndShopping } from './clothes/closesAndShopping';
+export { DailyActivities } from './dailyActivities/DailyActivities';
+export { Education } from './education/Education';
+export { CityLife } from './сityLife/cityLife';
+export { Transport } from './transport/Transport';
+export { FearsAndPhobias } from './fear/Fear';
+export { HobbiesAndFreeTime } from './hobbies/Hobbies';
+export { Relationship } from './relationship/Relationship';
+export { LifeStages } from './lifeStages/LifeStages';
+export { HouseholdObjects } from './household/Household';

@@ -4,7 +4,7 @@ import { columns } from '../../../../data/sample';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { BasicTable, Pagination } from '../../../../components';
-import { location_01, location_03,  } from './location';
+import { location_01, location_03 } from './location';
 
 export const Travel = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(travel_01, [
