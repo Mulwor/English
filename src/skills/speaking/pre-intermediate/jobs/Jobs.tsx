@@ -1,6 +1,6 @@
 import { Divider } from 'antd';
 
-export const Jobs = () => {
+export const JobsAndProfessions = () => {
   return (
     <>
       <Divider>Jobs, professions and workplaces</Divider>

@@ -11,3 +11,4 @@ export { HobbiesAndFreeTime } from './hobbies/Hobbies';
 export { Relationship } from './relationship/Relationship';
 export { LifeStages } from './lifeStages/LifeStages';
 export { HouseholdObjects } from './household/Household';
+export { JobsAndProfessions } from './jobs/Jobs';

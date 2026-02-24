@@ -32,6 +32,7 @@ import {
   LifeStages,
   Relationship,
   Transport,
+  JobsAndProfessions
 } from './skills/speaking/pre-intermediate';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
 
@@ -108,7 +109,7 @@ export const router = createBrowserRouter([
           { path: 'animals', element: <Animals /> },
           { path: 'fears-and-phobias', element: <FearsAndPhobias /> },
           { path: 'family-relationships-and-friendship', element: <Relationship /> },
-          { path: 'jobs-profession-and-workplaces', element: <Jobs /> },
+          { path: 'jobs-profession-and-workplaces', element: <JobsAndProfessions /> },
           { path: 'life-stages-and-events', element: <LifeStages /> },
           { path: 'transport', element: <Transport /> },
           { path: 'city-life', element: <CityLife /> },
