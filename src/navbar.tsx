@@ -92,6 +92,14 @@ const items: MenuItem[] = [
     label: 'A2 (Pre-intermediate)',
     children: [
       {
+        key: 'S-02-16',
+        label: <Link to='/pre-intermediate/speaking/animals'>Animals</Link>,
+      },
+      {
+        key: 'S-02-15',
+        label: <Link to='/pre-intermediate/speaking/fears-and-phobias'>Fears and phobias</Link>,
+      },
+      {
         key: 'S-02-1',
         label: <Link to='/pre-intermediate/speaking/family-relationships-and-friendship'>Family relationships and friendship</Link>,
       },
@@ -142,14 +150,6 @@ const items: MenuItem[] = [
       {
         key: 'S-02-14',
         label: <Link to='/pre-intermediate/speaking/education'>Education</Link>,
-      },
-      {
-        key: 'S-02-15',
-        label: <Link to='/pre-intermediate/speaking/fears-and-phobias'>Fears and phobias</Link>,
-      },
-      {
-        key: 'S-02-16',
-        label: <Link to='/pre-intermediate/speaking/animals'>Animals</Link>,
       },
       {
         key: 'S-02-18',

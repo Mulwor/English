@@ -91,3 +91,26 @@ export const animalEnvironment = [
   { key: '11', english: 'Leaves', pronunciation: '[liːvz]', russian: 'Листья' },
   { key: '12', english: 'Insects', pronunciation: '[ˈɪnsekts]', russian: 'Насекомые' },
 ];
+
+export const animalActions = [
+  { key: '1', english: 'Run', pronunciation: '[rʌn]', russian: 'Бегать' },
+  { key: '2', english: 'Jump', pronunciation: '[dʒʌmp]', russian: 'Прыгать' },
+  { key: '3', english: 'Swim', pronunciation: '[swɪm]', russian: 'Плавать' },
+  { key: '4', english: 'Fly', pronunciation: '[flaɪ]', russian: 'Летать' },
+  { key: '5', english: 'Climb', pronunciation: '[klaɪm]', russian: 'Лазить' },
+  { key: '6', english: 'Hunt', pronunciation: '[hʌnt]', russian: 'Охотиться' },
+  { key: '7', english: 'Roar', pronunciation: '[rɔː]', russian: 'Рычать' },
+  { key: '8', english: 'Growl', pronunciation: '[ɡraʊl]', russian: 'Рычать / ворчать' },
+  { key: '9', english: 'Bark', pronunciation: '[bɑːk]', russian: 'Лаять' },
+  { key: '10', english: 'Meow', pronunciation: '[miˈaʊ]', russian: 'Мяукать' },
+  { key: '11', english: 'Moo', pronunciation: '[muː]', russian: 'Мычать' },
+  { key: '12', english: 'Quack', pronunciation: '[kwæk]', russian: 'Крякать' },
+  { key: '13', english: 'Chirp', pronunciation: '[tʃɜːp]', russian: 'Чирикать' },
+  { key: '14', english: 'Hiss', pronunciation: '[hɪs]', russian: 'Шипеть' },
+  { key: '15', english: 'Crawl', pronunciation: '[krɔːl]', russian: 'Ползать' },
+  { key: '16', english: 'Hop', pronunciation: '[hɒp]', russian: 'Прыгать (на одной ноге/лапе)' },
+  { key: '17', english: 'Gallop', pronunciation: '[ˈɡæləp]', russian: 'Скакать галопом' },
+  { key: '18', english: 'Slither', pronunciation: '[ˈslɪðə]', russian: 'Скользить / извиваться (о змее)' },
+  { key: '19', english: 'Swing', pronunciation: '[swɪŋ]', russian: 'Качаться (на ветках)' },
+  { key: '20', english: 'Dive', pronunciation: '[daɪv]', russian: 'Нырять' },
+];

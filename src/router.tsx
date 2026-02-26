@@ -35,6 +35,7 @@ import {
   JobsAndProfessions
 } from './skills/speaking/pre-intermediate';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
+import { HolidaysAndTravelling } from './skills/speaking/pre-intermediate/holidays/Holidays';
 
 const Layout = () => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -117,7 +118,7 @@ export const router = createBrowserRouter([
           { path: 'phrasal-verbs', element: <AllPhrasalVerbs /> },
           { path: 'household-objects', element: <HouseholdObjects /> },
           { path: 'daily-activities', element: <DailyActivities /> },
-          { path: 'holidays-and-travelling', element: <Holidays /> },
+          { path: 'holidays-and-travelling', element: <HolidaysAndTravelling /> },
           { path: 'clothes-and-shopping', element: <ClothesAndShopping /> },
           { path: 'climate-and-weather', element: <ClimateAndWeather /> },
           { path: 'food-and-health', element: <FoodAndHealth /> },
