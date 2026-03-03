@@ -70,21 +70,26 @@ const items: MenuItem[] = [
         key: 'S-01-15',
         label: <Link to='/beginner-and-elementary/speaking/daily-routine'>Daily routine</Link>,
       },
-      { key: 'S-011-EX', label: '---------------------' },
       {
         key: 'S-01-16',
         label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link>,
       },
       {
-        key: 'S-01-19',
+        key: 'S-01-17',
         label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link>,
       },
       {
         key: 'S-01-18',
         label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
       },
-      { key: 'S-01-20', label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link> },
-      { key: 'S-01-21', label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link> },
+      { 
+        key: 'S-01-19', 
+        label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link> 
+      },
+      { 
+        key: 'S-01-20', 
+        label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link> 
+      },
     ],
   },
   {
@@ -157,10 +162,10 @@ const items: MenuItem[] = [
       },
     ],
   },
-  {
-    key: 'S-03',
-    label: 'B1 (Intermediate)',
-  },
+  // {
+  //   key: 'S-03',
+  //   label: 'B1 (Intermediate)',
+  // },
   // {
   //   key: 'S-V2-01',
   //   label: 'Speaking V2',
@@ -244,16 +249,16 @@ const items: MenuItem[] = [
   //   key: 'R-04',
   //   label: <Link to='/beginner-and-elementary/reading-and-listening'>Reading and Listening</Link>,
   // },
-  {
-    key: 'Arab',
-    label: 'Арабский язык',
-    children: [
-      {
-        key: 'AR-01',
-        label: <Link to='/arab/lesson-01'>Урок №1</Link>,
-      },
-    ],
-  },
+  // {
+  //   key: 'Arab',
+  //   label: 'Арабский язык',
+  //   children: [
+  //     {
+  //       key: 'AR-01',
+  //       label: <Link to='/arab/lesson-01'>Урок №1</Link>,
+  //     },
+  //   ],
+  // },
 ];
 
 export const Navbar = () => {

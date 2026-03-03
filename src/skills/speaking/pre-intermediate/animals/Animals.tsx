@@ -1,9 +1,23 @@
-import { Divider } from 'antd';
-import { CollapseWithAccordion, Video } from '../../../../components';
+import { Collapse, Divider } from 'antd';
+import { BasicTable, CollapseWithAccordion, Pagination, Video } from '../../../../components';
 import { columns } from '../../../../data/sample';
-import { animalActions, animalAdjectives, animalBodyParts, animalEnvironment, animals } from './vocab';
+import { animalAdjectives, animalEnvironment, animals } from './vocab';
+import { usePaginatedData } from '../../../../hooks/usePaginatedData';
+import { 
+  animal_01, animal_03, animal_05, 
+  animal_07, animal_09, animal_11, 
+  animal_13, animal_15 
+} from './dialogs';
+
+const { Panel } = Collapse;
 
 export const Animals = () => {
+  const { data, currentPage, handlePageChange } = usePaginatedData(animal_01, [
+    animal_01, animal_03, animal_05, animal_07,
+    animal_09, animal_11, animal_13, animal_15
+ ]);
+  
+    
   return (
     <>
       <Divider>Animals (животные)</Divider>
@@ -15,20 +29,33 @@ export const Animals = () => {
       <Divider>Vocabulary</Divider>
 
       <div style={{display: 'flex', flexDirection: "column", gap: '8px'}}>
-        <CollapseWithAccordion text={'All animals'} data={animals} columns={columns} />
-        <CollapseWithAccordion text={'Actions - что делают животные'}  data={animalActions} columns={columns} />
-        <CollapseWithAccordion text={'Adjectives'} data={animalAdjectives} columns={columns} />
-        <CollapseWithAccordion text={'Environment'} data={animalEnvironment} columns={columns} />
-        <CollapseWithAccordion text={'Body part - части тела животных'} data={animalBodyParts} columns={columns} />
+        <CollapseWithAccordion text={'All animals and they body part'} data={animals} columns={columns} />
+        <CollapseWithAccordion text={'Adjectives и Actions - Как выглядят животные и что они делают'}  data={animalAdjectives} columns={columns} />
+        <CollapseWithAccordion text={'Environment - среда обитания'} data={animalEnvironment} columns={columns} />
       </div>
 
-      <Divider>Videos</Divider>
+      <Divider>Listening</Divider>
 
-      <Video videoId='https://www.youtube.com/watch?v=H2rkdtup7_o' />
-      <Video videoId='https://www.youtube.com/watch?v=oJVv_kU4vr8' />
-      <Video videoId='https://www.youtube.com/watch?v=0qBMd55ONss' />
-      <Video videoId='https://www.youtube.com/watch?v=ocFW2TnfwAQ' />
+       <Collapse accordion>
+        <Panel header='Videos' key='1'>
+          <div className='video'>
+            <Video videoId='https://www.youtube.com/watch?v=H2rkdtup7_o' />
+            <Video videoId='https://www.youtube.com/watch?v=oJVv_kU4vr8' />
+            <Video videoId='https://www.youtube.com/watch?v=0qBMd55ONss' />
+            <Video videoId='https://www.youtube.com/watch?v=ocFW2TnfwAQ' />
+          </div>
+        </Panel>
+      </Collapse>
 
+      <Divider>Dialogs</Divider>
+      
+      <BasicTable data={data} />
+      <Pagination
+        currentPage={currentPage}
+        totalPages={8}
+        onPageChange={handlePageChange}
+      />
+    
       {
       /*  
         <p><strong>Категории животных:</strong></p>

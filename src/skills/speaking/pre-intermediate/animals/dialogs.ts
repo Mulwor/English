@@ -1,16 +1,3 @@
-// ! Dialogue 1: At the Zoo (В зоопарке)
-// ! Characters: Anna and her friend Tom
-
-// Look, Tom! The lions are sleeping.
-// Oh yes! They are so big and beautiful. Are they dangerous?
-// Yes, they are. They are wild animals. But they look very tired and lazy right now.
-// You're right. They probably eat a lot of meat. What's that animal over there? It has a very long neck.
-// That's a giraffe. Giraffes are my favourite. They are so tall and gentle.
-// They are beautiful. Look, it's eating leaves from that tall tree. Can we buy some food for them?
-// No, we can't. The sign says "Don't feed the animals." It's not good for them.
-// Okay. Let's go and see the elephants next. I love their big ears.
-// Good idea! I hope they are not sleeping too.
-
 export const animal_01 = [
   {
     key: '1',
@@ -56,70 +43,59 @@ export const animal_01 = [
     key: '9',
     english: 'Good idea! I hope they are not sleeping too.',
     russian: 'Отличная идея! Надеюсь, они тоже не спят.'
-  }
-];
-
-// ! Dialogue 2: The Perfect Pet (Идеальный питомец)
-// ! Characters: Lily and her mum
-
-// Lily: Mum, can we have a pet? I really want an animal at home.
-// Mum: Maybe. What kind of pet do you want?
-// Lily: I want a dog! A small, funny dog, like a pug or a corgi.
-// Mum: A dog is a lot of work, Lily. You need to walk it every day, even when it's cold or rainy.
-// Lily: I can do that! I can walk it after school. What about a cat? Cats are quiet and clean.
-// Mum: Hmm. A cat is easier, that's true. But we have a small flat. It doesn't have a garden.
-// Lily: Oh, you're right. What about a hamster? They are cute and they don't need much space. We can put a cage in my room.
-// Mum: That's a very good idea. Hamsters are fun to watch at night. But you must clean the cage every week.
-// Lily: I promise I will! So, can we go to the pet shop this weekend?
-// Mum: Okay, Lily. Let's go and look for a hamster on Saturday.
-export const animal_02 = [
+  },
   {
-    key: '1',
+    key: '10',
+    english: "--__--__--",
+    russian: "--__--__--"
+  },
+  {
+    key: '11',
     english: "Mum, can we have a pet? I really want an animal at home.",
     russian: "Мам, можно нам завести питомца? Я очень хочу животное дома."
   },
   {
-    key: '2',
+    key: '12',
     english: "Maybe. What kind of pet do you want?",
     russian: "Возможно. Какое животное ты хочешь?"
   },
   {
-    key: '3',
+    key: '13',
     english: "I want a dog! A small, funny dog, like a pug or a corgi.",
     russian: "Я хочу собаку! Маленькую, забавную собаку, как мопс или корги."
   },
   {
-    key: '4',
+    key: '14',
     english: "A dog is a lot of work, Lily. You need to walk it every day, even when it's cold or rainy.",
     russian: "Собака — это много работы, Лили. Нужно гулять с ней каждый день, даже когда холодно или дождливо."
   },
   {
-    key: '5',
+    key: '15',
     english: "I can do that! I can walk it after school. What about a cat? Cats are quiet and clean.",
     russian: "Я справлюсь! Я могу гулять с ней после школы. А как насчет кошки? Кошки тихие и чистоплотные."
   },
   {
-    key: '6',
+    key: '16',
     english: "Hmm. A cat is easier, that's true. But we have a small flat. It doesn't have a garden.",
     russian: "Хм. С кошкой проще, это правда. Но у нас маленькая квартира. В ней нет сада."
   },
   {
-    key: '7',
+    key: '17',
     english: "Oh, you're right. What about a hamster? They are cute and they don't need much space. We can put a cage in my room.",
     russian: "О, ты права. А как насчет хомяка? Они милые и им не нужно много места. Мы можем поставить клетку в моей комнате."
   },
   {
-    key: '8',
+    key: '18',
     english: "That's a very good idea. Hamsters are fun to watch at night. But you must clean the cage every week.",
     russian: "Это очень хорошая идея. За хомяками интересно наблюдать ночью. Но ты должна чистить клетку каждую неделю."
   },
   {
-    key: '9',
+    key: '19',
     english: "I promise I will! So, can we go to the pet shop this weekend?",
     russian: "Обещаю! Так мы можем пойти в зоомагазин на этих выходных?"
   },
   {
-    key: '10',
+    key: '20',
     english: "Okay, Lily. Let's go and look for a hamster on Saturday.",
     russian: "Хорошо, Лили. Пойдем искать хомяка в субботу."
   }
@@ -175,52 +151,54 @@ export const animal_03 = [
     key: '10',
     english: "Of course! Her name is Daisy and she is very friendly.",
     russian: "Конечно! Ее зовут Дейзи, и она очень дружелюбная."
-  }
-];
-
-export const animal_04 = [
+  },
   {
-    key: '1',
+    key: '11',
+    english: "--__--__--",
+    russian: "--__--__--"
+  },
+  {
+    key: '12',
     english: "Hello there! Can I help you find something today?",
     russian: "Здравствуйте! Могу я помочь вам найти что-то сегодня?"
   },
   {
-    key: '2',
+    key: '13',
     english: "Yes, please. I'm looking for food for my parrot.",
     russian: "Да, пожалуйста. Я ищу корм для моего попугая."
   },
   {
-    key: '3',
+    key: '14',
     english: "Of course. We have different types. Food for big parrots and small parrots. What kind of parrot do you have?",
     russian: "Конечно. У нас есть разные виды. Корм для больших попугаев и маленьких попугаев. Какой у вас попугай?"
   },
   {
-    key: '4',
+    key: '15',
     english: "He's a small, green parrot. His name is Kiwi and he's very noisy in the morning!",
     russian: "Он маленький, зеленый попугай. Его зовут Киви, и он очень шумный по утрам!"
   },
   {
-    key: '5',
+    key: '16',
     english: "Haha, that's a nice name. I have a small parrot too. Here is the food for small birds. It has seeds and dried fruit. Does Kiwi like fresh fruit too?",
     russian: "Ха-ха, хорошее имя. У меня тоже есть маленький попугай. Вот корм для маленьких птиц. Там семечки и сушеные фрукты. Киви любит свежие фрукты?"
   },
   {
-    key: '6',
+    key: '17',
     english: "Yes, he loves apples and bananas. And sometimes he tries to eat my sandwich!",
     russian: "Да, он любит яблоки и бананы. А иногда пытается съесть мой бутерброд!"
   },
   {
-    key: '7',
+    key: '18',
     english: "That's funny. But be careful, chocolate and avocado are bad for parrots. Only give him bird food and fruit.",
     russian: "Забавно. Но будь осторожен, шоколад и авокадо вредны для попугаев. Давай ему только птичий корм и фрукты."
   },
   {
-    key: '8',
+    key: '19',
     english: "Oh, I didn't know that about avocado. Thanks for telling me. I'll just take this food, please.",
     russian: "О, я не знал об авокадо. Спасибо, что сказали. Я возьму вот этот корм, пожалуйста."
   },
   {
-    key: '9',
+    key: '20',
     english: "Great choice. I hope Kiwi enjoys it!",
     russian: "Отличный выбор. Надеюсь, Киви понравится!"
   }
@@ -271,62 +249,54 @@ export const animal_05 = [
     key: '9',
     english: "I'm happy for you. Give her a hug from me.",
     russian: "Я рада за тебя. Передай ей объятия от меня."
-  }
-];
-
-export const animal_06 = [
+  },
   {
-    key: '1',
+    key: '10',
+    english: "--__--__--",
+    russian: "--__--__--"
+  },
+  {
+    key: '11',
     english: "Good morning, Mrs. Wilson. Please come in. And who do we have here?",
     russian: "Доброе утро, миссис Уилсон. Проходите. И кто у нас тут?"
   },
   {
-    key: '2',
+    key: '12',
     english: "This is Max, my dog. He's usually very active, but today he's quiet and sad.",
     russian: "Это Макс, моя собака. Обычно он очень активный, но сегодня он тихий и грустный."
   },
   {
-    key: '3',
+    key: '13',
     english: "Oh, poor Max. Let me take a look. When did he eat last?",
     russian: "О, бедный Макс. Давай посмотрим. Когда он ел в последний раз?"
   },
   {
-    key: '4',
+    key: '14',
     english: "He didn't want his breakfast this morning. That's very strange for him.",
     russian: "Он не захотел завтракать сегодня утром. Это очень странно для него."
   },
   {
-    key: '5',
-    english: "I see. And does he drink water?",
-    russian: "Понятно. А воду он пьет?"
+    key: '15',
+    english: "I see. And does he drink water? - A little bit, but not much. I'm very worried about him.",
+    russian: "Понятно. А воду он пьет? - Немного, но не много. Я очень волнуюсь за него."
   },
   {
-    key: '6',
-    english: "A little bit, but not much. I'm very worried about him.",
-    russian: "Немного, но не много. Я очень волнуюсь за него."
-  },
-  {
-    key: '7',
+    key: '16',
     english: "Don't worry too much. I need to check his temperature. Max, stay still... Good boy.",
     russian: "Не волнуйтесь слишком сильно. Мне нужно проверить его температуру. Макс, не двигайся... Хороший мальчик."
   },
   {
-    key: '8',
-    english: "Is it serious?",
-    russian: "Это серьезно?"
+    key: '17',
+    english: "Is it serious? - No, I think he just ate something bad. Maybe outside in the park. I'll give you some special food for him.",
+    russian: "Это серьезно? - Нет, думаю, он просто съел что-то плохое. Может быть, в парке. Я дам вам специальный корм для него."
   },
   {
-    key: '9',
-    english: "No, I think he just ate something bad. Maybe outside in the park. I'll give you some special food for him.",
-    russian: "Нет, думаю, он просто съел что-то плохое. Может быть, в парке. Я дам вам специальный корм для него."
-  },
-  {
-    key: '10',
+    key: '18',
     english: "Thank you, doctor. How often should I feed him?",
     russian: "Спасибо, доктор. Как часто мне его кормить?"
   },
   {
-    key: '11',
+    key: '19',
     english: "Just small portions three times a day. He will be fine in a couple of days.",
     russian: "Просто маленькими порциями три раза в день. Через пару дней он поправится."
   }
@@ -392,57 +362,59 @@ export const animal_07 = [
     key: '12',
     english: "Of course, dear. Good luck!",
     russian: "Конечно, дорогая. Удачи!"
-  }
-];
-
-export const animal_08 = [
+  },
   {
-    key: '1',
+    key: '13',
+    english: "--__--__--",
+    russian: "--__--__--"
+  },
+  {
+    key: '14',
     english: "Dad, Dad! Come quick! Look at these fish! They are so colorful!",
     russian: "Папа, папа! Иди скорее! Посмотри на этих рыбок! Они такие разноцветные!"
   },
   {
-    key: '2',
+    key: '15',
     english: "Wow, they are beautiful. Those are tropical fish. They live in warm oceans.",
     russian: "Ничего себе, они красивые. Это тропические рыбки. Они живут в теплых океанах."
   },
   {
-    key: '3',
+    key: '16',
     english: "The blue one is my favorite. And look over there! Is that a shark?",
     russian: "Голубая — моя любимая. А смотри вон там! Это акула?"
   },
   {
-    key: '4',
+    key: '17',
     english: "Yes, but don't worry. It's a small shark. See the sign? It's a bamboo shark.",
     russian: "Да, но не волнуйся. Это маленькая акула. Видишь табличку? Это бамбуковая акула."
   },
   {
-    key: '5',
+    key: '18',
     english: "It doesn't look dangerous. It's just swimming slowly. Can we see the penguins next?",
     russian: "Она не выглядит опасной. Просто медленно плавает. Можно теперь посмотреть на пингвинов?"
   },
   {
-    key: '6',
+    key: '19',
     english: "Sure. The penguins are on the other side.",
     russian: "Конечно. Пингвины с другой стороны."
   },
   {
-    key: '7',
+    key: '20',
     english: "Oh, they are so funny when they walk! Why do they walk like that?",
     russian: "О, они такие смешные, когда ходят! Почему они так ходят?"
   },
   {
-    key: '8',
+    key: '21',
     english: "They have short legs and their bodies are made for swimming, not walking.",
     russian: "У них короткие ноги, и их тела приспособлены для плавания, а не ходьбы."
   },
   {
-    key: '9',
+    key: '22',
     english: "Can we stay and watch them for a long time? I love how they jump into the water.",
     russian: "Можно мы останемся и будем долго за ними наблюдать? Мне нравится, как они прыгают в воду."
   },
   {
-    key: '10',
+    key: '23',
     english: "Of course, sweetheart. We have all afternoon.",
     russian: "Конечно, милая. У нас есть вторая половина дня."
   }
@@ -503,62 +475,64 @@ export const animal_09 = [
     key: '11',
     english: "I like the monkey best. Ooh ooh ah ah!",
     russian: "Мне больше всего нравится обезьяна. У-у-у, а-а-а!"
-  }
-];
-
-export const animal_10 = [
+  },
   {
-    key: '1',
+    key: '12',
+    english: "--__--__--",
+    russian: "--__--__--"
+  },
+  {
+    key: '13',
     english: "Hi, Mike! Welcome back! How was your holiday?",
     russian: "Привет, Майк! С возвращением! Как прошёл отпуск?"
   },
   {
-    key: '2',
+    key: '14',
     english: "It was amazing, Jenny! We went to a safari park in Africa.",
     russian: "Было потрясающе, Дженни! Мы ездили в сафари-парк в Африке."
   },
   {
-    key: '3',
+    key: '15',
     english: "No way! That's my dream. What animals did you see?",
     russian: "Не может быть! Это моя мечта. Каких животных вы видели?"
   },
   {
-    key: '4',
+    key: '16',
     english: "Everything! Lions, zebras, giraffes. We drove in a special car, very close to them.",
     russian: "Всех! Львов, зебр, жирафов. Мы ехали на специальной машине, очень близко к ним."
   },
   {
-    key: '5',
+    key: '17',
     english: "Were you scared of the lions?",
     russian: "Тебе было страшно перед львами?"
   },
   {
-    key: '6',
+    key: '18',
     english: "A little bit! But they were sleeping under a tree. They didn't even look at us.",
     russian: "Немного! Но они спали под деревом. Даже не посмотрели на нас."
   },
   {
-    key: '7',
+    key: '19',
     english: "What about the giraffes? Could you touch them?",
     russian: "А жирафы? Вы могли их погладить?"
   },
   {
-    key: '8',
+    key: '20',
     english: "No, we couldn't touch them. But one giraffe came very close to our car. I took a great photo.",
     russian: "Нет, мы не могли их трогать. Но один жираф подошел очень близко к машине. Я сделал отличное фото."
   },
   {
-    key: '9',
+    key: '21',
     english: "Can I see the photos? I really want to go there one day.",
     russian: "Можно посмотреть фото? Я очень хочу поехать туда однажды."
   },
   {
-    key: '10',
+    key: '22',
     english: "Sure, I have them on my phone. Look, here is the giraffe! And here is a family of elephants.",
     russian: "Конечно, они у меня на телефоне. Смотри, вот жираф! А вот семья слонов."
   },
   {
-    key: '11',
+    key: '23',
     english: "Oh, they are incredible! The baby elephant is so cute. You are so lucky, Mike.",
     russian: "О, они невероятные! Слоненок такой милый. Тебе так повезло, Майк."
   }
@@ -609,72 +583,74 @@ export const animal_11 = [
     key: '9',
     english: "Haha! Well, my fish is smaller and quieter. But I think your dog is more interesting.",
     russian: "Ха-ха! Что ж, моя рыбка меньше и тише. Но я думаю, твоя собака интереснее."
-  }
-];
-
-export const animal_12 = [
+  },
   {
-    key: '1',
+    key: '10',
+    english: "--__--__--",
+    russian: "--__--__--"
+  },
+  {
+    key: '11',
     english: "Hello there! Welcome to the petting zoo. Would you like to go inside?",
     russian: "Здравствуйте! Добро пожаловать в контактный зоопарк. Хотите зайти внутрь?"
   },
   {
-    key: '2',
+    key: '12',
     english: "Yes, please! The goats look so cute!",
     russian: "Да, пожалуйста! Козочки выглядят такими милыми!"
   },
   {
-    key: '3',
+    key: '13',
     english: "They are very friendly. But first, let me tell you some rules.",
     russian: "Они очень дружелюбные. Но сначала позвольте рассказать вам несколько правил."
   },
   {
-    key: '4',
+    key: '14',
     english: "Listen carefully, Lucy.",
     russian: "Слушай внимательно, Люси."
   },
   {
-    key: '5',
+    key: '15',
     english: "First, please be gentle with the animals. Don't pull their ears or tails.",
     russian: "Во-первых, пожалуйста, будь нежной с животными. Не тяни их за уши или хвосты."
   },
   {
-    key: '6',
+    key: '16',
     english: "Okay, I won't pull.",
     russian: "Хорошо, я не буду тянуть."
   },
   {
-    key: '7',
+    key: '17',
     english: "Good girl. Second, hold out your hand flat when you give them food. Like this. See?",
     russian: "Умница. Во-вторых, держи ладошку открытой, когда даёшь им еду. Вот так. Видишь?"
   },
   {
-    key: '8',
+    key: '18',
     english: "Why flat?",
     russian: "Почему открытой?"
   },
   {
-    key: '9',
+    key: '19',
     english: "So they don't bite your fingers by accident. They think your fingers are food!",
     russian: "Чтобы они случайно не укусили тебя за пальцы. Они могут подумать, что твои пальцы — это еда!"
   },
   {
-    key: '10',
+    key: '20',
     english: "Oh, that's smart.",
     russian: "О, это умно."
   },
   {
-    key: '11',
+    key: '21',
     english: "And please don't run. The animals can get scared. Just walk slowly.",
     russian: "И пожалуйста, не бегай. Животные могут испугаться. Просто ходи медленно."
   },
   {
-    key: '12',
+    key: '22',
     english: "I understand. Can I go in now?",
     russian: "Я поняла. Можно мне уже зайти?"
   },
   {
-    key: '13',
+    key: '23',
     english: "Yes, have fun! The brown goat over there loves attention.",
     russian: "Да, повеселись! Вон та коричневая козочка любит внимание."
   }
@@ -725,62 +701,64 @@ export const animal_13 = [
     key: '9',
     english: "Really? I didn't know that. Okay, deal!",
     russian: "Правда? Я не знал. Хорошо, договорились!"
-  }
-];
-
-export const animal_14 = [
+  },
   {
-    key: '1',
+    key: '10',
+    english: "--__--__--",
+    russian: "--__--__--"
+  },
+  {
+    key: '11',
     english: "Hi there! Looking for a new family member?",
     russian: "Здравствуйте! Ищете нового члена семьи?"
   },
   {
-    key: '2',
+    key: '12',
     english: "Yes! We want to adopt a dog.",
     russian: "Да! Мы хотим взять собаку."
   },
   {
-    key: '3',
+    key: '13',
     english: "Wonderful! Do you know what kind of dog you want?",
     russian: "Замечательно! Вы знаете, какую собаку хотите?"
   },
   {
-    key: '4',
+    key: '14',
     english: "We want a medium-sized dog. Not too big, not too small. And good with children.",
     russian: "Мы хотим собаку среднего размера. Не слишком большую, не слишком маленькую. И чтобы хорошо ладила с детьми."
   },
   {
-    key: '5',
+    key: '15',
     english: "Great. Let me show you some of our dogs. This is Bella.",
     russian: "Отлично. Позвольте показать вам некоторых наших собак. Это Белла."
   },
   {
-    key: '6',
+    key: '16',
     english: "Oh, she looks a little sad.",
     russian: "О, она выглядит немного грустной."
   },
   {
-    key: '7',
+    key: '17',
     english: "She's just shy. But she's very sweet and gentle. She loves to sleep on your lap.",
     russian: "Она просто застенчивая. Но она очень милая и нежная. Она любит спать у вас на коленях."
   },
   {
-    key: '8',
+    key: '18',
     english: "What about that one? The brown one with the floppy ears?",
     russian: "А как насчет той? Коричневой с висячими ушами?"
   },
   {
-    key: '9',
+    key: '19',
     english: "That's Rocky. He's very energetic and playful. He needs a lot of exercise.",
     russian: "Это Рокки. Он очень энергичный и игривый. Ему нужно много активности."
   },
   {
-    key: '10',
+    key: '20',
     english: "He seems friendly. Can we take him for a short walk?",
     russian: "Он кажется дружелюбным. Можно вывести его на короткую прогулку?"
   },
   {
-    key: '11',
+    key: '21',
     english: "Of course! Let me get a leash. He will be very happy to meet you.",
     russian: "Конечно! Сейчас возьму поводок. Он будет очень рад познакомиться с вами."
   }
@@ -843,201 +821,3 @@ export const animal_15 = [
     russian: "Именно! Давай сделаем плакат с фотографиями панд и тигров."
   }
 ];
-
-// ! Dialogue 3: On a Farm (На ферме)
-// ! Characters: Sarah and her cousin Ben, who lives on a farm
-
-// Wow, You have so many animals. It's so noisy here!
-// Yes, we have cows, sheep, and chickens. And there is a new horse.
-// I love the little lambs! They are so soft and white. Can I touch one?
-// Sure, but be very gentle. They are babies. Their mum is over there, watching us.
-// What sound do the cows make? I can hear a loud noise.
-// They go "Moo!" when they are hungry. Can you hear them? It's time for their food.
-// And the chickens? Do you get eggs from them every day?
-// Yes! Every morning I go to the chicken coop. There are always fresh eggs. Do you want to help me collect the eggs later?
-// Yes, please! I love fresh eggs for breakfast. And after that, can we see the new horse?
-// Of course! Her name is Daisy and she is very friendly.
-
-// ! Dialogue 4: At a Pet Shop (В зоомагазине)
-// ! Characters: Mark (a customer) and a Shop Assistant
-
-// Hello there! Can I help you find something today?
-// Yes, please. I'm looking for food for my parrot.
-// Of course. We have different types. Food for big parrots and small parrots. What kind of parrot do you have?
-// He's a small, green parrot. His name is Kiwi and he's very noisy in the morning!
-// Haha, that's a nice name. I have a small parrot too. Here is the food for small birds. It has seeds and dried fruit. Does Kiwi like fresh fruit too?
-// Yes, he loves apples and bananas. And sometimes he tries to eat my sandwich!
-// That's funny. But be careful, chocolate and avocado are bad for parrots. Only give him bird food and fruit.
-// Oh, I didn't know that about avocado. Thanks for telling me. I'll just take this food, please.
-// Great choice. I hope Kiwi enjoys it!
-
-// ! Dialogue 5: A Funny Story (Смешная история)
-// ! Characters: Two friends, Elena and Clara
-
-// Hey, Clara. How is your new cat? Is she adapting well?
-// She's crazy! But we love her so much. Yesterday, she did something very funny.
-// Really? Tell me! What did she do?
-// She saw a fly on the window. She sat there and watched it for a long time. Then she tried to catch it and... bang! She fell off the sofa!
-// Oh no! Is she okay? Did she hurt herself?
-// Yes, she's fine. She just landed on her feet, like cats do. But she looked very surprised. Her eyes were so big! Then she ran away and hid under the bed.
-// Haha, silly cat. She was probably embarrassed. Cats are so funny and have so much personality.
-// Totally. She sleeps on my bed every night now. I'm so happy we got her.
-// I'm happy for you. Give her a hug from me.
-
-// ! Dialogue 6: At the Vet (У ветеринара)
-// ! Characters: Mrs. Wilson (owner) and Dr. Brown (vet)
-
-// Dr. Brown: Good morning, Mrs. Wilson. Please come in. And who do we have here?
-// Mrs. Wilson: This is Max, my dog. He's usually very active, but today he's quiet and sad.
-// Dr. Brown: Oh, poor Max. Let me take a look. When did he eat last?
-// Mrs. Wilson: He didn't want his breakfast this morning. That's very strange for him.
-// Dr. Brown: I see. And does he drink water?
-// Mrs. Wilson: A little bit, but not much. I'm very worried about him.
-// Dr. Brown: Don't worry too much. I need to check his temperature. Max, stay still... Good boy.
-// Mrs. Wilson: Is it serious?
-// Dr. Brown: No, I think he just ate something bad. Maybe outside in the park. I'll give you some special food for him.
-// Mrs. Wilson: Thank you, doctor. How often should I feed him?
-// Dr. Brown: Just small portions three times a day. He will be fine in a couple of days.
-
-// ! Dialogue 7: Looking for a Lost Cat (В поисках пропавшей кошки)
-// ! Characters: Emma and her neighbour, Mr. Roberts
-
-// Emma: Excuse me, Mr. Roberts. I'm sorry to bother you.
-// Mr. Roberts: Hello, Emma. No problem. What's wrong? You look upset.
-// Emma: It's my cat, Oliver. He didn't come home last night. Have you seen him?
-// Mr. Roberts: Oh no! What color is he? I see many cats in the garden.
-// Emma: He's ginger and white. And he has a small white spot on his nose.
-// Mr. Roberts: Ginger and white... Hmm. I think I saw a cat like that this morning near the big tree.
-// Emma: Really? Was he okay?
-// Mr. Roberts: He looked fine. Just walking slowly. Do you have a photo?
-// Emma: Yes, here on my phone. This is Oliver.
-// Mr. Roberts: Oh, what a cute face! Yes, that's the cat I saw. I'm sure he'll come back.
-// Emma: Thank you! I'll go look near the tree. Please call me if you see him again.
-// Mr. Roberts: Of course, dear. Good luck!
-
-// ! Dialogue 8: At the Aquarium (В океанариуме)
-// ! Characters: Dad and his daughter, Mia (age 10)
-
-// Mia: Dad, Dad! Come quick! Look at these fish! They are so colorful!
-// Dad: Wow, they are beautiful. Those are tropical fish. They live in warm oceans.
-// Mia: The blue one is my favorite. And look over there! Is that a shark?
-// Dad: Yes, but don't worry. It's a small shark. See the sign? It's a bamboo shark.
-// Mia: It doesn't look dangerous. It's just swimming slowly. Can we see the penguins next?
-// Dad: Sure. The penguins are on the other side.
-// Mia: Oh, they are so funny when they walk! Why do they walk like that?
-// Dad: They have short legs and their bodies are made for swimming, not walking.
-// Mia: Can we stay and watch them for a long time? I love how they jump into the water.
-// Dad: Of course, sweetheart. We have all afternoon.
-
-// ! Dialogue 9: Animal Noises (Животные и их звуки)
-// ! Characters: Little Sam (age 6) and his big sister, Kate (age 14). Kate is helping Sam with his English picture book.
-
-// Sam: Kate, what's this animal? It's big and grey.
-// Kate: That's an elephant. In English, we say "elephant".
-// Sam: Elephant. And what sound does it make? Does it say "Moo"?
-// Kate: Haha, no. Cows say "Moo". Elephants make a long sound... they "trumpet". Like toot-tooooot!
-// Sam: Laughing That's silly! And what about this one? It has a long tail and it climbs trees.
-// Kate: That's a monkey. Monkeys say "Ooh ooh ah ah"!
-// Sam: Ooh ooh ah ah! I can do that! And what sound does a frog make in English?
-// Kate: Frogs say "Ribbit ribbit". Not "kva-kva" like in our language.
-// Sam: This is so fun! Let's do all the animals!
-// Kate: Okay, but this is the last one. What's your favorite animal sound?
-// Sam: I like the monkey best. Ooh ooh ah ah!
-
-// ! Dialogue 10: A Trip to the Safari Park (Поездка в сафари-парк)
-// ! Characters: Two colleagues at work, Mike and Jenny. Mike just came back from vacation.
-
-// Jenny: Hi, Mike! Welcome back! How was your holiday?
-// Mike: It was amazing, Jenny! We went to a safari park in Africa.
-// Jenny: No way! That's my dream. What animals did you see?
-// Mike: Everything! Lions, zebras, giraffes. We drove in a special car, very close to them.
-// Jenny: Were you scared of the lions?
-// Mike: A little bit! But they were sleeping under a tree. They didn't even look at us.
-// Jenny: What about the giraffes? Could you touch them?
-// Mike: No, we couldn't touch them. But one giraffe came very close to our car. I took a great photo.
-// Jenny: Can I see the photos? I really want to go there one day.
-// Mike: Sure, I have them on my phone. Look, here is the giraffe! And here is a family of elephants.
-// Jenny: Oh, they are incredible! The baby elephant is so cute. You are so lucky, Mike.
-
-// ! Dialogue 11: Comparing Pets (Сравниваем питомцев)
-// ! Цель: учиться использовать сравнительные степени прилагательных (bigger, smaller, easier)
-
-// Characters: Two friends, Dan and Chloe. Chloe has a dog, Dan has a fish.
-
-// Dan: Your dog is so much fun! He runs and plays all the time.
-// Chloe: Thanks! But he's a lot of work. Your fish is much easier to take care of.
-// Dan: Really? You think so?
-// Chloe: Of course! I need to walk my dog three times a day. You just put food in the tank.
-// Dan: That's true. But a dog is more fun to play with. My fish just swims around.
-// Chloe: Yes, but a dog is more expensive too. Food, toys, the vet...
-// Dan: I never thought about that. Is your dog friendlier than other dogs?
-// Chloe: He's friendly with people, but he's bigger than most dogs. Sometimes he doesn't know his own strength!
-// Dan: Haha! Well, my fish is smaller and quieter. But I think your dog is more interesting.
-
-// ! Dialogue 12: At the Petting Zoo (Контактный зоопарк)
-// ! Цель: учиться давать инструкции и просьбы (be gentle, hold out your hand, don't run)
-
-// Characters: Zoo worker and a little girl named Lucy with her grandma
-
-// Zoo Worker: Hello there! Welcome to the petting zoo. Would you like to go inside?
-// Lucy: Yes, please! The goats look so cute!
-// Zoo Worker: They are very friendly. But first, let me tell you some rules.
-// Grandma: Listen carefully, Lucy.
-// Zoo Worker: First, please be gentle with the animals. Don't pull their ears or tails.
-// Lucy: Okay, I won't pull.
-// Zoo Worker: Good girl. Second, hold out your hand flat when you give them food. Like this. See?
-// Lucy: Why flat?
-// Zoo Worker: So they don't bite your fingers by accident. They think your fingers are food!
-// Grandma: Oh, that's smart.
-// Zoo Worker: And please don't run. The animals can get scared. Just walk slowly.
-// Lucy: I understand. Can I go in now?
-// Zoo Worker: Yes, have fun! The brown goat over there loves attention.
-
-// ! Dialogue 13: Unusual Pets (Необычные питомцы)
-// ! Цель: учиться выражать удивление и интерес (Really? No way! That's so cool!)
-
-// Characters: Two teenagers, Alex and Sam, at a party
-
-// Alex: Hey Sam, is it true you have a pet snake?
-// Sam: Yeah! His name is Monty. He's a corn snake, so he's not dangerous.
-// Alex: No way! That's so cool! But isn't it weird? What does he eat?
-// Sam: Just mice. Frozen ones. I buy them at the pet shop.
-// Alex: Frozen mice? That's disgusting! My mom would never let me have a snake.
-// Sam: My mom said no at first too. But snakes are very quiet and clean. They don't smell.
-// Alex: That's true. My dog smells bad sometimes. Can I hold Monty sometime?
-// Sam: Sure! He's very calm. But you have to wash your hands first. Snakes can get sick from our soap.
-// Alex: Really? I didn't know that. Okay, deal!
-
-// ! Dialogue 14: At the Animal Shelter (В приюте для животных)
-// ! Цель: учиться описывать внешность и характер (looks sad, seems friendly, has floppy ears)
-
-// Characters: A family — Mum, Dad, and daughter Sophie. They want to adopt a dog.
-
-// Volunteer: Hi there! Looking for a new family member?
-// Sophie: Yes! We want to adopt a dog.
-// Volunteer: Wonderful! Do you know what kind of dog you want?
-// Mum: We want a medium-sized dog. Not too big, not too small. And good with children.
-// Volunteer: Great. Let me show you some of our dogs. This is Bella.
-// Dad: Oh, she looks a little sad.
-// Volunteer: She's just shy. But she's very sweet and gentle. She loves to sleep on your lap.
-// Sophie: What about that one? The brown one with the floppy ears?
-// Volunteer: That's Rocky. He's very energetic and playful. He needs a lot of exercise.
-// Mum: He seems friendly. Can we take him for a short walk?
-// Volunteer: Of course! Let me get a leash. He will be very happy to meet you.
-
-// ! Dialogue 15: Animals in Danger (Животные в опасности)
-// ! Цель: учиться выражать беспокойство и обсуждать проблемы (I'm worried about..., It's sad that..., We need to...)
-
-// Characters: Two classmates, Mia and Lucas, working on a school project.
-
-// Mia: So for our project, I thought we could talk about pandas.
-// Lucas: Good idea. But why pandas? There are many animals.
-// Mia: Because they are in danger. There aren't many left in the wild.
-// Lucas: Oh, that's sad. Why are they in danger?
-// Mia: People cut down forests where they live. They don't have enough bamboo to eat.
-// Lucas: That's terrible. What about tigers? I saw on TV that they are in danger too.
-// Mia: Yes, because some people hunt them for their fur. It's really bad.
-// Lucas: We need to tell our class about this. Maybe we can help somehow.
-// Mia: We can put information in our project about how to protect them.
-// Lucas: Good idea. Like "don't buy things from animals" and "help save the forests".
-// Mia: Exactly! Let's make a poster with pictures of pandas and tigers.
