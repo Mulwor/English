@@ -93,18 +93,16 @@ export const Relationship = () => {
         />
       </div>
 
-      <Divider>Videos</Divider>
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          gap: '1rem',
-          marginTop: '1rem',
-          marginBottom: '1rem',
-        }}
-      >
-        <Video videoId='5n2ma_4sy_8' />
-      </div>
+      <Divider>Video</Divider>
+
+
+            <Collapse accordion>
+        <Panel header='Videos' key='1'>
+          <div className='video'>
+            <Video videoId='5n2ma_4sy_8' />
+          </div>
+          </Panel>
+          </Collapse>
 
       <Divider>Writing</Divider>
       <p>

@@ -1751,3 +1751,227 @@ export const fears_15 = [
     russian: "Отлично. А теперь давай наслаждаться последними месяцами студенчества!"
   }
 ];
+
+export const fears_16 = [
+  {
+    key: '1',
+    english: "I heard you have a new job. Congratulations!",
+    russian: "Я слышал, у тебя новая работа. Поздравляю!"
+  },
+  {
+    key: '2',
+    english: "Thanks! But I'm so nervous. First day is tomorrow.",
+    russian: "Спасибо! Но я так нервничаю. Завтра первый день."
+  },
+  {
+    key: '3',
+    english: "You'll be fine! Are you more afraid of the new job or public speaking?",
+    russian: "Всё будет хорошо! Ты больше боишься новой работы или публичных выступлений?"
+  },
+  {
+    key: '4',
+    english: "Good question. I think I'm much more afraid of public speaking.",
+    russian: "Хороший вопрос. Думаю, я гораздо больше боюсь публичных выступлений."
+  },
+  {
+    key: '5',
+    english: "Really? Why?",
+    russian: "Правда? Почему?"
+  },
+  {
+    key: '6',
+    english: "At a new job, I can watch and learn. But public speaking? Everyone looks at me. It's terrifying.",
+    russian: "На новой работе я могу смотреть и учиться. А публичные выступления? Все смотрят на меня. Это ужасно."
+  },
+  {
+    key: '7',
+    english: "I understand. For me, flying is the most frightening thing. Even more than spiders.",
+    russian: "Понимаю. Для меня полёты — самое страшное. Даже больше, чем пауки."
+  },
+  {
+    key: '8',
+    english: "Wait, you're scared of flying? But you travel so much!",
+    russian: "Подожди, ты боишься летать? Но ты так много путешествуешь!"
+  },
+  {
+    key: '9',
+    english: "I know! I'm less scared of flying than before, but still scared. I take medicine.",
+    russian: "Знаю! Я меньше боюсь летать, чем раньше, но всё равно боюсь. Принимаю лекарства."
+  },
+  {
+    key: '10',
+    english: "That's brave. I couldn't do it. Heights are scary enough for me.",
+    russian: "Это храбро. Я бы не смог. Высоты мне достаточно страшно."
+  },
+  {
+    key: '11',
+    english: "So you're more scared of heights than flying?",
+    russian: "Значит, ты больше боишься высоты, чем полётов?"
+  },
+  {
+    key: '12',
+    english: "Oh yes! Much more. I can't even look down from a tall building.",
+    russian: "О да! Гораздо больше. Я даже с высокого здания вниз смотреть не могу."
+  },
+  {
+    key: '13',
+    english: "See? Everyone has different fears. Your new job will be easy compared to heights!",
+    russian: "Видишь? У всех разные страхи. Твоя новая работа будет лёгкой по сравнению с высотой!"
+  },
+  {
+    key: '14',
+    english: "Haha, good point. Thanks! I feel a little better now.",
+    russian: "Ха-ха, хорошая мысль. Спасибо! Мне немного легче."
+  }
+];
+
+export const fears_17 = [
+  {
+    key: '1',
+    english: "Mom, can we have a dog? Please?",
+    russian: "Мам, можно завести собаку? Пожалуйста?"
+  },
+  {
+    key: '2',
+    english: "Oh, sweetie. You know I'm scared of dogs. Even small ones.",
+    russian: "Ох, милый. Ты же знаешь, я боюсь собак. Даже маленьких."
+  },
+  {
+    key: '3',
+    english: "But you're more scared of cats! Remember when a cat hissed at you?",
+    russian: "Но ты больше боишься кошек! Помнишь, как кошка на тебя зашипела?"
+  },
+  {
+    key: '4',
+    english: "That's true. I am more afraid of cats than dogs. Cats are unpredictable.",
+    russian: "Это правда. Я больше боюсь кошек, чем собак. Кошки непредсказуемы."
+  },
+  {
+    key: '5',
+    english: "So dogs are less scary for you?",
+    russian: "Значит, собаки для тебя менее страшны?"
+  },
+  {
+    key: '6',
+    english: "A little less scary, yes. But still scary. A dog bit me when I was your age.",
+    russian: "Да, немного менее страшны. Но всё равно страшно. Собака укусила меня, когда я была в твоём возрасте."
+  },
+  {
+    key: '7',
+    english: "I'm sorry, Mom. But what about a small, friendly dog? Like a golden retriever?",
+    russian: "Мне жаль, мам. А как насчёт маленькой дружелюбной собаки? Например, золотистого ретривера?"
+  },
+  {
+    key: '8',
+    english: "Golden retrievers are big! They're the most frightening for me because they're so energetic.",
+    russian: "Золотистые ретриверы большие! Они для меня самые страшные, потому что они такие энергичные."
+  },
+  {
+    key: '9',
+    english: "Okay... what about a tiny dog? Like a chihuahua?",
+    russian: "Ладно... а как насчёт крошечной собачки? Например, чихуахуа?"
+  },
+  {
+    key: '10',
+    english: "Hmm. A chihuahua is less frightening than a big dog. They're small and not so strong.",
+    russian: "Хм. Чихуахуа менее страшна, чем большая собака. Они маленькие и не такие сильные."
+  },
+  {
+    key: '11',
+    english: "So maybe one day?",
+    russian: "Так может, когда-нибудь?"
+  },
+  {
+    key: '12',
+    english: "Maybe. But first, let's visit a friend with a small dog. I need to practice being less scared.",
+    russian: "Может быть. Но сначала давай сходим в гости к друзьям с маленькой собакой. Мне нужно тренироваться меньше бояться."
+  },
+  {
+    key: '13',
+    english: "Deal! You're so brave, Mom.",
+    russian: "Договорились! Ты такая храбрая, мам."
+  },
+  {
+    key: '14',
+    english: "I'm trying, sweetie. For you.",
+    russian: "Я стараюсь, милый. Ради тебя."
+  }
+];
+
+export const fears_18 = [
+  {
+    key: '1',
+    english: "Are you okay? You look pale.",
+    russian: "Ты в порядке? Выглядишь бледной."
+  },
+  {
+    key: '2',
+    english: "I have a doctor's appointment today. Blood test.",
+    russian: "У меня сегодня приём у врача. Анализ крови."
+  },
+  {
+    key: '3',
+    english: "Ah, needles. Are you scared?",
+    russian: "А, иглы. Боишься?"
+  },
+  {
+    key: '4',
+    english: "Terrified. Needles are my biggest fear. Much more than spiders or heights.",
+    russian: "До ужаса. Иглы — мой самый большой страх. Гораздо больше, чем пауки или высота."
+  },
+  {
+    key: '5',
+    english: "Really? For me, needles are less scary than going to the dentist.",
+    russian: "Правда? Для меня иглы менее страшны, чем поход к стоматологу."
+  },
+  {
+    key: '6',
+    english: "The dentist? But that's just cleaning!",
+    russian: "Стоматолог? Но это же просто чистка!"
+  },
+  {
+    key: '7',
+    english: "No way. The sound of the drill is the most frightening noise in the world.",
+    russian: "Ни за что. Звук бормашины — самый страшный звук в мире."
+  },
+  {
+    key: '8',
+    english: "Hmm. I think a needle is worse. It goes inside your skin!",
+    russian: "Хм. А я думаю, игла хуже. Она проникает под кожу!"
+  },
+  {
+    key: '9',
+    english: "For one second. The dentist is 30 minutes of fear!",
+    russian: "На одну секунду. А у стоматолога 30 минут страха!"
+  },
+  {
+    key: '10',
+    english: "Okay, you win. The dentist might be worse. But needles are still terrifying for me.",
+    russian: "Ладно, ты победила. Стоматолог, может, и хуже. Но иглы для меня всё равно ужасны."
+  },
+  {
+    key: '11',
+    english: "What's the least scary thing for you?",
+    russian: "А что для тебя наименее страшно?"
+  },
+  {
+    key: '12',
+    english: "Probably the dark. I'm not scared of the dark at all. My sister is, but I'm not.",
+    russian: "Наверное, темнота. Я совсем не боюсь темноты. Моя сестра боится, а я нет."
+  },
+  {
+    key: '13',
+    english: "See? Everyone's different. I'm more scared of the dark than needles!",
+    russian: "Видишь? У всех по-разному. Я больше боюсь темноты, чем игл!"
+  },
+  {
+    key: '14',
+    english: "Really? That's funny. Okay, I feel a little better now. Talking helps.",
+    russian: "Правда? Забавно. Ладно, мне немного лучше. Разговоры помогают."
+  },
+  {
+    key: '15',
+    english: "Good luck at the doctor! You'll be fine. Just don't look at the needle.",
+    russian: "Удачи у врача! Всё будет хорошо. Просто не смотри на иглу."
+  }
+];

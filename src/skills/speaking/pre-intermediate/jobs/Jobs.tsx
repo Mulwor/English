@@ -1,34 +1,72 @@
-import { Divider } from 'antd';
+import { Collapse, Divider } from 'antd';
+import { columns } from '../../../../data/sample';
+import { jobRelatedVerbsAndPhrases, jobsAndProfessions, workplaces } from './vocab';
+import { BasicTable, CollapseWithAccordion, Pagination, Video } from '../../../../components';
+import { jobs_01, jobs_02, jobs_03, jobs_04, jobs_05, jobs_06, jobs_07, jobs_08, jobs_09, jobs_10, jobs_11, jobs_12, jobs_13, jobs_14, jobs_15 } from './dialogs';
+import { usePaginatedData } from '../../../../hooks/usePaginatedData';
+
+const { Panel } = Collapse;
 
 export const JobsAndProfessions = () => {
+   const { data, currentPage, handlePageChange } = usePaginatedData(jobs_01, [
+    jobs_01, jobs_02, jobs_03, jobs_04, jobs_05, jobs_06, jobs_07,
+    jobs_08, jobs_09, jobs_10, jobs_11, jobs_12, jobs_13, jobs_14,
+    jobs_15
+   ])
+
   return (
     <>
       <Divider>Jobs, professions and workplaces</Divider>
 
-      <ul>
-        Необходимо научится
-        <li>
-          Назвать профессию и место работы. Он должен знать названия основных профессий (около 15-20) и уметь сказать, где работают эти люди. "She is a teacher.
-          She works at a school." "He is a chef. He works in a restaurant." "I am an accountant. I work in an office."
-        </li>
-        <li>
-          Описать простые обязанности (Daily routines) - Здесь подключается Present Simple и наречия частоты (always, usually, sometimes). "A doctor helps sick
-          people. He sometimes works at night." "A builder builds houses. He usually works outdoors." "I answer emails and make phone calls."
-        </li>
-        <li>
-          Объяснить, почему нравится или не нравится работа (Opinions & Adjectives) - Он должен уметь использовать простые прилагательные для выражения мнения.
-          "I want to be a designer because it is creative and interesting." "My job is boring and tiring. I don't like to wake up early." "Being a nurse is
-          hard, but it's a good job because you help people."
-        </li>
-        <li>
-          Задать простые вопросы о работе коллеге/собеседнику (Questions) Уметь строить вопросы в Present Simple — ключевой навык для диалога. "Where do you
-          work?" "What do you do?" "Do you like your job?" "What time do you start work?
-        </li>
-        <li>
-          Рассказать о своих планах/мечтах (Future plans) Использование конструкции "want to be" или "would like to be". "I want to be a programmer." "My
-          brother would like to be a pilot."
-        </li>
-      </ul>
+      <p>
+        Цель этого топика - научится называть профессию и уметь сказать где работают эти люди; 
+        уметь описать простые обязанности (Daily routines) через always, usually, sometimes; объяснить, 
+        почему нравится или не нравится работа (Opinions & Adjectives) - уметь использовать простые 
+        прилагательные для выражения мнения. Уметь строить вопросы и рассказывать о своих планах и мечтах 
+        на будущее ~ want to be, would like to be 
+      </p>
+
+      <Divider>Vocabulary</Divider>
+      
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '100%' }}>
+        <CollapseWithAccordion
+          text={'Jobs and professions'}
+          data={jobsAndProfessions}
+          columns={columns}
+        />
+        <CollapseWithAccordion
+          text={'Workplaces'}
+          data={workplaces}
+          columns={columns}
+        />
+        <CollapseWithAccordion
+          text={'Jobs related verbs and phrases'}
+          data={jobRelatedVerbsAndPhrases}
+          columns={columns}
+        />
+      </div>
+
+      <Divider>Videos</Divider>
+
+                  <Collapse accordion>
+        <Panel header='Videos' key='1'>
+          <div className='video'>
+      <Video videoId="AFFJhLQu590"></Video>
+      <Video videoId='z6pbDPafURw'></Video>
+      <Video videoId="qHWtJtRSYjc"></Video>
+      <Video videoId="VgLDY_Z52_g"></Video>
+          </div>
+          </Panel>
+          </Collapse>
+
+                <div style={{ marginTop: '8px' }}>
+                  <BasicTable data={data} />
+                  <Pagination
+                    currentPage={currentPage}
+                    totalPages={15}
+                    onPageChange={handlePageChange}
+                  />
+                </div>
     </>
   );
 };
