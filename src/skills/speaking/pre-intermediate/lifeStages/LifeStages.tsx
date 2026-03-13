@@ -4,15 +4,44 @@ import { columns } from '../../../../data/sample';
 import { lifeStagesVocab, lifeEventsVocab, keyVerbs } from './vocabulary';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { life_dialogs_01, life_dialogs_02, life_dialogs_03 } from './dialogs';
-import { life_stages_01, life_stages_02, life_stages_03, life_stages_04, life_stages_05, life_stages_06, life_stages_07, life_stages_08, life_stages_09, life_stages_10, life_stages_11, life_stages_12, life_stages_13, life_stages_14, life_stages_15 } from './main';
+import {
+  life_stages_01,
+  life_stages_02,
+  life_stages_03,
+  life_stages_04,
+  life_stages_05,
+  life_stages_06,
+  life_stages_07,
+  life_stages_08,
+  life_stages_09,
+  life_stages_10,
+  life_stages_11,
+  life_stages_12,
+  life_stages_13,
+  life_stages_14,
+  life_stages_15,
+} from './main';
 
 export const LifeStages = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(life_dialogs_01, [
-    life_dialogs_01, life_dialogs_02, life_dialogs_03,
-    life_stages_01, life_stages_02, life_stages_03, life_stages_04,
-    life_stages_05, life_stages_06, life_stages_07, life_stages_08,
-    life_stages_09, life_stages_10, life_stages_11, life_stages_12,
-    life_stages_13, life_stages_14, life_stages_15
+    life_dialogs_01,
+    life_dialogs_02,
+    life_dialogs_03,
+    life_stages_01,
+    life_stages_02,
+    life_stages_03,
+    life_stages_04,
+    life_stages_05,
+    life_stages_06,
+    life_stages_07,
+    life_stages_08,
+    life_stages_09,
+    life_stages_10,
+    life_stages_11,
+    life_stages_12,
+    life_stages_13,
+    life_stages_14,
+    life_stages_15,
   ]);
 
   return (
@@ -65,10 +94,11 @@ export const LifeStages = () => {
       <Divider>Writing</Divider>
       <p>
         Давай я расскажу о важных событиях в моей жизни. Я родился в 1997 году в маленьком городке. В детстве я был очень активным ребенком. Я пошел в школу,
-        когда мне было 7 лет. Я хорошо учился и любил математику. Я закончил школу в 2014 году. После школы я поступил в университет в Санкт-Петербурге. Это был очень важный этап в моей жизни. Я изучал информатику. В университете у меня появилось
-        много новых друзей. Я получил диплом в 2019 году. Моя первая работа была в IT-компании. Я был очень рад! В 2021 году я встретил свою будущую жену. Мы поженились в 2022 году. Это был самый счастливый
-        день в моей жизни. Сейчас мне 27 лет. Я все еще работаю программистом. В будущем я хочу стать senior-разработчиком и, возможно, мы с женой планируем завести детей. Я также
-        хочу путешествовать больше.
+        когда мне было 7 лет. Я хорошо учился и любил математику. Я закончил школу в 2014 году. После школы я поступил в университет в Санкт-Петербурге. Это был
+        очень важный этап в моей жизни. Я изучал информатику. В университете у меня появилось много новых друзей. Я получил диплом в 2019 году. Моя первая
+        работа была в IT-компании. Я был очень рад! В 2021 году я встретил свою будущую жену. Мы поженились в 2022 году. Это был самый счастливый день в моей
+        жизни. Сейчас мне 27 лет. Я все еще работаю программистом. В будущем я хочу стать senior-разработчиком и, возможно, мы с женой планируем завести детей.
+        Я также хочу путешествовать больше.
       </p>
     </>
   );

@@ -32,7 +32,7 @@ import {
   LifeStages,
   Relationship,
   Transport,
-  JobsAndProfessions
+  JobsAndProfessions,
 } from './skills/speaking/pre-intermediate';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
 import { HolidaysAndTravelling } from './skills/speaking/pre-intermediate/holidays/Holidays';

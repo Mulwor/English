@@ -317,1324 +317,1324 @@
 export const transport_01 = [
   {
     key: '1',
-    english: "David, you look tired. Rough morning?",
-    russian: "Дэвид, ты выглядишь уставшим. Тяжёлое утро?"
+    english: 'David, you look tired. Rough morning?',
+    russian: 'Дэвид, ты выглядишь уставшим. Тяжёлое утро?',
   },
   {
     key: '2',
-    english: "So tired. My commute was terrible today. Two hours!",
-    russian: "Очень устал. Дорога на работу была ужасной сегодня. Два часа!"
+    english: 'So tired. My commute was terrible today. Two hours!',
+    russian: 'Очень устал. Дорога на работу была ужасной сегодня. Два часа!',
   },
   {
     key: '3',
     english: "Two hours? That's crazy! What happened?",
-    russian: "Два часа? Это безумие! Что случилось?"
+    russian: 'Два часа? Это безумие! Что случилось?',
   },
   {
     key: '4',
-    english: "First, the train was delayed 20 minutes. Then it was so crowded, no seats.",
-    russian: "Сначала поезд задержали на 20 минут. Потом он был таким переполненным, что не было мест."
+    english: 'First, the train was delayed 20 minutes. Then it was so crowded, no seats.',
+    russian: 'Сначала поезд задержали на 20 минут. Потом он был таким переполненным, что не было мест.',
   },
   {
     key: '5',
-    english: "I hate when that happens. Standing for a long time is exhausting.",
-    russian: "Ненавижу, когда так случается. Долго стоять — это утомительно."
+    english: 'I hate when that happens. Standing for a long time is exhausting.',
+    russian: 'Ненавижу, когда так случается. Долго стоять — это утомительно.',
   },
   {
     key: '6',
-    english: "Then I had to change trains, and the connection was late too. So I waited another 15 minutes.",
-    russian: "Потом мне нужно было пересесть на другой поезд, и пересадка тоже опоздала. Так что я ждал ещё 15 минут."
+    english: 'Then I had to change trains, and the connection was late too. So I waited another 15 minutes.',
+    russian: 'Потом мне нужно было пересесть на другой поезд, и пересадка тоже опоздала. Так что я ждал ещё 15 минут.',
   },
   {
     key: '7',
-    english: "Oh no! And then?",
-    russian: "О нет! А потом?"
+    english: 'Oh no! And then?',
+    russian: 'О нет! А потом?',
   },
   {
     key: '8',
-    english: "Then the bus to the office was stuck in traffic. It took forever.",
-    russian: "Потом автобус до офиса застрял в пробке. Ехали вечность."
+    english: 'Then the bus to the office was stuck in traffic. It took forever.',
+    russian: 'Потом автобус до офиса застрял в пробке. Ехали вечность.',
   },
   {
     key: '9',
-    english: "What a nightmare! How do you usually get to work?",
-    russian: "Кошмар! Как ты обычно добираешься до работы?"
+    english: 'What a nightmare! How do you usually get to work?',
+    russian: 'Кошмар! Как ты обычно добираешься до работы?',
   },
   {
     key: '10',
-    english: "Train and bus. About an hour normally. Today was twice that.",
-    russian: "Поезд и автобус. Обычно около часа. Сегодня было вдвое больше."
+    english: 'Train and bus. About an hour normally. Today was twice that.',
+    russian: 'Поезд и автобус. Обычно около часа. Сегодня было вдвое больше.',
   },
   {
     key: '11',
     english: "That's still a long commute. Mine is only 20 minutes by bike.",
-    russian: "Это всё ещё долго. Моя дорога всего 20 минут на велосипеде."
+    russian: 'Это всё ещё долго. Моя дорога всего 20 минут на велосипеде.',
   },
   {
     key: '12',
     english: "You're so lucky! Biking is faster and you get exercise.",
-    russian: "Тебе так везёт! На велосипеде быстрее, и ты получаешь нагрузку."
+    russian: 'Тебе так везёт! На велосипеде быстрее, и ты получаешь нагрузку.',
   },
   {
     key: '13',
-    english: "True, but when it rains, I get wet. Not so fun.",
-    russian: "Верно, но когда идёт дождь, я промокаю. Не так весело."
+    english: 'True, but when it rains, I get wet. Not so fun.',
+    russian: 'Верно, но когда идёт дождь, я промокаю. Не так весело.',
   },
   {
     key: '14',
     english: "I'd take rain over delays any day. Maybe I should move closer to work.",
-    russian: "Я бы лучше промок под дождём, чем стоял в пробках. Может, мне стоит переехать поближе к работе."
+    russian: 'Я бы лучше промок под дождём, чем стоял в пробках. Может, мне стоит переехать поближе к работе.',
   },
   {
     key: '15',
     english: "Or get a bike! It's cheaper than moving.",
-    russian: "Или купить велосипед! Это дешевле, чем переезжать."
+    russian: 'Или купить велосипед! Это дешевле, чем переезжать.',
   },
   {
     key: '16',
     english: "Haha, true. I'll think about it. For now, I need coffee. Lots of coffee.",
-    russian: "Ха-ха, правда. Подумаю об этом. А пока мне нужен кофе. Много кофе."
+    russian: 'Ха-ха, правда. Подумаю об этом. А пока мне нужен кофе. Много кофе.',
   },
   {
     key: '17',
-    english: "Go get some. You deserve it after that morning!",
-    russian: "Иди возьми. Ты заслужил после такого утра!"
-  }
+    english: 'Go get some. You deserve it after that morning!',
+    russian: 'Иди возьми. Ты заслужил после такого утра!',
+  },
 ];
 
 export const transport_02 = [
   {
     key: '1',
-    english: "Good morning. How can I help you today?",
-    russian: "Доброе утро. Чем я могу вам помочь сегодня?"
+    english: 'Good morning. How can I help you today?',
+    russian: 'Доброе утро. Чем я могу вам помочь сегодня?',
   },
   {
     key: '2',
-    english: "Hello. I need a ticket to Manchester, please.",
-    russian: "Здравствуйте. Мне нужен билет до Манчестера, пожалуйста."
+    english: 'Hello. I need a ticket to Manchester, please.',
+    russian: 'Здравствуйте. Мне нужен билет до Манчестера, пожалуйста.',
   },
   {
     key: '3',
-    english: "Certainly. When would you like to travel?",
-    russian: "Конечно. Когда вы хотели бы поехать?"
+    english: 'Certainly. When would you like to travel?',
+    russian: 'Конечно. Когда вы хотели бы поехать?',
   },
   {
     key: '4',
-    english: "This Friday, in the morning. Around 9 or 10.",
-    russian: "В эту пятницу, утром. Около 9 или 10."
+    english: 'This Friday, in the morning. Around 9 or 10.',
+    russian: 'В эту пятницу, утром. Около 9 или 10.',
   },
   {
     key: '5',
     english: "Let me check... There's a train at 9:15 and another at 10:30.",
-    russian: "Позвольте проверить... Есть поезд в 9:15 и ещё один в 10:30."
+    russian: 'Позвольте проверить... Есть поезд в 9:15 и ещё один в 10:30.',
   },
   {
     key: '6',
-    english: "The 9:15 sounds good. How long is the journey?",
-    russian: "9:15 звучит хорошо. Сколько времени в пути?"
+    english: 'The 9:15 sounds good. How long is the journey?',
+    russian: '9:15 звучит хорошо. Сколько времени в пути?',
   },
   {
     key: '7',
-    english: "About two hours and fifteen minutes.",
-    russian: "Около двух часов пятнадцати минут."
+    english: 'About two hours and fifteen minutes.',
+    russian: 'Около двух часов пятнадцати минут.',
   },
   {
     key: '8',
     english: "That's fine. How much is a return ticket?",
-    russian: "Нормально. Сколько стоит билет туда и обратно?"
+    russian: 'Нормально. Сколько стоит билет туда и обратно?',
   },
   {
     key: '9',
-    english: "A return is £45. Single is £28. Coming back on Sunday?",
-    russian: "Туда и обратно — £45. В одну сторону — £28. Возвращаетесь в воскресенье?"
+    english: 'A return is £45. Single is £28. Coming back on Sunday?',
+    russian: 'Туда и обратно — £45. В одну сторону — £28. Возвращаетесь в воскресенье?',
   },
   {
     key: '10',
-    english: "Yes, Sunday afternoon. Around 4 or 5.",
-    russian: "Да, в воскресенье днём. Около 4 или 5."
+    english: 'Yes, Sunday afternoon. Around 4 or 5.',
+    russian: 'Да, в воскресенье днём. Около 4 или 5.',
   },
   {
     key: '11',
     english: "There's a train at 4:45. That gives you a full day.",
-    russian: "Есть поезд в 4:45. Это даст вам полный день."
+    russian: 'Есть поезд в 4:45. Это даст вам полный день.',
   },
   {
     key: '12',
     english: "Perfect. I'll take the return ticket.",
-    russian: "Отлично. Я возьму билет туда и обратно."
+    russian: 'Отлично. Я возьму билет туда и обратно.',
   },
   {
     key: '13',
     english: "Great. That's £45 please. Cash or card?",
-    russian: "Отлично. С вас £45. Наличные или карта?"
+    russian: 'Отлично. С вас £45. Наличные или карта?',
   },
   {
     key: '14',
-    english: "Card, please. Pays Do I need to reserve a seat?",
-    russian: "Картой, пожалуйста. Оплачивает Нужно бронировать место?"
+    english: 'Card, please. Pays Do I need to reserve a seat?',
+    russian: 'Картой, пожалуйста. Оплачивает Нужно бронировать место?',
   },
   {
     key: '15',
     english: "It's not required, but I can reserve one for you. Window or aisle?",
-    russian: "Не обязательно, но я могу забронировать для вас. Окно или проход?"
+    russian: 'Не обязательно, но я могу забронировать для вас. Окно или проход?',
   },
   {
     key: '16',
-    english: "Window, please. I like to look out.",
-    russian: "У окна, пожалуйста. Люблю смотреть наружу."
+    english: 'Window, please. I like to look out.',
+    russian: 'У окна, пожалуйста. Люблю смотреть наружу.',
   },
   {
     key: '17',
     english: "Done. Here's your ticket. Platform 3 for the 9:15. Have a good trip!",
-    russian: "Готово. Вот ваш билет. Платформа 3 на поезд в 9:15. Хорошей поездки!"
+    russian: 'Готово. Вот ваш билет. Платформа 3 на поезд в 9:15. Хорошей поездки!',
   },
   {
     key: '18',
-    english: "Thank you very much!",
-    russian: "Большое спасибо!"
-  }
+    english: 'Thank you very much!',
+    russian: 'Большое спасибо!',
+  },
 ];
 
 export const transport_03 = [
   {
     key: '1',
-    english: "Excuse me, young lady. Does this bus go to the city center?",
-    russian: "Извините, девушка. Этот автобус идёт до центра города?"
+    english: 'Excuse me, young lady. Does this bus go to the city center?',
+    russian: 'Извините, девушка. Этот автобус идёт до центра города?',
   },
   {
     key: '2',
     english: "Yes, it does. We're going that way now. About 15 more minutes.",
-    russian: "Да, идёт. Мы сейчас туда направляемся. Около 15 минут."
+    russian: 'Да, идёт. Мы сейчас туда направляемся. Около 15 минут.',
   },
   {
     key: '3',
     english: "Thank you. I'm not from here. Visiting my daughter.",
-    russian: "Спасибо. Я не местная. Еду к дочери."
+    russian: 'Спасибо. Я не местная. Еду к дочери.',
   },
   {
     key: '4',
     english: "That's nice! Which stop do you need?",
-    russian: "Это мило! Какая остановка вам нужна?"
+    russian: 'Это мило! Какая остановка вам нужна?',
   },
   {
     key: '5',
     english: "The one near the big library. I think it's called Central Station?",
-    russian: "Та, что рядом с большой библиотекой. Кажется, она называется Центральный вокзал?"
+    russian: 'Та, что рядом с большой библиотекой. Кажется, она называется Центральный вокзал?',
   },
   {
     key: '6',
     english: "Oh yes, that's the next stop after mine. I'll tell you when we get there.",
-    russian: "О да, это следующая остановка после моей. Я скажу вам, когда мы приедем."
+    russian: 'О да, это следующая остановка после моей. Я скажу вам, когда мы приедем.',
   },
   {
     key: '7',
     english: "Would you? That's so kind. My eyes aren't what they used to be.",
-    russian: "Правда? Это так любезно. Мои глаза уже не те, что раньше."
+    russian: 'Правда? Это так любезно. Мои глаза уже не те, что раньше.',
   },
   {
     key: '8',
     english: "Of course. It's no problem. Do you visit often?",
-    russian: "Конечно. Без проблем. Вы часто приезжаете?"
+    russian: 'Конечно. Без проблем. Вы часто приезжаете?',
   },
   {
     key: '9',
-    english: "Twice a year. My daughter moved here five years ago.",
-    russian: "Два раза в год. Дочь переехала сюда пять лет назад."
+    english: 'Twice a year. My daughter moved here five years ago.',
+    russian: 'Два раза в год. Дочь переехала сюда пять лет назад.',
   },
   {
     key: '10',
     english: "That's lovely. My mom lives far away too. I miss her.",
-    russian: "Это замечательно. Моя мама тоже живёт далеко. Я скучаю по ней."
+    russian: 'Это замечательно. Моя мама тоже живёт далеко. Я скучаю по ней.',
   },
   {
     key: '11',
-    english: "You should call her. Mothers love hearing from their children.",
-    russian: "Тебе стоит позвонить ей. Мамы любят получать весточки от детей."
+    english: 'You should call her. Mothers love hearing from their children.',
+    russian: 'Тебе стоит позвонить ей. Мамы любят получать весточки от детей.',
   },
   {
     key: '12',
-    english: "I will. Thank you. Oh, here comes my stop. Yours is the next one.",
-    russian: "Позвоню. Спасибо. О, моя остановка. Ваша следующая."
+    english: 'I will. Thank you. Oh, here comes my stop. Yours is the next one.',
+    russian: 'Позвоню. Спасибо. О, моя остановка. Ваша следующая.',
   },
   {
     key: '13',
-    english: "Thank you, dear. You have a beautiful day.",
-    russian: "Спасибо, дорогая. Хорошего дня."
+    english: 'Thank you, dear. You have a beautiful day.',
+    russian: 'Спасибо, дорогая. Хорошего дня.',
   },
   {
     key: '14',
-    english: "You too! Enjoy your visit with your daughter!",
-    russian: "Вам тоже! Наслаждайтесь встречей с дочерью!"
+    english: 'You too! Enjoy your visit with your daughter!',
+    russian: 'Вам тоже! Наслаждайтесь встречей с дочерью!',
   },
   {
     key: '15',
-    english: "I will. Goodbye!",
-    russian: "Непременно. До свидания!"
+    english: 'I will. Goodbye!',
+    russian: 'Непременно. До свидания!',
   },
   {
     key: '16',
-    english: "Bye! Gets off",
-    russian: "Пока! Выходит"
-  }
+    english: 'Bye! Gets off',
+    russian: 'Пока! Выходит',
+  },
 ];
 
 export const transport_04 = [
   {
     key: '1',
-    english: "City Taxi. How can I help you?",
-    russian: "Городское такси. Чем я могу вам помочь?"
+    english: 'City Taxi. How can I help you?',
+    russian: 'Городское такси. Чем я могу вам помочь?',
   },
   {
     key: '2',
     english: "Hello. I'd like to book a taxi, please.",
-    russian: "Здравствуйте. Я бы хотел заказать такси, пожалуйста."
+    russian: 'Здравствуйте. Я бы хотел заказать такси, пожалуйста.',
   },
   {
     key: '3',
-    english: "Certainly. Where are you calling from?",
-    russian: "Конечно. Откуда вы звоните?"
+    english: 'Certainly. Where are you calling from?',
+    russian: 'Конечно. Откуда вы звоните?',
   },
   {
     key: '4',
-    english: "45 Park Avenue. The corner of Park and Main.",
-    russian: "Парк-авеню, 45. Угол Парк и Мэйн."
+    english: '45 Park Avenue. The corner of Park and Main.',
+    russian: 'Парк-авеню, 45. Угол Парк и Мэйн.',
   },
   {
     key: '5',
-    english: "Got it. And where are you going?",
-    russian: "Понял. И куда вы едете?"
+    english: 'Got it. And where are you going?',
+    russian: 'Понял. И куда вы едете?',
   },
   {
     key: '6',
-    english: "To the airport. Terminal 2.",
-    russian: "В аэропорт. Терминал 2."
+    english: 'To the airport. Terminal 2.',
+    russian: 'В аэропорт. Терминал 2.',
   },
   {
     key: '7',
-    english: "When do you need the taxi?",
-    russian: "Когда вам нужно такси?"
+    english: 'When do you need the taxi?',
+    russian: 'Когда вам нужно такси?',
   },
   {
     key: '8',
-    english: "As soon as possible, please. My flight is in two hours.",
-    russian: "Как можно скорее, пожалуйста. Мой рейс через два часа."
+    english: 'As soon as possible, please. My flight is in two hours.',
+    russian: 'Как можно скорее, пожалуйста. Мой рейс через два часа.',
   },
   {
     key: '9',
-    english: "I have a car nearby. Should be there in 5-7 minutes.",
-    russian: "У меня есть машина поблизости. Должна быть через 5-7 минут."
+    english: 'I have a car nearby. Should be there in 5-7 minutes.',
+    russian: 'У меня есть машина поблизости. Должна быть через 5-7 минут.',
   },
   {
     key: '10',
-    english: "Perfect! How will I recognize it?",
-    russian: "Отлично! Как я её узнаю?"
+    english: 'Perfect! How will I recognize it?',
+    russian: 'Отлично! Как я её узнаю?',
   },
   {
     key: '11',
     english: "It's a blue sedan. License plate starts with TX 123.",
-    russian: "Это синий седан. Номер начинается с TX 123."
+    russian: 'Это синий седан. Номер начинается с TX 123.',
   },
   {
     key: '12',
-    english: "Great. And how much will it cost to the airport?",
-    russian: "Отлично. И сколько будет стоить до аэропорта?"
+    english: 'Great. And how much will it cost to the airport?',
+    russian: 'Отлично. И сколько будет стоить до аэропорта?',
   },
   {
     key: '13',
-    english: "About £25-30, depending on traffic.",
-    russian: "Около £25-30, в зависимости от пробок."
+    english: 'About £25-30, depending on traffic.',
+    russian: 'Около £25-30, в зависимости от пробок.',
   },
   {
     key: '14',
     english: "That's fine. Do you accept card?",
-    russian: "Нормально. Вы принимаете карты?"
+    russian: 'Нормально. Вы принимаете карты?',
   },
   {
     key: '15',
-    english: "Yes, the driver has a card machine. Or you can pay cash.",
-    russian: "Да, у водителя есть терминал. Или можно наличными."
+    english: 'Yes, the driver has a card machine. Or you can pay cash.',
+    russian: 'Да, у водителя есть терминал. Или можно наличными.',
   },
   {
     key: '16',
-    english: "Card is fine. Thank you so much.",
-    russian: "Картой хорошо. Большое спасибо."
+    english: 'Card is fine. Thank you so much.',
+    russian: 'Картой хорошо. Большое спасибо.',
   },
   {
     key: '17',
     english: "You're welcome. The driver will call if there are any issues. Have a good flight!",
-    russian: "Пожалуйста. Водитель позвонит, если будут проблемы. Хорошего полёта!"
+    russian: 'Пожалуйста. Водитель позвонит, если будут проблемы. Хорошего полёта!',
   },
   {
     key: '18',
-    english: "Thank you. Goodbye.",
-    russian: "Спасибо. До свидания."
-  }
+    english: 'Thank you. Goodbye.',
+    russian: 'Спасибо. До свидания.',
+  },
 ];
 
 export const transport_05 = [
   {
     key: '1',
-    english: "Good afternoon. Passport and ticket, please.",
-    russian: "Добрый день. Паспорт и билет, пожалуйста."
+    english: 'Good afternoon. Passport and ticket, please.',
+    russian: 'Добрый день. Паспорт и билет, пожалуйста.',
   },
   {
     key: '2',
     english: "Here you go. I'm flying to Barcelona.",
-    russian: "Вот, держите. Я лечу в Барселону."
+    russian: 'Вот, держите. Я лечу в Барселону.',
   },
   {
     key: '3',
-    english: "Thank you. Are you checking any bags today?",
-    russian: "Спасибо. Сдаёте багаж сегодня?"
+    english: 'Thank you. Are you checking any bags today?',
+    russian: 'Спасибо. Сдаёте багаж сегодня?',
   },
   {
     key: '4',
-    english: "Yes, one suitcase. Puts it on scale",
-    russian: "Да, один чемодан. Ставит на весы"
+    english: 'Yes, one suitcase. Puts it on scale',
+    russian: 'Да, один чемодан. Ставит на весы',
   },
   {
     key: '5',
     english: "22 kilos. That's fine. The limit is 23. Any carry-on?",
-    russian: "22 килограмма. Нормально. Лимит 23. Есть ручная кладь?"
+    russian: '22 килограмма. Нормально. Лимит 23. Есть ручная кладь?',
   },
   {
     key: '6',
-    english: "Just this backpack. It fits under the seat.",
-    russian: "Только этот рюкзак. Помещается под сиденье."
+    english: 'Just this backpack. It fits under the seat.',
+    russian: 'Только этот рюкзак. Помещается под сиденье.',
   },
   {
     key: '7',
-    english: "Perfect. Would you like a window or aisle seat?",
-    russian: "Отлично. Хотите место у окна или у прохода?"
+    english: 'Perfect. Would you like a window or aisle seat?',
+    russian: 'Отлично. Хотите место у окна или у прохода?',
   },
   {
     key: '8',
-    english: "Aisle, please. I like to get up easily.",
-    russian: "У прохода, пожалуйста. Люблю легко вставать."
+    english: 'Aisle, please. I like to get up easily.',
+    russian: 'У прохода, пожалуйста. Люблю легко вставать.',
   },
   {
     key: '9',
     english: "Aisle it is. Row 14, seat C. Here's your boarding pass.",
-    russian: "У прохода. Ряд 14, место C. Вот ваш посадочный талон."
+    russian: 'У прохода. Ряд 14, место C. Вот ваш посадочный талон.',
   },
   {
     key: '10',
-    english: "Thank you. What gate and what time?",
-    russian: "Спасибо. Какой выход и во сколько?"
+    english: 'Thank you. What gate and what time?',
+    russian: 'Спасибо. Какой выход и во сколько?',
   },
   {
     key: '11',
-    english: "Gate 23. Boarding starts at 4:30. Your flight is at 5:15.",
-    russian: "Выход 23. Посадка начинается в 4:30. Ваш рейс в 5:15."
+    english: 'Gate 23. Boarding starts at 4:30. Your flight is at 5:15.',
+    russian: 'Выход 23. Посадка начинается в 4:30. Ваш рейс в 5:15.',
   },
   {
     key: '12',
-    english: "Got it. Is the gate far?",
-    russian: "Понял. Выход далеко?"
+    english: 'Got it. Is the gate far?',
+    russian: 'Понял. Выход далеко?',
   },
   {
     key: '13',
-    english: "About a 10-minute walk. Follow the signs. Plenty of time.",
-    russian: "Около 10 минут пешком. Следуйте за указателями. Времени достаточно."
+    english: 'About a 10-minute walk. Follow the signs. Plenty of time.',
+    russian: 'Около 10 минут пешком. Следуйте за указателями. Времени достаточно.',
   },
   {
     key: '14',
-    english: "Great. Thank you very much.",
-    russian: "Отлично. Большое спасибо."
+    english: 'Great. Thank you very much.',
+    russian: 'Отлично. Большое спасибо.',
   },
   {
     key: '15',
-    english: "Enjoy your flight to Barcelona!",
-    russian: "Наслаждайтесь полётом в Барселону!"
+    english: 'Enjoy your flight to Barcelona!',
+    russian: 'Наслаждайтесь полётом в Барселону!',
   },
   {
     key: '16',
-    english: "Thanks! I will!",
-    russian: "Спасибо! Обязательно!"
-  }
+    english: 'Thanks! I will!',
+    russian: 'Спасибо! Обязательно!',
+  },
 ];
 
 export const transport_06 = [
   {
     key: '1',
-    english: "Sarah! I passed! I finally passed my driving test!",
-    russian: "Сара! Я сдал! Наконец-то сдал экзамен по вождению!"
+    english: 'Sarah! I passed! I finally passed my driving test!',
+    russian: 'Сара! Я сдал! Наконец-то сдал экзамен по вождению!',
   },
   {
     key: '2',
     english: "Congratulations! Third time's the charm! How did it go?",
-    russian: "Поздравляю! Повезло с третьего раза! Как прошло?"
+    russian: 'Поздравляю! Повезло с третьего раза! Как прошло?',
   },
   {
     key: '3',
-    english: "So much better than last time. I was nervous, but the instructor was nice.",
-    russian: "Намного лучше, чем в прошлый раз. Я нервничал, но инструктор был хороший."
+    english: 'So much better than last time. I was nervous, but the instructor was nice.',
+    russian: 'Намного лучше, чем в прошлый раз. Я нервничал, но инструктор был хороший.',
   },
   {
     key: '4',
-    english: "What did you have to do?",
-    russian: "Что нужно было делать?"
+    english: 'What did you have to do?',
+    russian: 'Что нужно было делать?',
   },
   {
     key: '5',
-    english: "Parallel parking, three-point turn, and driving in traffic. All good!",
-    russian: "Параллельная парковка, разворот и езда по городу. Всё хорошо!"
+    english: 'Parallel parking, three-point turn, and driving in traffic. All good!',
+    russian: 'Параллельная парковка, разворот и езда по городу. Всё хорошо!',
   },
   {
     key: '6',
-    english: "No more problems with the parking?",
-    russian: "Больше проблем с парковкой?"
+    english: 'No more problems with the parking?',
+    russian: 'Больше проблем с парковкой?',
   },
   {
     key: '7',
-    english: "No! I practiced for hours. I can park perfectly now.",
-    russian: "Нет! Я тренировался часами. Теперь паркуюсь идеально."
+    english: 'No! I practiced for hours. I can park perfectly now.',
+    russian: 'Нет! Я тренировался часами. Теперь паркуюсь идеально.',
   },
   {
     key: '8',
     english: "That's great! So when do you get your license?",
-    russian: "Отлично! Так когда получишь права?"
+    russian: 'Отлично! Так когда получишь права?',
   },
   {
     key: '9',
-    english: "It comes in the mail in a week. But I can drive now! With a licensed driver next to me.",
-    russian: "Придут по почте через неделю. Но уже можно ездить! С опытным водителем рядом."
+    english: 'It comes in the mail in a week. But I can drive now! With a licensed driver next to me.',
+    russian: 'Придут по почте через неделю. Но уже можно ездить! С опытным водителем рядом.',
   },
   {
     key: '10',
     english: "I'm licensed! Want to go for a drive?",
-    russian: "У меня есть права! Хочешь прокатиться?"
+    russian: 'У меня есть права! Хочешь прокатиться?',
   },
   {
     key: '11',
-    english: "Really? You trust me?",
-    russian: "Правда? Ты мне доверяешь?"
+    english: 'Really? You trust me?',
+    russian: 'Правда? Ты мне доверяешь?',
   },
   {
     key: '12',
     english: "You passed the test, right? Let's go! We can drive to the beach.",
-    russian: "Ты же сдал экзамен, верно? Поехали! Можем доехать до пляжа."
+    russian: 'Ты же сдал экзамен, верно? Поехали! Можем доехать до пляжа.',
   },
   {
     key: '13',
     english: "That sounds amazing! But go easy on me. I'm still new.",
-    russian: "Звучит потрясающе! Но будь снисходительна. Я ещё новичок."
+    russian: 'Звучит потрясающе! Но будь снисходительна. Я ещё новичок.',
   },
   {
     key: '14',
     english: "Don't worry. I'll be the world's calmest passenger. No yelling, no grabbing the wheel.",
-    russian: "Не волнуйся. Я буду самым спокойным пассажиром в мире. Никаких криков, никаких хватаний за руль."
+    russian: 'Не волнуйся. Я буду самым спокойным пассажиром в мире. Никаких криков, никаких хватаний за руль.',
   },
   {
     key: '15',
-    english: "Haha, promise?",
-    russian: "Ха-ха, обещаешь?"
+    english: 'Haha, promise?',
+    russian: 'Ха-ха, обещаешь?',
   },
   {
     key: '16',
     english: "Promise. Let's do this! Road trip!",
-    russian: "Обещаю. Погнали! Путешествие!"
+    russian: 'Обещаю. Погнали! Путешествие!',
   },
   {
     key: '17',
     english: "I'm so excited. Freedom at last!",
-    russian: "Я так взволнован. Наконец-то свобода!"
-  }
+    russian: 'Я так взволнован. Наконец-то свобода!',
+  },
 ];
 
 export const transport_07 = [
   {
     key: '1',
     english: "Tom, let's rent bikes! It's such a nice day.",
-    russian: "Том, давай возьмём велосипеды напрокат! Такой хороший день."
+    russian: 'Том, давай возьмём велосипеды напрокат! Такой хороший день.',
   },
   {
     key: '2',
     english: "Great idea! But I haven't ridden a bike in years. I might be wobbly.",
-    russian: "Отличная идея! Но я не катался на велосипеде много лет. Может, буду шататься."
+    russian: 'Отличная идея! Но я не катался на велосипеде много лет. Может, буду шататься.',
   },
   {
     key: '3',
     english: "It's like riding a bike! You never forget. Come on, it'll be fun.",
-    russian: "Это как езда на велосипеде! Никогда не забывается. Давай, будет весело."
+    russian: 'Это как езда на велосипеде! Никогда не забывается. Давай, будет весело.',
   },
   {
     key: '4',
     english: "Okay, okay. How does this work? I've never used bike sharing before.",
-    russian: "Ладно, ладно. Как это работает? Никогда не пользовался велопрокатом."
+    russian: 'Ладно, ладно. Как это работает? Никогда не пользовался велопрокатом.',
   },
   {
     key: '5',
     english: "See those blue bikes? Download the app, scan the QR code, and you're ready.",
-    russian: "Видишь те синие велосипеды? Скачай приложение, отсканируй QR-код, и готово."
+    russian: 'Видишь те синие велосипеды? Скачай приложение, отсканируй QR-код, и готово.',
   },
   {
     key: '6',
-    english: "Downloads app Okay, done. It says €2 for 30 minutes. Not bad.",
-    russian: "Скачивает приложение Хорошо, готово. Говорит, €2 за 30 минут. Неплохо."
+    english: 'Downloads app Okay, done. It says €2 for 30 minutes. Not bad.',
+    russian: 'Скачивает приложение Хорошо, готово. Говорит, €2 за 30 минут. Неплохо.',
   },
   {
     key: '7',
-    english: "Yeah, cheap and good for the environment. Scan this one.",
-    russian: "Да, дёшево и полезно для экологии. Сканируй этот."
+    english: 'Yeah, cheap and good for the environment. Scan this one.',
+    russian: 'Да, дёшево и полезно для экологии. Сканируй этот.',
   },
   {
     key: '8',
     english: "Beep It's unlocked! Okay, here we go. Gets on Whoa, a little unstable.",
-    russian: "Бип Разблокирован! Ну, поехали. Садится Ого, немного нестабильно."
+    russian: 'Бип Разблокирован! Ну, поехали. Садится Ого, немного нестабильно.',
   },
   {
     key: '9',
     english: "You're fine! Just relax. We'll go slow along the river.",
-    russian: "Всё нормально! Просто расслабься. Поедем медленно вдоль реки."
+    russian: 'Всё нормально! Просто расслабься. Поедем медленно вдоль реки.',
   },
   {
     key: '10',
-    english: "Okay, okay. This is actually fun! The wind in my hair...",
-    russian: "Ладно, ладно. Это действительно весело! Ветер в волосах..."
+    english: 'Okay, okay. This is actually fun! The wind in my hair...',
+    russian: 'Ладно, ладно. Это действительно весело! Ветер в волосах...',
   },
   {
     key: '11',
     english: "See? I told you! Let's go to the park. There's a bike path.",
-    russian: "Видишь? Я же говорила! Поехали в парк. Там велосипедная дорожка."
+    russian: 'Видишь? Я же говорила! Поехали в парк. Там велосипедная дорожка.',
   },
   {
     key: '12',
-    english: "Lead the way! This is so much better than the bus.",
-    russian: "Веди! Это намного лучше, чем автобус."
+    english: 'Lead the way! This is so much better than the bus.',
+    russian: 'Веди! Это намного лучше, чем автобус.',
   },
   {
     key: '13',
-    english: "And exercise too! Win-win.",
-    russian: "И зарядка тоже! Беспроигрышный вариант."
+    english: 'And exercise too! Win-win.',
+    russian: 'И зарядка тоже! Беспроигрышный вариант.',
   },
   {
     key: '14',
-    english: "We should do this every weekend. Fresh air, exercise, and good company.",
-    russian: "Нам стоит делать это каждые выходные. Свежий воздух, нагрузка и хорошая компания."
+    english: 'We should do this every weekend. Fresh air, exercise, and good company.',
+    russian: 'Нам стоит делать это каждые выходные. Свежий воздух, нагрузка и хорошая компания.',
   },
   {
     key: '15',
     english: "Deal! But next time, you're buying the ice cream after.",
-    russian: "Договорились! Но в следующий раз ты покупаешь мороженое после."
+    russian: 'Договорились! Но в следующий раз ты покупаешь мороженое после.',
   },
   {
     key: '16',
-    english: "Haha, fair enough!",
-    russian: "Ха-ха, справедливо!"
-  }
+    english: 'Haha, fair enough!',
+    russian: 'Ха-ха, справедливо!',
+  },
 ];
 
 export const transport_08 = [
   {
     key: '1',
     english: "Ugh, look at this traffic. We haven't moved in 10 minutes.",
-    russian: "Уф, посмотри на эту пробку. Мы не двигались 10 минут."
+    russian: 'Уф, посмотри на эту пробку. Мы не двигались 10 минут.',
   },
   {
     key: '2',
-    english: "I know. This happens every Friday afternoon. Everyone is leaving for the weekend.",
-    russian: "Знаю. Так бывает каждую пятницу днём. Все уезжают на выходные."
+    english: 'I know. This happens every Friday afternoon. Everyone is leaving for the weekend.',
+    russian: 'Знаю. Так бывает каждую пятницу днём. Все уезжают на выходные.',
   },
   {
     key: '3',
-    english: "We should have left earlier. I have a dinner reservation at 7!",
-    russian: "Надо было выехать раньше. У меня бронь на ужин в 7!"
+    english: 'We should have left earlier. I have a dinner reservation at 7!',
+    russian: 'Надо было выехать раньше. У меня бронь на ужин в 7!',
   },
   {
     key: '4',
-    english: "What time is it now?",
-    russian: "Сколько сейчас времени?"
+    english: 'What time is it now?',
+    russian: 'Сколько сейчас времени?',
   },
   {
     key: '5',
     english: "6:30. And we're still 30 minutes away. I'm going to be late.",
-    russian: "6:30. А мы ещё в 30 минутах. Я опоздаю."
+    russian: '6:30. А мы ещё в 30 минутах. Я опоздаю.',
   },
   {
     key: '6',
-    english: "Maybe the restaurant will hold the table. Call them.",
-    russian: "Может, в ресторане подождут. Позвони им."
+    english: 'Maybe the restaurant will hold the table. Call them.',
+    russian: 'Может, в ресторане подождут. Позвони им.',
   },
   {
     key: '7',
     english: "Good idea. Calls Hello, I have a reservation at 7. I'm stuck in traffic. Can you hold it?",
-    russian: "Хорошая идея. Звонит Алло, у меня бронь на 7. Я застряла в пробке. Можете подождать?"
+    russian: 'Хорошая идея. Звонит Алло, у меня бронь на 7. Я застряла в пробке. Можете подождать?',
   },
   {
     key: '8',
-    english: "Whisper What did they say?",
-    russian: "Шёпотом Что они сказали?"
+    english: 'Whisper What did they say?',
+    russian: 'Шёпотом Что они сказали?',
   },
   {
     key: '9',
-    english: "They said 15 minutes late is okay. After that, they give the table away.",
-    russian: "Сказали, 15 минут опоздания нормально. После этого отдают столик."
+    english: 'They said 15 minutes late is okay. After that, they give the table away.',
+    russian: 'Сказали, 15 минут опоздания нормально. После этого отдают столик.',
   },
   {
     key: '10',
-    english: "15 minutes. We can do that. Look, traffic is moving a little.",
-    russian: "15 минут. Мы справимся. Смотри, пробка немного движется."
+    english: '15 minutes. We can do that. Look, traffic is moving a little.',
+    russian: '15 минут. Мы справимся. Смотри, пробка немного движется.',
   },
   {
     key: '11',
-    english: "Finally! Come on, come on. I hate being late.",
-    russian: "Наконец-то! Давай, давай. Ненавижу опаздывать."
+    english: 'Finally! Come on, come on. I hate being late.',
+    russian: 'Наконец-то! Давай, давай. Ненавижу опаздывать.',
   },
   {
     key: '12',
     english: "Me too. But sometimes it's out of our control. At least the weather is nice.",
-    russian: "Я тоже. Но иногда это вне нашего контроля. Хотя бы погода хорошая."
+    russian: 'Я тоже. Но иногда это вне нашего контроля. Хотя бы погода хорошая.',
   },
   {
     key: '13',
-    english: "True. And the music is good. What are we listening to?",
-    russian: "Верно. И музыка хорошая. Что мы слушаем?"
+    english: 'True. And the music is good. What are we listening to?',
+    russian: 'Верно. И музыка хорошая. Что мы слушаем?',
   },
   {
     key: '14',
-    english: "Some 90s playlist. Want me to change it?",
-    russian: "Плейлист 90-х. Хочешь, сменю?"
+    english: 'Some 90s playlist. Want me to change it?',
+    russian: 'Плейлист 90-х. Хочешь, сменю?',
   },
   {
     key: '15',
     english: "No, I love 90s music! Okay, this isn't so bad. Traffic and good music.",
-    russian: "Нет, я люблю музыку 90-х! Ладно, не так уж плохо. Пробки и хорошая музыка."
+    russian: 'Нет, я люблю музыку 90-х! Ладно, не так уж плохо. Пробки и хорошая музыка.',
   },
   {
     key: '16',
     english: "And good company. We'll get there. Don't stress.",
-    russian: "И хорошая компания. Мы доедем. Не переживай."
+    russian: 'И хорошая компания. Мы доедем. Не переживай.',
   },
   {
     key: '17',
     english: "You're right. Thanks, Mark. You're a good stress reducer.",
-    russian: "Ты прав. Спасибо, Марк. Ты хорошо снимаешь стресс."
+    russian: 'Ты прав. Спасибо, Марк. Ты хорошо снимаешь стресс.',
   },
   {
     key: '18',
     english: "That's what colleagues are for!",
-    russian: "Для этого и нужны коллеги!"
-  }
+    russian: 'Для этого и нужны коллеги!',
+  },
 ];
 
 export const transport_09 = [
   {
     key: '1',
     english: "Excuse me, sorry to bother you. I'm looking for the subway station.",
-    russian: "Извините, простите за беспокойство. Я ищу станцию метро."
+    russian: 'Извините, простите за беспокойство. Я ищу станцию метро.',
   },
   {
     key: '2',
-    english: "No problem. Which line do you need?",
-    russian: "Без проблем. Какая линия вам нужна?"
+    english: 'No problem. Which line do you need?',
+    russian: 'Без проблем. Какая линия вам нужна?',
   },
   {
     key: '3',
-    english: "The red line. I need to go to the museum.",
-    russian: "Красная линия. Мне нужно в музей."
+    english: 'The red line. I need to go to the museum.',
+    russian: 'Красная линия. Мне нужно в музей.',
   },
   {
     key: '4',
-    english: "Oh, the museum. The nearest station is two blocks away. Walk straight, then turn left.",
-    russian: "О, музей. Ближайшая станция в двух кварталах. Идите прямо, потом поверните налево."
+    english: 'Oh, the museum. The nearest station is two blocks away. Walk straight, then turn left.',
+    russian: 'О, музей. Ближайшая станция в двух кварталах. Идите прямо, потом поверните налево.',
   },
   {
     key: '5',
-    english: "Straight, then left. Got it. Is it far?",
-    russian: "Прямо, потом налево. Понял. Это далеко?"
+    english: 'Straight, then left. Got it. Is it far?',
+    russian: 'Прямо, потом налево. Понял. Это далеко?',
   },
   {
     key: '6',
     english: "About 5 minutes. You'll see the sign. It's a big red M.",
-    russian: "Около 5 минут. Увидите знак. Большая красная М."
+    russian: 'Около 5 минут. Увидите знак. Большая красная М.',
   },
   {
     key: '7',
-    english: "Perfect. And how do I buy a ticket?",
-    russian: "Отлично. И как купить билет?"
+    english: 'Perfect. And how do I buy a ticket?',
+    russian: 'Отлично. И как купить билет?',
   },
   {
     key: '8',
-    english: "There are machines inside. They take cash and cards. A single ride is €2.50.",
-    russian: "Внутри есть автоматы. Принимают наличные и карты. Одна поездка €2.50."
+    english: 'There are machines inside. They take cash and cards. A single ride is €2.50.',
+    russian: 'Внутри есть автоматы. Принимают наличные и карты. Одна поездка €2.50.',
   },
   {
     key: '9',
-    english: "Great. And which direction for the museum?",
-    russian: "Отлично. И в каком направлении до музея?"
+    english: 'Great. And which direction for the museum?',
+    russian: 'Отлично. И в каком направлении до музея?',
   },
   {
     key: '10',
-    english: "You want the northbound train. Platform 2. The museum is the third stop.",
-    russian: "Вам нужен поезд в северном направлении. Платформа 2. Музей — третья остановка."
+    english: 'You want the northbound train. Platform 2. The museum is the third stop.',
+    russian: 'Вам нужен поезд в северном направлении. Платформа 2. Музей — третья остановка.',
   },
   {
     key: '11',
     english: "Third stop. Thank you so much! You've been very helpful.",
-    russian: "Третья остановка. Большое спасибо! Вы очень помогли."
+    russian: 'Третья остановка. Большое спасибо! Вы очень помогли.',
   },
   {
     key: '12',
     english: "My pleasure. Enjoy the museum. It's wonderful.",
-    russian: "Пожалуйста. Наслаждайтесь музеем. Он замечательный."
+    russian: 'Пожалуйста. Наслаждайтесь музеем. Он замечательный.',
   },
   {
     key: '13',
-    english: "I will! Thanks again. Have a great day!",
-    russian: "Обязательно! Ещё раз спасибо. Хорошего дня!"
+    english: 'I will! Thanks again. Have a great day!',
+    russian: 'Обязательно! Ещё раз спасибо. Хорошего дня!',
   },
   {
     key: '14',
-    english: "You too!",
-    russian: "Вам тоже!"
-  }
+    english: 'You too!',
+    russian: 'Вам тоже!',
+  },
 ];
 
 export const transport_10 = [
   {
     key: '1',
-    english: "Anna, thanks for coming with me. I need a second opinion.",
-    russian: "Анна, спасибо, что пошла со мной. Мне нужно второе мнение."
+    english: 'Anna, thanks for coming with me. I need a second opinion.',
+    russian: 'Анна, спасибо, что пошла со мной. Мне нужно второе мнение.',
   },
   {
     key: '2',
     english: "No problem! I don't know much about cars, but I can look.",
-    russian: "Без проблем! Я мало знаю о машинах, но могу посмотреть."
+    russian: 'Без проблем! Я мало знаю о машинах, но могу посмотреть.',
   },
   {
     key: '3',
     english: "The seller said it's in good condition. 2015 model, 80,000 miles.",
-    russian: "Продавец сказал, что в хорошем состоянии. 2015 год, 80,000 миль."
+    russian: 'Продавец сказал, что в хорошем состоянии. 2015 год, 80,000 миль.',
   },
   {
     key: '4',
     english: "That's not too bad. How much is he asking?",
-    russian: "Это неплохо. Сколько он просит?"
+    russian: 'Это неплохо. Сколько он просит?',
   },
   {
     key: '5',
-    english: "€8,000. Seems fair, but I want to negotiate.",
-    russian: "€8,000. Кажется справедливо, но я хочу торговаться."
+    english: '€8,000. Seems fair, but I want to negotiate.',
+    russian: '€8,000. Кажется справедливо, но я хочу торговаться.',
   },
   {
     key: '6',
-    english: "Always negotiate! Look at the tires first. They look a little worn.",
-    russian: "Всегда торгуйся! Посмотри сначала на шины. Они выглядят немного изношенными."
+    english: 'Always negotiate! Look at the tires first. They look a little worn.',
+    russian: 'Всегда торгуйся! Посмотри сначала на шины. Они выглядят немного изношенными.',
   },
   {
     key: '7',
     english: "You're right. New tires cost money. I'll mention that.",
-    russian: "Ты права. Новые шины стоят денег. Упомяну это."
+    russian: 'Ты права. Новые шины стоят денег. Упомяну это.',
   },
   {
     key: '8',
-    english: "Check inside. Any smells? Stains?",
-    russian: "Проверь внутри. Есть запахи? Пятна?"
+    english: 'Check inside. Any smells? Stains?',
+    russian: 'Проверь внутри. Есть запахи? Пятна?',
   },
   {
     key: '9',
-    english: "Opens door Smells fine. Seats look clean. No rips.",
-    russian: "Открывает дверь Запах нормальный. Сиденья выглядят чистыми. Нет разрывов."
+    english: 'Opens door Smells fine. Seats look clean. No rips.',
+    russian: 'Открывает дверь Запах нормальный. Сиденья выглядят чистыми. Нет разрывов.',
   },
   {
     key: '10',
-    english: "Good. Start the engine. Listen for weird noises.",
-    russian: "Хорошо. Заводи двигатель. Слушай странные звуки."
+    english: 'Good. Start the engine. Listen for weird noises.',
+    russian: 'Хорошо. Заводи двигатель. Слушай странные звуки.',
   },
   {
     key: '11',
-    english: "Starts car Sounds okay to me. Smooth.",
-    russian: "Заводит машину Мне звучит нормально. Ровно."
+    english: 'Starts car Sounds okay to me. Smooth.',
+    russian: 'Заводит машину Мне звучит нормально. Ровно.',
   },
   {
     key: '12',
-    english: "Now test the lights, signals, air conditioning. Everything.",
-    russian: "Теперь проверь фары, поворотники, кондиционер. Всё."
+    english: 'Now test the lights, signals, air conditioning. Everything.',
+    russian: 'Теперь проверь фары, поворотники, кондиционер. Всё.',
   },
   {
     key: '13',
-    english: "Tests All working. AC is cold. Good.",
-    russian: "Проверяет Всё работает. Кондиционер холодный. Хорошо."
+    english: 'Tests All working. AC is cold. Good.',
+    russian: 'Проверяет Всё работает. Кондиционер холодный. Хорошо.',
   },
   {
     key: '14',
-    english: "Take it for a test drive. Feel how it drives. Any vibrations?",
-    russian: "Возьми на тест-драйв. Почувствуй, как едет. Есть вибрации?"
+    english: 'Take it for a test drive. Feel how it drives. Any vibrations?',
+    russian: 'Возьми на тест-драйв. Почувствуй, как едет. Есть вибрации?',
   },
   {
     key: '15',
-    english: "Drives around Feels smooth. Brakes are good. I like it.",
-    russian: "Едет вокруг Чувствуется плавно. Тормоза хорошие. Мне нравится."
+    english: 'Drives around Feels smooth. Brakes are good. I like it.',
+    russian: 'Едет вокруг Чувствуется плавно. Тормоза хорошие. Мне нравится.',
   },
   {
     key: '16',
-    english: "Then offer €7,000. Say the tires need replacing. See what he says.",
-    russian: "Тогда предложи €7,000. Скажи, что шины нужно менять. Посмотрим, что скажет."
+    english: 'Then offer €7,000. Say the tires need replacing. See what he says.',
+    russian: 'Тогда предложи €7,000. Скажи, что шины нужно менять. Посмотрим, что скажет.',
   },
   {
     key: '17',
     english: "Great advice. You're a natural negotiator!",
-    russian: "Отличный совет. Ты прирождённый переговорщик!"
+    russian: 'Отличный совет. Ты прирождённый переговорщик!',
   },
   {
     key: '18',
-    english: "Haha, I watch a lot of car shows. Let me know how it goes!",
-    russian: "Ха-ха, я много смотрю автомобильные передачи. Дай знать, как пройдёт!"
+    english: 'Haha, I watch a lot of car shows. Let me know how it goes!',
+    russian: 'Ха-ха, я много смотрю автомобильные передачи. Дай знать, как пройдёт!',
   },
   {
     key: '19',
     english: "Will do. Thanks, Anna. You're the best.",
-    russian: "Обязательно. Спасибо, Анна. Ты лучшая."
-  }
+    russian: 'Обязательно. Спасибо, Анна. Ты лучшая.',
+  },
 ];
 
 export const transport_11 = [
   {
     key: '1',
-    english: "Mark, hurry! The train leaves in 5 minutes!",
-    russian: "Марк, быстрее! Поезд отправляется через 5 минут!"
+    english: 'Mark, hurry! The train leaves in 5 minutes!',
+    russian: 'Марк, быстрее! Поезд отправляется через 5 минут!',
   },
   {
     key: '2',
     english: "I'm running! This suitcase is so heavy. Why did I pack so much?",
-    russian: "Бегу! Чемодан такой тяжёлый. Зачем я так много упаковал?"
+    russian: 'Бегу! Чемодан такой тяжёлый. Зачем я так много упаковал?',
   },
   {
     key: '3',
-    english: "Because you always overpack! Come on, platform 7!",
-    russian: "Потому что ты всегда берёшь лишнее! Давай, платформа 7!"
+    english: 'Because you always overpack! Come on, platform 7!',
+    russian: 'Потому что ты всегда берёшь лишнее! Давай, платформа 7!',
   },
   {
     key: '4',
-    english: "Panting I see it! Platform 7, over there!",
-    russian: "Запыхавшись Вижу! Платформа 7, вон там!"
+    english: 'Panting I see it! Platform 7, over there!',
+    russian: 'Запыхавшись Вижу! Платформа 7, вон там!',
   },
   {
     key: '5',
-    english: "The doors are closing! Run!",
-    russian: "Двери закрываются! Беги!"
+    english: 'The doors are closing! Run!',
+    russian: 'Двери закрываются! Беги!',
   },
   {
     key: '6',
-    english: "Wait! Wait! Jumps in just as doors close Made it!",
-    russian: "Подождите! Подождите! Запрыгивает, когда двери закрываются Успели!"
+    english: 'Wait! Wait! Jumps in just as doors close Made it!',
+    russian: 'Подождите! Подождите! Запрыгивает, когда двери закрываются Успели!',
   },
   {
     key: '7',
-    english: "Also inside, breathing hard Oh my god, that was close. My heart is racing.",
-    russian: "Тоже внутри, тяжело дыша Боже мой, близко было. Сердце колотится."
+    english: 'Also inside, breathing hard Oh my god, that was close. My heart is racing.',
+    russian: 'Тоже внутри, тяжело дыша Боже мой, близко было. Сердце колотится.',
   },
   {
     key: '8',
-    english: "Mine too. I thought we were going to miss it.",
-    russian: "У меня тоже. Я думал, мы опоздаем."
+    english: 'Mine too. I thought we were going to miss it.',
+    russian: 'У меня тоже. Я думал, мы опоздаем.',
   },
   {
     key: '9',
-    english: "We almost did! Next time, leave earlier. I told you!",
-    russian: "Мы чуть не опоздали! В следующий раз выходи раньше. Я же говорила!"
+    english: 'We almost did! Next time, leave earlier. I told you!',
+    russian: 'Мы чуть не опоздали! В следующий раз выходи раньше. Я же говорила!',
   },
   {
     key: '10',
     english: "I know, I know. I'm sorry. I'm a terrible planner.",
-    russian: "Знаю, знаю. Прости. Я ужасный планировщик."
+    russian: 'Знаю, знаю. Прости. Я ужасный планировщик.',
   },
   {
     key: '11',
-    english: "At least we made it. Now find our seats. I need to sit down.",
-    russian: "По крайней мере, мы успели. Теперь найди наши места. Нужно сесть."
+    english: 'At least we made it. Now find our seats. I need to sit down.',
+    russian: 'По крайней мере, мы успели. Теперь найди наши места. Нужно сесть.',
   },
   {
     key: '12',
-    english: "Checking tickets Seats 14A and 14B. This way.",
-    russian: "Проверяет билеты Места 14A и 14B. Сюда."
+    english: 'Checking tickets Seats 14A and 14B. This way.',
+    russian: 'Проверяет билеты Места 14A и 14B. Сюда.',
   },
   {
     key: '13',
     english: "Sits Ahh, that's better. Never running again.",
-    russian: "Садится Ах, так лучше. Никогда больше не буду бегать."
+    russian: 'Садится Ах, так лучше. Никогда больше не буду бегать.',
   },
   {
     key: '14',
-    english: "Until next time. You know me.",
-    russian: "До следующего раза. Ты меня знаешь."
+    english: 'Until next time. You know me.',
+    russian: 'До следующего раза. Ты меня знаешь.',
   },
   {
     key: '15',
     english: "Haha, true. Okay, let's relax. We're on the train. Vacation starts now!",
-    russian: "Ха-ха, правда. Ладно, расслабляемся. Мы в поезде. Отпуск начинается!"
+    russian: 'Ха-ха, правда. Ладно, расслабляемся. Мы в поезде. Отпуск начинается!',
   },
   {
     key: '16',
-    english: "Finally! Want to get snacks from the cafe car?",
-    russian: "Наконец-то! Хочешь взять закуски из вагона-кафе?"
+    english: 'Finally! Want to get snacks from the cafe car?',
+    russian: 'Наконец-то! Хочешь взять закуски из вагона-кафе?',
   },
   {
     key: '17',
     english: "Yes! But you're buying. You almost made us miss the train.",
-    russian: "Да! Но ты платишь. Ты чуть не заставил нас опоздать на поезд."
+    russian: 'Да! Но ты платишь. Ты чуть не заставил нас опоздать на поезд.',
   },
   {
     key: '18',
-    english: "Fair enough. Deal!",
-    russian: "Справедливо. Договорились!"
-  }
+    english: 'Fair enough. Deal!',
+    russian: 'Справедливо. Договорились!',
+  },
 ];
 
 export const transport_12 = [
   {
     key: '1',
-    english: "Okay, we need to get to the stadium. Which line?",
-    russian: "Итак, нам нужно добраться до стадиона. Какая линия?"
+    english: 'Okay, we need to get to the stadium. Which line?',
+    russian: 'Итак, нам нужно добраться до стадиона. Какая линия?',
   },
   {
     key: '2',
     english: "Let me look at the map. We're here, at Central Station. The stadium is... here.",
-    russian: "Дай посмотрю на карту. Мы здесь, на Центральном вокзале. Стадион... здесь."
+    russian: 'Дай посмотрю на карту. Мы здесь, на Центральном вокзале. Стадион... здесь.',
   },
   {
     key: '3',
-    english: "That looks like three stops. Blue line?",
-    russian: "Похоже на три остановки. Синяя линия?"
+    english: 'That looks like three stops. Blue line?',
+    russian: 'Похоже на три остановки. Синяя линия?',
   },
   {
     key: '4',
-    english: "Yes, blue line towards Westside. Get off at Sports Arena.",
-    russian: "Да, синяя линия в направлении Вестсайда. Выходи на стадионе."
+    english: 'Yes, blue line towards Westside. Get off at Sports Arena.',
+    russian: 'Да, синяя линия в направлении Вестсайда. Выходи на стадионе.',
   },
   {
     key: '5',
-    english: "Easy. Do we need to change trains?",
-    russian: "Легко. Нужно пересаживаться?"
+    english: 'Easy. Do we need to change trains?',
+    russian: 'Легко. Нужно пересаживаться?',
   },
   {
     key: '6',
     english: "No, it's direct. Same line all the way. Perfect.",
-    russian: "Нет, прямой. Одна линия весь путь. Отлично."
+    russian: 'Нет, прямой. Одна линия весь путь. Отлично.',
   },
   {
     key: '7',
-    english: "How do we pay? Do we need a card?",
-    russian: "Как платить? Нужна карта?"
+    english: 'How do we pay? Do we need a card?',
+    russian: 'Как платить? Нужна карта?',
   },
   {
     key: '8',
     english: "We can buy single tickets from the machine. Or get a day pass if we're using it a lot.",
-    russian: "Можем купить одноразовые билеты в автомате. Или взять проездной на день, если будем много ездить."
+    russian: 'Можем купить одноразовые билеты в автомате. Или взять проездной на день, если будем много ездить.',
   },
   {
     key: '9',
     english: "Day pass might be cheaper. We'll take it back too, right?",
-    russian: "Проездной может быть дешевле. Мы поедем обратно, да?"
+    russian: 'Проездной может быть дешевле. Мы поедем обратно, да?',
   },
   {
     key: '10',
     english: "Yes, after the game. Let's get day passes. €8 each.",
-    russian: "Да, после игры. Давай возьмём проездные. €8 каждый."
+    russian: 'Да, после игры. Давай возьмём проездные. €8 каждый.',
   },
   {
     key: '11',
-    english: "Buys tickets Got them. Now which way?",
-    russian: "Покупает билеты Взяли. Теперь куда?"
+    english: 'Buys tickets Got them. Now which way?',
+    russian: 'Покупает билеты Взяли. Теперь куда?',
   },
   {
     key: '12',
-    english: "Follow the signs for blue line, westbound. Platform 2.",
-    russian: "Следуй за указателями на синюю линию, западное направление. Платформа 2."
+    english: 'Follow the signs for blue line, westbound. Platform 2.',
+    russian: 'Следуй за указателями на синюю линию, западное направление. Платформа 2.',
   },
   {
     key: '13',
-    english: "This is so much easier than driving. No traffic, no parking.",
-    russian: "Это намного легче, чем ехать на машине. Ни пробок, ни парковки."
+    english: 'This is so much easier than driving. No traffic, no parking.',
+    russian: 'Это намного легче, чем ехать на машине. Ни пробок, ни парковки.',
   },
   {
     key: '14',
-    english: "Exactly. Public transport is great in this city.",
-    russian: "Именно. Общественный транспорт отличный в этом городе."
+    english: 'Exactly. Public transport is great in this city.',
+    russian: 'Именно. Общественный транспорт отличный в этом городе.',
   },
   {
     key: '15',
     english: "Train is coming! Let's go!",
-    russian: "Поезд идёт! Пошли!"
+    russian: 'Поезд идёт! Пошли!',
   },
   {
     key: '16',
-    english: "After you. Subway adventure begins!",
-    russian: "После тебя. Метро-приключение начинается!"
-  }
+    english: 'After you. Subway adventure begins!',
+    russian: 'После тебя. Метро-приключение начинается!',
+  },
 ];
 
 export const transport_13 = [
   {
     key: '1',
     english: "Tom, look at the view! It's amazing! The water is so blue.",
-    russian: "Том, посмотри на вид! Потрясающе! Вода такая синяя."
+    russian: 'Том, посмотри на вид! Потрясающе! Вода такая синяя.',
   },
   {
     key: '2',
     english: "Wow, this is beautiful. I'm so glad we decided to take the ferry.",
-    russian: "Ничего себе, это красиво. Я так рад, что мы решили поехать на пароме."
+    russian: 'Ничего себе, это красиво. Я так рад, что мы решили поехать на пароме.',
   },
   {
     key: '3',
-    english: "So much better than a crowded bus. Fresh air, sunshine...",
-    russian: "Намного лучше, чем переполненный автобус. Свежий воздух, солнце..."
+    english: 'So much better than a crowded bus. Fresh air, sunshine...',
+    russian: 'Намного лучше, чем переполненный автобус. Свежий воздух, солнце...',
   },
   {
     key: '4',
-    english: "And we can stand outside. Feel the breeze. Perfect.",
-    russian: "И мы можем стоять снаружи. Чувствовать ветерок. Идеально."
+    english: 'And we can stand outside. Feel the breeze. Perfect.',
+    russian: 'И мы можем стоять снаружи. Чувствовать ветерок. Идеально.',
   },
   {
     key: '5',
-    english: "How long is the ride?",
-    russian: "Сколько времени в пути?"
+    english: 'How long is the ride?',
+    russian: 'Сколько времени в пути?',
   },
   {
     key: '6',
-    english: "About an hour to the island. Just enough time to relax.",
-    russian: "Около часа до острова. Как раз достаточно времени, чтобы расслабиться."
+    english: 'About an hour to the island. Just enough time to relax.',
+    russian: 'Около часа до острова. Как раз достаточно времени, чтобы расслабиться.',
   },
   {
     key: '7',
-    english: "I could do this all day. Just watching the water.",
-    russian: "Я могла бы делать это весь день. Просто смотреть на воду."
+    english: 'I could do this all day. Just watching the water.',
+    russian: 'Я могла бы делать это весь день. Просто смотреть на воду.',
   },
   {
     key: '8',
-    english: "Me too. Look, there are dolphins! Over there!",
-    russian: "Я тоже. Смотри, там дельфины! Вон там!"
+    english: 'Me too. Look, there are dolphins! Over there!',
+    russian: 'Я тоже. Смотри, там дельфины! Вон там!',
   },
   {
     key: '9',
-    english: "Where? Oh my god, I see them! Jumping! This is incredible!",
-    russian: "Где? Боже мой, вижу их! Прыгают! Это невероятно!"
+    english: 'Where? Oh my god, I see them! Jumping! This is incredible!',
+    russian: 'Где? Боже мой, вижу их! Прыгают! Это невероятно!',
   },
   {
     key: '10',
     english: "Best day ever. Dolphins on a ferry. Can't beat that.",
-    russian: "Лучший день в жизни. Дельфины на пароме. Лучше не бывает."
+    russian: 'Лучший день в жизни. Дельфины на пароме. Лучше не бывает.',
   },
   {
     key: '11',
     english: "I'm taking a million photos. My friends won't believe this.",
-    russian: "Делаю миллион фото. Мои друзья не поверят."
+    russian: 'Делаю миллион фото. Мои друзья не поверят.',
   },
   {
     key: '12',
-    english: "Neither will mine. This is why I love traveling. Surprises like this.",
-    russian: "Мои тоже. Вот почему я люблю путешествовать. Такие сюрпризы."
+    english: 'Neither will mine. This is why I love traveling. Surprises like this.',
+    russian: 'Мои тоже. Вот почему я люблю путешествовать. Такие сюрпризы.',
   },
   {
     key: '13',
-    english: "Want to get a drink from the cafe? They have coffee and snacks.",
-    russian: "Хочешь взять напиток в кафе? Там есть кофе и закуски."
+    english: 'Want to get a drink from the cafe? They have coffee and snacks.',
+    russian: 'Хочешь взять напиток в кафе? Там есть кофе и закуски.',
   },
   {
     key: '14',
     english: "Sure. Let's go. Then come back outside. I don't want to miss anything.",
-    russian: "Конечно. Пошли. Потом вернёмся на улицу. Не хочу ничего пропустить."
+    russian: 'Конечно. Пошли. Потом вернёмся на улицу. Не хочу ничего пропустить.',
   },
   {
     key: '15',
     english: "Agreed. This is the best transport ever. Why don't we have ferries at home?",
-    russian: "Согласна. Это лучший транспорт в мире. Почему у нас нет паромов?"
+    russian: 'Согласна. Это лучший транспорт в мире. Почему у нас нет паромов?',
   },
   {
     key: '16',
-    english: "No water! We live in a landlocked city.",
-    russian: "Нет воды! Мы живём в городе, не имеющем выхода к морю."
+    english: 'No water! We live in a landlocked city.',
+    russian: 'Нет воды! Мы живём в городе, не имеющем выхода к морю.',
   },
   {
     key: '17',
     english: "Oh right. Well, I'm enjoying it while I can!",
-    russian: "Ах да. Что ж, наслаждаюсь, пока есть возможность!"
-  }
+    russian: 'Ах да. Что ж, наслаждаюсь, пока есть возможность!',
+  },
 ];
 
 export const transport_14 = [
   {
     key: '1',
     english: "Mike, let's rent scooters! It's the best way to see the island.",
-    russian: "Майк, давай арендуем скутеры! Это лучший способ увидеть остров."
+    russian: 'Майк, давай арендуем скутеры! Это лучший способ увидеть остров.',
   },
   {
     key: '2',
     english: "I've never ridden a scooter before. Is it hard?",
-    russian: "Я никогда не катался на скутере. Это сложно?"
+    russian: 'Я никогда не катался на скутере. Это сложно?',
   },
   {
     key: '3',
     english: "It's easy! Like a bike but with an engine. You'll learn in 5 minutes.",
-    russian: "Это легко! Как велосипед, но с двигателем. Научишься за 5 минут."
+    russian: 'Это легко! Как велосипед, но с двигателем. Научишься за 5 минут.',
   },
   {
     key: '4',
     english: "I don't know... What if I crash?",
-    russian: "Не знаю... Что, если я разобьюсь?"
+    russian: 'Не знаю... Что, если я разобьюсь?',
   },
   {
     key: '5',
     english: "You won't crash. We'll go slow. Just on small roads, not highways.",
-    russian: "Не разобьёшься. Будем ехать медленно. Только по маленьким дорогам, не по шоссе."
+    russian: 'Не разобьёшься. Будем ехать медленно. Только по маленьким дорогам, не по шоссе.',
   },
   {
     key: '6',
-    english: "To shop owner How much to rent two scooters for the day?",
-    russian: "Владельцу магазина Сколько стоит арендовать два скутера на день?"
+    english: 'To shop owner How much to rent two scooters for the day?',
+    russian: 'Владельцу магазина Сколько стоит арендовать два скутера на день?',
   },
   {
     key: '7',
-    english: "€25 each for 24 hours. Includes helmet and insurance.",
-    russian: "€25 каждый на 24 часа. Включены шлем и страховка."
+    english: '€25 each for 24 hours. Includes helmet and insurance.',
+    russian: '€25 каждый на 24 часа. Включены шлем и страховка.',
   },
   {
     key: '8',
-    english: "See? Not expensive. Come on, live a little!",
-    russian: "Видишь? Недорого. Давай, поживи немного!"
+    english: 'See? Not expensive. Come on, live a little!',
+    russian: 'Видишь? Недорого. Давай, поживи немного!',
   },
   {
     key: '9',
     english: "Okay, okay. Do you have automatic ones? I don't want to shift gears.",
-    russian: "Ладно, ладно. У вас есть автоматические? Не хочу переключать передачи."
+    russian: 'Ладно, ладно. У вас есть автоматические? Не хочу переключать передачи.',
   },
   {
     key: '10',
-    english: "Yes, all our rentals are automatic. Very easy. Twist and go.",
-    russian: "Да, все наши скутеры автоматические. Очень легко. Повернул и поехал."
+    english: 'Yes, all our rentals are automatic. Very easy. Twist and go.',
+    russian: 'Да, все наши скутеры автоматические. Очень легко. Повернул и поехал.',
   },
   {
     key: '11',
     english: "That sounds better. Okay, I'll do it.",
-    russian: "Звучит лучше. Хорошо, я согласен."
+    russian: 'Звучит лучше. Хорошо, я согласен.',
   },
   {
     key: '12',
-    english: "Yes! This is going to be so fun. We can explore the whole coast.",
-    russian: "Да! Это будет так весело. Сможем исследовать всё побережье."
+    english: 'Yes! This is going to be so fun. We can explore the whole coast.',
+    russian: 'Да! Это будет так весело. Сможем исследовать всё побережье.',
   },
   {
     key: '13',
     english: "Filling out forms What's the speed limit?",
-    russian: "Заполняет бланки Какое ограничение скорости?"
+    russian: 'Заполняет бланки Какое ограничение скорости?',
   },
   {
     key: '14',
-    english: "On local roads, 40 km/h. Perfect for beginners.",
-    russian: "На местных дорогах, 40 км/ч. Идеально для новичков."
+    english: 'On local roads, 40 km/h. Perfect for beginners.',
+    russian: 'На местных дорогах, 40 км/ч. Идеально для новичков.',
   },
   {
     key: '15',
-    english: "Okay. And you have helmets in my size?",
-    russian: "Хорошо. А шлемы моего размера есть?"
+    english: 'Okay. And you have helmets in my size?',
+    russian: 'Хорошо. А шлемы моего размера есть?',
   },
   {
     key: '16',
-    english: "Try this one. Should fit. How does it feel?",
-    russian: "Примерь этот. Должен подойти. Как ощущения?"
+    english: 'Try this one. Should fit. How does it feel?',
+    russian: 'Примерь этот. Должен подойти. Как ощущения?',
   },
   {
     key: '17',
     english: "Good. Comfortable. Okay, let's do this.",
-    russian: "Хорошо. Удобно. Ладно, поехали."
+    russian: 'Хорошо. Удобно. Ладно, поехали.',
   },
   {
     key: '18',
     english: "Don't worry, Mike. I'll be right behind you. We'll have the best day!",
-    russian: "Не волнуйся, Майк. Я буду прямо за тобой. У нас будет лучший день!"
+    russian: 'Не волнуйся, Майк. Я буду прямо за тобой. У нас будет лучший день!',
   },
   {
     key: '19',
     english: "I'm holding you to that!",
-    russian: "Я припомню тебе это!"
-  }
+    russian: 'Я припомню тебе это!',
+  },
 ];
 
 export const transport_15 = [
   {
     key: '1',
-    english: "Did you see the board? Our flight is delayed. Two hours!",
-    russian: "Ты видел табло? Наш рейс задерживается. Два часа!"
+    english: 'Did you see the board? Our flight is delayed. Two hours!',
+    russian: 'Ты видел табло? Наш рейс задерживается. Два часа!',
   },
   {
     key: '2',
-    english: "What? No! Why?",
-    russian: "Что? Нет! Почему?"
+    english: 'What? No! Why?',
+    russian: 'Что? Нет! Почему?',
   },
   {
     key: '3',
     english: "Technical issues with the plane. They're fixing it.",
-    russian: "Технические проблемы с самолётом. Чинят."
+    russian: 'Технические проблемы с самолётом. Чинят.',
   },
   {
     key: '4',
     english: "Two hours. That's so frustrating. We were supposed to land at 8.",
-    russian: "Два часа. Это так неприятно. Мы должны были приземлиться в 8."
+    russian: 'Два часа. Это так неприятно. Мы должны были приземлиться в 8.',
   },
   {
     key: '5',
     english: "Now it's 10. We'll miss dinner at the hotel.",
-    russian: "Теперь в 10. Пропустим ужин в отеле."
+    russian: 'Теперь в 10. Пропустим ужин в отеле.',
   },
   {
     key: '6',
     english: "And I'm already tired. I just want to get there.",
-    russian: "И я уже устал. Просто хочу уже добраться."
+    russian: 'И я уже устал. Просто хочу уже добраться.',
   },
   {
     key: '7',
     english: "Same. But better safe than sorry, right? I don't want to fly on a broken plane.",
-    russian: "Так же. Но лучше перебдеть, чем недобдеть, верно? Не хочу лететь на сломанном самолёте."
+    russian: 'Так же. Но лучше перебдеть, чем недобдеть, верно? Не хочу лететь на сломанном самолёте.',
   },
   {
     key: '8',
-    english: "True. Safety first. Still, two hours is a long time.",
-    russian: "Верно. Безопасность прежде всего. Всё равно, два часа — это долго."
+    english: 'True. Safety first. Still, two hours is a long time.',
+    russian: 'Верно. Безопасность прежде всего. Всё равно, два часа — это долго.',
   },
   {
     key: '9',
     english: "Let's find something to do. There's a bookstore over there.",
-    russian: "Давай найдём, чем заняться. Там книжный магазин."
+    russian: 'Давай найдём, чем заняться. Там книжный магазин.',
   },
   {
     key: '10',
-    english: "Good idea. I need a new book anyway.",
-    russian: "Хорошая идея. Мне всё равно нужна новая книга."
+    english: 'Good idea. I need a new book anyway.',
+    russian: 'Хорошая идея. Мне всё равно нужна новая книга.',
   },
   {
     key: '11',
-    english: "And then coffee. And then maybe a snack. We have time.",
-    russian: "А потом кофе. А потом может перекус. У нас есть время."
+    english: 'And then coffee. And then maybe a snack. We have time.',
+    russian: 'А потом кофе. А потом может перекус. У нас есть время.',
   },
   {
     key: '12',
-    english: "Haha, true. Might as well make the best of it.",
-    russian: "Ха-ха, верно. Нужно извлечь максимум."
+    english: 'Haha, true. Might as well make the best of it.',
+    russian: 'Ха-ха, верно. Нужно извлечь максимум.',
   },
   {
     key: '13',
-    english: "Look on the bright side. Free Wi-Fi. We can watch movies.",
-    russian: "Посмотри с хорошей стороны. Бесплатный Wi-Fi. Можем смотреть фильмы."
+    english: 'Look on the bright side. Free Wi-Fi. We can watch movies.',
+    russian: 'Посмотри с хорошей стороны. Бесплатный Wi-Fi. Можем смотреть фильмы.',
   },
   {
     key: '14',
-    english: "Or complain to each other for two hours!",
-    russian: "Или жаловаться друг другу два часа!"
+    english: 'Or complain to each other for two hours!',
+    russian: 'Или жаловаться друг другу два часа!',
   },
   {
     key: '15',
     english: "Haha, that too. Come on, let's explore the airport.",
-    russian: "Ха-ха, тоже вариант. Пошли, исследуем аэропорт."
+    russian: 'Ха-ха, тоже вариант. Пошли, исследуем аэропорт.',
   },
   {
     key: '16',
-    english: "Okay. But if they announce boarding, we run. Deal?",
-    russian: "Хорошо. Но если объявят посадку, бежим. Договорились?"
+    english: 'Okay. But if they announce boarding, we run. Deal?',
+    russian: 'Хорошо. Но если объявят посадку, бежим. Договорились?',
   },
   {
     key: '17',
     english: "Deal. Let's go find trouble!",
-    russian: "Договорились. Пошли искать приключения!"
-  }
+    russian: 'Договорились. Пошли искать приключения!',
+  },
 ];

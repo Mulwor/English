@@ -82,13 +82,13 @@ const items: MenuItem[] = [
         key: 'S-01-18',
         label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
       },
-      { 
-        key: 'S-01-19', 
-        label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link> 
+      {
+        key: 'S-01-19',
+        label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link>,
       },
-      { 
-        key: 'S-01-20', 
-        label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link> 
+      {
+        key: 'S-01-20',
+        label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link>,
       },
     ],
   },

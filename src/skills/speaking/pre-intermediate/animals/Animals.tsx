@@ -3,41 +3,58 @@ import { BasicTable, CollapseWithAccordion, Pagination, Video } from '../../../.
 import { columns } from '../../../../data/sample';
 import { animalAdjectives, animalEnvironment, animals } from './vocab';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
-import { 
-  animal_01, animal_03, animal_05, 
-  animal_07, animal_09, animal_11, 
-  animal_13, animal_15 
-} from './dialogs';
+import { animal_01, animal_03, animal_05, animal_07, animal_09, animal_11, animal_13, animal_15 } from './dialogs';
 
 const { Panel } = Collapse;
 
 export const Animals = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(animal_01, [
-    animal_01, animal_03, animal_05, animal_07,
-    animal_09, animal_11, animal_13, animal_15
- ]);
-  
-    
+    animal_01,
+    animal_03,
+    animal_05,
+    animal_07,
+    animal_09,
+    animal_11,
+    animal_13,
+    animal_15,
+  ]);
+
   return (
     <>
       <Divider>Animals (животные)</Divider>
 
       <p>
-        Цель данного топика - научиться описывать животных и их категории (дикие, домашние и т.д), сравнивать их между собой, уметь рассказать о них в виде монолога - Мое любимое животное ... потому что ... потому что 
+        Цель данного топика - научиться описывать животных и их категории (дикие, домашние и т.д), сравнивать их между собой, уметь рассказать о них в виде
+        монолога - Мое любимое животное ... потому что ... потому что
       </p>
 
       <Divider>Vocabulary</Divider>
 
-      <div style={{display: 'flex', flexDirection: "column", gap: '8px'}}>
-        <CollapseWithAccordion text={'All animals and they body part'} data={animals} columns={columns} />
-        <CollapseWithAccordion text={'Adjectives и Actions - Как выглядят животные и что они делают'}  data={animalAdjectives} columns={columns} />
-        <CollapseWithAccordion text={'Environment - среда обитания'} data={animalEnvironment} columns={columns} />
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <CollapseWithAccordion
+          text={'All animals and they body part'}
+          data={animals}
+          columns={columns}
+        />
+        <CollapseWithAccordion
+          text={'Adjectives и Actions - Как выглядят животные и что они делают'}
+          data={animalAdjectives}
+          columns={columns}
+        />
+        <CollapseWithAccordion
+          text={'Environment - среда обитания'}
+          data={animalEnvironment}
+          columns={columns}
+        />
       </div>
 
       <Divider>Listening</Divider>
 
-       <Collapse accordion>
-        <Panel header='Videos' key='1'>
+      <Collapse accordion>
+        <Panel
+          header='Videos'
+          key='1'
+        >
           <div className='video'>
             <Video videoId='https://www.youtube.com/watch?v=H2rkdtup7_o' />
             <Video videoId='https://www.youtube.com/watch?v=oJVv_kU4vr8' />
@@ -48,16 +65,15 @@ export const Animals = () => {
       </Collapse>
 
       <Divider>Dialogs</Divider>
-      
+
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
         totalPages={8}
         onPageChange={handlePageChange}
       />
-    
-      {
-      /*  
+
+      {/*  
         <p><strong>Категории животных:</strong></p>
 
         <ul>
@@ -127,9 +143,7 @@ export const Animals = () => {
           Цель: говорить 30–60 секунд без остановки. Пример структуры: My favourite animal is… It lives… It looks… It eats… I like it because…
         </li>
       </ol>
-     */
-      }
+     */}
     </>
   );
 };
-

@@ -21,7 +21,7 @@ export const fearsAndPhobias = [
   { key: '19', english: 'Crowd', pronunciation: '[kraʊd]', russian: 'Толпа' },
   { key: '20', english: 'Confined space', pronunciation: '[kənˈfaɪnd speɪs]', russian: 'Закрытое пространство' },
   { key: '21', english: '-----', pronunciation: '-----', russian: '-----' },
-  
+
   // FEELINGS (ЧУВСТВА И ЭМОЦИИ)
   { key: '22', english: 'Feelings', pronunciation: 'Feelings', russian: 'Чувства' },
   { key: '23', english: 'Afraid', pronunciation: '[əˈfreɪd]', russian: 'Испуганный' },
@@ -35,7 +35,7 @@ export const fearsAndPhobias = [
   { key: '31', english: 'Fear', pronunciation: '[fɪə]', russian: 'Страх' },
   { key: '32', english: 'Phobia', pronunciation: '[ˈfəʊbiə]', russian: 'Фобия' },
   { key: '33', english: '-----', pronunciation: '-----', russian: '-----' },
-  
+
   // VERBS (ГЛАГОЛЫ)
   { key: '34', english: 'Verbs', pronunciation: 'Verbs', russian: 'Глаголы' },
   { key: '35', english: 'Fear', pronunciation: '[fɪə]', russian: 'Бояться' },
@@ -49,7 +49,7 @@ export const fearsAndPhobias = [
   { key: '43', english: 'Chase', pronunciation: '[tʃeɪs]', russian: 'Преследовать' },
   { key: '44', english: 'Attack', pronunciation: '[əˈtæk]', russian: 'Атаковать' },
   { key: '45', english: '-----', pronunciation: '-----', russian: '-----' },
-  
+
   // ADJECTIVES (ПРИЛАГАТЕЛЬНЫЕ)
   { key: '46', english: 'Adjectives', pronunciation: 'Adjectives', russian: 'Прилагательные' },
   { key: '47', english: 'Scary', pronunciation: '[ˈskeəri]', russian: 'Страшный' },
@@ -63,7 +63,7 @@ export const fearsAndPhobias = [
   { key: '55', english: 'Fearless', pronunciation: '[ˈfɪələs]', russian: 'Бесстрашный' },
   { key: '56', english: 'Shy', pronunciation: '[ʃaɪ]', russian: 'Застенчивый' },
   { key: '57', english: '-----', pronunciation: '-----', russian: '-----' },
-  
+
   // USEFUL PHRASES (ПОЛЕЗНЫЕ ФРАЗЫ)
   { key: '58', english: 'Useful phrases', pronunciation: 'Useful phrases', russian: 'Полезные фразы' },
   { key: '59', english: 'I am afraid of...', pronunciation: '[aɪ æm əˈfreɪd ɒv]', russian: 'Я боюсь...' },
@@ -77,7 +77,7 @@ export const fearsAndPhobias = [
   { key: '67', english: 'Dont worry!', pronunciation: '[dəʊnt ˈwʌri]', russian: 'Не волнуйся!' },
   { key: '68', english: 'Calm down!', pronunciation: '[kɑːm daʊn]', russian: 'Успокойся!' },
   { key: '69', english: '-----', pronunciation: '-----', russian: '-----' },
-  
+
   // COMPARISON PHRASES (ФРАЗЫ ДЛЯ СРАВНЕНИЯ)
   { key: '70', english: 'Comparison', pronunciation: 'Comparison', russian: 'Сравнение' },
   { key: '71', english: 'More afraid of... than...', pronunciation: '[mɔːr əˈfreɪd ɒv ... ðæn]', russian: 'Более напуган... чем...' },

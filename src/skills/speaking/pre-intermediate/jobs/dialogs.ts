@@ -320,1339 +320,1339 @@
 export const jobs_01 = [
   {
     key: '1',
-    english: "So, David, what do you do for a living?",
-    russian: "Итак, Дэвид, чем вы занимаетесь?"
+    english: 'So, David, what do you do for a living?',
+    russian: 'Итак, Дэвид, чем вы занимаетесь?',
   },
   {
     key: '2',
     english: "I'm a teacher. I teach history at a high school.",
-    russian: "Я учитель. Преподаю историю в старшей школе."
+    russian: 'Я учитель. Преподаю историю в старшей школе.',
   },
   {
     key: '3',
     english: "That's interesting! Do you enjoy it?",
-    russian: "Это интересно! Вам нравится?"
+    russian: 'Это интересно! Вам нравится?',
   },
   {
     key: '4',
-    english: "Most days, yes. The students can be challenging sometimes, but I love history.",
-    russian: "В большинстве дней, да. Студенты иногда бывают сложными, но я люблю историю."
+    english: 'Most days, yes. The students can be challenging sometimes, but I love history.',
+    russian: 'В большинстве дней, да. Студенты иногда бывают сложными, но я люблю историю.',
   },
   {
     key: '5',
-    english: "How long have you been teaching?",
-    russian: "Как долго вы преподаёте?"
+    english: 'How long have you been teaching?',
+    russian: 'Как долго вы преподаёте?',
   },
   {
     key: '6',
-    english: "About five years now. What about you? What do you do?",
-    russian: "Около пяти лет. А вы? Чем занимаетесь?"
+    english: 'About five years now. What about you? What do you do?',
+    russian: 'Около пяти лет. А вы? Чем занимаетесь?',
   },
   {
     key: '7',
     english: "I'm a graphic designer. I work for a small design agency.",
-    russian: "Я графический дизайнер. Работаю в небольшом дизайн-агентстве."
+    russian: 'Я графический дизайнер. Работаю в небольшом дизайн-агентстве.',
   },
   {
     key: '8',
-    english: "That sounds creative. Do you work in an office or from home?",
-    russian: "Звучит креативно. Вы работаете в офисе или из дома?"
+    english: 'That sounds creative. Do you work in an office or from home?',
+    russian: 'Звучит креативно. Вы работаете в офисе или из дома?',
   },
   {
     key: '9',
-    english: "Both, actually. I go to the office three days a week and work from home two days.",
-    russian: "И так, и так. Хожу в офис три дня в неделю и два дня работаю из дома."
+    english: 'Both, actually. I go to the office three days a week and work from home two days.',
+    russian: 'И так, и так. Хожу в офис три дня в неделю и два дня работаю из дома.',
   },
   {
     key: '10',
     english: "That's a nice balance. I have to be at school every day. 8 to 4.",
-    russian: "Хороший баланс. Я должен быть в школе каждый день. С 8 до 4."
+    russian: 'Хороший баланс. Я должен быть в школе каждый день. С 8 до 4.',
   },
   {
     key: '11',
     english: "That's a long day. But you get summers off, right?",
-    russian: "Долгий день. Но у вас летом каникулы, да?"
+    russian: 'Долгий день. Но у вас летом каникулы, да?',
   },
   {
     key: '12',
     english: "Yes, that's the best part! Two months of vacation. It's great.",
-    russian: "Да, это лучшая часть! Два месяца отпуска. Это здорово."
+    russian: 'Да, это лучшая часть! Два месяца отпуска. Это здорово.',
   },
   {
     key: '13',
     english: "I'm a little jealous. I only get four weeks.",
-    russian: "Я немного завидую. У меня всего четыре недели."
+    russian: 'Я немного завидую. У меня всего четыре недели.',
   },
   {
     key: '14',
-    english: "But you have more flexibility during the year. Every job has pros and cons.",
-    russian: "Но у вас больше гибкости в течение года. У каждой работы есть плюсы и минусы."
+    english: 'But you have more flexibility during the year. Every job has pros and cons.',
+    russian: 'Но у вас больше гибкости в течение года. У каждой работы есть плюсы и минусы.',
   },
   {
     key: '15',
-    english: "True. Well, nice to meet you, David. Maybe we can chat more later.",
-    russian: "Верно. Приятно познакомиться, Дэвид. Может, ещё поговорим позже."
+    english: 'True. Well, nice to meet you, David. Maybe we can chat more later.',
+    russian: 'Верно. Приятно познакомиться, Дэвид. Может, ещё поговорим позже.',
   },
   {
     key: '16',
-    english: "Nice to meet you too, Anna!",
-    russian: "Тоже приятно познакомиться, Анна!"
-  }
+    english: 'Nice to meet you too, Anna!',
+    russian: 'Тоже приятно познакомиться, Анна!',
+  },
 ];
 
 export const jobs_02 = [
   {
     key: '1',
     english: "Lucy, I have no idea what I want to do after university. It's so stressful.",
-    russian: "Люси, я понятия не имею, чем хочу заниматься после университета. Это так напрягает."
+    russian: 'Люси, я понятия не имею, чем хочу заниматься после университета. Это так напрягает.',
   },
   {
     key: '2',
-    english: "I know what you mean. There are so many choices. What subjects do you like?",
-    russian: "Понимаю, о чём ты. Так много вариантов. Какие предметы тебе нравятся?"
+    english: 'I know what you mean. There are so many choices. What subjects do you like?',
+    russian: 'Понимаю, о чём ты. Так много вариантов. Какие предметы тебе нравятся?',
   },
   {
     key: '3',
-    english: "I like working with people. Maybe something in healthcare?",
-    russian: "Мне нравится работать с людьми. Может, что-то в здравоохранении?"
+    english: 'I like working with people. Maybe something in healthcare?',
+    russian: 'Мне нравится работать с людьми. Может, что-то в здравоохранении?',
   },
   {
     key: '4',
-    english: "Like a doctor or nurse?",
-    russian: "Вроде врача или медсестры?"
+    english: 'Like a doctor or nurse?',
+    russian: 'Вроде врача или медсестры?',
   },
   {
     key: '5',
-    english: "Doctor is too much study. Maybe nurse? Or physiotherapist?",
-    russian: "Врач — это слишком много учёбы. Может, медсестра? Или физиотерапевт?"
+    english: 'Doctor is too much study. Maybe nurse? Or physiotherapist?',
+    russian: 'Врач — это слишком много учёбы. Может, медсестра? Или физиотерапевт?',
   },
   {
     key: '6',
-    english: "Both are good jobs. You help people and the pay is decent.",
-    russian: "Обе хорошие профессии. Помогаешь людям, и зарплата приличная."
+    english: 'Both are good jobs. You help people and the pay is decent.',
+    russian: 'Обе хорошие профессии. Помогаешь людям, и зарплата приличная.',
   },
   {
     key: '7',
-    english: "What about you? What do you want to do?",
-    russian: "А ты? Чем хочешь заниматься?"
+    english: 'What about you? What do you want to do?',
+    russian: 'А ты? Чем хочешь заниматься?',
   },
   {
     key: '8',
-    english: "I want to work in business. Maybe marketing or human resources.",
-    russian: "Хочу работать в бизнесе. Может, маркетинг или HR."
+    english: 'I want to work in business. Maybe marketing or human resources.',
+    russian: 'Хочу работать в бизнесе. Может, маркетинг или HR.',
   },
   {
     key: '9',
     english: "That suits you. You're very organized and good with people.",
-    russian: "Тебе подходит. Ты очень организованная и хорошо ладишь с людьми."
+    russian: 'Тебе подходит. Ты очень организованная и хорошо ладишь с людьми.',
   },
   {
     key: '10',
     english: "Thanks. I'm also considering journalism. I love writing.",
-    russian: "Спасибо. Ещё рассматриваю журналистику. Обожаю писать."
+    russian: 'Спасибо. Ещё рассматриваю журналистику. Обожаю писать.',
   },
   {
     key: '11',
-    english: "Journalism is competitive, though. Hard to find jobs.",
-    russian: "Журналистика конкурентная, правда. Трудно найти работу."
+    english: 'Journalism is competitive, though. Hard to find jobs.',
+    russian: 'Журналистика конкурентная, правда. Трудно найти работу.',
   },
   {
     key: '12',
     english: "I know. That's why I'm not sure. What about teaching?",
-    russian: "Знаю. Поэтому не уверена. А преподавание?"
+    russian: 'Знаю. Поэтому не уверена. А преподавание?',
   },
   {
     key: '13',
-    english: "I thought about it. But teenagers scare me!",
-    russian: "Я думала об этом. Но подростки меня пугают!"
+    english: 'I thought about it. But teenagers scare me!',
+    russian: 'Я думала об этом. Но подростки меня пугают!',
   },
   {
     key: '14',
     english: "Haha, fair enough. My cousin is a teacher. She says it's rewarding but exhausting.",
-    russian: "Ха-ха, справедливо. Моя кузина учитель. Говорит, это приносит удовлетворение, но выматывает."
+    russian: 'Ха-ха, справедливо. Моя кузина учитель. Говорит, это приносит удовлетворение, но выматывает.',
   },
   {
     key: '15',
-    english: "I need to do more research. Talk to people in different jobs.",
-    russian: "Нужно больше изучить. Поговорить с людьми разных профессий."
+    english: 'I need to do more research. Talk to people in different jobs.',
+    russian: 'Нужно больше изучить. Поговорить с людьми разных профессий.',
   },
   {
     key: '16',
     english: "Good idea. Let's make a list and interview people we know.",
-    russian: "Хорошая идея. Давай составим список и опросим знакомых."
+    russian: 'Хорошая идея. Давай составим список и опросим знакомых.',
   },
   {
     key: '17',
     english: "That's smart! We can learn from their experiences.",
-    russian: "Умно! Можем учиться на их опыте."
-  }
+    russian: 'Умно! Можем учиться на их опыте.',
+  },
 ];
 
 export const jobs_03 = [
   {
     key: '1',
     english: "You must be Sarah! Welcome to the team. I'm Mike.",
-    russian: "Вы, должно быть, Сара! Добро пожаловать в команду. Я Майк."
+    russian: 'Вы, должно быть, Сара! Добро пожаловать в команду. Я Майк.',
   },
   {
     key: '2',
     english: "Hi Mike! Yes, I'm Sarah. It's nice to meet you. This is my first day.",
-    russian: "Привет, Майк! Да, я Сара. Приятно познакомиться. Это мой первый день."
+    russian: 'Привет, Майк! Да, я Сара. Приятно познакомиться. Это мой первый день.',
   },
   {
     key: '3',
-    english: "How are you feeling? Nervous?",
-    russian: "Как себя чувствуешь? Нервничаешь?"
+    english: 'How are you feeling? Nervous?',
+    russian: 'Как себя чувствуешь? Нервничаешь?',
   },
   {
     key: '4',
     english: "A little, yes. New job, new people... it's a lot.",
-    russian: "Немного, да. Новая работа, новые люди... это много."
+    russian: 'Немного, да. Новая работа, новые люди... это много.',
   },
   {
     key: '5',
     english: "Don't worry. Everyone here is very friendly. Let me show you around.",
-    russian: "Не волнуйся. Все здесь очень дружелюбны. Дай покажу тебе всё."
+    russian: 'Не волнуйся. Все здесь очень дружелюбны. Дай покажу тебе всё.',
   },
   {
     key: '6',
-    english: "That would be great, thank you!",
-    russian: "Это было бы отлично, спасибо!"
+    english: 'That would be great, thank you!',
+    russian: 'Это было бы отлично, спасибо!',
   },
   {
     key: '7',
-    english: "This is your desk. We set up your computer already. Do you need anything?",
-    russian: "Это твой стол. Мы уже настроили компьютер. Тебе что-нибудь нужно?"
+    english: 'This is your desk. We set up your computer already. Do you need anything?',
+    russian: 'Это твой стол. Мы уже настроили компьютер. Тебе что-нибудь нужно?',
   },
   {
     key: '8',
     english: "It looks perfect. Where's the coffee machine?",
-    russian: "Выглядит идеально. Где кофемашина?"
+    russian: 'Выглядит идеально. Где кофемашина?',
   },
   {
     key: '9',
     english: "I'll show you. It's in the break room, right over there. Also, there's a kitchen with a fridge.",
-    russian: "Я покажу. Она в комнате отдыха, вон там. И ещё есть кухня с холодильником."
+    russian: 'Я покажу. Она в комнате отдыха, вон там. И ещё есть кухня с холодильником.',
   },
   {
     key: '10',
     english: "Great. And where's the bathroom?",
-    russian: "Отлично. А где туалет?"
+    russian: 'Отлично. А где туалет?',
   },
   {
     key: '11',
     english: "Down the hall, on the left. It's marked.",
-    russian: "По коридору, налево. Там есть табличка."
+    russian: 'По коридору, налево. Там есть табличка.',
   },
   {
     key: '12',
-    english: "Thanks. What time is lunch usually?",
-    russian: "Спасибо. Во сколько обычно обед?"
+    english: 'Thanks. What time is lunch usually?',
+    russian: 'Спасибо. Во сколько обычно обед?',
   },
   {
     key: '13',
     english: "Most people eat between 12 and 2. There's a good cafeteria on the first floor.",
-    russian: "Большинство едят между 12 и 2. На первом этаже хорошая столовая."
+    russian: 'Большинство едят между 12 и 2. На первом этаже хорошая столовая.',
   },
   {
     key: '14',
-    english: "Perfect. And who should I ask if I have questions about work?",
-    russian: "Отлично. А кого мне спрашивать, если будут вопросы по работе?"
+    english: 'Perfect. And who should I ask if I have questions about work?',
+    russian: 'Отлично. А кого мне спрашивать, если будут вопросы по работе?',
   },
   {
     key: '15',
     english: "You can ask me, or your manager, Lisa. She's in the office next to yours.",
-    russian: "Можешь спросить меня или своего менеджера Лизу. Она в кабинете рядом с твоим."
+    russian: 'Можешь спросить меня или своего менеджера Лизу. Она в кабинете рядом с твоим.',
   },
   {
     key: '16',
     english: "Got it. Thanks so much, Mike. You're very helpful.",
-    russian: "Поняла. Большое спасибо, Майк. Ты очень помогаешь."
+    russian: 'Поняла. Большое спасибо, Майк. Ты очень помогаешь.',
   },
   {
     key: '17',
     english: "No problem! We were all new once. Let's grab coffee and I'll introduce you to everyone.",
-    russian: "Без проблем! Мы все когда-то были новыми. Давай возьмём кофе, и я познакомлю тебя со всеми."
-  }
+    russian: 'Без проблем! Мы все когда-то были новыми. Давай возьмём кофе, и я познакомлю тебя со всеми.',
+  },
 ];
 
 export const jobs_04 = [
   {
     key: '1',
-    english: "Good morning, Anna. Please, have a seat.",
-    russian: "Доброе утро, Анна. Пожалуйста, присаживайтесь."
+    english: 'Good morning, Anna. Please, have a seat.',
+    russian: 'Доброе утро, Анна. Пожалуйста, присаживайтесь.',
   },
   {
     key: '2',
-    english: "Good morning. Thank you for seeing me.",
-    russian: "Доброе утро. Спасибо, что уделили мне время."
+    english: 'Good morning. Thank you for seeing me.',
+    russian: 'Доброе утро. Спасибо, что уделили мне время.',
   },
   {
     key: '3',
-    english: "So, tell me a little about yourself. Why are you interested in this job?",
-    russian: "Итак, расскажите немного о себе. Почему вас интересует эта работа?"
+    english: 'So, tell me a little about yourself. Why are you interested in this job?',
+    russian: 'Итак, расскажите немного о себе. Почему вас интересует эта работа?',
   },
   {
     key: '4',
     english: "I've always been interested in marketing. I love creating campaigns and connecting with people.",
-    russian: "Меня всегда интересовал маркетинг. Я люблю создавать кампании и взаимодействовать с людьми."
+    russian: 'Меня всегда интересовал маркетинг. Я люблю создавать кампании и взаимодействовать с людьми.',
   },
   {
     key: '5',
     english: "That's good to hear. Do you have any experience in this field?",
-    russian: "Приятно слышать. У вас есть опыт в этой сфере?"
+    russian: 'Приятно слышать. У вас есть опыт в этой сфере?',
   },
   {
     key: '6',
-    english: "Yes, I did an internship at a marketing agency for six months. I learned a lot there.",
-    russian: "Да, я проходила стажировку в маркетинговом агентстве в течение шести месяцев. Многому там научилась."
+    english: 'Yes, I did an internship at a marketing agency for six months. I learned a lot there.',
+    russian: 'Да, я проходила стажировку в маркетинговом агентстве в течение шести месяцев. Многому там научилась.',
   },
   {
     key: '7',
-    english: "What kind of tasks did you do?",
-    russian: "Какие задачи вы выполняли?"
+    english: 'What kind of tasks did you do?',
+    russian: 'Какие задачи вы выполняли?',
   },
   {
     key: '8',
-    english: "I helped with social media, wrote content for the website, and assisted with events.",
-    russian: "Помогала с соцсетями, писала контент для сайта и помогала с мероприятиями."
+    english: 'I helped with social media, wrote content for the website, and assisted with events.',
+    russian: 'Помогала с соцсетями, писала контент для сайта и помогала с мероприятиями.',
   },
   {
     key: '9',
-    english: "That sounds relevant. What are your strengths?",
-    russian: "Звучит уместно. Какие ваши сильные стороны?"
+    english: 'That sounds relevant. What are your strengths?',
+    russian: 'Звучит уместно. Какие ваши сильные стороны?',
   },
   {
     key: '10',
     english: "I'm very organized and creative. I work well in a team and I'm always eager to learn.",
-    russian: "Я очень организованная и креативная. Хорошо работаю в команде и всегда стремлюсь учиться."
+    russian: 'Я очень организованная и креативная. Хорошо работаю в команде и всегда стремлюсь учиться.',
   },
   {
     key: '11',
-    english: "And your weaknesses?",
-    russian: "А слабые стороны?"
+    english: 'And your weaknesses?',
+    russian: 'А слабые стороны?',
   },
   {
     key: '12',
     english: "Sometimes I'm a perfectionist. I spend too much time making things perfect.",
-    russian: "Иногда я перфекционист. Трачу слишком много времени, делая всё идеальным."
+    russian: 'Иногда я перфекционист. Трачу слишком много времени, делая всё идеальным.',
   },
   {
     key: '13',
     english: "That's not a bad weakness to have. Where do you see yourself in five years?",
-    russian: "Это неплохая слабая сторона. Где вы видите себя через пять лет?"
+    russian: 'Это неплохая слабая сторона. Где вы видите себя через пять лет?',
   },
   {
     key: '14',
-    english: "I hope to grow in this company and take on more responsibility. Maybe lead my own projects.",
-    russian: "Надеюсь вырасти в этой компании и взять на себя больше ответственности. Может, руководить своими проектами."
+    english: 'I hope to grow in this company and take on more responsibility. Maybe lead my own projects.',
+    russian: 'Надеюсь вырасти в этой компании и взять на себя больше ответственности. Может, руководить своими проектами.',
   },
   {
     key: '15',
-    english: "Great. Do you have any questions for me?",
-    russian: "Отлично. У вас есть ко мне вопросы?"
+    english: 'Great. Do you have any questions for me?',
+    russian: 'Отлично. У вас есть ко мне вопросы?',
   },
   {
     key: '16',
     english: "Yes, what's the team like? How many people would I work with?",
-    russian: "Да, какая команда? Со сколькими людьми я буду работать?"
+    russian: 'Да, какая команда? Со сколькими людьми я буду работать?',
   },
   {
     key: '17',
     english: "You'd be part of a team of six. Very collaborative and supportive.",
-    russian: "Вы будете частью команды из шести человек. Очень дружная и поддерживающая."
+    russian: 'Вы будете частью команды из шести человек. Очень дружная и поддерживающая.',
   },
   {
     key: '18',
-    english: "That sounds wonderful. Thank you for your time.",
-    russian: "Звучит замечательно. Спасибо за уделенное время."
+    english: 'That sounds wonderful. Thank you for your time.',
+    russian: 'Звучит замечательно. Спасибо за уделенное время.',
   },
   {
     key: '19',
     english: "Thank you, Anna. We'll be in touch soon.",
-    russian: "Спасибо, Анна. Мы скоро свяжемся."
-  }
+    russian: 'Спасибо, Анна. Мы скоро свяжемся.',
+  },
 ];
 
 export const jobs_05 = [
   {
     key: '1',
-    english: "What does your dad do, Lisa?",
-    russian: "Кем работает твой папа, Лиза?"
+    english: 'What does your dad do, Lisa?',
+    russian: 'Кем работает твой папа, Лиза?',
   },
   {
     key: '2',
     english: "He's a doctor. A surgeon, actually. He works at the city hospital.",
-    russian: "Он врач. Хирург, вообще-то. Работает в городской больнице."
+    russian: 'Он врач. Хирург, вообще-то. Работает в городской больнице.',
   },
   {
     key: '3',
     english: "Wow, that's impressive. Long hours, I imagine?",
-    russian: "Ничего себе, впечатляет. Долгие часы, наверное?"
+    russian: 'Ничего себе, впечатляет. Долгие часы, наверное?',
   },
   {
     key: '4',
     english: "Yes, very long. Sometimes he's on call at night. But he loves his job.",
-    russian: "Да, очень долгие. Иногда он на ночных дежурствах. Но он любит свою работу."
+    russian: 'Да, очень долгие. Иногда он на ночных дежурствах. Но он любит свою работу.',
   },
   {
     key: '5',
-    english: "My mom is a nurse. She works at the same hospital, maybe they know each other!",
-    russian: "Моя мама медсестра. Она работает в той же больнице, может, они знают друг друга!"
+    english: 'My mom is a nurse. She works at the same hospital, maybe they know each other!',
+    russian: 'Моя мама медсестра. Она работает в той же больнице, может, они знают друг друга!',
   },
   {
     key: '6',
     english: "Really? What's her name?",
-    russian: "Правда? Как её зовут?"
+    russian: 'Правда? Как её зовут?',
   },
   {
     key: '7',
     english: "Margaret. She works in the children's ward.",
-    russian: "Маргарет. Она работает в детском отделении."
+    russian: 'Маргарет. Она работает в детском отделении.',
   },
   {
     key: '8',
     english: "I'll ask my dad! That would be funny if they work together.",
-    russian: "Спрошу у папы! Было бы забавно, если они работают вместе."
+    russian: 'Спрошу у папы! Было бы забавно, если они работают вместе.',
   },
   {
     key: '9',
-    english: "What about your mom? What does she do?",
-    russian: "А твоя мама? Кем она работает?"
+    english: 'What about your mom? What does she do?',
+    russian: 'А твоя мама? Кем она работает?',
   },
   {
     key: '10',
     english: "She's a teacher. Elementary school. She teaches 7-year-olds.",
-    russian: "Она учитель. Начальная школа. Учит семилеток."
+    russian: 'Она учитель. Начальная школа. Учит семилеток.',
   },
   {
     key: '11',
-    english: "That takes patience! Little kids are so energetic.",
-    russian: "Это требует терпения! Маленькие дети такие энергичные."
+    english: 'That takes patience! Little kids are so energetic.',
+    russian: 'Это требует терпения! Маленькие дети такие энергичные.',
   },
   {
     key: '12',
-    english: "She loves it. Says every day is different. My brother is a chef.",
-    russian: "Она обожает. Говорит, каждый день разный. Мой брат — шеф-повар."
+    english: 'She loves it. Says every day is different. My brother is a chef.',
+    russian: 'Она обожает. Говорит, каждый день разный. Мой брат — шеф-повар.',
   },
   {
     key: '13',
     english: "A chef? That's cool. Where does he work?",
-    russian: "Шеф-повар? Это круто. Где он работает?"
+    russian: 'Шеф-повар? Это круто. Где он работает?',
   },
   {
     key: '14',
-    english: "At a fancy restaurant in the city center. Italian food.",
-    russian: "В шикарном ресторане в центре города. Итальянская кухня."
+    english: 'At a fancy restaurant in the city center. Italian food.',
+    russian: 'В шикарном ресторане в центре города. Итальянская кухня.',
   },
   {
     key: '15',
     english: "I love Italian! Maybe I'll go there sometime.",
-    russian: "Обожаю итальянскую! Может, схожу туда как-нибудь."
+    russian: 'Обожаю итальянскую! Может, схожу туда как-нибудь.',
   },
   {
     key: '16',
-    english: "You should! Tell him Lisa sent you. He might give you a discount!",
-    russian: "Стоит! Скажи ему, что от Лизы. Может, сделает скидку!"
+    english: 'You should! Tell him Lisa sent you. He might give you a discount!',
+    russian: 'Стоит! Скажи ему, что от Лизы. Может, сделает скидку!',
   },
   {
     key: '17',
-    english: "Haha, deal! My family is less exciting. My dad is an accountant. Boring but stable.",
-    russian: "Ха-ха, договорились! Моя семья менее интересная. Папа бухгалтер. Скучно, но стабильно."
+    english: 'Haha, deal! My family is less exciting. My dad is an accountant. Boring but stable.',
+    russian: 'Ха-ха, договорились! Моя семья менее интересная. Папа бухгалтер. Скучно, но стабильно.',
   },
   {
     key: '18',
-    english: "Nothing wrong with stable! Every job is important.",
-    russian: "В стабильности нет ничего плохого! Каждая работа важна."
-  }
+    english: 'Nothing wrong with stable! Every job is important.',
+    russian: 'В стабильности нет ничего плохого! Каждая работа важна.',
+  },
 ];
 
 export const jobs_06 = [
   {
     key: '1',
-    english: "Ben, can you hear me okay? Your video is a little frozen.",
-    russian: "Бен, ты меня хорошо слышишь? Твоё видео немного зависает."
+    english: 'Ben, can you hear me okay? Your video is a little frozen.',
+    russian: 'Бен, ты меня хорошо слышишь? Твоё видео немного зависает.',
   },
   {
     key: '2',
-    english: "Sorry, my internet is slow today. Let me turn off my video. Better?",
-    russian: "Извини, интернет сегодня медленный. Выключу видео. Лучше?"
+    english: 'Sorry, my internet is slow today. Let me turn off my video. Better?',
+    russian: 'Извини, интернет сегодня медленный. Выключу видео. Лучше?',
   },
   {
     key: '3',
     english: "Yes, audio is clear now. How's working from home going?",
-    russian: "Да, аудио теперь чистое. Как работа из дома?"
+    russian: 'Да, аудио теперь чистое. Как работа из дома?',
   },
   {
     key: '4',
-    english: "It has its pros and cons. I save time on commuting, but I miss talking to people.",
-    russian: "Есть плюсы и минусы. Экономлю время на дорогу, но скучаю по общению."
+    english: 'It has its pros and cons. I save time on commuting, but I miss talking to people.',
+    russian: 'Есть плюсы и минусы. Экономлю время на дорогу, но скучаю по общению.',
   },
   {
     key: '5',
-    english: "Same. I love being in my pajamas, but I get lonely sometimes.",
-    russian: "Так же. Обожаю быть в пижаме, но иногда одиноко."
+    english: 'Same. I love being in my pajamas, but I get lonely sometimes.',
+    russian: 'Так же. Обожаю быть в пижаме, но иногда одиноко.',
   },
   {
     key: '6',
-    english: "Do you have a good workspace at home?",
-    russian: "У тебя хорошее рабочее место дома?"
+    english: 'Do you have a good workspace at home?',
+    russian: 'У тебя хорошее рабочее место дома?',
   },
   {
     key: '7',
     english: "I set up a desk in my bedroom. It's small but works. You?",
-    russian: "Я поставила стол в спальне. Маленький, но работает. А ты?"
+    russian: 'Я поставила стол в спальне. Маленький, но работает. А ты?',
   },
   {
     key: '8',
     english: "I use the kitchen table. Not ideal, but it's okay. My back hurts sometimes.",
-    russian: "Использую кухонный стол. Не идеально, но нормально. Спина иногда болит."
+    russian: 'Использую кухонный стол. Не идеально, но нормально. Спина иногда болит.',
   },
   {
     key: '9',
-    english: "You should get a better chair. Your back is important.",
-    russian: "Тебе стоит купить стул получше. Спина важна."
+    english: 'You should get a better chair. Your back is important.',
+    russian: 'Тебе стоит купить стул получше. Спина важна.',
   },
   {
     key: '10',
     english: "I know. I've been looking online. Any recommendations?",
-    russian: "Знаю. Смотрел в интернете. Есть рекомендации?"
+    russian: 'Знаю. Смотрел в интернете. Есть рекомендации?',
   },
   {
     key: '11',
-    english: "I got mine from IKEA. It was €100 and very comfortable.",
-    russian: "Я купила свой в IKEA. Был €100 и очень удобный."
+    english: 'I got mine from IKEA. It was €100 and very comfortable.',
+    russian: 'Я купила свой в IKEA. Был €100 и очень удобный.',
   },
   {
     key: '12',
     english: "Thanks, I'll check it out. How do you stay focused at home?",
-    russian: "Спасибо, посмотрю. Как ты сохраняешь концентрацию дома?"
+    russian: 'Спасибо, посмотрю. Как ты сохраняешь концентрацию дома?',
   },
   {
     key: '13',
-    english: "I make a schedule. Start at 9, lunch at 1, finish at 5. And I take short breaks.",
-    russian: "Составляю расписание. Начинаю в 9, обед в 1, заканчиваю в 5. И делаю короткие перерывы."
+    english: 'I make a schedule. Start at 9, lunch at 1, finish at 5. And I take short breaks.',
+    russian: 'Составляю расписание. Начинаю в 9, обед в 1, заканчиваю в 5. И делаю короткие перерывы.',
   },
   {
     key: '14',
-    english: "Good idea. I get distracted by the TV. Or the fridge!",
-    russian: "Хорошая идея. Меня отвлекает телевизор. Или холодильник!"
+    english: 'Good idea. I get distracted by the TV. Or the fridge!',
+    russian: 'Хорошая идея. Меня отвлекает телевизор. Или холодильник!',
   },
   {
     key: '15',
-    english: "Haha, same. The fridge calls my name all day.",
-    russian: "Ха-ха, так же. Холодильник зовёт меня весь день."
+    english: 'Haha, same. The fridge calls my name all day.',
+    russian: 'Ха-ха, так же. Холодильник зовёт меня весь день.',
   },
   {
     key: '16',
     english: "Okay, let's get back to work. Talk later!",
-    russian: "Ладно, давай возвращаться к работе. Поговорим позже!"
-  }
+    russian: 'Ладно, давай возвращаться к работе. Поговорим позже!',
+  },
 ];
 
 export const jobs_07 = [
   {
     key: '1',
     english: "Mrs. Davis, do you have a moment? I'd like to talk to you about something.",
-    russian: "Миссис Дэвис, у вас есть минутка? Я хотел бы поговорить с вами кое о чём."
+    russian: 'Миссис Дэвис, у вас есть минутка? Я хотел бы поговорить с вами кое о чём.',
   },
   {
     key: '2',
     english: "Of course, Mark. Come in and close the door. What's on your mind?",
-    russian: "Конечно, Марк. Заходи и закрой дверь. Что у тебя на уме?"
+    russian: 'Конечно, Марк. Заходи и закрой дверь. Что у тебя на уме?',
   },
   {
     key: '3',
     english: "I've been working here for three years now. And I really enjoy my job.",
-    russian: "Я работаю здесь уже три года. И мне очень нравится моя работа."
+    russian: 'Я работаю здесь уже три года. И мне очень нравится моя работа.',
   },
   {
     key: '4',
     english: "That's good to hear. You're a valuable member of the team.",
-    russian: "Приятно слышать. Ты ценный член команды."
+    russian: 'Приятно слышать. Ты ценный член команды.',
   },
   {
     key: '5',
-    english: "Thank you. I wanted to discuss the possibility of a salary increase.",
-    russian: "Спасибо. Я хотел обсудить возможность повышения зарплаты."
+    english: 'Thank you. I wanted to discuss the possibility of a salary increase.',
+    russian: 'Спасибо. Я хотел обсудить возможность повышения зарплаты.',
   },
   {
     key: '6',
-    english: "I see. What makes you feel you deserve a raise?",
-    russian: "Понимаю. Почему ты считаешь, что заслуживаешь повышения?"
+    english: 'I see. What makes you feel you deserve a raise?',
+    russian: 'Понимаю. Почему ты считаешь, что заслуживаешь повышения?',
   },
   {
     key: '7',
     english: "I've taken on more responsibilities in the last year. I'm also training new employees now.",
-    russian: "В прошлом году я взял на себя больше обязанностей. Также теперь обучаю новых сотрудников."
+    russian: 'В прошлом году я взял на себя больше обязанностей. Также теперь обучаю новых сотрудников.',
   },
   {
     key: '8',
     english: "That's true. You've been doing excellent work.",
-    russian: "Это правда. Ты отлично работаешь."
+    russian: 'Это правда. Ты отлично работаешь.',
   },
   {
     key: '9',
     english: "Thank you. I've also completed two professional development courses on my own time.",
-    russian: "Спасибо. Я также прошёл два курса повышения квалификации в своё время."
+    russian: 'Спасибо. Я также прошёл два курса повышения квалификации в своё время.',
   },
   {
     key: '10',
     english: "I didn't know that. Which courses?",
-    russian: "Я не знала. Какие курсы?"
+    russian: 'Я не знала. Какие курсы?',
   },
   {
     key: '11',
-    english: "Project management and advanced Excel. I use both skills every day now.",
-    russian: "Управление проектами и продвинутый Excel. Теперь я использую оба навыка ежедневно."
+    english: 'Project management and advanced Excel. I use both skills every day now.',
+    russian: 'Управление проектами и продвинутый Excel. Теперь я использую оба навыка ежедневно.',
   },
   {
     key: '12',
     english: "That's impressive. Let me review your file and talk to HR. Can we discuss this next week?",
-    russian: "Впечатляет. Дай мне изучить твоё дело и поговорить с HR. Можем обсудить на следующей неделе?"
+    russian: 'Впечатляет. Дай мне изучить твоё дело и поговорить с HR. Можем обсудить на следующей неделе?',
   },
   {
     key: '13',
-    english: "Of course. Thank you for listening.",
-    russian: "Конечно. Спасибо, что выслушали."
+    english: 'Of course. Thank you for listening.',
+    russian: 'Конечно. Спасибо, что выслушали.',
   },
   {
     key: '14',
     english: "You're welcome. I appreciate you bringing this to my attention.",
-    russian: "Пожалуйста. Ценю, что обратил моё внимание на это."
+    russian: 'Пожалуйста. Ценю, что обратил моё внимание на это.',
   },
   {
     key: '15',
-    english: "Have a good day, Mrs. Davis.",
-    russian: "Хорошего дня, миссис Дэвис."
+    english: 'Have a good day, Mrs. Davis.',
+    russian: 'Хорошего дня, миссис Дэвис.',
   },
   {
     key: '16',
-    english: "You too, Mark.",
-    russian: "Тебе тоже, Марк."
-  }
+    english: 'You too, Mark.',
+    russian: 'Тебе тоже, Марк.',
+  },
 ];
 
 export const jobs_08 = [
   {
     key: '1',
-    english: "Mr. Wilson, do you have a minute? I need to talk to you.",
-    russian: "Мистер Уилсон, у вас есть минута? Мне нужно поговорить с вами."
+    english: 'Mr. Wilson, do you have a minute? I need to talk to you.',
+    russian: 'Мистер Уилсон, у вас есть минута? Мне нужно поговорить с вами.',
   },
   {
     key: '2',
     english: "Sure, Anna. Come in. What's going on?",
-    russian: "Конечно, Анна. Заходи. Что случилось?"
+    russian: 'Конечно, Анна. Заходи. Что случилось?',
   },
   {
     key: '3',
     english: "This is difficult for me to say, but I'm handing in my resignation.",
-    russian: "Мне трудно это говорить, но я подаю заявление об увольнении."
+    russian: 'Мне трудно это говорить, но я подаю заявление об увольнении.',
   },
   {
     key: '4',
     english: "Oh, I'm sorry to hear that. Can I ask why?",
-    russian: "О, мне жаль это слышать. Могу спросить почему?"
+    russian: 'О, мне жаль это слышать. Могу спросить почему?',
   },
   {
     key: '5',
     english: "I've been offered a position at another company. It's a great opportunity for my career.",
-    russian: "Мне предложили должность в другой компании. Это отличная возможность для моей карьеры."
+    russian: 'Мне предложили должность в другой компании. Это отличная возможность для моей карьеры.',
   },
   {
     key: '6',
     english: "I understand. We'll be sad to lose you. When is your last day?",
-    russian: "Понимаю. Нам будет грустно терять тебя. Когда твой последний день?"
+    russian: 'Понимаю. Нам будет грустно терять тебя. Когда твой последний день?',
   },
   {
     key: '7',
-    english: "I can stay for two more weeks. I want to finish my current projects.",
-    russian: "Я могу остаться ещё на две недели. Хочу закончить текущие проекты."
+    english: 'I can stay for two more weeks. I want to finish my current projects.',
+    russian: 'Я могу остаться ещё на две недели. Хочу закончить текущие проекты.',
   },
   {
     key: '8',
     english: "That's very professional of you. Thank you.",
-    russian: "Это очень профессионально с твоей стороны. Спасибо."
+    russian: 'Это очень профессионально с твоей стороны. Спасибо.',
   },
   {
     key: '9',
     english: "I've really enjoyed working here. I've learned so much.",
-    russian: "Мне очень нравилось здесь работать. Я многому научилась."
+    russian: 'Мне очень нравилось здесь работать. Я многому научилась.',
   },
   {
     key: '10',
     english: "You've been a great employee. We'll miss you. Where will you be working?",
-    russian: "Ты была отличным сотрудником. Мы будем скучать. Где ты будешь работать?"
+    russian: 'Ты была отличным сотрудником. Мы будем скучать. Где ты будешь работать?',
   },
   {
     key: '11',
     english: "At a marketing agency in the city. It's a step up for me.",
-    russian: "В маркетинговом агентстве в городе. Это шаг вперёд для меня."
+    russian: 'В маркетинговом агентстве в городе. Это шаг вперёд для меня.',
   },
   {
     key: '12',
     english: "Good for you. I'm happy for you, even though I'm sad to see you go.",
-    russian: "Рад за тебя. Я счастлив за тебя, хоть и грустно тебя терять."
+    russian: 'Рад за тебя. Я счастлив за тебя, хоть и грустно тебя терять.',
   },
   {
     key: '13',
     english: "Thank you for everything, Mr. Wilson. You've been a great manager.",
-    russian: "Спасибо за всё, мистер Уилсон. Вы были отличным руководителем."
+    russian: 'Спасибо за всё, мистер Уилсон. Вы были отличным руководителем.',
   },
   {
     key: '14',
     english: "You're welcome. Let's work on a transition plan for the next two weeks.",
-    russian: "Пожалуйста. Давай разработаем план перехода на следующие две недели."
+    russian: 'Пожалуйста. Давай разработаем план перехода на следующие две недели.',
   },
   {
     key: '15',
     english: "Sounds good. I'll make a list of everything I'm working on.",
-    russian: "Хорошо. Составлю список всего, над чем работаю."
+    russian: 'Хорошо. Составлю список всего, над чем работаю.',
   },
   {
     key: '16',
     english: "Perfect. And keep in touch. Let us know how you're doing.",
-    russian: "Отлично. И оставайся на связи. Давай знать, как у тебя дела."
-  }
+    russian: 'Отлично. И оставайся на связи. Давай знать, как у тебя дела.',
+  },
 ];
 
 export const jobs_09 = [
   {
     key: '1',
-    english: "So, David, where do you work exactly?",
-    russian: "Итак, Дэвид, где именно ты работаешь?"
+    english: 'So, David, where do you work exactly?',
+    russian: 'Итак, Дэвид, где именно ты работаешь?',
   },
   {
     key: '2',
     english: "I work in a hospital. I'm a lab technician. I analyze blood samples.",
-    russian: "Я работаю в больнице. Я лаборант. Анализирую образцы крови."
+    russian: 'Я работаю в больнице. Я лаборант. Анализирую образцы крови.',
   },
   {
     key: '3',
-    english: "That sounds very scientific. Is it a big hospital?",
-    russian: "Звучит очень научно. Это большая больница?"
+    english: 'That sounds very scientific. Is it a big hospital?',
+    russian: 'Звучит очень научно. Это большая больница?',
   },
   {
     key: '4',
     english: "Pretty big. About 500 beds. There's a big team of doctors and nurses.",
-    russian: "Довольно большая. Около 500 коек. Большая команда врачей и медсестёр."
+    russian: 'Довольно большая. Около 500 коек. Большая команда врачей и медсестёр.',
   },
   {
     key: '5',
-    english: "Do you like the environment? Hospitals can be stressful.",
-    russian: "Тебе нравится атмосфера? В больницах бывает напряжённо."
+    english: 'Do you like the environment? Hospitals can be stressful.',
+    russian: 'Тебе нравится атмосфера? В больницах бывает напряжённо.',
   },
   {
     key: '6',
     english: "Sometimes, yes. But I'm in the lab, away from patients. It's quiet.",
-    russian: "Иногда, да. Но я в лаборатории, вдали от пациентов. Тихо."
+    russian: 'Иногда, да. Но я в лаборатории, вдали от пациентов. Тихо.',
   },
   {
     key: '7',
     english: "That's good. I work in a school. I'm a secretary in the main office.",
-    russian: "Это хорошо. Я работаю в школе. Я секретарь в главном офисе."
+    russian: 'Это хорошо. Я работаю в школе. Я секретарь в главном офисе.',
   },
   {
     key: '8',
-    english: "That must be busy. Lots of parents and students?",
-    russian: "Должно быть, оживлённо. Много родителей и учеников?"
+    english: 'That must be busy. Lots of parents and students?',
+    russian: 'Должно быть, оживлённо. Много родителей и учеников?',
   },
   {
     key: '9',
-    english: "Very busy! Phones ringing, people coming in, questions all day.",
-    russian: "Очень оживлённо! Звонят телефоны, люди заходят, вопросы весь день."
+    english: 'Very busy! Phones ringing, people coming in, questions all day.',
+    russian: 'Очень оживлённо! Звонят телефоны, люди заходят, вопросы весь день.',
   },
   {
     key: '10',
-    english: "Do you enjoy it?",
-    russian: "Тебе нравится?"
+    english: 'Do you enjoy it?',
+    russian: 'Тебе нравится?',
   },
   {
     key: '11',
     english: "I do. I like helping people. And I love the school atmosphere. It's energetic.",
-    russian: "Да. Мне нравится помогать людям. И я люблю школьную атмосферу. Она энергичная."
+    russian: 'Да. Мне нравится помогать людям. И я люблю школьную атмосферу. Она энергичная.',
   },
   {
     key: '12',
-    english: "Better than a quiet lab sometimes! What about your husband? Where does he work?",
-    russian: "Иногда лучше, чем тихая лаборатория! А твой муж? Где он работает?"
+    english: 'Better than a quiet lab sometimes! What about your husband? Where does he work?',
+    russian: 'Иногда лучше, чем тихая лаборатория! А твой муж? Где он работает?',
   },
   {
     key: '13',
-    english: "He works in a factory. He operates machines that make car parts.",
-    russian: "Он работает на заводе. Управляет станками, которые делают детали для машин."
+    english: 'He works in a factory. He operates machines that make car parts.',
+    russian: 'Он работает на заводе. Управляет станками, которые делают детали для машин.',
   },
   {
     key: '14',
     english: "That's completely different. Factory work is hard physically.",
-    russian: "Совершенно другое. Заводская работа физически тяжёлая."
+    russian: 'Совершенно другое. Заводская работа физически тяжёлая.',
   },
   {
     key: '15',
-    english: "Yes, he comes home tired every day. But the pay is good.",
-    russian: "Да, он каждый день приходит уставшим. Но платят хорошо."
+    english: 'Yes, he comes home tired every day. But the pay is good.',
+    russian: 'Да, он каждый день приходит уставшим. Но платят хорошо.',
   },
   {
     key: '16',
-    english: "Every workplace has its challenges. The office, the hospital, the factory...",
-    russian: "У каждого места работы свои сложности. Офис, больница, завод..."
+    english: 'Every workplace has its challenges. The office, the hospital, the factory...',
+    russian: 'У каждого места работы свои сложности. Офис, больница, завод...',
   },
   {
     key: '17',
     english: "True. As long as you like what you do, that's what matters.",
-    russian: "Верно. Пока нравится то, что делаешь, это главное."
-  }
+    russian: 'Верно. Пока нравится то, что делаешь, это главное.',
+  },
 ];
 
 export const jobs_10 = [
   {
     key: '1',
     english: "Sarah, do you have a part-time job? I'm looking for one.",
-    russian: "Сара, у тебя есть подработка? Я ищу."
+    russian: 'Сара, у тебя есть подработка? Я ищу.',
   },
   {
     key: '2',
-    english: "Yes, I work at a coffee shop near campus. Three days a week.",
-    russian: "Да, я работаю в кофейне рядом с кампусом. Три дня в неделю."
+    english: 'Yes, I work at a coffee shop near campus. Three days a week.',
+    russian: 'Да, я работаю в кофейне рядом с кампусом. Три дня в неделю.',
   },
   {
     key: '3',
     english: "That's cool! Do you like it?",
-    russian: "Это круто! Тебе нравится?"
+    russian: 'Это круто! Тебе нравится?',
   },
   {
     key: '4',
     english: "It's okay. The pay is minimum wage, but tips are good. And free coffee!",
-    russian: "Нормально. Платят минималку, но чаевые хорошие. И бесплатный кофе!"
+    russian: 'Нормально. Платят минималку, но чаевые хорошие. И бесплатный кофе!',
   },
   {
     key: '5',
-    english: "Free coffee is a big plus! How many hours do you work?",
-    russian: "Бесплатный кофе — большой плюс! Сколько часов работаешь?"
+    english: 'Free coffee is a big plus! How many hours do you work?',
+    russian: 'Бесплатный кофе — большой плюс! Сколько часов работаешь?',
   },
   {
     key: '6',
     english: "About 15 hours a week. It's perfect for a student. Not too much.",
-    russian: "Около 15 часов в неделю. Идеально для студента. Не слишком много."
+    russian: 'Около 15 часов в неделю. Идеально для студента. Не слишком много.',
   },
   {
     key: '7',
-    english: "Do they work with your class schedule?",
-    russian: "Они подстраиваются под твоё расписание?"
+    english: 'Do they work with your class schedule?',
+    russian: 'Они подстраиваются под твоё расписание?',
   },
   {
     key: '8',
     english: "Yes, I give them my availability each week. They're very flexible.",
-    russian: "Да, я даю им свою доступность каждую неделю. Они очень гибкие."
+    russian: 'Да, я даю им свою доступность каждую неделю. Они очень гибкие.',
   },
   {
     key: '9',
-    english: "That sounds ideal. Are they hiring?",
-    russian: "Звучит идеально. Они набирают?"
+    english: 'That sounds ideal. Are they hiring?',
+    russian: 'Звучит идеально. Они набирают?',
   },
   {
     key: '10',
     english: "I think so! I saw a sign on the door. 'Barista wanted.'",
-    russian: "Кажется, да! Я видела объявление на двери. 'Требуется бариста.'"
+    russian: "Кажется, да! Я видела объявление на двери. 'Требуется бариста.'",
   },
   {
     key: '11',
-    english: "Really? I have no experience making coffee.",
-    russian: "Правда? У меня нет опыта приготовления кофе."
+    english: 'Really? I have no experience making coffee.',
+    russian: 'Правда? У меня нет опыта приготовления кофе.',
   },
   {
     key: '12',
     english: "They train you. I had no experience either. It's easy to learn.",
-    russian: "Обучат. У меня тоже не было опыта. Легко научиться."
+    russian: 'Обучат. У меня тоже не было опыта. Легко научиться.',
   },
   {
     key: '13',
     english: "What's the manager like?",
-    russian: "Какой менеджер?"
+    russian: 'Какой менеджер?',
   },
   {
     key: '14',
     english: "She's nice. A little strict about being on time, but fair.",
-    russian: "Она милая. Немного строга насчёт пунктуальности, но справедливая."
+    russian: 'Она милая. Немного строга насчёт пунктуальности, но справедливая.',
   },
   {
     key: '15',
     english: "Okay, I'll go apply tomorrow. Thanks for the tip!",
-    russian: "Хорошо, завтра пойду подавать заявку. Спасибо за совет!"
+    russian: 'Хорошо, завтра пойду подавать заявку. Спасибо за совет!',
   },
   {
     key: '16',
     english: "No problem! Maybe we can work together. It's fun when it's busy.",
-    russian: "Без проблем! Может, поработаем вместе. Весело, когда много клиентов."
+    russian: 'Без проблем! Может, поработаем вместе. Весело, когда много клиентов.',
   },
   {
     key: '17',
-    english: "That would be great. Free coffee and a friend? Perfect student job!",
-    russian: "Было бы отлично. Бесплатный кофе и друг? Идеальная студенческая работа!"
-  }
+    english: 'That would be great. Free coffee and a friend? Perfect student job!',
+    russian: 'Было бы отлично. Бесплатный кофе и друг? Идеальная студенческая работа!',
+  },
 ];
 
 export const jobs_11 = [
   {
     key: '1',
-    english: "Tom, if you could do any job in the world, what would it be?",
-    russian: "Том, если бы ты мог делать любую работу в мире, что бы это было?"
+    english: 'Tom, if you could do any job in the world, what would it be?',
+    russian: 'Том, если бы ты мог делать любую работу в мире, что бы это было?',
   },
   {
     key: '2',
     english: "That's a hard question! Probably a pilot. I'd love to fly planes and see the world.",
-    russian: "Сложный вопрос! Наверное, пилот. Хотел бы летать на самолётах и видеть мир."
+    russian: 'Сложный вопрос! Наверное, пилот. Хотел бы летать на самолётах и видеть мир.',
   },
   {
     key: '3',
     english: "A pilot? That's cool! Why don't you do it?",
-    russian: "Пилот? Это круто! Почему не займёшься этим?"
+    russian: 'Пилот? Это круто! Почему не займёшься этим?',
   },
   {
     key: '4',
-    english: "Training is expensive and takes years. Maybe one day. What about you?",
-    russian: "Обучение дорогое и занимает годы. Может, когда-нибудь. А ты?"
+    english: 'Training is expensive and takes years. Maybe one day. What about you?',
+    russian: 'Обучение дорогое и занимает годы. Может, когда-нибудь. А ты?',
   },
   {
     key: '5',
     english: "I'd love to be a writer. Travel the world and write books about my adventures.",
-    russian: "Я бы хотела быть писателем. Путешествовать по миру и писать книги о своих приключениях."
+    russian: 'Я бы хотела быть писателем. Путешествовать по миру и писать книги о своих приключениях.',
   },
   {
     key: '6',
     english: "That sounds perfect for you. You're always writing in that notebook.",
-    russian: "Звучит идеально для тебя. Ты вечно пишешь в этом блокноте."
+    russian: 'Звучит идеально для тебя. Ты вечно пишешь в этом блокноте.',
   },
   {
     key: '7',
     english: "It's my dream. But writing doesn't pay well, especially at the start.",
-    russian: "Это моя мечта. Но писательство не приносит хорошего дохода, особенно в начале."
+    russian: 'Это моя мечта. Но писательство не приносит хорошего дохода, особенно в начале.',
   },
   {
     key: '8',
-    english: "True. My cousin is a writer. She works as a waitress too, to pay the bills.",
-    russian: "Верно. Моя кузина писатель. Она также работает официанткой, чтобы платить по счетам."
+    english: 'True. My cousin is a writer. She works as a waitress too, to pay the bills.',
+    russian: 'Верно. Моя кузина писатель. Она также работает официанткой, чтобы платить по счетам.',
   },
   {
     key: '9',
     english: "That's what I'm afraid of. I want a stable job that I also enjoy.",
-    russian: "Вот чего я боюсь. Хочу стабильную работу, которая мне нравится."
+    russian: 'Вот чего я боюсь. Хочу стабильную работу, которая мне нравится.',
   },
   {
     key: '10',
-    english: "Maybe you can do both. Write in your free time, work during the day.",
-    russian: "Может, можно делать и то, и другое. Писать в свободное время, работать днём."
+    english: 'Maybe you can do both. Write in your free time, work during the day.',
+    russian: 'Может, можно делать и то, и другое. Писать в свободное время, работать днём.',
   },
   {
     key: '11',
     english: "That's the plan. What about being a photographer? You take amazing photos.",
-    russian: "Такой план. А как насчёт фотографа? Ты делаешь потрясающие фото."
+    russian: 'Такой план. А как насчёт фотографа? Ты делаешь потрясающие фото.',
   },
   {
     key: '12',
     english: "Thanks! I've thought about it. But as a hobby, not a job. I don't want to hate it.",
-    russian: "Спасибо! Я думал об этом. Но как хобби, а не работа. Не хочу возненавидеть это."
+    russian: 'Спасибо! Я думал об этом. Но как хобби, а не работа. Не хочу возненавидеть это.',
   },
   {
     key: '13',
-    english: "Good point. Sometimes making your hobby a job ruins it.",
-    russian: "Хороший довод. Иногда превращение хобби в работу портит его."
+    english: 'Good point. Sometimes making your hobby a job ruins it.',
+    russian: 'Хороший довод. Иногда превращение хобби в работу портит его.',
   },
   {
     key: '14',
     english: "Exactly. So I'll keep it as a passion and find a job I like enough.",
-    russian: "Именно. Так что оставлю это как страсть и найду работу, которая мне достаточно нравится."
+    russian: 'Именно. Так что оставлю это как страсть и найду работу, которая мне достаточно нравится.',
   },
   {
     key: '15',
-    english: "Sensible. But never stop dreaming!",
-    russian: "Разумно. Но никогда не переставай мечтать!"
-  }
+    english: 'Sensible. But never stop dreaming!',
+    russian: 'Разумно. Но никогда не переставай мечтать!',
+  },
 ];
 
 export const jobs_12 = [
   {
     key: '1',
     english: "John, I can't believe you're retiring! After 40 years at this company.",
-    russian: "Джон, не могу поверить, что ты выходишь на пенсию! После 40 лет в этой компании."
+    russian: 'Джон, не могу поверить, что ты выходишь на пенсию! После 40 лет в этой компании.',
   },
   {
     key: '2',
     english: "I know. It feels strange. But it's time. I want to relax and enjoy life.",
-    russian: "Знаю. Странное чувство. Но пора. Хочу расслабиться и наслаждаться жизнью."
+    russian: 'Знаю. Странное чувство. Но пора. Хочу расслабиться и наслаждаться жизнью.',
   },
   {
     key: '3',
-    english: "What will you do with all your free time?",
-    russian: "Что будешь делать со всем свободным временем?"
+    english: 'What will you do with all your free time?',
+    russian: 'Что будешь делать со всем свободным временем?',
   },
   {
     key: '4',
-    english: "So many things! Travel, garden, spend time with my grandchildren.",
-    russian: "Столько всего! Путешествовать, заниматься садом, проводить время с внуками."
+    english: 'So many things! Travel, garden, spend time with my grandchildren.',
+    russian: 'Столько всего! Путешествовать, заниматься садом, проводить время с внуками.',
   },
   {
     key: '5',
-    english: "That sounds wonderful. You deserve it. Any travel plans?",
-    russian: "Звучит замечательно. Ты заслужил. Есть планы на путешествия?"
+    english: 'That sounds wonderful. You deserve it. Any travel plans?',
+    russian: 'Звучит замечательно. Ты заслужил. Есть планы на путешествия?',
   },
   {
     key: '6',
-    english: "First, a road trip across the country with my wife. Then maybe Europe.",
-    russian: "Сначала автопутешествие по стране с женой. Потом, может, Европа."
+    english: 'First, a road trip across the country with my wife. Then maybe Europe.',
+    russian: 'Сначала автопутешествие по стране с женой. Потом, может, Европа.',
   },
   {
     key: '7',
     english: "Europe! How exciting. I'm a little jealous.",
-    russian: "Европа! Как волнительно. Я немного завидую."
+    russian: 'Европа! Как волнительно. Я немного завидую.',
   },
   {
     key: '8',
     english: "You should visit when you retire. It's beautiful.",
-    russian: "Тебе стоит посетить, когда выйдешь на пенсию. Там красиво."
+    russian: 'Тебе стоит посетить, когда выйдешь на пенсию. Там красиво.',
   },
   {
     key: '9',
     english: "I have 15 more years. But I'll keep that in mind.",
-    russian: "У меня ещё 15 лет. Но буду иметь в виду."
+    russian: 'У меня ещё 15 лет. Но буду иметь в виду.',
   },
   {
     key: '10',
-    english: "Time flies. It feels like yesterday I started here. Young and nervous.",
-    russian: "Время летит. Кажется, только вчера я начал здесь работать. Молодой и нервный."
+    english: 'Time flies. It feels like yesterday I started here. Young and nervous.',
+    russian: 'Время летит. Кажется, только вчера я начал здесь работать. Молодой и нервный.',
   },
   {
     key: '11',
     english: "And now you're the boss! Well, almost.",
-    russian: "А теперь ты начальник! Ну, почти."
+    russian: 'А теперь ты начальник! Ну, почти.',
   },
   {
     key: '12',
     english: "Haha, yes. It's been a good career. I'll miss the people most.",
-    russian: "Ха-ха, да. Это была хорошая карьера. Больше всего буду скучать по людям."
+    russian: 'Ха-ха, да. Это была хорошая карьера. Больше всего буду скучать по людям.',
   },
   {
     key: '13',
     english: "We'll miss you too. Who's going to tell the best jokes in the office?",
-    russian: "Мы тоже будем скучать. Кто будет рассказывать лучшие шутки в офисе?"
+    russian: 'Мы тоже будем скучать. Кто будет рассказывать лучшие шутки в офисе?',
   },
   {
     key: '14',
     english: "That's your job now! You have to carry on the tradition.",
-    russian: "Теперь это твоя работа! Ты должен продолжить традицию."
+    russian: 'Теперь это твоя работа! Ты должен продолжить традицию.',
   },
   {
     key: '15',
-    english: "No pressure! We should have a party for you. A real goodbye.",
-    russian: "Без давления! Надо устроить вечеринку для тебя. Настоящее прощание."
+    english: 'No pressure! We should have a party for you. A real goodbye.',
+    russian: 'Без давления! Надо устроить вечеринку для тебя. Настоящее прощание.',
   },
   {
     key: '16',
     english: "You don't have to do that.",
-    russian: "Не обязательно."
+    russian: 'Не обязательно.',
   },
   {
     key: '17',
-    english: "We want to. You deserve a great send-off.",
-    russian: "Мы хотим. Ты заслуживаешь отличных проводов."
+    english: 'We want to. You deserve a great send-off.',
+    russian: 'Мы хотим. Ты заслуживаешь отличных проводов.',
   },
   {
     key: '18',
-    english: "Thank you, Margaret. That means a lot.",
-    russian: "Спасибо, Маргарет. Это много значит."
-  }
+    english: 'Thank you, Margaret. That means a lot.',
+    russian: 'Спасибо, Маргарет. Это много значит.',
+  },
 ];
 
 export const jobs_13 = [
   {
     key: '1',
     english: "Mark, look at this show. It's about unusual jobs. So interesting!",
-    russian: "Марк, посмотри эту передачу. О необычных профессиях. Так интересно!"
+    russian: 'Марк, посмотри эту передачу. О необычных профессиях. Так интересно!',
   },
   {
     key: '2',
-    english: "What kind of jobs?",
-    russian: "Какие профессии?"
+    english: 'What kind of jobs?',
+    russian: 'Какие профессии?',
   },
   {
     key: '3',
-    english: "This one is about a food taster. Someone who tastes chocolate all day!",
-    russian: "Эта о дегустаторе еды. Кто-то целый день пробует шоколад!"
+    english: 'This one is about a food taster. Someone who tastes chocolate all day!',
+    russian: 'Эта о дегустаторе еды. Кто-то целый день пробует шоколад!',
   },
   {
     key: '4',
     english: "That's a job? I want that job! Eating chocolate and getting paid.",
-    russian: "Это работа? Хочу такую работу! Есть шоколад и получать за это деньги."
+    russian: 'Это работа? Хочу такую работу! Есть шоколад и получать за это деньги.',
   },
   {
     key: '5',
     english: "I know, right? But you can't eat too much. Just a little bite each time.",
-    russian: "Правда? Но нельзя есть много. Просто маленький кусочек каждый раз."
+    russian: 'Правда? Но нельзя есть много. Просто маленький кусочек каждый раз.',
   },
   {
     key: '6',
-    english: "Still, better than my job. What else?",
-    russian: "Всё равно лучше моей работы. Что ещё?"
+    english: 'Still, better than my job. What else?',
+    russian: 'Всё равно лучше моей работы. Что ещё?',
   },
   {
     key: '7',
     english: "There's a professional sleeper. People pay you to test mattresses and hotels.",
-    russian: "Есть профессиональный спящий. Люди платят тебе, чтобы ты тестировал матрасы и отели."
+    russian: 'Есть профессиональный спящий. Люди платят тебе, чтобы ты тестировал матрасы и отели.',
   },
   {
     key: '8',
     english: "Sleeping for money? That's crazy! Where do I apply?",
-    russian: "Спать за деньги? Это безумие! Куда подавать заявку?"
+    russian: 'Спать за деньги? Это безумие! Куда подавать заявку?',
   },
   {
     key: '9',
     english: "Haha, I know. And here's a pet food tester. People who taste dog food!",
-    russian: "Ха-ха, знаю. А вот тестер корма для животных. Люди, которые пробуют собачий корм!"
+    russian: 'Ха-ха, знаю. А вот тестер корма для животных. Люди, которые пробуют собачий корм!',
   },
   {
     key: '10',
     english: "Okay, that's gross. I don't want that job.",
-    russian: "Окей, это противно. Не хочу такую работу."
+    russian: 'Окей, это противно. Не хочу такую работу.',
   },
   {
     key: '11',
-    english: "Me neither. But they check the quality and taste for dogs.",
-    russian: "Я тоже. Но они проверяют качество и вкус для собак."
+    english: 'Me neither. But they check the quality and taste for dogs.',
+    russian: 'Я тоже. Но они проверяют качество и вкус для собак.',
   },
   {
     key: '12',
     english: "Dogs don't care about taste! They eat anything.",
-    russian: "Собакам всё равно на вкус! Они едят всё."
+    russian: 'Собакам всё равно на вкус! Они едят всё.',
   },
   {
     key: '13',
     english: "True. Oh, and here's a professional cuddler. You cuddle with people for money.",
-    russian: "Верно. О, а вот профессиональный обниматель. Ты обнимаешься с людьми за деньги."
+    russian: 'Верно. О, а вот профессиональный обниматель. Ты обнимаешься с людьми за деньги.',
   },
   {
     key: '14',
     english: "That's weird. I wouldn't want to cuddle strangers.",
-    russian: "Это странно. Я бы не хотел обниматься с незнакомцами."
+    russian: 'Это странно. Я бы не хотел обниматься с незнакомцами.',
   },
   {
     key: '15',
     english: "Same. Some jobs are really unusual. What's the strangest job you've heard of?",
-    russian: "Так же. Некоторые профессии действительно необычные. Какая самая странная работа, о которой ты слышал?"
+    russian: 'Так же. Некоторые профессии действительно необычные. Какая самая странная работа, о которой ты слышал?',
   },
   {
     key: '16',
-    english: "Golf ball diver. People who dive into lakes at golf courses to find lost balls.",
-    russian: "Ныряльщик за мячами для гольфа. Люди ныряют в озёра на полях для гольфа в поисках потерянных мячей."
+    english: 'Golf ball diver. People who dive into lakes at golf courses to find lost balls.',
+    russian: 'Ныряльщик за мячами для гольфа. Люди ныряют в озёра на полях для гольфа в поисках потерянных мячей.',
   },
   {
     key: '17',
     english: "Really? That's a job?",
-    russian: "Правда? Это работа?"
+    russian: 'Правда? Это работа?',
   },
   {
     key: '18',
-    english: "Yes! They sell the balls. Some make good money.",
-    russian: "Да! Они продают мячи. Некоторые хорошо зарабатывают."
+    english: 'Yes! They sell the balls. Some make good money.',
+    russian: 'Да! Они продают мячи. Некоторые хорошо зарабатывают.',
   },
   {
     key: '19',
     english: "People will do anything for money! But I'll stick with my office job.",
-    russian: "Люди на всё пойдут ради денег! Но я останусь со своей офисной работой."
-  }
+    russian: 'Люди на всё пойдут ради денег! Но я останусь со своей офисной работой.',
+  },
 ];
 
 export const jobs_14 = [
   {
     key: '1',
     english: "David, it's 7 PM. Why are you still here?",
-    russian: "Дэвид, уже 7 вечера. Почему ты всё ещё здесь?"
+    russian: 'Дэвид, уже 7 вечера. Почему ты всё ещё здесь?',
   },
   {
     key: '2',
     english: "I have so much work. The deadline is Friday and I'm behind.",
-    russian: "У меня столько работы. Дедлайн в пятницу, я отстаю."
+    russian: 'У меня столько работы. Дедлайн в пятницу, я отстаю.',
   },
   {
     key: '3',
     english: "You've been here since 8 AM. That's 11 hours!",
-    russian: "Ты здесь с 8 утра. Это 11 часов!"
+    russian: 'Ты здесь с 8 утра. Это 11 часов!',
   },
   {
     key: '4',
-    english: "I know. But I need to finish this report. My boss is stressed about it.",
-    russian: "Знаю. Но нужно закончить этот отчёт. Мой начальник переживает из-за него."
+    english: 'I know. But I need to finish this report. My boss is stressed about it.',
+    russian: 'Знаю. Но нужно закончить этот отчёт. Мой начальник переживает из-за него.',
   },
   {
     key: '5',
     english: "Don't you have to pick up your kids?",
-    russian: "Тебе не нужно забирать детей?"
+    russian: 'Тебе не нужно забирать детей?',
   },
   {
     key: '6',
     english: "My wife is getting them today. She's not happy about it.",
-    russian: "Их сегодня забирает жена. Она не в восторге."
+    russian: 'Их сегодня забирает жена. Она не в восторге.',
   },
   {
     key: '7',
-    english: "I can imagine. Overtime is hard on families.",
-    russian: "Могу представить. Сверхурочная работа тяжела для семей."
+    english: 'I can imagine. Overtime is hard on families.',
+    russian: 'Могу представить. Сверхурочная работа тяжела для семей.',
   },
   {
     key: '8',
-    english: "It is. But sometimes you have to do it. How about you? Why are you here late?",
-    russian: "Да. Но иногда приходится это делать. А ты? Почему ты здесь допоздна?"
+    english: 'It is. But sometimes you have to do it. How about you? Why are you here late?',
+    russian: 'Да. Но иногда приходится это делать. А ты? Почему ты здесь допоздна?',
   },
   {
     key: '9',
     english: "I'm waiting for a client call. Different time zone. They're in New York.",
-    russian: "Жду звонка клиента. Другой часовой пояс. Они в Нью-Йорке."
+    russian: 'Жду звонка клиента. Другой часовой пояс. Они в Нью-Йорке.',
   },
   {
     key: '10',
-    english: "Oh, the joys of international business. What time is the call?",
-    russian: "О, радости международного бизнеса. Во сколько звонок?"
+    english: 'Oh, the joys of international business. What time is the call?',
+    russian: 'О, радости международного бизнеса. Во сколько звонок?',
   },
   {
     key: '11',
     english: "8 PM their time, which is 2 AM here. Just kidding, it's 8 PM here.",
-    russian: "8 вечера по их времени, что 2 утра здесь. Шучу, это 8 вечера здесь."
+    russian: '8 вечера по их времени, что 2 утра здесь. Шучу, это 8 вечера здесь.',
   },
   {
     key: '12',
-    english: "Haha, you scared me. 2 AM is crazy.",
-    russian: "Ха-ха, напугал. 2 утра это безумие."
+    english: 'Haha, you scared me. 2 AM is crazy.',
+    russian: 'Ха-ха, напугал. 2 утра это безумие.',
   },
   {
     key: '13',
     english: "I've done it before. Not fun. Do you get overtime pay?",
-    russian: "Я делал такое раньше. Не весело. Тебе платят за сверхурочные?"
+    russian: 'Я делал такое раньше. Не весело. Тебе платят за сверхурочные?',
   },
   {
     key: '14',
     english: "No, I'm salaried. So extra hours are just... extra.",
-    russian: "Нет, у меня оклад. Так что дополнительные часы просто... дополнительные."
+    russian: 'Нет, у меня оклад. Так что дополнительные часы просто... дополнительные.',
   },
   {
     key: '15',
     english: "That's not fair. You should get something.",
-    russian: "Это несправедливо. Ты должен что-то получать."
+    russian: 'Это несправедливо. Ты должен что-то получать.',
   },
   {
     key: '16',
-    english: "Welcome to the corporate world. Okay, I need coffee. Want some?",
-    russian: "Добро пожаловать в корпоративный мир. Ладно, мне нужен кофе. Будешь?"
+    english: 'Welcome to the corporate world. Okay, I need coffee. Want some?',
+    russian: 'Добро пожаловать в корпоративный мир. Ладно, мне нужен кофе. Будешь?',
   },
   {
     key: '17',
     english: "Yes, please. Let's survive this night together.",
-    russian: "Да, пожалуйста. Давай переживём эту ночь вместе."
+    russian: 'Да, пожалуйста. Давай переживём эту ночь вместе.',
   },
   {
     key: '18',
-    english: "Deal. Coffee and complaining. The perfect combination.",
-    russian: "Договорились. Кофе и жалобы. Идеальное сочетание."
-  }
+    english: 'Deal. Coffee and complaining. The perfect combination.',
+    russian: 'Договорились. Кофе и жалобы. Идеальное сочетание.',
+  },
 ];
 
 export const jobs_15 = [
   {
     key: '1',
     english: "James, I'm thinking about changing careers. I'm so unhappy in my job.",
-    russian: "Джеймс, я думаю о смене карьеры. Я так несчастлива на работе."
+    russian: 'Джеймс, я думаю о смене карьеры. Я так несчастлива на работе.',
   },
   {
     key: '2',
-    english: "Really? I thought you liked accounting.",
-    russian: "Правда? Я думал, тебе нравится бухгалтерия."
+    english: 'Really? I thought you liked accounting.',
+    russian: 'Правда? Я думал, тебе нравится бухгалтерия.',
   },
   {
     key: '3',
-    english: "I thought so too. But every day is the same. Numbers, spreadsheets, no creativity.",
-    russian: "Я тоже так думала. Но каждый день одно и то же. Цифры, таблицы, никакого творчества."
+    english: 'I thought so too. But every day is the same. Numbers, spreadsheets, no creativity.',
+    russian: 'Я тоже так думала. Но каждый день одно и то же. Цифры, таблицы, никакого творчества.',
   },
   {
     key: '4',
-    english: "That sounds boring. What would you rather do?",
-    russian: "Звучит скучно. А чем бы ты хотела заниматься?"
+    english: 'That sounds boring. What would you rather do?',
+    russian: 'Звучит скучно. А чем бы ты хотела заниматься?',
   },
   {
     key: '5',
-    english: "I want to work with animals. Maybe become a vet technician.",
-    russian: "Хочу работать с животными. Может, стать ветеринарным техником."
+    english: 'I want to work with animals. Maybe become a vet technician.',
+    russian: 'Хочу работать с животными. Может, стать ветеринарным техником.',
   },
   {
     key: '6',
     english: "That's a big change! From numbers to animals. What made you decide?",
-    russian: "Это большая перемена! От цифр к животным. Что на тебя повлияло?"
+    russian: 'Это большая перемена! От цифр к животным. Что на тебя повлияло?',
   },
   {
     key: '7',
-    english: "I volunteer at an animal shelter on weekends. I love it. It feels meaningful.",
-    russian: "Я волонтёрю в приюте для животных по выходным. Мне это нравится. Чувствуется смысл."
+    english: 'I volunteer at an animal shelter on weekends. I love it. It feels meaningful.',
+    russian: 'Я волонтёрю в приюте для животных по выходным. Мне это нравится. Чувствуется смысл.',
   },
   {
     key: '8',
     english: "That's wonderful. But vet tech requires training, right?",
-    russian: "Это замечательно. Но ветеринарный техник требует обучения, да?"
+    russian: 'Это замечательно. Но ветеринарный техник требует обучения, да?',
   },
   {
     key: '9',
     english: "Yes, a two-year program. I'm scared to go back to school at my age.",
-    russian: "Да, двухгодичная программа. Боюсь возвращаться к учёбе в моём возрасте."
+    russian: 'Да, двухгодичная программа. Боюсь возвращаться к учёбе в моём возрасте.',
   },
   {
     key: '10',
     english: "You're not old! People change careers all the time. My mom did at 50.",
-    russian: "Ты не старая! Люди постоянно меняют карьеру. Моя мама сменила в 50."
+    russian: 'Ты не старая! Люди постоянно меняют карьеру. Моя мама сменила в 50.',
   },
   {
     key: '11',
-    english: "Really? What did she do?",
-    russian: "Правда? Что она делала?"
+    english: 'Really? What did she do?',
+    russian: 'Правда? Что она делала?',
   },
   {
     key: '12',
     english: "She was a bank manager. Now she's a yoga teacher. Much happier.",
-    russian: "Она была менеджером в банке. Теперь она учитель йоги. Намного счастливее."
+    russian: 'Она была менеджером в банке. Теперь она учитель йоги. Намного счастливее.',
   },
   {
     key: '13',
     english: "That's inspiring. How did she afford to study?",
-    russian: "Вдохновляет. Как она позволила себе учёбу?"
+    russian: 'Вдохновляет. Как она позволила себе учёбу?',
   },
   {
     key: '14',
-    english: "She saved money and did night classes. It took time, but she did it.",
-    russian: "Она копила деньги и ходила на вечерние курсы. Это заняло время, но она сделала это."
+    english: 'She saved money and did night classes. It took time, but she did it.',
+    russian: 'Она копила деньги и ходила на вечерние курсы. Это заняло время, но она сделала это.',
   },
   {
     key: '15',
-    english: "Maybe I can do that. Keep my job and study at night.",
-    russian: "Может, и я смогу. Оставить работу и учиться по вечерам."
+    english: 'Maybe I can do that. Keep my job and study at night.',
+    russian: 'Может, и я смогу. Оставить работу и учиться по вечерам.',
   },
   {
     key: '16',
-    english: "It will be hard, but worth it if it makes you happy.",
-    russian: "Будет трудно, но оно того стоит, если сделает тебя счастливой."
+    english: 'It will be hard, but worth it if it makes you happy.',
+    russian: 'Будет трудно, но оно того стоит, если сделает тебя счастливой.',
   },
   {
     key: '17',
     english: "You're right. Life is too short to be miserable at work.",
-    russian: "Ты прав. Жизнь слишком коротка, чтобы быть несчастным на работе."
+    russian: 'Ты прав. Жизнь слишком коротка, чтобы быть несчастным на работе.',
   },
   {
     key: '18',
-    english: "Exactly. Follow your passion. The money will follow.",
-    russian: "Именно. Следуй за своей страстью. Деньги придут."
+    english: 'Exactly. Follow your passion. The money will follow.',
+    russian: 'Именно. Следуй за своей страстью. Деньги придут.',
   },
   {
     key: '19',
     english: "Thanks, James. You've given me courage. I'm going to look into programs this week.",
-    russian: "Спасибо, Джеймс. Ты придал мне смелости. Я поищу программы на этой неделе."
+    russian: 'Спасибо, Джеймс. Ты придал мне смелости. Я поищу программы на этой неделе.',
   },
   {
     key: '20',
     english: "Good for you! Let me know how it goes. I'm cheering for you!",
-    russian: "Молодец! Дай знать, как пойдёт. Я болею за тебя!"
-  }
+    russian: 'Молодец! Дай знать, как пойдёт. Я болею за тебя!',
+  },
 ];

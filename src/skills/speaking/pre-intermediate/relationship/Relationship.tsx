@@ -95,14 +95,16 @@ export const Relationship = () => {
 
       <Divider>Video</Divider>
 
-
-            <Collapse accordion>
-        <Panel header='Videos' key='1'>
+      <Collapse accordion>
+        <Panel
+          header='Videos'
+          key='1'
+        >
           <div className='video'>
             <Video videoId='5n2ma_4sy_8' />
           </div>
-          </Panel>
-          </Collapse>
+        </Panel>
+      </Collapse>
 
       <Divider>Writing</Divider>
       <p>
