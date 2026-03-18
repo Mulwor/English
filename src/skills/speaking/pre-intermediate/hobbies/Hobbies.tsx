@@ -1,33 +1,42 @@
 import { Divider } from 'antd';
+import { BasicTable, CollapseWithAccordion, Pagination } from '../../../../components';
+import { columns } from '../../../../data/sample';
+import { hobbiesVocabulary } from './vocab';
+import { usePaginatedData } from '../../../../hooks/usePaginatedData';
+import { hobbies_01, hobbies_02, hobbies_03, hobbies_04, hobbies_05, hobbies_06, hobbies_07, hobbies_08, hobbies_09, hobbies_10, hobbies_11, hobbies_12, hobbies_13, hobbies_14, hobbies_15 } from './dialogs';
 
 export const HobbiesAndFreeTime = () => {
+      const { data, currentPage, handlePageChange } = usePaginatedData(hobbies_01, [
+        hobbies_01, hobbies_02, hobbies_03, hobbies_04,
+        hobbies_05, hobbies_06, hobbies_07, hobbies_08,
+        hobbies_09, hobbies_10, hobbies_11, hobbies_12,
+        hobbies_13, hobbies_14, hobbies_15,
+      ]);
+  
+
   return (
     <>
       <Divider>Hobbies & Free Time (Хобби и свободное время)</Divider>
 
-      <ul>
-        Необходимо научиться
-        <li>
-          <strong>Говорить о своих увлечениях (Talk about hobbies)</strong> — описывать, что любишь делать в свободное время. "I like reading books." "My hobby
-          is playing football." "I enjoy painting."
-        </li>
-        <li>
-          <strong>Обсуждать частоту занятий (Frequency)</strong> — использовать наречия частоты и Present Simple. "I often go swimming." "I usually play chess
-          on weekends." "I sometimes watch movies."
-        </li>
-        <li>
-          <strong>Говорить о любимых занятиях (Favourite hobbies)</strong> — выражать предпочтения. "My favourite hobby is playing guitar." "I prefer cycling to
-          running."
-        </li>
-        <li>
-          <strong>Обсуждать планы на свободное время (Plans)</strong> — рассказывать, что будешь делать. "Tomorrow I will go to the cinema." "Next weekend I am
-          going to visit my friend."
-        </li>
-        <li>
-          <strong>Отвечать на вопросы о хобби (Questions)</strong> — поддерживать короткий диалог. "What do you do in your free time?" "Do you like sports?"
-          "How often do you play computer games?" "What is your favourite hobby?"
-        </li>
-      </ul>
+      <p>
+        Цель этого топика - научиться говорить о своих увлечениях (Talk about hobbies),
+        любимых занятиях (Favorite hobbies) и планах на свободное время (Plans for free time).
+        Ну и конечно обсуждать как часто ты этим занимаешься - всегда, редко, иногда.
+      </p>
+
+      <Divider>Vocabulary</Divider>
+      <CollapseWithAccordion 
+        text={'All vocabulary daily activities'} 
+        data={hobbiesVocabulary} 
+        columns={columns} 
+      />
+
+      <BasicTable data={data} />
+      <Pagination
+        currentPage={currentPage}
+        totalPages={15}
+        onPageChange={handlePageChange}
+      />
     </>
   );
 };
