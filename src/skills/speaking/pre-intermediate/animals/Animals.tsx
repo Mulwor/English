@@ -3,15 +3,18 @@ import { BasicTable, CollapseWithAccordion, Pagination, Video } from '../../../.
 import { columns } from '../../../../data/sample';
 import { animalAdjectives, animalEnvironment, animals } from './vocab';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
-import { animal_01, animal_03, animal_05, animal_07, animal_09, animal_11, animal_13, animal_15 } from './dialogs';
+import { animal_01, animal_01_02, animal_03, animal_03_02, animal_05, animal_05_01, animal_07, animal_09, animal_11, animal_13, animal_15 } from './dialogs';
 
 const { Panel } = Collapse;
 
 export const Animals = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(animal_01, [
     animal_01,
+    animal_01_02,
     animal_03,
+    animal_03_02,
     animal_05,
+    animal_05_01,
     animal_07,
     animal_09,
     animal_11,
@@ -69,7 +72,7 @@ export const Animals = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={8}
+        totalPages={11}
         onPageChange={handlePageChange}
       />
 
