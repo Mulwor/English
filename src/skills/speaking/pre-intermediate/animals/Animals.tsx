@@ -3,7 +3,7 @@ import { BasicTable, CollapseWithAccordion, Pagination, Video } from '../../../.
 import { columns } from '../../../../data/sample';
 import { animalAdjectives, animalEnvironment, animals } from './vocab';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
-import { animal_01, animal_01_02, animal_03, animal_03_02, animal_05, animal_05_01, animal_07, animal_09, animal_11, animal_13, animal_15 } from './dialogs';
+import { animal_01, animal_01_02, animal_03, animal_03_02, animal_05, animal_05_01, animal_07, animal_07_01, animal_09, animal_09_01, animal_11, animal_11_01, animal_13, animal_13_01, animal_15 } from './dialogs';
 
 const { Panel } = Collapse;
 
@@ -15,10 +15,28 @@ export const Animals = () => {
     animal_03_02,
     animal_05,
     animal_05_01,
+  ]);
+
+  const { 
+    data: dataDay_01, 
+    currentPage: currentPageDay_01, 
+    handlePageChange: handlePageDay_01, 
+  } = usePaginatedData(animal_07, [
     animal_07,
+    animal_07_01,
     animal_09,
+    animal_09_01,
     animal_11,
+    animal_11_01,
+  ]);
+
+   const { 
+    data: dataDay_02, 
+    currentPage: currentPageDay_02, 
+    handlePageChange: handlePageDay_02, 
+  } = usePaginatedData(animal_13, [
     animal_13,
+    animal_13_01,
     animal_15,
   ]);
 
@@ -27,8 +45,9 @@ export const Animals = () => {
       <Divider>Animals (животные)</Divider>
 
       <p>
-        Цель данного топика - научиться описывать животных и их категории (дикие, домашние и т.д), сравнивать их между собой, уметь рассказать о них в виде
-        монолога - Мое любимое животное ... потому что ... потому что
+        Цель данного топика - научиться описывать животных и их категории (дикие, домашние и т.д), 
+        сравнивать их между собой, уметь рассказать о них в виде монолога - Мое любимое животное 
+        ... потому что ... потому что
       </p>
 
       <Divider>Vocabulary</Divider>
@@ -69,84 +88,38 @@ export const Animals = () => {
 
       <Divider>Dialogs</Divider>
 
-      <BasicTable data={data} />
-      <Pagination
-        currentPage={currentPage}
-        totalPages={11}
-        onPageChange={handlePageChange}
-      />
+      <Collapse accordion>
+        <Panel header='Dialogs (day_1 and day_2)' key='1' >
+          <BasicTable data={data} />
+          <Pagination
+            currentPage={currentPage}
+            totalPages={6}
+            onPageChange={handlePageChange}
+          />
+        </Panel>
+      </Collapse>
 
-      {/*  
-        <p><strong>Категории животных:</strong></p>
+       <Collapse accordion>
+        <Panel header='Dialogs (day_3 and day_4)' key='1' >
+          <BasicTable data={dataDay_01} />
+          <Pagination
+            currentPage={currentPageDay_01}
+            totalPages={6}
+            onPageChange={handlePageDay_01}
+          />
+        </Panel>
+      </Collapse>
 
-        <ul>
-          <li>Wild animals (дикие) - lion, elephant, tiger</li>
-          <li>Pets (домашние питомцы) - dog, cat, hamster</li>
-          <li>Farm animals (фермерские) - cow, horse, sheep</li>
-          <li>Birds (птицы) - parrot, eagle, penguin</li>
-          <li>Sea animals (морские) - dolphin, shark, whale</li>
-          <li>Insects (насекомые) - butterfly, bee, ant</li>
-        </ul> 
-        
-        // ==================================================
-
-        1. Are you an animal lover?, 
-        2. Are you raising any pets?, 
-        3. Do you have a pet? If yes,
-        4. What is it like? & 
-        5. What does it look like?, 
-        6. Why do people keep pets?, 
-        7. Are pets well looked after in your country?, 
-        8. Would you like to have  a pet? 
-        9. Have you ever had a rabbit?, 
-        10. Which animal are you most afraid of? Why?, 
-        12. Which wild animal is the most dangerous? Why?, 
-        13. Have you ever been to  a zoo or farm? If yes, Which animals have you seen?, 
-        14. Which pets are most popularr in your country?, 
-        15. What`s your favourite animal? Why?, 
-        16. What`s the strangest animal you have ever eaten?.
-       
-       
-        // =================================================
-        
-        {
-          <strong>Выражение отношения к животным</strong>
-          I like ... because ... 
-          I'm afraid of ... because ...
-          I think ... is cute/interesting/dangerous
-        } 
-
-        // =================================================
-
-        {
-          <p><strong>Грамматика:</strong></p>
-          <ul>
-            <li>Present Simple для описания фактов (The lion lives in Africa)</li>
-            <li>Степени сравнения прилагательных (big - bigger - the biggest)</li>
-            <li>Модальный глагол can/can't для способностей</li>
-            <li>Have got/has got для описания внешности</li>
-          </ul>
-        } 
-
-      <ol>
-        <li>
-          <strong>Уметь описать животное (5–7 предложений)</strong>
-          Ученик должен свободно сказать: What animal it is Where it lives What it eats What it looks like What it can / can’t do --- It is a wild animal. It
-          lives in Africa. It is big and strong. It has four legs and a long tail. It eats meat. It can run very fast.
-        </li>
-        <li>
-          <strong>Уметь сравнить двух животных</strong>A tiger is bigger than a cat. A dog is friendlier than a wolf. An elephant is heavier than a horse.
-        </li>
-        <li>
-          <strong>Уметь отвечать на простые вопросы без подготовки</strong>
-          Where does a lion live? Can a penguin fly? What does a cow eat? Is a snake dangerous? Он отвечает быстро и простыми предложениями.
-        </li>
-        <li>
-          <strong>Описать любимое животное (мини-монолог)</strong>
-          Цель: говорить 30–60 секунд без остановки. Пример структуры: My favourite animal is… It lives… It looks… It eats… I like it because…
-        </li>
-      </ol>
-     */}
+      <Collapse accordion>
+        <Panel header='Dialogs (last days)' key='1' >
+          <BasicTable data={dataDay_02} />
+          <Pagination
+            currentPage={currentPageDay_02}
+            totalPages={3}
+            onPageChange={handlePageDay_02}
+          />
+        </Panel>
+      </Collapse>
     </>
   );
 };

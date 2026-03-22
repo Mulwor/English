@@ -37,12 +37,12 @@ export const animal_01 = [
   {
     key: '8',
     english: "The sign says \"Don't feed the animals.\" It's not good for them. - Okay.",
-    russian: 'На табличке написано: «Не кормите животных». Это вредно для них. - Хорошо.',
+    russian: 'На табличке сказано: «Не кормите животных». Это вредно для них. - Хорошо.',
   },
   {
     key: '9',
     english: "Let's go and see the elephants next. I love their big ears.",
-    russian: 'Давай теперь посмотрим на слонов. Я люблю их большие уши.',
+    russian: 'Давай теперь посмотрим на этих слонов. Я люблю их большие уши.',
   },
   {
     key: '10',
@@ -191,7 +191,7 @@ export const animal_03_02 = [
   {
     key: '5',
     english: "His name is Kiwi and he's very noisy in the morning! - Haha, that's a nice name.",
-    russian: 'Его зовут Киви, и он очень шумный по утрам! - Ха-ха, хорошее имя.',
+    russian: 'Его зовут Киви, и он очень шумный по утрам! - Ха-ха, это хорошее имя.',
   },
   {
     key: '6',
@@ -201,7 +201,7 @@ export const animal_03_02 = [
   {
     key: '7',
     english: 'It has seeds and dried fruit. Does Kiwi like fresh fruit too?',
-    russian: 'Там семечки и сушеные фрукты. Киви любит свежие фрукты?'
+    russian: 'Там семечки и сушеные фрукты. Киви любит тоже свежие фрукты?'
   },
   {
     key: '8',
@@ -221,7 +221,7 @@ export const animal_03_02 = [
   {
     key: '11',
     english: "Thanks for telling me. I'll just take this food, please.",
-    russian: 'Спасибо, что сказали. Я возьму вот этот корм, пожалуйста.',
+    russian: 'Спасибо, что сказали. Я просто возьму этот корм, пожалуйста..',
   },
   {
     key: '12',
@@ -239,7 +239,7 @@ export const animal_05 = [
   {
     key: '2',
     english: "But we love her so much. Yesterday, she did something very funny.",
-    russian: 'Но мы ее очень любим. Вчера она сделала кое-что очень забавное.',
+    russian: 'Но мы ее любим очень сильно. Вчера она сделала кое-что очень забавное.',
   },
   {
     key: '3',
@@ -249,7 +249,7 @@ export const animal_05 = [
   {
     key: '4',
     english: 'She sat there and watched it for a long time. Then she tried to catch it and... bang! She fell off the sofa!',
-    russian: 'Сидела там и долго за ней наблюдала. Потом попыталась поймать и... бах! Упала с дивана!',
+    russian: 'Она села туда и смотрела на нее очень долго. Потом попыталась поймать ее и ... бах! Упала с дивана!',
   },
   {
     key: '5',
@@ -268,8 +268,8 @@ export const animal_05 = [
   },
   {
     key: '7',
-    english: 'She was probably embarrassed. Cats are so funny and have so much personality.',
-    russian: 'Наверное, ей было стыдно. Кошки такие забавные и с таким характером.',
+    english: 'She was probably embarrassed. Cats are so funny',
+    russian: 'Наверное, ей было стыдно. Кошки такие забавные.',
   },
   {
     key: '8',
@@ -279,53 +279,53 @@ export const animal_05 = [
   {
     key: '9',
     english: "I'm happy for you. Give her a hug from me.",
-    russian: 'Я рада за тебя. Передай ей объятия от меня.',
+    russian: 'Я рада за тебя. Обними (потискай) ее от меня.',
   },
 ]
 
 export const animal_05_01 = [
   {
-    key: '11',
+    key: '1',
     english: 'Good morning, Mrs. Wilson. Please come in. And who do we have here?',
-    russian: 'Доброе утро, миссис Уилсон. Проходите. И кто у нас тут?',
+    russian: 'Доброе утро, миссис Уилсон. Пожалуйста проходите. И кто у нас тут?',
   },
   {
-    key: '12',
+    key: '2',
     english: "This is Max, my dog. He's usually very active, but today he's quiet and sad.",
     russian: 'Это Макс, моя собака. Обычно он очень активный, но сегодня он тихий и грустный.',
   },
   {
-    key: '13',
+    key: '3',
     english: 'Oh, poor Max. Let me take a look. When did he eat last?',
-    russian: 'О, бедный Макс. Давай посмотрим. Когда он ел в последний раз?',
+    russian: 'О, бедный Макс. Дайте мне взглянуть. Когда он ел в последний раз?',
   },
   {
-    key: '14',
+    key: '4',
     english: "He didn't want his breakfast this morning. That's very strange for him.",
     russian: 'Он не захотел завтракать сегодня утром. Это очень странно для него.',
   },
   {
-    key: '15',
+    key: '5',
     english: "I see. And does he drink water? - A little bit, but not much. I'm very worried about him.",
     russian: 'Понятно. А воду он пьет? - Немного, но не много. Я очень волнуюсь за него.',
   },
   {
-    key: '16',
+    key: '6',
     english: "Don't worry too much. I need to check his temperature. Max, stay still... Good boy.",
     russian: 'Не волнуйтесь слишком сильно. Мне нужно проверить его температуру. Макс, не двигайся... Хороший мальчик.',
   },
   {
-    key: '17',
+    key: '7',
     english: "Is it serious? - No, I think he just ate something bad. Maybe outside in the park. I'll give you some special food for him.",
     russian: 'Это серьезно? - Нет, думаю, он просто съел что-то плохое. Может быть, в парке. Я дам вам специальный корм для него.',
   },
   {
-    key: '18',
+    key: '8',
     english: 'Thank you, doctor. How often should I feed him?',
     russian: 'Спасибо, доктор. Как часто мне его кормить?',
   },
   {
-    key: '19',
+    key: '9',
     english: 'Just small portions three times a day. He will be fine in a couple of days.',
     russian: 'Просто маленькими порциями три раза в день. Через пару дней он поправится.',
   },
@@ -364,86 +364,74 @@ export const animal_07 = [
   },
   {
     key: '7',
-    english: 'Really? Was he okay?',
-    russian: 'Правда? С ним все было в порядке?',
+    english: 'Really? Was he okay? - He looked fine. Just walking slowly.',
+    russian: 'Правда? С ним все было в порядке? - Он выглядел нормально. Просто медленно гулял.',
   },
   {
     key: '8',
-    english: 'He looked fine. Just walking slowly. Do you have a photo?',
-    russian: 'Он выглядел нормально. Просто медленно гулял. У тебя есть фото?',
+    english: 'Do you have a photo? - Yes, here on my phone. This is Oliver.',
+    russian: 'У тебя есть фото? - Да, вот на телефоне. Это Оливер.',
   },
   {
     key: '9',
-    english: 'Yes, here on my phone. This is Oliver.',
-    russian: 'Да, вот на телефоне. Это Оливер.',
-  },
-  {
-    key: '10',
     english: "Oh, what a cute face! Yes, that's the cat I saw. I'm sure he'll come back.",
     russian: 'О, какая милая мордочка! Да, это тот кот, которого я видел. Уверен, он вернется.',
   },
   {
-    key: '11',
+    key: '10',
     english: "Thank you! I'll go look near the tree. Please call me if you see him again.",
     russian: 'Спасибо! Я пойду поищу возле дерева. Пожалуйста, позвоните мне, если увидите его снова.',
   },
+]
+
+export const animal_07_01 = [
   {
-    key: '12',
-    english: 'Of course, dear. Good luck!',
-    russian: 'Конечно, дорогая. Удачи!',
-  },
-  {
-    key: '13',
-    english: '--__--__--',
-    russian: '--__--__--',
-  },
-  {
-    key: '14',
+    key: '1',
     english: 'Dad, Dad! Come quick! Look at these fish! They are so colorful!',
     russian: 'Папа, папа! Иди скорее! Посмотри на этих рыбок! Они такие разноцветные!',
   },
   {
-    key: '15',
+    key: '2',
     english: 'Wow, they are beautiful. Those are tropical fish. They live in warm oceans.',
     russian: 'Ничего себе, они красивые. Это тропические рыбки. Они живут в теплых океанах.',
   },
   {
-    key: '16',
+    key: '3',
     english: 'The blue one is my favorite. And look over there! Is that a shark?',
     russian: 'Голубая — моя любимая. А смотри вон там! Это акула?',
   },
   {
-    key: '17',
+    key: '4',
     english: "Yes, but don't worry. It's a small shark. See the sign? It's a bamboo shark.",
     russian: 'Да, но не волнуйся. Это маленькая акула. Видишь табличку? Это бамбуковая акула.',
   },
   {
-    key: '18',
+    key: '5',
     english: "It doesn't look dangerous. It's just swimming slowly. Can we see the penguins next?",
     russian: 'Она не выглядит опасной. Просто медленно плавает. Можно теперь посмотреть на пингвинов?',
   },
   {
-    key: '19',
+    key: '6',
     english: 'Sure. The penguins are on the other side.',
     russian: 'Конечно. Пингвины с другой стороны.',
   },
   {
-    key: '20',
+    key: '7',
     english: 'Oh, they are so funny when they walk! Why do they walk like that?',
     russian: 'О, они такие смешные, когда ходят! Почему они так ходят?',
   },
   {
-    key: '21',
+    key: '8',
     english: 'They have short legs and their bodies are made for swimming, not walking.',
     russian: 'У них короткие ноги, и их тела приспособлены для плавания, а не ходьбы.',
   },
   {
-    key: '22',
+    key: '9',
     english: 'Can we stay and watch them for a long time? I love how they jump into the water.',
     russian: 'Можно мы останемся и будем долго за ними наблюдать? Мне нравится, как они прыгают в воду.',
   },
   {
-    key: '23',
+    key: '10',
     english: 'Of course, sweetheart. We have all afternoon.',
     russian: 'Конечно, милая. У нас есть вторая половина дня.',
   },
@@ -505,63 +493,61 @@ export const animal_09 = [
     english: 'I like the monkey best. Ooh ooh ah ah!',
     russian: 'Мне больше всего нравится обезьяна. У-у-у, а-а-а!',
   },
+]
+
+export const animal_09_01 = [
   {
-    key: '12',
-    english: '--__--__--',
-    russian: '--__--__--',
-  },
-  {
-    key: '13',
+    key: '1',
     english: 'Hi, Mike! Welcome back! How was your holiday?',
     russian: 'Привет, Майк! С возвращением! Как прошёл отпуск?',
   },
   {
-    key: '14',
+    key: '2',
     english: 'It was amazing, Jenny! We went to a safari park in Africa.',
     russian: 'Было потрясающе, Дженни! Мы ездили в сафари-парк в Африке.',
   },
   {
-    key: '15',
+    key: '3',
     english: "No way! That's my dream. What animals did you see?",
     russian: 'Не может быть! Это моя мечта. Каких животных вы видели?',
   },
   {
-    key: '16',
+    key: '4',
     english: 'Everything! Lions, zebras, giraffes. We drove in a special car, very close to them.',
     russian: 'Всех! Львов, зебр, жирафов. Мы ехали на специальной машине, очень близко к ним.',
   },
   {
-    key: '17',
+    key: '5',
     english: 'Were you scared of the lions?',
     russian: 'Тебе было страшно перед львами?',
   },
   {
-    key: '18',
+    key: '6',
     english: "A little bit! But they were sleeping under a tree. They didn't even look at us.",
     russian: 'Немного! Но они спали под деревом. Даже не посмотрели на нас.',
   },
   {
-    key: '19',
+    key: '7',
     english: 'What about the giraffes? Could you touch them?',
     russian: 'А жирафы? Вы могли их погладить?',
   },
   {
-    key: '20',
+    key: '8',
     english: "No, we couldn't touch them. But one giraffe came very close to our car. I took a great photo.",
     russian: 'Нет, мы не могли их трогать. Но один жираф подошел очень близко к машине. Я сделал отличное фото.',
   },
   {
-    key: '21',
+    key: '9',
     english: 'Can I see the photos? I really want to go there one day.',
     russian: 'Можно посмотреть фото? Я очень хочу поехать туда однажды.',
   },
   {
-    key: '22',
+    key: '10',
     english: 'Sure, I have them on my phone. Look, here is the giraffe! And here is a family of elephants.',
     russian: 'Конечно, они у меня на телефоне. Смотри, вот жираф! А вот семья слонов.',
   },
   {
-    key: '23',
+    key: '11',
     english: 'Oh, they are incredible! The baby elephant is so cute. You are so lucky, Mike.',
     russian: 'О, они невероятные! Слоненок такой милый. Тебе так повезло, Майк.',
   },
@@ -613,73 +599,71 @@ export const animal_11 = [
     english: 'Haha! Well, my fish is smaller and quieter. But I think your dog is more interesting.',
     russian: 'Ха-ха! Что ж, моя рыбка меньше и тише. Но я думаю, твоя собака интереснее.',
   },
+]
+
+export const animal_11_01 = [
   {
-    key: '10',
-    english: '--__--__--',
-    russian: '--__--__--',
-  },
-  {
-    key: '11',
+    key: '1',
     english: 'Hello there! Welcome to the petting zoo. Would you like to go inside?',
     russian: 'Здравствуйте! Добро пожаловать в контактный зоопарк. Хотите зайти внутрь?',
   },
   {
-    key: '12',
+    key: '2',
     english: 'Yes, please! The goats look so cute!',
     russian: 'Да, пожалуйста! Козочки выглядят такими милыми!',
   },
   {
-    key: '13',
+    key: '3',
     english: 'They are very friendly. But first, let me tell you some rules.',
     russian: 'Они очень дружелюбные. Но сначала позвольте рассказать вам несколько правил.',
   },
   {
-    key: '14',
+    key: '4',
     english: 'Listen carefully, Lucy.',
     russian: 'Слушай внимательно, Люси.',
   },
   {
-    key: '15',
+    key: '5',
     english: "First, please be gentle with the animals. Don't pull their ears or tails.",
     russian: 'Во-первых, пожалуйста, будь нежной с животными. Не тяни их за уши или хвосты.',
   },
   {
-    key: '16',
+    key: '6',
     english: "Okay, I won't pull.",
     russian: 'Хорошо, я не буду тянуть.',
   },
   {
-    key: '17',
+    key: '7',
     english: 'Good girl. Second, hold out your hand flat when you give them food. Like this. See?',
     russian: 'Умница. Во-вторых, держи ладошку открытой, когда даёшь им еду. Вот так. Видишь?',
   },
   {
-    key: '18',
+    key: '8',
     english: 'Why flat?',
     russian: 'Почему открытой?',
   },
   {
-    key: '19',
+    key: '9',
     english: "So they don't bite your fingers by accident. They think your fingers are food!",
     russian: 'Чтобы они случайно не укусили тебя за пальцы. Они могут подумать, что твои пальцы — это еда!',
   },
   {
-    key: '20',
+    key: '10',
     english: "Oh, that's smart.",
     russian: 'О, это умно.',
   },
   {
-    key: '21',
+    key: '11',
     english: "And please don't run. The animals can get scared. Just walk slowly.",
     russian: 'И пожалуйста, не бегай. Животные могут испугаться. Просто ходи медленно.',
   },
   {
-    key: '22',
+    key: '12',
     english: 'I understand. Can I go in now?',
     russian: 'Я поняла. Можно мне уже зайти?',
   },
   {
-    key: '23',
+    key: '13',
     english: 'Yes, have fun! The brown goat over there loves attention.',
     russian: 'Да, повеселись! Вон та коричневая козочка любит внимание.',
   },
@@ -731,63 +715,61 @@ export const animal_13 = [
     english: "Really? I didn't know that. Okay, deal!",
     russian: 'Правда? Я не знал. Хорошо, договорились!',
   },
+];
+
+export const animal_13_01 = [
   {
-    key: '10',
-    english: '--__--__--',
-    russian: '--__--__--',
-  },
-  {
-    key: '11',
+    key: '1',
     english: 'Hi there! Looking for a new family member?',
     russian: 'Здравствуйте! Ищете нового члена семьи?',
   },
   {
-    key: '12',
+    key: '2',
     english: 'Yes! We want to adopt a dog.',
     russian: 'Да! Мы хотим взять собаку.',
   },
   {
-    key: '13',
+    key: '3',
     english: 'Wonderful! Do you know what kind of dog you want?',
     russian: 'Замечательно! Вы знаете, какую собаку хотите?',
   },
   {
-    key: '14',
+    key: '4',
     english: 'We want a medium-sized dog. Not too big, not too small. And good with children.',
     russian: 'Мы хотим собаку среднего размера. Не слишком большую, не слишком маленькую. И чтобы хорошо ладила с детьми.',
   },
   {
-    key: '15',
+    key: '5',
     english: 'Great. Let me show you some of our dogs. This is Bella.',
     russian: 'Отлично. Позвольте показать вам некоторых наших собак. Это Белла.',
   },
   {
-    key: '16',
+    key: '6',
     english: 'Oh, she looks a little sad.',
     russian: 'О, она выглядит немного грустной.',
   },
   {
-    key: '17',
+    key: '7',
     english: "She's just shy. But she's very sweet and gentle. She loves to sleep on your lap.",
     russian: 'Она просто застенчивая. Но она очень милая и нежная. Она любит спать у вас на коленях.',
   },
   {
-    key: '18',
+    key: '8',
     english: 'What about that one? The brown one with the floppy ears?',
     russian: 'А как насчет той? Коричневой с висячими ушами?',
   },
   {
-    key: '19',
+    key: '9',
     english: "That's Rocky. He's very energetic and playful. He needs a lot of exercise.",
     russian: 'Это Рокки. Он очень энергичный и игривый. Ему нужно много активности.',
   },
   {
-    key: '20',
+    key: '10',
     english: 'He seems friendly. Can we take him for a short walk?',
     russian: 'Он кажется дружелюбным. Можно вывести его на короткую прогулку?',
   },
   {
-    key: '21',
+    key: '11',
     english: 'Of course! Let me get a leash. He will be very happy to meet you.',
     russian: 'Конечно! Сейчас возьму поводок. Он будет очень рад познакомиться с вами.',
   },
