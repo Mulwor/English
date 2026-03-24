@@ -433,7 +433,7 @@ export const animal_07_01 = [
   {
     key: '10',
     english: 'Of course, sweetheart. We have all afternoon.',
-    russian: 'Конечно, милая. У нас есть вторая половина дня.',
+    russian: 'Конечно, милая. У нас впереди весь день.',
   },
 ];
 
@@ -450,13 +450,13 @@ export const animal_09 = [
   },
   {
     key: '3',
-    english: "Elephant. And what sound does it make? Does it say 'Moo'?",
-    russian: "Элефант. А какой звук оно издает? Оно говорит 'My'?",
+    english: "And what sound does it make? Does it say 'Moo'? - Haha, no. Cows say 'Moo'. ",
+    russian: "А какой звук оно издает? Оно говорит 'My'? - Ха-ха, нет. Коровы говорят 'My'. ",
   },
   {
     key: '4',
-    english: "Haha, no. Cows say 'Moo'. Elephants make a long sound... they 'trumpet'. Like toot-tooooot!",
-    russian: "Ха-ха, нет. Коровы говорят 'My'. Слоны издают длинный звук... они 'трубят'. Как ту-дуууу!",
+    english: "Elephants make a long sound... they 'trumpet'. Like toot-tooooot!",
+    russian: "Слоны издают длинный звук... они 'трубят'. Как ту-дуууу!",
   },
   {
     key: '5',
@@ -498,43 +498,43 @@ export const animal_09 = [
 export const animal_09_01 = [
   {
     key: '1',
-    english: 'Hi, Mike! Welcome back! How was your holiday?',
-    russian: 'Привет, Майк! С возвращением! Как прошёл отпуск?',
+    english: 'Hi, Mike! Welcome back! How was your holiday? - It was amazing, Jenny!',
+    russian: 'Привет, Майк! С возвращением! Как прошёл отпуск? - Было потрясающе, Дженни!',
   },
   {
     key: '2',
-    english: 'It was amazing, Jenny! We went to a safari park in Africa.',
-    russian: 'Было потрясающе, Дженни! Мы ездили в сафари-парк в Африке.',
+    english: 'We went to a safari park in Africa. - No way! That is my dream.',
+    russian: 'Мы ездили в сафари-парк в Африке. - Не может быть! Это моя мечта.',
   },
   {
     key: '3',
-    english: "No way! That's my dream. What animals did you see?",
-    russian: 'Не может быть! Это моя мечта. Каких животных вы видели?',
+    english: "What animals did you see? - Everything! Lions, zebras, giraffes. ",
+    russian: 'Каких животных вы видели? - Всех! Львов, зебр, жирафов.',
   },
   {
     key: '4',
-    english: 'Everything! Lions, zebras, giraffes. We drove in a special car, very close to them.',
-    russian: 'Всех! Львов, зебр, жирафов. Мы ехали на специальной машине, очень близко к ним.',
+    english: 'We drove in a special car, very close to them.',
+    russian: 'Мы ехали на специальной машине, очень близко к ним.',
   },
   {
     key: '5',
-    english: 'Were you scared of the lions?',
-    russian: 'Тебе было страшно перед львами?',
+    english: 'Were you scared of the lions? - A little bit!',
+    russian: 'Тебе было страшно перед львами? - Немного!',
   },
   {
     key: '6',
-    english: "A little bit! But they were sleeping under a tree. They didn't even look at us.",
-    russian: 'Немного! Но они спали под деревом. Даже не посмотрели на нас.',
+    english: "But they were sleeping under a tree. They didn't even look at us.",
+    russian: 'Но они спали под деревом. Даже не посмотрели на нас.',
   },
   {
     key: '7',
-    english: 'What about the giraffes? Could you touch them?',
-    russian: 'А жирафы? Вы могли их погладить?',
+    english: 'What about the giraffes? Could you touch them? - No, we could not touch them. ',
+    russian: 'А жирафы? Вы могли их погладить? - Нет, мы не могли их трогать.',
   },
   {
     key: '8',
-    english: "No, we couldn't touch them. But one giraffe came very close to our car. I took a great photo.",
-    russian: 'Нет, мы не могли их трогать. Но один жираф подошел очень близко к машине. Я сделал отличное фото.',
+    english: "But one giraffe came very close to our car. I took a great photo.",
+    russian: 'Но один жираф подошел очень близко к машине. Я сделал отличное фото.',
   },
   {
     key: '9',
@@ -556,28 +556,28 @@ export const animal_09_01 = [
 export const animal_11 = [
   {
     key: '1',
-    english: 'Your dog is so much fun! He runs and plays all the time.',
-    russian: 'Твоя собака такая забавная! Она бегает и играет всё время.',
+    english: 'Your dog is so much fun! He runs and plays all the time. - Thanks!',
+    russian: 'Твоя собака такая забавная! Он бегает и играет всё время. - Спасибо!',
   },
   {
     key: '2',
-    english: "Thanks! But he's a lot of work. Your fish is much easier to take care of.",
-    russian: 'Спасибо! Но с ним много хлопот. Твоя рыбка гораздо проще в уходе.',
+    english: "But he's a lot of work. Your fish is much easier to take care of.",
+    russian: 'Но с ним много хлопот. Твоя рыбка гораздо проще в уходе.',
   },
   {
     key: '3',
-    english: 'Really? You think so?',
-    russian: 'Правда? Ты так думаешь?',
+    english: 'Really? You think so? - Of course! I need to walk my dog three times a day.',
+    russian: 'Правда? Ты так думаешь? - Конечно! Мне нужно гулять с собакой три раза в день. ',
   },
   {
     key: '4',
-    english: 'Of course! I need to walk my dog three times a day. You just put food in the tank.',
-    russian: 'Конечно! Мне нужно гулять с собакой три раза в день. Ты просто кладешь корм в аквариум.',
+    english: 'You just put food in the tank. - That is true.',
+    russian: 'Ты просто кладешь корм в аквариум. - Это правда',
   },
   {
     key: '5',
-    english: "That's true. But a dog is more fun to play with. My fish just swims around.",
-    russian: 'Это правда. Но с собакой играть веселее. Моя рыбка просто плавает туда-сюда.',
+    english: "But a dog is more fun to play with. My fish just swims around.",
+    russian: 'Но с собакой играть веселее. Моя рыбка просто плавает туда-сюда.',
   },
   {
     key: '6',
@@ -604,13 +604,13 @@ export const animal_11 = [
 export const animal_11_01 = [
   {
     key: '1',
-    english: 'Hello there! Welcome to the petting zoo. Would you like to go inside?',
-    russian: 'Здравствуйте! Добро пожаловать в контактный зоопарк. Хотите зайти внутрь?',
+    english: 'Hello there! Welcome to the petting zoo.',
+    russian: 'Здравствуйте! Добро пожаловать в детский (контактные) зоопарк.',
   },
   {
     key: '2',
-    english: 'Yes, please! The goats look so cute!',
-    russian: 'Да, пожалуйста! Козочки выглядят такими милыми!',
+    english: ' Would you like to go inside? - Yes, please! The goats look so cute!',
+    russian: ' Хотите зайти внутрь? - Да, пожалуйста! Козочки выглядят такими милыми!',
   },
   {
     key: '3',
@@ -619,53 +619,38 @@ export const animal_11_01 = [
   },
   {
     key: '4',
-    english: 'Listen carefully, Lucy.',
-    russian: 'Слушай внимательно, Люси.',
+    english: 'Listen carefully, Lucy. - First, please be gentle with the animals. ',
+    russian: 'Слушай внимательно, Люси. - Во-первых, пожалуйста, будь нежной с животными. ',
   },
   {
     key: '5',
-    english: "First, please be gentle with the animals. Don't pull their ears or tails.",
-    russian: 'Во-первых, пожалуйста, будь нежной с животными. Не тяни их за уши или хвосты.',
+    english: "Don't pull their ears or tails. - Okay, I won't pull.",
+    russian: 'Не тяни их за уши или хвосты. - Хорошо, я не буду тянуть.',
   },
   {
     key: '6',
-    english: "Okay, I won't pull.",
-    russian: 'Хорошо, я не буду тянуть.',
-  },
-  {
-    key: '7',
     english: 'Good girl. Second, hold out your hand flat when you give them food. Like this. See?',
     russian: 'Умница. Во-вторых, держи ладошку открытой, когда даёшь им еду. Вот так. Видишь?',
   },
   {
+    key: '7',
+    english: 'Why flat? - So they do not bite your fingers by accident.',
+    russian: 'Почему открытой? - Чтобы они случайно не укусили тебя за пальцы. ',
+  },
+  {
     key: '8',
-    english: 'Why flat?',
-    russian: 'Почему открытой?',
+    english: "They think your fingers are food! - Oh, that's smart.",
+    russian: 'Они могут подумать, что твои пальцы — это еда! - О, это умно.',
   },
   {
     key: '9',
-    english: "So they don't bite your fingers by accident. They think your fingers are food!",
-    russian: 'Чтобы они случайно не укусили тебя за пальцы. Они могут подумать, что твои пальцы — это еда!',
-  },
-  {
-    key: '10',
-    english: "Oh, that's smart.",
-    russian: 'О, это умно.',
-  },
-  {
-    key: '11',
     english: "And please don't run. The animals can get scared. Just walk slowly.",
     russian: 'И пожалуйста, не бегай. Животные могут испугаться. Просто ходи медленно.',
   },
   {
-    key: '12',
-    english: 'I understand. Can I go in now?',
-    russian: 'Я поняла. Можно мне уже зайти?',
-  },
-  {
-    key: '13',
-    english: 'Yes, have fun! The brown goat over there loves attention.',
-    russian: 'Да, повеселись! Вон та коричневая козочка любит внимание.',
+    key: '10',
+    english: 'I understand. Can I go in now? - Yes, have fun! The brown goat over there loves attention.',
+    russian: 'Я поняла. Можно мне уже зайти? - Да, повеселись! Вон та коричневая козочка любит внимание.',
   },
 ];
 
