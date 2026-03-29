@@ -4,32 +4,20 @@ import { columns } from '../../../../data/sample';
 import { memberOfFamily, appearance, character } from './vocabulary';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import {
-  family_dialogs_01,
-  family_dialogs_02,
-  family_dialogs_03,
-  family_dialogs_04,
-  family_dialogs_05,
-  family_dialogs_06,
-  family_dialogs_07,
-  family_dialogs_08,
-  family_dialogs_09,
+  relationship_dialog_01,
+  relationship_dialog_02,
+  relationship_dialog_03,
+  relationship_dialog_04
 } from './dialogs';
-import { talkingAboutSmth_08 } from '../../elementary/talkingAboutSomeone/talkingAboutSmth';
 
 const { Panel } = Collapse;
 
 export const Relationship = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(talkingAboutSmth_08, [
-    talkingAboutSmth_08,
-    family_dialogs_01,
-    family_dialogs_02,
-    family_dialogs_03,
-    family_dialogs_04,
-    family_dialogs_05,
-    family_dialogs_06,
-    family_dialogs_07,
-    family_dialogs_08,
-    family_dialogs_09,
+  const { data, currentPage, handlePageChange } = usePaginatedData(relationship_dialog_01, [
+    relationship_dialog_01,
+    relationship_dialog_02,
+    relationship_dialog_03,
+    relationship_dialog_04,
   ]);
 
   return (
@@ -88,7 +76,7 @@ export const Relationship = () => {
         <BasicTable data={data} />
         <Pagination
           currentPage={currentPage}
-          totalPages={10}
+          totalPages={4}
           onPageChange={handlePageChange}
         />
       </div>
