@@ -4,20 +4,22 @@ import { columns } from '../../../../data/sample';
 import { memberOfFamily, appearance, character } from './vocabulary';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import {
-  relationship_dialog_01,
-  relationship_dialog_02,
-  relationship_dialog_03,
-  relationship_dialog_04
+  relationship_dialog_01, relationship_dialog_02, relationship_dialog_03, 
+  relationship_dialog_04, relationship_dialog_05, relationship_dialog_06,
+  relationship_dialog_07, relationship_dialog_08, relationship_dialog_09,
+  relationship_dialog_10,
 } from './dialogs';
+import { relationship_dialog_11, relationship_dialog_12, relationship_dialog_13 } from './dialogs_2';
 
 const { Panel } = Collapse;
 
 export const Relationship = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(relationship_dialog_01, [
-    relationship_dialog_01,
-    relationship_dialog_02,
-    relationship_dialog_03,
-    relationship_dialog_04,
+    relationship_dialog_01, relationship_dialog_02, relationship_dialog_03, 
+    relationship_dialog_04, relationship_dialog_05, relationship_dialog_06,
+    relationship_dialog_07, relationship_dialog_08, relationship_dialog_09,
+    relationship_dialog_10, relationship_dialog_11, relationship_dialog_12,
+    relationship_dialog_13
   ]);
 
   return (
@@ -76,7 +78,7 @@ export const Relationship = () => {
         <BasicTable data={data} />
         <Pagination
           currentPage={currentPage}
-          totalPages={4}
+          totalPages={10}
           onPageChange={handlePageChange}
         />
       </div>
