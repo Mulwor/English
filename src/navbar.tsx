@@ -5,93 +5,93 @@ import type { MenuProps } from 'antd';
 type MenuItem = Required<MenuProps>['items'][number];
 
 const items: MenuItem[] = [
-  {
-    key: 'S-01',
-    label: 'A1 (Beginner - elementary)',
-    children: [
-      // ! Beginner and elementary
-      {
-        key: 'S-01-1',
-        label: <Link to='/beginner-and-elementary/speaking/greeting'>Greeting</Link>,
-      },
-      {
-        key: 'S-01-2',
-        label: <Link to='/beginner-and-elementary/speaking/numbers'>Numbers</Link>,
-      },
-      {
-        key: 'S-01-3',
-        label: <Link to='/beginner-and-elementary/speaking/time'>Time</Link>,
-      },
-      {
-        key: 'S-01-4',
-        label: <Link to='/beginner-and-elementary/speaking/countries'>Countries</Link>,
-      },
-      {
-        key: 'S-01-5',
-        label: <Link to='/beginner-and-elementary/speaking/colors'>Colors</Link>,
-      },
-      {
-        key: 'S-01-6',
-        label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes</Link>,
-      },
-      {
-        key: 'S-01-7',
-        label: <Link to='/beginner-and-elementary/speaking/weather'>Weather</Link>,
-      },
-      {
-        key: 'S-01-8',
-        label: <Link to='/beginner-and-elementary/speaking/jobs'>Jobs</Link>,
-      },
-      {
-        key: 'S-01-9',
-        label: <Link to='/beginner-and-elementary/speaking/money'>Money</Link>,
-      },
-      {
-        key: 'S-01-10',
-        label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping</Link>,
-      },
-      {
-        key: 'S-01-11',
-        label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,
-      },
-      {
-        key: 'S-01-12',
-        label: <Link to='/beginner-and-elementary/speaking/hobbies'>Hobbies</Link>,
-      },
-      {
-        key: 'S-01-13',
-        label: <Link to='/beginner-and-elementary/speaking/music-and-films'>Music and films</Link>,
-      },
-      {
-        key: 'S-01-14',
-        label: <Link to='/beginner-and-elementary/speaking/sport-and-fitness'>Sports and fitness</Link>,
-      },
-      {
-        key: 'S-01-15',
-        label: <Link to='/beginner-and-elementary/speaking/daily-routine'>Daily routine</Link>,
-      },
-      {
-        key: 'S-01-16',
-        label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link>,
-      },
-      {
-        key: 'S-01-17',
-        label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link>,
-      },
-      {
-        key: 'S-01-18',
-        label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
-      },
-      {
-        key: 'S-01-19',
-        label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link>,
-      },
-      {
-        key: 'S-01-20',
-        label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link>,
-      },
-    ],
-  },
+  // {
+  //   key: 'S-01',
+  //   label: 'A1 (Beginner - elementary)',
+  //   children: [
+  //     // ! Beginner and elementary
+  //     {
+  //       key: 'S-01-1',
+  //       label: <Link to='/beginner-and-elementary/speaking/greeting'>Greeting</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-2',
+  //       label: <Link to='/beginner-and-elementary/speaking/numbers'>Numbers</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-3',
+  //       label: <Link to='/beginner-and-elementary/speaking/time'>Time</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-4',
+  //       label: <Link to='/beginner-and-elementary/speaking/countries'>Countries</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-5',
+  //       label: <Link to='/beginner-and-elementary/speaking/colors'>Colors</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-6',
+  //       label: <Link to='/beginner-and-elementary/speaking/clothing'>Clothes</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-7',
+  //       label: <Link to='/beginner-and-elementary/speaking/weather'>Weather</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-8',
+  //       label: <Link to='/beginner-and-elementary/speaking/jobs'>Jobs</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-9',
+  //       label: <Link to='/beginner-and-elementary/speaking/money'>Money</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-10',
+  //       label: <Link to='/beginner-and-elementary/speaking/shopping'>Shopping</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-11',
+  //       label: <Link to='/beginner-and-elementary/speaking/food-and-drinks'>Food and drinks</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-12',
+  //       label: <Link to='/beginner-and-elementary/speaking/hobbies'>Hobbies</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-13',
+  //       label: <Link to='/beginner-and-elementary/speaking/music-and-films'>Music and films</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-14',
+  //       label: <Link to='/beginner-and-elementary/speaking/sport-and-fitness'>Sports and fitness</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-15',
+  //       label: <Link to='/beginner-and-elementary/speaking/daily-routine'>Daily routine</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-16',
+  //       label: <Link to='/beginner-and-elementary/speaking/describing-a-person'>Describing a person</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-17',
+  //       label: <Link to='/beginner-and-elementary/speaking/house-and-furniture'>Houses and furniture</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-18',
+  //       label: <Link to='/beginner-and-elementary/speaking/holidays'>Holidays</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-19',
+  //       label: <Link to='/beginner-and-elementary/speaking/travel'>Travel</Link>,
+  //     },
+  //     {
+  //       key: 'S-01-20',
+  //       label: <Link to='/beginner-and-elementary/speaking/hotel'>Hotel</Link>,
+  //     },
+  //   ],
+  // },
   {
     key: 'S-02',
     label: 'A2 (Pre-intermediate)',
@@ -156,12 +156,15 @@ const items: MenuItem[] = [
         key: 'S-02-14',
         label: <Link to='/pre-intermediate/speaking/education'>Education</Link>,
       },
-      {
-        key: 'S-02-18',
-        label: <Link to='/pre-intermediate/speaking/phrasal-verbs'>Phrasal verbs</Link>,
-      },
     ],
   },
+  {
+    key: 'G',
+    label: 'Grammar',
+    children: [
+      { key: 'G-02-01', label: <Link to='/grammar/phrasal-verbs'>Phrasal verbs</Link> }
+    ]
+  }
   // {
   //   key: 'S-03',
   //   label: 'B1 (Intermediate)',

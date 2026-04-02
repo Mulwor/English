@@ -32,7 +32,6 @@ s,
 samp,
 small,
 strike,
-strong,
 sub,
 sup,
 tt,
@@ -237,4 +236,13 @@ a:visited {
 .accordion-link:hover {
   background-color: #f8f9fa;
   color: #0056b3;
+}
+
+ul,
+ol {
+  list-style: square !important;
+}
+
+li {
+  padding-left: 1rem;
 }

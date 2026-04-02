@@ -36,6 +36,7 @@ import {
 } from './skills/speaking/pre-intermediate';
 import { AllPhrasalVerbs } from './skills/speaking/phrasal-verbs/AllPhrasalVerbs';
 import { HolidaysAndTravelling } from './skills/speaking/pre-intermediate/holidays/Holidays';
+import { PhrasalVerbs } from './skills/grammar/phrasalVerbs/PhrasalVerbs';
 
 const Layout = () => (
   <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -150,6 +151,7 @@ export const router = createBrowserRouter([
     children: [
       { path: 'pronouns', element: <Pronouns /> },
       { path: 'nouns', element: <Nouns /> },
+      { path: 'phrasal-verbs', element: <PhrasalVerbs /> },
       { path: 'to-be', element: <div>В процессе</div> },
       { path: 'articles', element: <div>Articles: a/an, the, no article</div> },
       { path: 'quantifiers', element: <div>any, some, few, a lot of, a piece of</div> },
