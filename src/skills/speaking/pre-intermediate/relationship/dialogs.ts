@@ -26,13 +26,13 @@ export const relationship_dialog_01 = [
   },
   {
     key: '6',
-    english: 'Cats are great! So, what do you want to do in the future - I want to be a travel blogger. I love visiting new places.?',
+    english: 'Cats are great! So, what do you want to do in the future? - I want to be a travel blogger. I love visiting new places.',
     russian: 'Коты замечательные! А чем ты хочешь заниматься в будущем? - Я хочу стать тревел-блогером. Я люблю посещать новые места.',
   },
   {
     key: '7',
     english: 'I want to be a photographer. - Wow! Maybe one day we can work together! - That would be awesome!',
-    russian: 'Звучит здорово! А я хочу стать фотографом. - Вау! Может, однажды мы сможем работать вместе! - Это было бы потрясающе!',
+    russian: 'А я хочу стать фотографом. - Вау! Может, однажды мы сможем работать вместе! - Это было бы потрясающе!',
   },
   {
     key: '8',
@@ -349,7 +349,7 @@ export const relationship_dialog_05 = [
   {
     key: '9',
     english: 'Do you spend time with your brother too? - Yes, we often play video games together. Last month, we bought a new game, and we have already played it many times.',
-    russian: 'Звучит здорово. Ты тоже проводишь время с братом? - Да, мы часто играем в видеоигры вместе. В прошлом месяце мы купили новую игру и уже сыграли в неё много раз.',
+    russian: 'Ты тоже проводишь время с братом? - Да, мы часто играем в видеоигры вместе. В прошлом месяце мы купили новую игру и уже сыграли в неё много раз.',
   },
   {
     key: '10',
@@ -369,7 +369,7 @@ export const relationship_dialog_05 = [
   {
     key: '13',
     english: 'What does she look like? I have never seen her. - She has long brown hair and green eyes. ',
-    russian: 'Как она выглядит? Я никогда её не видел(а). - У нее длинные каштановые волосы и зеленые глаза.',
+    russian: 'Как она выглядит? Я никогда её не видел(а). - У нее длинные коричневые (каштановые) волосы и зеленые глаза.',
   },
   {
     key: '14',
@@ -388,8 +388,8 @@ export const relationship_dialog_05 = [
   },
   {
     key: '17',
-    english: 'Last year, she helped me a lot with my exams.- What do you usually do together?',
-    russian: 'В прошлом году она очень помогла мне с экзаменами. - Что вы обычно делаете вместе?',
+    english: 'Last year, she helped me a lot with my exams - What do you usually do together?',
+    russian: 'В прошлом году она очень помогла мне с экзаменами - Что вы обычно делаете вместе?',
   },
   {
     key: '18',
@@ -638,7 +638,7 @@ export const relationship_dialog_08 = [
   {
     key: '5',
     english: 'What do you do together? - We play games and sometimes study together. ',
-    russian: 'Что вы делаете вместе? - Мы играем и иногда вместе учимся.',
+    russian: 'Что вы делаете вместе? - Мы играем в игры и иногда вместе учимся.',
   },
   {
     key: '6',
@@ -657,13 +657,13 @@ export const relationship_dialog_08 = [
   },
   {
     key: '9',
-    english: 'That is normal in a family. It sounds like you have a strong support system.',
-    russian: 'Это нормально для семьи. Похоже, у вас крепкая поддержка друг друга.',
+    english: 'That is normal in a family. - Exactly!',
+    russian: 'Это нормально для семьи. - Именно!',
   },
   {
     key: '10',
-    english: 'Exactly! I cannot imagine my life without them. We might have our differences, but we always have each other\'s backs.',
-    russian: 'Именно! Я не могу представить свою жизнь без них. У нас могут быть разногласия, но мы всегда прикрываем друг друга.',
+    english: 'I cannot imagine my life without them. We might have our differences, but we always have each other\'s backs.',
+    russian: 'Я не могу представить свою жизнь без них. У нас могут быть разногласия, но мы всегда прикрываем друг друга.',
   },
   {
     key: '11',
@@ -708,7 +708,7 @@ export const relationship_dialog_08 = [
   {
     key: '19',
     english: 'What do you usually do together? - We play basketball and hang out after school. ',
-    russian: 'Что вы обычно делаете вместе? - Мы играем в баскетбол и проводим время после школы. ',
+    russian: 'Что вы обычно делаете вместе? - Мы играем в баскетбол и тусуемся (проводим время) после школы. ',
   },
   {
     key: '20',
@@ -741,7 +741,7 @@ export const relationship_dialog_09 = [
   {
     key: '3',
     english: 'Do you still talk to your grandma? - Yes, we video call her every weekend. ',
-    russian: 'Ты всё ещё общаешься с бабушкой? - Да, мы созваниваемся с ней по видео каждые выходные.',
+    russian: 'Ты всё ещё общаешься с бабушкой? - Да, мы созваниваемся (видео-звонок) с ней каждые выходные.',
   },
   {
     key: '4',
@@ -775,13 +775,13 @@ export const relationship_dialog_09 = [
   },
   {
     key: '10',
-    english: 'That is a great way to spend time. It sounds like you really enjoy each other\'s company.',
-    russian: 'Это отличный способ провести время. Похоже, вам действительно нравится быть вместе.',
+    english: 'That is a great way to spend time.',
+    russian: 'Это отличный способ провести время.',
   },
   {
     key: '11',
-    english: 'Yes, I really enjoy family time. I have always believed that spending time with family is the most important thing in life.',
-    russian: 'Да, мне очень нравится проводить время с семьёй. Я всегда считал(а), что время, проведенное с семьей, — это самое важное в жизни.',
+    english: 'I have always believed that spending time with family is the most important thing in life.',
+    russian: 'Я всегда считал(а), что время, проведенное с семьей, — это самое важное в жизни.',
   },
   {
     key: '12',
@@ -796,7 +796,7 @@ export const relationship_dialog_09 = [
   {
     key: '14',
     english: 'Yes, I have a younger sister. She is still at school — she is in her final year now. She has already started preparing for her university entrance exams.',
-    russian: 'Да, у меня есть младшая сестра. Она ещё учится в школе — сейчас она в выпускном классе. Она уже начала готовиться к вступительным экзаменам в университет.',
+    russian: 'Да, у меня есть младшая сестра. Она ещё (учится) в школе — сейчас она в выпускном классе. Она уже начала готовиться к вступительным экзаменам в университет.',
   },
   {
     key: '15',
@@ -933,12 +933,12 @@ export const relationship_dialog_10 = [
   },
   {
     key: '17',
-    english: 'Yes, my mother is a teacher, and she works at a nearby school.',
-    russian: 'Да, моя мама учитель и работает в школе неподалёку. Она работает там уже почти пятнадцать лет',
+    english: 'Yes, my mother is a teacher, and she works at a nearby school. - She has been teaching there for almost fifteen years.',
+    russian: 'Да, моя мама учитель и работает в школе неподалёку. - Она преподает там уже почти пятнадцать лет',
   },
   {
     key: '18',
-    english: 'She has been teaching there for almost fifteen years. She loves her students, but sometimes she brings work home and stays up late grading papers.',
+    english: 'She loves her students, but sometimes she brings work home and stays up late grading papers.',
     russian: 'Она любит своих учеников, но иногда она приносит работу домой и допоздна проверяет тетради.'
   },
   {

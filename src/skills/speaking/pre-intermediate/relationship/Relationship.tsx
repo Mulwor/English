@@ -9,7 +9,6 @@ import {
   relationship_dialog_07, relationship_dialog_08, relationship_dialog_09,
   relationship_dialog_10,
 } from './dialogs';
-import { relationship_dialog_11, relationship_dialog_12, relationship_dialog_13 } from './dialogs_2';
 
 const { Panel } = Collapse;
 
@@ -18,8 +17,7 @@ export const Relationship = () => {
     relationship_dialog_01, relationship_dialog_02, relationship_dialog_03, 
     relationship_dialog_04, relationship_dialog_05, relationship_dialog_06,
     relationship_dialog_07, relationship_dialog_08, relationship_dialog_09,
-    relationship_dialog_10, relationship_dialog_11, relationship_dialog_12,
-    relationship_dialog_13
+    relationship_dialog_10
   ]);
 
   return (

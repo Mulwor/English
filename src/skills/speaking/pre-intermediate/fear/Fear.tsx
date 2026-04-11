@@ -4,48 +4,28 @@ import { columns } from '../../../../data/sample';
 import { fearsAndPhobias } from './vocab';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import {
-  fears_01,
-  fears_02,
-  fears_03,
-  fears_04,
-  fears_05,
-  fears_06,
+  fears_dialog_01,
+  fears_dialog_02,
   fears_07,
-  fears_08,
   fears_09,
-  fears_10,
-  fears_11,
-  fears_12,
-  fears_13,
-  fears_14,
-  fears_15,
-  fears_16,
-  fears_17,
-  fears_18,
+    fears_11,
+    fears_13,
+    fears_15,
+    fears_17,
 } from './dialogs';
 
 const { Panel } = Collapse;
 
 export const FearsAndPhobias = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(fears_01, [
-    fears_01,
-    fears_02,
-    fears_03,
-    fears_04,
-    fears_05,
-    fears_06,
+  const { data, currentPage, handlePageChange } = usePaginatedData(fears_dialog_01, [
+    fears_dialog_01,
+    fears_dialog_02,
     fears_07,
-    fears_08,
     fears_09,
-    fears_10,
     fears_11,
-    fears_12,
     fears_13,
-    fears_14,
     fears_15,
-    fears_16,
     fears_17,
-    fears_18,
   ]);
 
   return (
@@ -81,7 +61,7 @@ export const FearsAndPhobias = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={18}
+        totalPages={8}
         onPageChange={handlePageChange}
       />
     </>

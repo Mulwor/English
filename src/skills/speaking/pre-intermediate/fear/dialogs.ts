@@ -1,841 +1,301 @@
-// Dialogue 1: Afraid of Spiders (Боязнь пауков)
-// Characters: Two roommates, Emma and Lucy. Emma sees a spider.
-
-// Emma: AAAAAHHHH! LUCY! COME QUICK!
-// Lucy: Runs into the room What happened? Are you okay?
-// Emma: There's a spider! Over there, on the wall! It's huge!
-// Lucy: Looks That little thing? It's so small. I can barely see it.
-// Emma: Small? It's enormous! I hate spiders. I'm really scared of them.
-// Lucy: Why? It's just a tiny spider. It can't hurt you.
-// Emma: I know it's silly, but I can't help it. My heart is beating so fast.
-// Lucy: Okay, calm down. I'll take care of it. Where's a glass?
-// Emma: In the kitchen, top cupboard. Please be careful!
-// Lucy: Don't worry. Catches spider See? Easy. I'll put it outside.
-// Emma: Thank you so much. You're my hero. I couldn't sleep if it was still there.
-// Lucy: No problem. You know, my brother is scared of spiders too. It's very common.
-// Emma: Really? I thought I was the only one. Everyone laughs at me.
-// Lucy: Lots of people are afraid of spiders. It's called arachnophobia.
-// Emma: Arachnophobia. That's the fancy word for it. Well, I definitely have that!
-
-// Dialogue 2: Fear of Flying (Боязнь полетов)
-// Characters: Two friends, Mark and Sarah. Sarah is going on a trip.
-
-// Mark: So, are you excited about your vacation? Italy sounds amazing!
-// Sarah: I am excited, but also really nervous. I hate the flight.
-// Mark: Oh no, are you scared of flying?
-// Sarah: Terrified. The plane could crash, or there could be turbulence... I hate it all.
-// Mark: I understand. My mom is the same. But flying is actually very safe.
-// Sarah: I know, I know. Everyone tells me that. But my brain doesn't believe it.
-// Mark: How long is the flight?
-// Sarah: Only two hours. But two hours of fear feels like forever.
-// Mark: Do you have anything to help? Like medicine or music?
-// Sarah: I downloaded movies on my tablet. And I have gum to chew during takeoff.
-// Mark: Good idea. Also, tell the flight attendant. They can help if you panic.
-// Sarah: Really? They won't think I'm stupid?
-// Mark: No, they deal with scared passengers all the time. It's their job.
-// Sarah: That's actually really good advice. Thanks, Mark.
-// Mark: You'll be fine. Just think about the pizza and gelato waiting for you in Italy!
-// Sarah: Haha, that helps! Okay, I'm a little less scared now.
-
-// Dialogue 3: Afraid of the Dark (Боязнь темноты)
-// Characters: Mom and her 8-year-old son, Leo, at bedtime
-
-// Mom: Okay Leo, time for bed. Go brush your teeth and put your pajamas on.
-// Leo: Mom... can you leave the hallway light on tonight?
-// Mom: Again? Leo, you're 8 years old now. Why are you still scared of the dark?
-// Leo: I don't know. When the light is off, I see shadows. They look like monsters.
-// Mom: There are no monsters, sweetie. You know that. It's just your imagination.
-// Leo: I know, but I still feel scared. Can you check under my bed?
-// Mom: Looks under bed See? No monsters. Just your old toys.
-// Leo: What about the closet? Can you open it?
-// Mom: Opens closet Empty. Just clothes. See? Nothing to be afraid of.
-// Leo: Okay... but can you leave the door open a little?
-// Mom: Fine. I'll leave it open. And your night light is on, right?
-// Leo: Yes, it's on. It helps a little.
-// Mom: Good. Now close your eyes and think about happy things. Like puppies or ice cream.
-// Leo: Okay. Goodnight, Mom. I love you.
-// Mom: Goodnight, my brave boy. I love you too. Sleep well.
-
-// Dialogue 4: Scared of Public Speaking (Боязнь публичных выступлений)
-// Characters: Two classmates, Tom and Anna, before a presentation
-
-// Tom: Anna, I think I'm going to be sick. My stomach hurts so bad.
-// Anna: Oh no! Is it something you ate?
-// Tom: No, it's the presentation. I have to speak in front of the whole class in 10 minutes.
-// Anna: Are you nervous? You look really pale.
-// Tom: Nervous is an understatement. I'm terrified. I hate public speaking.
-// Anna: Lots of people do. It's very common. Just pretend everyone is in their underwear!
-// Tom: That's a stupid tip. That would make me more nervous!
-// Anna: Haha, okay, bad idea. Just focus on me. Look at me the whole time.
-// Tom: Really? I can just look at you?
-// Anna: Yes. I'll sit in the front row. Pretend you're just talking to me, not the whole class.
-// Tom: That might actually work. You won't laugh at me if I make a mistake?
-// Anna: Of course not! And no one else will laugh either. Everyone is nervous for their own turn.
-// Tom: You're right. Okay, take deep breaths. In... out... in... out.
-// Anna: That's it. You know your topic. You practiced a lot. You'll be fine.
-// Tom: Thanks, Anna. You're a good friend. I think I can do this now.
-// Anna: Of course you can! Now go up there and show them what you've got!
-
-// Dialogue 5: Fear of Dogs (Боязнь собак)
-// Characters: Two friends, Maria and David, walking in the park
-
-// Maria: Oh no... David, look. There's a big dog coming. And no leash!
-// David: Where? Oh, that golden retriever? He looks friendly.
-// Maria: I don't care. I'm scared of dogs. Even friendly ones.
-// David: Really? Why?
-// Maria: When I was little, a dog jumped on me and knocked me down. I was so scared.
-// David: Oh, I'm sorry. That makes sense. But this dog looks very calm.
-// Maria: I know it's probably fine. But my heart is racing. What should I do?
-// David: Just stand still. Don't run. Dogs love to chase things that run.
-// Maria: Okay, I won't run. What if he comes to me?
-// David: Then just let him sniff you. Hold out your hand like this. See? Let him smell you.
-// Maria: Scared I don't know if I can.
-// David: The owner is coming. See? He's calling the dog. It's okay.
-// Owner: Sorry! He got away from me. He's friendly, don't worry.
-// Maria: It's okay. I'm just a little scared of dogs.
-// Owner: Oh, I understand. Max, come here. Sorry again!
-// David: See? It's fine. You did great. You didn't panic.
-// Maria: My hands are shaking, but I'm okay. Thanks for helping me.
-
-// Dialogue 6: Afraid of Heights (Боязнь высоты)
-// Characters: Two friends, Jake and Emily, at a shopping mall with a glass elevator
-
-// Jake: Let's take the elevator. It's faster.
-// Emily: Not the glass one! Please, let's take the stairs.
-// Jake: Why? The glass elevator is cool. You can see the whole mall.
-// Emily: That's exactly the problem. I can see the whole mall... from way up high.
-// Jake: Oh, are you scared of heights?
-// Emily: Very scared. Even thinking about it makes me dizzy.
-// Jake: But we're only going to the third floor. That's not even high.
-// Emily: It's high enough for me. I'll wait here. You go. I'll take the stairs.
-// Jake: Come on, Emily. Face your fear! I'll hold your hand.
-// Emily: No way. Absolutely not. I can't.
-// Jake: Just try. One floor. If you don't like it, we'll never take it again.
-// Emily: Thinks... Okay, fine. But you have to hold my hand the whole time.
-// Jake: Deal! Let's go.
-// In the elevator
-// Emily: Oh my god. Oh my god. Don't look down. Don't look down.
-// Jake: Look at me. Just look at me. See? We're almost there.
-// Emily: Doors open We made it! I can't believe it. My legs are shaking.
-// Jake: You did it! See? It wasn't so bad.
-// Emily: It was terrible. But I did it. Okay, never again. Stairs from now on!
-
-// Dialogue 7: Scared of Thunder (Боязнь грозы)
-// Characters: Two roommates, Rachel and Ben, during a storm at night
-
-// Rachel: Loud thunder AHHH! Jumps
-// Ben: Whoa! Rachel, you scared me! What's wrong?
-// Rachel: Sorry, sorry. It's just the thunder. I hate thunderstorms.
-// Ben: Really? I love them. They're so cozy. Rain and thunder... perfect sleeping weather.
-// Rachel: Not for me. When I was a kid, a tree near my house got hit by lightning. I was so scared.
-// Ben: Oh wow, that's actually scary. I understand why you're afraid.
-// Rachel: More thunder See? Every time it thunders, I remember that night.
-// Ben: Do you want to watch TV? It might distract you.
-// Rachel: Good idea. Something funny. Not a horror movie!
-// Ben: Haha, don't worry. Let's put on a comedy show.
-// Rachel: Thanks, Ben. You're nice to stay with me.
-// Ben: No problem. Also, did you know? You can count the seconds between lightning and thunder?
-// Rachel: Why?
-// Ben: To know how far the storm is. Five seconds = one mile.
-// Rachel: Really? Okay, let's try. Lightning One... two... three... Thunder
-// Ben: Three seconds. That's pretty close. About half a mile.
-// Rachel: That's actually interesting. It makes it less scary somehow.
-// Ben: See? Science helps with fear. Now let's watch TV and forget about the storm.
-// Rachel: Sounds perfect. Thanks for being a good roommate.
-
-// Dialogue 8: Fear of Needles (Боязнь уколов)
-// Characters: Two friends, Chris and Anna, at a clinic. Chris needs a shot.
-
-// Chris: I can't do this. I'm leaving.
-// Anna: What? Chris, we've been waiting for an hour. Your name is next!
-// Chris: I don't care. I can't get a shot. I'm terrified of needles.
-// Anna: Really? But it's just a small pinch. It's over in seconds.
-// Chris: I know it's silly. But when I see the needle, I feel like I'm going to faint.
-// Anna: Oh no. Have you always been like this?
-// Chris: Yes, since I was a kid. My mom had to hold me down for shots.
-// Anna: Okay, don't panic. Look away. Don't watch.
-// Chris: I try, but I always look. It's like I can't help it.
-// Anna: Close your eyes. And squeeze my hand really hard. Think about something else.
-// Nurse: Chris? We're ready for you.
-// Chris: Panicking Oh no. Oh no. Here we go.
-// Anna: I'll come with you. I'll hold your hand and talk to you. Okay?
-// Chris: Okay. Don't let go.
-// In the room
-// Anna: Look at me, Chris. Don't look at the nurse. Tell me about your vacation plans.
-// Chris: I'm... I'm going to the beach next month.
-// Anna: Nice! Which beach?
-// Chris: Feels pinch OW! Is it done?
-// Nurse: All done! You were very brave.
-// Chris: That's it? It wasn't that bad.
-// Anna: See? You did it! I'm proud of you.
-// Chris: Thanks, Anna. I couldn't have done it without you.
-
-// Dialogue 9: Afraid of Failure (Боязнь неудачи)
-// Characters: Two students, Maria and David, talking before an important exam
-
-// Maria: I'm so stressed about tomorrow's exam. I can't sleep, I can't eat.
-// David: You? But you're the best student in class. You always get As.
-// Maria: That's the problem. Everyone expects me to do well. What if I fail?
-// David: You won't fail. You studied so much. You know everything.
-// Maria: But what if the questions are hard? What if my mind goes blank?
-// David: That's just fear talking. You're afraid of failure. It's normal.
-// Maria: Is it? I feel like I'm going to be sick.
-// David: Lots of people feel this way before big exams. It's called atychiphobia.
-// Maria: Atychi-what?
-// David: Fear of failure. My brother has it. He almost didn't take his driving test.
-// Maria: Really? What did he do?
-// David: He talked to a counselor. She said to think: what's the worst that can happen?
-// Maria: The worst? I fail the exam.
-// David: And then? Do you die? Does your life end?
-// Maria: No... I just take it again.
-// David: Exactly. Failing is not the end of the world. It's just a learning experience.
-// Maria: That actually helps. So if I fail, I try again. No big deal.
-// David: Right. But you won't fail. You're ready. Just do your best.
-// Maria: Thanks, David. I feel much better now.
-
-// Dialogue 10: Scared of the Dentist (Боязнь стоматолога)
-// Characters: Two colleagues, Tom and Lisa, at work
-
-// Tom: You look sad today. Everything okay?
-// Lisa: I have a dentist appointment after work. I'm dreading it.
-// Tom: Oh no, are you scared of the dentist?
-// Lisa: Terrified. The sounds, the smells, the tools... I hate it all.
-// Tom: I used to be scared too. But I found a nice dentist. She's very gentle.
-// Lisa: My dentist is okay. But the drill sound makes me want to run away.
-// Tom: Do you have a cavity or just a check-up?
-// Lisa: A check-up. But last time they found two cavities. I'm scared they'll find more.
-// Tom: The more you go, the less they find. Regular check-ups prevent problems.
-// Lisa: I know. But knowing that doesn't help my fear.
-// Tom: Ask them to explain everything before they do it. That helps me.
-// Lisa: Really?
-// Tom: Yes. When I know what's coming, I'm less scared. And bring headphones. Listen to music.
-// Lisa: That's a great idea. I'll download my favorite playlist.
-// Tom: And remember: it's only 30 minutes. Then it's over and you get a sticker!
-// Lisa: Haha, a sticker? I'm not 5 years old!
-// Tom: My dentist gives stickers to adults too. It's silly but it makes me happy.
-// Lisa: Okay, you made me smile. Thanks, Tom. I feel a little better.
-
-// Dialogue 11: Fear of Water (Боязнь воды)
-// Characters: Two friends, Mike and Sarah, at a swimming pool
-
-// Mike: Come on, Sarah! The water is perfect. Get in!
-// Sarah: I... I don't think I can. I'm scared.
-// Mike: Scared of what? The water is clean and warm. It's not deep here.
-// Sarah: I never learned to swim. When I was a kid, I almost drowned in a pool.
-// Mike: Oh no, that's terrible. I'm sorry. I understand why you're scared.
-// Sarah: Everyone says swimming is fun, but I just panic in water.
-// Mike: Do you want to try? Just in the shallow end? I'll hold your hand.
-// Sarah: I don't know...
-// Mike: We'll go slowly. Just sit on the edge and put your feet in first.
-// Sarah: Puts feet in Okay. That's not so bad.
-// Mike: Good! Now, I'll stand next to you. Just hold the edge and go down one step.
-// Sarah: Goes down one step Water is up to my waist now. My heart is beating fast.
-// Mike: You're doing great. Just breathe. In and out. Feel the water.
-// Sarah: It's... actually nice. Warm.
-// Mike: See? You're in the water and you're safe. I'm right here.
-// Sarah: This is the first time I've been in a pool in 10 years.
-// Mike: I'm so proud of you. Maybe one day you can take swimming lessons?
-// Sarah: Maybe. For now, this is enough. Thank you, Mike. You're very patient.
-// Mike: That's what friends are for!
-
-// Dialogue 12: Afraid of Being Alone (Боязнь одиночества)
-// Characters: Two friends, Anna and Kate, talking on the phone at night
-
-// Anna: Hey Kate, are you busy? Can we talk?
-// Kate: Hi Anna! No, I'm not busy. Just watching TV. What's up?
-// Anna: My roommate is away for the weekend. I'm alone in the apartment and I can't sleep.
-// Kate: Oh no! Are you scared of being alone?
-// Anna: A little. Every little noise makes me jump. I hear things and think someone is there.
-// Kate: That's scary. I don't like being alone at night either.
-// Anna: Really? I thought I was the only one.
-// Kate: No, lots of people don't like being alone. It's normal. We're social animals.
-// Anna: What do you do when you feel scared?
-// Kate: I put on a TV show. Something funny. The voices make me feel less alone.
-// Anna: Good idea. I have the TV on, but it's a horror movie. Bad choice!
-// Kate: Haha, definitely bad choice! Change it to a comedy right now.
-// Anna: Okay, changing now. Also, I checked all the locks three times.
-// Kate: Good. You're safe. Nothing will happen. And I'm just a phone call away.
-// Anna: Thanks, Kate. Just hearing your voice helps.
-// Kate: Do you want me to stay on the phone until you fall asleep?
-// Anna: Would you? I don't want to be annoying.
-// Kate: Not annoying at all. I'll talk to you until you're sleepy. Tell me about your day.
-// Anna: Okay... Well, today at work...
-// They talk until Anna falls asleep
-
-// Dialogue 13: Scared of Change (Боязнь перемен)
-// Characters: Two friends, Rachel and Ben. Rachel is moving to a new city.
-
-// Rachel: Ben, I'm so nervous about the move. I can't sleep, I can't eat.
-// Ben: Moving is stressful, but it's also exciting! New city, new job, new friends.
-// Rachel: That's what scares me. New everything. I hate change.
-// Ben: Is it the change itself, or leaving things behind?
-// Rachel: Both. I'm scared I won't make new friends. I'm scared I'll be lonely.
-// Ben: You're so friendly! You make friends everywhere. Remember when we met?
-// Rachel: At that party, right? You talked to me first.
-// Ben: Yes, because you looked nice. And we became best friends. It will happen again.
-// Rachel: But what if my new job is terrible? What if I hate the city?
-// Ben: Then you come back. It's not forever. It's an adventure.
-// Rachel: My mom says the same thing. "It's an adventure." But I'm still scared.
-// Ben: Fear of change is normal. It's called metathesiophobia, I think.
-// Rachel: There's a name for everything, isn't there?
-// Ben: Yes! But think about it: every good thing in your life started with change.
-// Rachel: Like what?
-// Ben: Like going to university. That was scary, but you met me and other friends.
-// Rachel: That's true. I was so scared on the first day of university.
-// Ben: And look at you now. You survived. You thrived. You'll do it again.
-// Rachel: Thanks, Ben. You always know what to say. I feel a little braver now.
-// Ben: Good! Now let's plan your goodbye party!
-
-// Dialogue 14: Fear of Rejection (Боязнь отказа)
-// Characters: Two teenagers, Emma and Jake, at school
-
-// Emma: Jake, can I ask you something? About boys?
-// Jake: Sure, I'll try to help. What's up?
-// Emma: There's this boy in my math class. I really like him. I want to ask him out.
-// Jake: So? Just ask him. What's the problem?
-// Emma: What if he says no? I would be so embarrassed.
-// Jake: Ah, you're scared of rejection. That's normal.
-// Emma: Is it? I feel so stupid. I think about it all the time.
-// Jake: Everyone is scared of rejection, Emma. Even me.
-// Emma: You? But you're so confident!
-// Jake: I'm confident sometimes. But when I like someone? Total mess inside.
-// Emma: Really? So what do you do?
-// Jake: I think: what's the worst that can happen? They say no. Then I'm in the same place as before.
-// Emma: That's true. If I don't ask, he definitely won't go out with me.
-// Jake: Exactly. If you ask, you have a chance. Maybe 50%. If you don't ask, 0%.
-// Emma: That's good math. I like those odds.
-// Jake: And if he says no, it's not the end of the world. There are other boys.
-// Emma: I know. But it will hurt.
-// Jake: Yes, it will hurt for a day or two. Then you move on. You're strong.
-// Emma: Okay. I'm going to do it. Tomorrow. Wish me luck!
-// Jake: Good luck! Let me know what he says.
-// Emma: I will. Thanks, Jake. You're a good friend.
-
-// Dialogue 15: Afraid of the Future (Боязнь будущего)
-// Characters: Two university students, Mark and Laura, sitting in a park
-
-// Mark: Graduation is in two months. I'm freaking out.
-// Laura: Me too. Real life is coming, and I'm not ready.
-// Mark: What are you most scared about?
-// Laura: Everything. Finding a job, paying bills, being an adult. It's terrifying.
-// Mark: Same. I don't even know what job I want. My parents keep asking me.
-// Laura: My parents say "follow your passion." But what if my passion doesn't pay?
-// Mark: Right? I love art, but I can't make money from art. Probably.
-// Laura: Maybe you can. Graphic design, advertising, teaching art...
-// Mark: That's true. There are options. I just don't know which one.
-// Laura: I'm scared of making the wrong choice. What if I choose a career and hate it?
-// Mark: Then you change it. People change careers all the time now.
-// Laura: But it's scary. Everything is uncertain.
-// Mark: Fear of the future is normal. Everyone feels it. Even confident people.
-// Laura: Do you think we'll be okay?
-// Mark: Yes. We're smart, we work hard. We'll figure it out.
-// Laura: Together? Like we figured out university together?
-// Mark: Of course. We'll complain about our jobs together over coffee.
-// Laura: Haha, deal. That makes me feel better. As long as we're not alone in this.
-// Mark: We're not. We have each other, and our families. We'll be fine.
-// Laura: Thanks, Mark. I'm still scared, but less scared now.
-// Mark: Good. Now let's enjoy our last months of being students!
-
-export const fears_01 = [
+export const fears_dialog_01 = [
   {
     key: '1',
-    english: 'AAAAHHHH! LUCY! COME QUICK!',
-    russian: 'ААААА! ЛЮСИ! ИДИ СКОРЕЕ!',
+    english: 'AAAAHHHH! LUCY! COME QUICK! => (Runs into the room) ',
+    russian: 'ААААА! ЛЮСИ! ИДИ СКОРЕЕ! => (Вбегает в комнату)',
   },
   {
     key: '2',
-    english: 'Runs into the room What happened? Are you okay?',
-    russian: 'Вбегает в комнату Что случилось? Ты в порядке?',
+    english: "What happened? Are you okay? => There's a spider! Over there, on the wall! It's huge! => (Looks) ",
+    russian: 'Что случилось? Ты в порядке? => Там паук! Вон там, на стене! Он огромный! => (Смотрит)',
   },
   {
     key: '3',
-    english: "There's a spider! Over there, on the wall! It's huge!",
-    russian: 'Там паук! Вон там, на стене! Он огромный!',
+    english: "That little thing? It's so small. I can barely see it. => Small? It's enormous! I hate spiders. I'm really scared of them.",
+    russian: "Эта маленькая штучка? Он такой маленький. Я едва вижу. => Маленький? Он огромный! Ненавижу пауков. Я очень их боюсь.",
   },
   {
     key: '4',
-    english: "Looks That little thing? It's so small. I can barely see it.",
-    russian: 'Смотрит Эта маленькая штучка? Он такой маленький. Я едва вижу.',
+    english: "Why? It's just a tiny spider. It can't hurt you. => I know it's silly, but I can't help it. ",
+    russian: 'Почему? Это просто крошечный паук. Он не может тебе навредить. => Знаю, что глупо, но ничего не могу поделать.',
   },
   {
     key: '5',
-    english: "Small? It's enormous! I hate spiders. I'm really scared of them.",
-    russian: 'Маленький? Он огромный! Ненавижу пауков. Я очень их боюсь.',
+    english: "My heart is beating so fast. => Okay, calm down. I'll take care of it. Where's a glass?",
+    russian: 'Моё сердце так быстро бьётся. => Хорошо, успокойся. Я разберусь. Где стакан?',
   },
   {
     key: '6',
-    english: "Why? It's just a tiny spider. It can't hurt you.",
-    russian: 'Почему? Это просто крошечный паук. Он не может тебе навредить.',
+    english: "In the kitchen, top cupboard. Please be careful! => Don't worry. Catches spider See? Easy. I'll put it outside.",
+    russian: 'На кухне, в верхнем шкафу. Пожалуйста, будь осторожна! => Не волнуйся. Ловит паука Видишь? Легко. Вынесу его на улицу.',
   },
   {
     key: '7',
-    english: "I know it's silly, but I can't help it. My heart is beating so fast.",
-    russian: 'Знаю, что глупо, но ничего не могу поделать. Моё сердце так быстро бьётся.',
-  },
-  {
-    key: '8',
-    english: "Okay, calm down. I'll take care of it. Where's a glass?",
-    russian: 'Хорошо, успокойся. Я разберусь. Где стакан?',
-  },
-  {
-    key: '9',
-    english: 'In the kitchen, top cupboard. Please be careful!',
-    russian: 'На кухне, в верхнем шкафу. Пожалуйста, будь осторожна!',
-  },
-  {
-    key: '10',
-    english: "Don't worry. Catches spider See? Easy. I'll put it outside.",
-    russian: 'Не волнуйся. Ловит паука Видишь? Легко. Вынесу его на улицу.',
-  },
-  {
-    key: '11',
     english: "Thank you so much. You're my hero. I couldn't sleep if it was still there.",
     russian: 'Большое спасибо. Ты мой герой. Я бы не уснула, если бы он всё ещё был там.',
   },
   {
-    key: '12',
+    key: '8',
     english: "No problem. You know, my brother is scared of spiders too. It's very common.",
     russian: 'Без проблем. Знаешь, мой брат тоже боится пауков. Это очень распространено.',
   },
   {
-    key: '13',
-    english: 'Really? I thought I was the only one. Everyone laughs at me.',
-    russian: 'Правда? Я думала, я одна такая. Все смеются надо мной.',
-  },
-  {
-    key: '14',
-    english: "Lots of people are afraid of spiders. It's called arachnophobia.",
-    russian: 'Многие люди боятся пауков. Это называется арахнофобия.',
-  },
-  {
-    key: '15',
-    english: "Arachnophobia. That's the fancy word for it. Well, I definitely have that!",
-    russian: 'Арахнофобия. Научное название. Что ж, у меня точно это!',
-  },
-];
-
-export const fears_02 = [
-  {
-    key: '1',
-    english: 'So, are you excited about your vacation? Italy sounds amazing!',
-    russian: 'Итак, ты рада отпуску? Италия звучит потрясающе!',
-  },
-  {
-    key: '2',
-    english: 'I am excited, but also really nervous. I hate the flight.',
-    russian: 'Я рада, но и очень нервничаю. Ненавижу перелёты.',
-  },
-  {
-    key: '3',
-    english: 'Oh no, are you scared of flying?',
-    russian: 'О нет, ты боишься летать?',
-  },
-  {
-    key: '4',
-    english: 'Terrified. The plane could crash, or there could be turbulence... I hate it all.',
-    russian: 'До ужаса. Самолёт может разбиться, или может быть турбулентность... Всё ненавижу.',
-  },
-  {
-    key: '5',
-    english: 'I understand. My mom is the same. But flying is actually very safe.',
-    russian: 'Понимаю. Моя мама такая же. Но летать на самом деле очень безопасно.',
-  },
-  {
-    key: '6',
-    english: "I know, I know. Everyone tells me that. But my brain doesn't believe it.",
-    russian: 'Знаю, знаю. Все мне это говорят. Но мой мозг не верит.',
-  },
-  {
-    key: '7',
-    english: 'How long is the flight?',
-    russian: 'Как долго лететь?',
-  },
-  {
-    key: '8',
-    english: 'Only two hours. But two hours of fear feels like forever.',
-    russian: 'Всего два часа. Но два часа страха кажутся вечностью.',
-  },
-  {
     key: '9',
-    english: 'Do you have anything to help? Like medicine or music?',
-    russian: 'У тебя есть что-то, что помогает? Лекарства или музыка?',
+    english: 'Really? I thought I was the only one. Everyone laughs at me. => Lots of people are afraid of spiders.',
+    russian: 'Правда? Я думала, я одна такая. Все смеются надо мной. => Многие люди боятся пауков.',
   },
   {
     key: '10',
-    english: 'I downloaded movies on my tablet. And I have gum to chew during takeoff.',
-    russian: 'Я скачала фильмы на планшет. И у меня есть жвачка, чтобы жевать во время взлёта.',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
   },
   {
     key: '11',
-    english: 'Good idea. Also, tell the flight attendant. They can help if you panic.',
-    russian: 'Хорошая идея. И ещё скажи бортпроводнику. Они могут помочь, если запаникуешь.',
+    english: 'So, are you excited about your vacation? Italy sounds amazing! => I am excited, but also really nervous. I hate the flight.',
+    russian: 'Итак, ты рада отпуску? Италия звучит потрясающе! => Я рада, но и очень нервничаю. Ненавижу перелёты.',
   },
   {
     key: '12',
-    english: "Really? They won't think I'm stupid?",
-    russian: 'Правда? Они не подумают, что я глупая?',
+    english: 'Oh no, are you scared of flying? => Terrified. The plane could crash, or there could be turbulence... I hate it all.',
+    russian: 'О нет, ты боишься летать? => До ужаса. Самолёт может разбиться, или может быть турбулентность... Всё ненавижу.',
   },
   {
     key: '13',
-    english: "No, they deal with scared passengers all the time. It's their job.",
-    russian: 'Нет, они постоянно имеют дело с испуганными пассажирами. Это их работа.',
+    english: 'I understand. My mom is the same. But flying is actually very safe. => I know, I know. Everyone tells me that. ',
+    russian: 'Понимаю. Моя мама такая же. Но летать на самом деле очень безопасно. => Знаю, знаю. Все мне это говорят.',
   },
   {
     key: '14',
-    english: "That's actually really good advice. Thanks, Mark.",
-    russian: 'Это действительно хороший совет. Спасибо, Марк.',
+    english: "But my brain doesn't believe it. => How long is the flight? - Only two hours. But two hours of fear feels like forever.",
+    russian: 'Но мой мозг не верит. => How long is the flight? - Всего два часа. Но два часа страха кажутся вечностью.',
   },
   {
     key: '15',
+    english: 'Do you have anything to help? Like medicine or music? => I downloaded movies on my tablet. And I have gum to chew during takeoff.',
+    russian: 'У тебя есть что-то, что помогает? Лекарства или музыка? => Я скачала фильмы на планшет. И у меня есть жвачка, чтобы жевать во время взлёта.',
+  },
+  {
+    key: '16',
+    english: "Good idea. Also, tell the flight attendant. They can help if you panic. => Really? They won't think I am stupid?",
+    russian: "Хорошая идея. И ещё скажи бортпроводнику. Они могут помочь, если запаникуешь. => Правда? Они не подумают, что я глупая?"
+  },
+  {
+    key: '17',
+    english: "No, they deal with scared passengers all the time. It's their job. => That's actually really good advice. Thanks, Mark.",
+    russian: 'Нет, они постоянно имеют дело с испуганными пассажирами. Это их работа. => Это действительно хороший совет. Спасибо, Марк.',
+  },
+  {
+    key: '18',
     english: "You'll be fine. Just think about the pizza and gelato waiting for you in Italy!",
     russian: 'Всё будет хорошо. Просто думай о пицце и джелато, которые ждут тебя в Италии!',
   },
   {
-    key: '16',
+    key: '19',
     english: "Haha, that helps! Okay, I'm a little less scared now.",
     russian: 'Ха-ха, это помогает! Хорошо, теперь мне немного меньше страшно.',
   },
-];
-
-export const fears_03 = [
   {
-    key: '1',
+    key: '20',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
+  },
+  {
+    key: '21',
     english: 'Okay Leo, time for bed. Go brush your teeth and put your pajamas on.',
     russian: 'Хорошо, Лео, время спать. Иди чистить зубы и надевай пижаму.',
   },
   {
-    key: '2',
-    english: 'Mom... can you leave the hallway light on tonight?',
+    key: '22',
+    english: 'Mom... can you leave the hallway light on tonight? => Again? Leo, you are 8 years old now. ',
     russian: 'Мам... можно оставить свет в коридоре включённым сегодня?',
   },
   {
-    key: '3',
-    english: "Again? Leo, you're 8 years old now. Why are you still scared of the dark?",
-    russian: 'Снова? Лео, тебе уже 8 лет. Почему ты всё ещё боишься темноты?',
+    key: '23',
+    english: "Why are you still scared of the dark? => I don't know. When the light is off, I see shadows. They look like monsters.",
+    russian: 'Почему ты всё ещё боишься темноты? => Не знаю. Когда свет выключен, я вижу тени. Они похожи на монстров.',
   },
   {
-    key: '4',
-    english: "I don't know. When the light is off, I see shadows. They look like monsters.",
-    russian: 'Не знаю. Когда свет выключен, я вижу тени. Они похожи на монстров.',
+    key: '24',
+    english: "There are no monsters, sweetie. You know that. It's just your imagination. => I know, but I still feel scared",
+    russian: 'Там нет монстров, милый. Ты знаешь это. Это просто твоё воображение. => Знаю, но мне всё равно страшно.',
   },
   {
-    key: '5',
-    english: "There are no monsters, sweetie. You know that. It's just your imagination.",
-    russian: 'Там нет монстров, милый. Ты знаешь это. Это просто твоё воображение.',
+    key: '25',
+    english: 'Can you check under my bed? => Looks under bed See? No monsters. Just your old toys.',
+    russian: 'Можешь проверить под кроватью? => Смотрит под кроватью Видишь? Никаких монстров. Просто твои старые игрушки.',
   },
   {
-    key: '6',
-    english: 'I know, but I still feel scared. Can you check under my bed?',
-    russian: 'Знаю, но мне всё равно страшно. Можешь проверить под кроватью?',
+    key: '26',
+    english: 'What about the closet? Can you open it? => Opens closet Empty. Just clothes. See? Nothing to be afraid of.',
+    russian: 'А шкаф? Можешь открыть? => Открывает шкаф Пусто. Просто одежда. Видишь? Нечего бояться.',
   },
   {
-    key: '7',
-    english: 'Looks under bed See? No monsters. Just your old toys.',
-    russian: 'Смотрит под кроватью Видишь? Никаких монстров. Просто твои старые игрушки.',
+    key: '27',
+    english: "Okay... but can you leave the door open a little? => Fine. I'll leave it open. And your night light is on, right?",
+    russian: 'Ладно... но можно оставить дверь приоткрытой? => Хорошо. Оставлю открытой. И твой ночник включён, да?',
   },
   {
-    key: '8',
-    english: 'What about the closet? Can you open it?',
-    russian: 'А шкаф? Можешь открыть?',
+    key: '28',
+    english: "Yes, it's on. It helps a little. => Good. Now close your eyes and think about happy things. Like puppies or ice cream.",
+    russian: 'Да, включён. Немного помогает. => Хорошо. Теперь закрой глаза и думай о приятных вещах. О щенках или мороженом.',
   },
   {
-    key: '9',
-    english: 'Opens closet Empty. Just clothes. See? Nothing to be afraid of.',
-    russian: 'Открывает шкаф Пусто. Просто одежда. Видишь? Нечего бояться.',
-  },
-  {
-    key: '10',
-    english: 'Okay... but can you leave the door open a little?',
-    russian: 'Ладно... но можно оставить дверь приоткрытой?',
-  },
-  {
-    key: '11',
-    english: "Fine. I'll leave it open. And your night light is on, right?",
-    russian: 'Хорошо. Оставлю открытой. И твой ночник включён, да?',
-  },
-  {
-    key: '12',
-    english: "Yes, it's on. It helps a little.",
-    russian: 'Да, включён. Немного помогает.',
-  },
-  {
-    key: '13',
-    english: 'Good. Now close your eyes and think about happy things. Like puppies or ice cream.',
-    russian: 'Хорошо. Теперь закрой глаза и думай о приятных вещах. О щенках или мороженом.',
-  },
-  {
-    key: '14',
-    english: 'Okay. Goodnight, Mom. I love you.',
-    russian: 'Хорошо. Спокойной ночи, мам. Я люблю тебя.',
-  },
-  {
-    key: '15',
-    english: 'Goodnight, my brave boy. I love you too. Sleep well.',
-    russian: 'Спокойной ночи, мой храбрый мальчик. Я тоже тебя люблю. Спи хорошо.',
+    key: '29',
+    english: 'Okay. Goodnight, Mom. I love you. => Goodnight, my brave boy. I love you too. Sleep well.',
+    russian: 'Хорошо. Спокойной ночи, мам. Я люблю тебя. => Спокойной ночи, мой храбрый мальчик. Я тоже тебя люблю. Спи хорошо.',
   },
 ];
 
-export const fears_04 = [
+export const fears_dialog_02 = [
   {
     key: '1',
-    english: "Anna, I think I'm going to be sick. My stomach hurts so bad.",
-    russian: 'Анна, кажется, меня сейчас вырвет. Живот так сильно болит.',
+    english: "Anna, I think I'm going to be sick. My stomach hurts so bad. => Oh no! Is it something you ate?",
+    russian: 'Анна, кажется, меня сейчас вырвет. Живот так сильно болит. => О нет! Это что-то съел?',
   },
   {
     key: '2',
-    english: 'Oh no! Is it something you ate?',
-    russian: 'О нет! Это что-то съел?',
+    english: "No, it's the presentation. I have to speak in front of the whole class in 10 minutes. => Are you nervous? You look really pale.",
+    russian: 'Нет, это презентация. Мне нужно выступать перед всем классом через 10 минут. => Ты нервничаешь? Ты выглядишь очень бледным.',
   },
   {
     key: '3',
-    english: "No, it's the presentation. I have to speak in front of the whole class in 10 minutes.",
-    russian: 'Нет, это презентация. Мне нужно выступать перед всем классом через 10 минут.',
+    english: "Nervous is an understatement. I'm terrified. I hate public speaking. => Lots of people do. It's very common.",
+    russian: 'Нервничаю — это мягко сказано. Я в ужасе. Ненавижу публичные выступления. => Многие боятся. Это очень распространено.',
   },
   {
     key: '4',
-    english: 'Are you nervous? You look really pale.',
-    russian: 'Ты нервничаешь? Ты выглядишь очень бледным.',
+    english: "Just pretend everyone is in their underwear! => That's a stupid tip. That would make me more nervous!",
+    russian: 'Просто представь всех в нижнем белье! => Это глупый совет. Это заставит меня нервничать ещё больше!',
   },
   {
     key: '5',
-    english: "Nervous is an understatement. I'm terrified. I hate public speaking.",
-    russian: 'Нервничаю — это мягко сказано. Я в ужасе. Ненавижу публичные выступления.',
+    english: 'Haha, okay, bad idea. Just focus on me. Look at me the whole time. => Really? I can just look at you?',
+    russian: 'Ха-ха, ладно, плохая идея. Просто сосредоточься на мне. Смотри на меня всё время. => Правда? Я могу просто смотреть на тебя?',
   },
   {
     key: '6',
-    english: "Lots of people do. It's very common. Just pretend everyone is in their underwear!",
-    russian: 'Многие боятся. Это очень распространено. Просто представь всех в нижнем белье!',
-  },
-  {
-    key: '7',
-    english: "That's a stupid tip. That would make me more nervous!",
-    russian: 'Это глупый совет. Это заставит меня нервничать ещё больше!',
-  },
-  {
-    key: '8',
-    english: 'Haha, okay, bad idea. Just focus on me. Look at me the whole time.',
-    russian: 'Ха-ха, ладно, плохая идея. Просто сосредоточься на мне. Смотри на меня всё время.',
-  },
-  {
-    key: '9',
-    english: 'Really? I can just look at you?',
-    russian: 'Правда? Я могу просто смотреть на тебя?',
-  },
-  {
-    key: '10',
     english: "Yes. I'll sit in the front row. Pretend you're just talking to me, not the whole class.",
     russian: 'Да. Я сяду в первом ряду. Представь, что ты просто разговариваешь со мной, а не со всем классом.',
   },
   {
-    key: '11',
+    key: '7',
     english: "That might actually work. You won't laugh at me if I make a mistake?",
     russian: 'Это может сработать. Ты не засмеёшься, если я ошибусь?',
   },
   {
-    key: '12',
+    key: '8',
     english: 'Of course not! And no one else will laugh either. Everyone is nervous for their own turn.',
     russian: 'Конечно нет! И никто другой не засмеётся. Все нервничают из-за своего выступления.',
   },
   {
-    key: '13',
-    english: "You're right. Okay, take deep breaths. In... out... in... out.",
-    russian: 'Ты права. Хорошо, глубокий вдох. Вдох... выдох... вдох... выдох.',
+    key: '9',
+    english: "You're right. Okay, take deep breaths. In... out... in... out. => That's it. You know your topic. ",
+    russian: 'Ты права. Хорошо, глубокий вдох. Вдох... выдох... вдох... выдох. => Вот так. Ты знаешь тему.',
   },
   {
-    key: '14',
-    english: "That's it. You know your topic. You practiced a lot. You'll be fine.",
-    russian: 'Вот так. Ты знаешь тему. Ты много практиковался. Всё будет хорошо.',
+    key: '10',
+    english: "You practiced a lot. You'll be fine. => Thanks, Anna. You're a good friend. I think I can do this now.",
+    russian: 'Ты много практиковался. Всё будет хорошо. => Спасибо, Анна. Ты хороший друг. Думаю, теперь я смогу.',
   },
   {
-    key: '15',
-    english: "Thanks, Anna. You're a good friend. I think I can do this now.",
-    russian: 'Спасибо, Анна. Ты хороший друг. Думаю, теперь я смогу.',
-  },
-  {
-    key: '16',
+    key: '11',
     english: "Of course you can! Now go up there and show them what you've got!",
     russian: 'Конечно сможешь! А теперь иди и покажи им, на что ты способен!',
   },
-];
-
-export const fears_05 = [
-  {
-    key: '1',
-    english: "Oh no... David, look. There's a big dog coming. And no leash!",
-    russian: 'О нет... Дэвид, смотри. Идёт большая собака. И без поводка!',
-  },
-  {
-    key: '2',
-    english: 'Where? Oh, that golden retriever? He looks friendly.',
-    russian: 'Где? О, тот золотистый ретривер? Выглядит дружелюбно.',
-  },
-  {
-    key: '3',
-    english: "I don't care. I'm scared of dogs. Even friendly ones.",
-    russian: 'Мне всё равно. Я боюсь собак. Даже дружелюбных.',
-  },
-  {
-    key: '4',
-    english: 'Really? Why?',
-    russian: 'Правда? Почему?',
-  },
-  {
-    key: '5',
-    english: 'When I was little, a dog jumped on me and knocked me down. I was so scared.',
-    russian: 'Когда я была маленькой, собака прыгнула на меня и сбила с ног. Мне было так страшно.',
-  },
-  {
-    key: '6',
-    english: "Oh, I'm sorry. That makes sense. But this dog looks very calm.",
-    russian: 'О, мне жаль. Это объясняет. Но эта собака выглядит очень спокойной.',
-  },
-  {
-    key: '7',
-    english: "I know it's probably fine. But my heart is racing. What should I do?",
-    russian: 'Знаю, что всё, наверное, нормально. Но сердце колотится. Что мне делать?',
-  },
-  {
-    key: '8',
-    english: "Just stand still. Don't run. Dogs love to chase things that run.",
-    russian: 'Просто стой на месте. Не беги. Собаки любят гоняться за тем, что бежит.',
-  },
-  {
-    key: '9',
-    english: "Okay, I won't run. What if he comes to me?",
-    russian: 'Хорошо, не побегу. А если он подойдёт ко мне?',
-  },
-  {
-    key: '10',
-    english: 'Then just let him sniff you. Hold out your hand like this. See? Let him smell you.',
-    russian: 'Тогда просто позволь ему обнюхать тебя. Протяни руку вот так. Видишь? Пусть понюхает.',
-  },
-  {
-    key: '11',
-    english: "Scared I don't know if I can.",
-    russian: 'Испуганно Не знаю, смогу ли.',
-  },
   {
     key: '12',
-    english: "The owner is coming. See? He's calling the dog. It's okay.",
-    russian: 'Хозяин идёт. Видишь? Он зовёт собаку. Всё хорошо.',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
   },
   {
     key: '13',
-    english: "Sorry! He got away from me. He's friendly, don't worry.",
-    russian: 'Извините! Он убежал от меня. Он дружелюбный, не волнуйтесь.',
+    english: "Oh no... David, look. There's a big dog coming. And no leash! => Where? Oh, that golden retriever? He looks friendly.",
+    russian: 'О нет... Дэвид, смотри. Идёт большая собака. И без поводка! => Где? О, тот золотистый ретривер? Выглядит дружелюбно.',
   },
   {
     key: '14',
-    english: "It's okay. I'm just a little scared of dogs.",
-    russian: 'Всё нормально. Я просто немного боюсь собак.',
+    english: "I don't care. I'm scared of dogs. Even friendly ones. => Really? Why? => When I was little, a dog jumped on me and knocked me down. I was so scared.",
+    russian: 'Мне всё равно. Я боюсь собак. Даже дружелюбных. => Правда? Почему? => Когда я была маленькой, собака прыгнула на меня и сбила с ног. Мне было так страшно.',
   },
   {
     key: '15',
-    english: 'Oh, I understand. Max, come here. Sorry again!',
-    russian: 'О, понимаю. Макс, иди сюда. Ещё раз извините!',
+    english: "Oh, I'm sorry. That makes sense. But this dog looks very calm. => I know it's probably fine. But my heart is racing. What should I do?",
+    russian: 'О, мне жаль. Это объясняет. Но эта собака выглядит очень спокойной. => Знаю, что всё, наверное, нормально. Но сердце колотится. Что мне делать?',
   },
   {
     key: '16',
-    english: "See? It's fine. You did great. You didn't panic.",
-    russian: 'Видишь? Всё хорошо. Ты отлично справилась. Ты не запаниковала.',
+    english: "Just stand still. Don't run. Dogs love to chase things that run. => Okay, I won't run. What if he comes to me?",
+    russian: 'Просто стой на месте. Не беги. Собаки любят гоняться за тем, что бежит. => Хорошо, не побегу. А если он подойдёт ко мне?',
   },
   {
     key: '17',
-    english: "My hands are shaking, but I'm okay. Thanks for helping me.",
-    russian: 'У меня руки дрожат, но я в порядке. Спасибо, что помог.',
-  },
-];
-
-export const fears_06 = [
-  {
-    key: '1',
-    english: "Let's take the elevator. It's faster.",
-    russian: 'Давай на лифте. Быстрее.',
-  },
-  {
-    key: '2',
-    english: "Not the glass one! Please, let's take the stairs.",
-    russian: 'Только не стеклянный! Пожалуйста, давай по лестнице.',
-  },
-  {
-    key: '3',
-    english: 'Why? The glass elevator is cool. You can see the whole mall.',
-    russian: 'Почему? Стеклянный лифт это круто. Видно весь торговый центр.',
-  },
-  {
-    key: '4',
-    english: "That's exactly the problem. I can see the whole mall... from way up high.",
-    russian: 'В этом-то и проблема. Я вижу весь торговый центр... с большой высоты.',
-  },
-  {
-    key: '5',
-    english: 'Oh, are you scared of heights?',
-    russian: 'О, ты боишься высоты?',
-  },
-  {
-    key: '6',
-    english: 'Very scared. Even thinking about it makes me dizzy.',
-    russian: 'Очень боюсь. Даже мысль об этом вызывает головокружение.',
-  },
-  {
-    key: '7',
-    english: "But we're only going to the third floor. That's not even high.",
-    russian: 'Но мы всего на третий этаж. Это даже не высоко.',
-  },
-  {
-    key: '8',
-    english: "It's high enough for me. I'll wait here. You go. I'll take the stairs.",
-    russian: 'Для меня достаточно высоко. Я подожду здесь. Иди. Я по лестнице.',
-  },
-  {
-    key: '9',
-    english: "Come on, Emily. Face your fear! I'll hold your hand.",
-    russian: 'Давай, Эмили. Посмотри страху в лицо! Я буду держать тебя за руку.',
-  },
-  {
-    key: '10',
-    english: "No way. Absolutely not. I can't.",
-    russian: 'Ни за что. Точно нет. Не могу.',
-  },
-  {
-    key: '11',
-    english: "Just try. One floor. If you don't like it, we'll never take it again.",
-    russian: 'Просто попробуй. Один этаж. Если не понравится, никогда больше не поедем.',
-  },
-  {
-    key: '12',
-    english: 'Thinks... Okay, fine. But you have to hold my hand the whole time.',
-    russian: 'Думает... Ладно, хорошо. Но ты должен держать меня за руку всё время.',
-  },
-  {
-    key: '13',
-    english: "Deal! Let's go.",
-    russian: 'Договорились! Пошли.',
-  },
-  {
-    key: '14',
-    english: "Oh my god. Oh my god. Don't look down. Don't look down.",
-    russian: 'О боже. О боже. Не смотри вниз. Не смотри вниз.',
-  },
-  {
-    key: '15',
-    english: "Look at me. Just look at me. See? We're almost there.",
-    russian: 'Смотри на меня. Просто смотри на меня. Видишь? Мы почти на месте.',
-  },
-  {
-    key: '16',
-    english: "Doors open We made it! I can't believe it. My legs are shaking.",
-    russian: 'Двери открываются Мы сделали это! Не могу поверить. У меня ноги дрожат.',
-  },
-  {
-    key: '17',
-    english: "You did it! See? It wasn't so bad.",
-    russian: 'Ты сделала это! Видишь? Было не так уж плохо.',
+    english: 'Then just let him sniff you. Hold out your hand like this. See? Let him smell you. => Scared I do not know if I can.',
+    russian: 'Тогда просто позволь ему обнюхать тебя. Протяни руку вот так. Видишь? Пусть понюхает. => Испуганно Не знаю, смогу ли.',
   },
   {
     key: '18',
-    english: 'It was terrible. But I did it. Okay, never again. Stairs from now on!',
-    russian: 'Это было ужасно. Но я сделала это. Ладно, никогда больше. Теперь только лестница!',
+    english: "The owner is coming. See? He's calling the dog. It's okay. => Sorry! He got away from me. He's friendly, don't worry.",
+    russian: 'Хозяин идёт. Видишь? Он зовёт собаку. Всё хорошо. => Извините! Он убежал от меня. Он дружелюбный, не волнуйтесь.',
+  },
+  {
+    key: '19',
+    english: "It's okay. I'm just a little scared of dogs. => Oh, I understand. Max, come here. Sorry again!",
+    russian: 'Всё нормально. Я просто немного боюсь собак. => О, понимаю. Макс, иди сюда. Ещё раз извините!',
+  },
+  {
+    key: '20',
+    english: "See? It's fine. You did great. You didn't panic. => My hands are shaking, but I'm okay. Thanks for helping me.",
+    russian: 'Видишь? Всё хорошо. Ты отлично справилась. Ты не запаниковала. => У меня руки дрожат, но я в порядке. Спасибо, что помог.',
+  },
+  {
+    key: '21',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
+  },
+  {
+    key: '22',
+    english: "Let's take the elevator. It's faster. => Not the glass one! Please, let's take the stairs.",
+    russian: 'Давай на лифте. Быстрее. => Только не стеклянный! Пожалуйста, давай по лестнице.',
+  },
+  {
+    key: '23',
+    english: 'Why? The glass elevator is cool. You can see the whole mall. => That is exactly the problem. I can see the whole mall... from way up high.',
+    russian: 'Почему? Стеклянный лифт это круто. Видно весь торговый центр. => В этом-то и проблема. Я вижу весь торговый центр... с большой высоты.',
+  },
+  {
+    key: '24',
+    english: 'Oh, are you scared of heights? => Very scared. Even thinking about it makes me dizzy.',
+    russian: 'О, ты боишься высоты? => Очень боюсь. Даже мысль об этом вызывает головокружение.',
+  },
+  {
+    key: '25',
+    english: "But we're only going to the third floor. That's not even high. => It's high enough for me. I'll wait here. You go. I'll take the stairs.",
+    russian: 'Но мы всего на третий этаж. Это даже не высоко. => Для меня достаточно высоко. Я подожду здесь. Иди. Я по лестнице.',
+  },
+  {
+    key: '26',
+    english: "Come on, Emily. Face your fear! I'll hold your hand. => No way. Absolutely not. I can't.",
+    russian: 'Давай, Эмили. Посмотри страху в лицо! Я буду держать тебя за руку. => Ни за что. Точно нет. Не могу.',
+  },
+  {
+    key: '27',
+    english: "Just try. One floor. If you don't like it, we'll never take it again. => Thinks... Okay, fine. But you have to hold my hand the whole time.",
+    russian: 'Просто попробуй. Один этаж. Если не понравится, никогда больше не поедем. => Думает... Ладно, хорошо. Но ты должен держать меня за руку всё время.',
+  },
+  {
+    key: '28',
+    english: "Deal! Let's go. => Oh my god. Oh my god. Don't look down. Don't look down.",
+    russian: 'Договорились! Пошли. => О боже. О боже. Не смотри вниз. Не смотри вниз.',
+  },
+  {
+    key: '29',
+    english: "Look at me. Just look at me. See? We're almost there. => Doors open We made it! I can't believe it. My legs are shaking",
+    russian: 'Смотри на меня. Просто смотри на меня. Видишь? Мы почти на месте. => Двери открываются Мы сделали это! Не могу поверить. У меня ноги дрожат.',
+  },
+  {
+    key: '30',
+    english: "You did it! See? It wasn't so bad. => It was terrible. But I did it. Okay, never again. Stairs from now on!",
+    russian: 'Ты сделала это! Видишь? Было не так уж плохо. => Это было ужасно. Но я сделала это. Ладно, никогда больше. Теперь только лестница!',
   },
 ];
 
@@ -935,118 +395,105 @@ export const fears_07 = [
     english: 'Sounds perfect. Thanks for being a good roommate.',
     russian: 'Звучит идеально. Спасибо, что ты хороший сосед.',
   },
-];
-
-export const fears_08 = [
   {
-    key: '1',
+    key: '20',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
+  },
+  {
+    key: '21',
     english: "I can't do this. I'm leaving.",
     russian: 'Я не могу этого сделать. Я ухожу.',
   },
   {
-    key: '2',
+    key: '22',
     english: "What? Chris, we've been waiting for an hour. Your name is next!",
     russian: 'Что? Крис, мы ждали час. Ты следующий!',
   },
   {
-    key: '3',
+    key: '23',
     english: "I don't care. I can't get a shot. I'm terrified of needles.",
     russian: 'Мне всё равно. Я не могу сделать укол. Ужасно боюсь игл.',
   },
   {
-    key: '4',
+    key: '24',
     english: "Really? But it's just a small pinch. It's over in seconds.",
     russian: 'Правда? Но это просто маленький укус. Всё кончится через секунды.',
   },
   {
-    key: '5',
+    key: '25',
     english: "I know it's silly. But when I see the needle, I feel like I'm going to faint.",
     russian: 'Знаю, что глупо. Но когда я вижу иглу, мне кажется, я упаду в обморок.',
   },
   {
-    key: '6',
+    key: '26',
     english: 'Oh no. Have you always been like this?',
     russian: 'О нет. Ты всегда таким был?',
   },
   {
-    key: '7',
+    key: '27',
     english: 'Yes, since I was a kid. My mom had to hold me down for shots.',
     russian: 'Да, с детства. Маме приходилось держать меня для уколов.',
   },
   {
-    key: '8',
+    key: '28',
     english: "Okay, don't panic. Look away. Don't watch.",
     russian: 'Хорошо, не паникуй. Отвернись. Не смотри.',
   },
   {
-    key: '9',
+    key: '29',
     english: "I try, but I always look. It's like I can't help it.",
     russian: 'Я пытаюсь, но всегда смотрю. Не могу с собой справиться.',
   },
   {
-    key: '10',
+    key: '30',
     english: 'Close your eyes. And squeeze my hand really hard. Think about something else.',
     russian: 'Закрой глаза. И сожми мою руку очень сильно. Думай о чём-то другом.',
   },
   {
-    key: '11',
+    key: '31',
     english: "Chris? We're ready for you.",
     russian: 'Крис? Мы готовы.',
   },
   {
-    key: '12',
+    key: '32',
     english: 'Panicking Oh no. Oh no. Here we go.',
     russian: 'Паникуя О нет. О нет. Ну, пошли.',
   },
   {
-    key: '13',
+    key: '33',
     english: "I'll come with you. I'll hold your hand and talk to you. Okay?",
     russian: 'Я пойду с тобой. Буду держать за руку и разговаривать. Хорошо?',
   },
   {
-    key: '14',
+    key: '34',
     english: "Okay. Don't let go.",
     russian: 'Хорошо. Не отпускай.',
   },
   {
-    key: '15',
+    key: '35',
     english: "Look at me, Chris. Don't look at the nurse. Tell me about your vacation plans.",
     russian: 'Смотри на меня, Крис. Не смотри на медсестру. Расскажи о планах на отпуск.',
   },
   {
-    key: '16',
+    key: '36',
     english: "I'm... I'm going to the beach next month.",
     russian: 'Я... Я еду на пляж в следующем месяце.',
   },
   {
-    key: '17',
-    english: 'Nice! Which beach?',
-    russian: 'Круто! На какой пляж?',
+    key: '37',
+    english: 'Nice! Which beach? => Feels pinch OW! Is it done?',
+    russian: 'Круто! На какой пляж? => Чувствует укол ОЙ! Всё?',
   },
   {
-    key: '18',
-    english: 'Feels pinch OW! Is it done?',
-    russian: 'Чувствует укол ОЙ! Всё?',
+    key: '38',
+    english: 'All done! You were very brave. => That is it? It was not that bad.',
+    russian: 'Всё готово! Вы были очень храбрым. => И всё? Было не так уж плохо.',
   },
   {
-    key: '19',
-    english: 'All done! You were very brave.',
-    russian: 'Всё готово! Вы были очень храбрым.',
-  },
-  {
-    key: '20',
-    english: "That's it? It wasn't that bad.",
-    russian: 'И всё? Было не так уж плохо.',
-  },
-  {
-    key: '21',
-    english: "See? You did it! I'm proud of you.",
-    russian: 'Видишь? Ты сделал это! Я горжусь тобой.',
-  },
-  {
-    key: '22',
-    english: "Thanks, Anna. I couldn't have done it without you.",
-    russian: 'Спасибо, Анна. Я бы не справился без тебя.',
+    key: '39',
+    english: "See? You did it! I'm proud of you. => Thanks, Anna. I couldn't have done it without you.",
+    russian: 'Видишь? Ты сделал это! Я горжусь тобой. => Спасибо, Анна. Я бы не справился без тебя.',
   },
 ];
 
@@ -1146,96 +593,98 @@ export const fears_09 = [
     english: 'Thanks, David. I feel much better now.',
     russian: 'Спасибо, Дэвид. Теперь мне намного лучше.',
   },
-];
-
-export const fears_10 = [
   {
-    key: '1',
+    key: '20',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
+  },
+  {
+    key: '21',
     english: 'You look sad today. Everything okay?',
     russian: 'Ты выглядишь грустной сегодня. Всё в порядке?',
   },
   {
-    key: '2',
+    key: '22',
     english: "I have a dentist appointment after work. I'm dreading it.",
     russian: 'У меня приём у стоматолога после работы. С ужасом жду этого.',
   },
   {
-    key: '3',
+    key: '23',
     english: 'Oh no, are you scared of the dentist?',
     russian: 'О нет, ты боишься стоматолога?',
   },
   {
-    key: '4',
+    key: '24',
     english: 'Terrified. The sounds, the smells, the tools... I hate it all.',
     russian: 'До ужаса. Звуки, запахи, инструменты... Всё ненавижу.',
   },
   {
-    key: '5',
+    key: '25',
     english: "I used to be scared too. But I found a nice dentist. She's very gentle.",
     russian: 'Я тоже боялся. Но нашёл хорошего стоматолога. Она очень нежная.',
   },
   {
-    key: '6',
+    key: '26',
     english: 'My dentist is okay. But the drill sound makes me want to run away.',
     russian: 'Мой стоматолог нормальный. Но звук бормашины заставляет меня хотеть убежать.',
   },
   {
-    key: '7',
+    key: '27',
     english: 'Do you have a cavity or just a check-up?',
     russian: 'У тебя кариес или просто осмотр?',
   },
   {
-    key: '8',
+    key: '28',
     english: "A check-up. But last time they found two cavities. I'm scared they'll find more.",
     russian: 'Осмотр. Но в прошлый раз нашли две дырки. Боюсь, что найдут ещё.',
   },
   {
-    key: '9',
+    key: '29',
     english: 'The more you go, the less they find. Regular check-ups prevent problems.',
     russian: 'Чем чаще ходишь, тем меньше находят. Регулярные осмотры предотвращают проблемы.',
   },
   {
-    key: '10',
+    key: '30',
     english: "I know. But knowing that doesn't help my fear.",
     russian: 'Знаю. Но знание не помогает моему страху.',
   },
   {
-    key: '11',
+    key: '31',
     english: 'Ask them to explain everything before they do it. That helps me.',
     russian: 'Попроси их объяснять всё перед тем, как делать. Мне это помогает.',
   },
   {
-    key: '12',
+    key: '32',
     english: 'Really?',
     russian: 'Правда?',
   },
   {
-    key: '13',
+    key: '33',
     english: "Yes. When I know what's coming, I'm less scared. And bring headphones. Listen to music.",
     russian: 'Да. Когда я знаю, что будет, мне меньше страшно. И возьми наушники. Слушай музыку.',
   },
   {
-    key: '14',
+    key: '34',
     english: "That's a great idea. I'll download my favorite playlist.",
     russian: 'Отличная идея. Скачаю свой любимый плейлист.',
   },
   {
-    key: '15',
+    key: '35',
     english: "And remember: it's only 30 minutes. Then it's over and you get a sticker!",
     russian: 'И помни: всего 30 минут. Потом всё кончится, и ты получишь наклейку!',
   },
   {
-    key: '16',
+    key: '36',
     english: "Haha, a sticker? I'm not 5 years old!",
     russian: 'Ха-ха, наклейку? Мне не 5 лет!',
   },
   {
-    key: '17',
+    key: '37',
     english: "My dentist gives stickers to adults too. It's silly but it makes me happy.",
     russian: 'Мой стоматолог даёт наклейки и взрослым. Глупо, но меня это радует.',
   },
   {
-    key: '18',
+    key: '38',
     english: 'Okay, you made me smile. Thanks, Tom. I feel a little better.',
     russian: 'Ладно, ты меня рассмешил. Спасибо, Том. Мне немного лучше.',
   },
@@ -1337,96 +786,98 @@ export const fears_11 = [
     english: "That's what friends are for!",
     russian: 'На то и друзья!',
   },
-];
-
-export const fears_12 = [
   {
-    key: '1',
+    key: '20',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
+  },
+  {
+    key: '21',
     english: 'Hey Kate, are you busy? Can we talk?',
     russian: 'Привет, Кейт, ты занята? Можем поговорить?',
   },
   {
-    key: '2',
+    key: '22',
     english: "Hi Anna! No, I'm not busy. Just watching TV. What's up?",
     russian: 'Привет, Анна! Нет, не занята. Просто смотрю телевизор. Что случилось?',
   },
   {
-    key: '3',
+    key: '23',
     english: "My roommate is away for the weekend. I'm alone in the apartment and I can't sleep.",
     russian: 'Моя соседка уехала на выходные. Я одна в квартире и не могу уснуть.',
   },
   {
-    key: '4',
+    key: '24',
     english: 'Oh no! Are you scared of being alone?',
     russian: 'О нет! Ты боишься одиночества?',
   },
   {
-    key: '5',
+    key: '25',
     english: 'A little. Every little noise makes me jump. I hear things and think someone is there.',
     russian: 'Немного. Каждый шорох заставляет меня вздрагивать. Слышу звуки и думаю, что там кто-то есть.',
   },
   {
-    key: '6',
+    key: '26',
     english: "That's scary. I don't like being alone at night either.",
     russian: 'Это страшно. Я тоже не люблю быть одна ночью.',
   },
   {
-    key: '7',
+    key: '27',
     english: 'Really? I thought I was the only one.',
     russian: 'Правда? Я думала, я одна такая.',
   },
   {
-    key: '8',
+    key: '28',
     english: "No, lots of people don't like being alone. It's normal. We're social animals.",
     russian: 'Нет, многим не нравится быть одним. Это нормально. Мы социальные животные.',
   },
   {
-    key: '9',
+    key: '29',
     english: 'What do you do when you feel scared?',
     russian: 'Что ты делаешь, когда тебе страшно?',
   },
   {
-    key: '10',
+    key: '30',
     english: 'I put on a TV show. Something funny. The voices make me feel less alone.',
     russian: 'Включаю телешоу. Что-то смешное. Голоса помогают чувствовать себя менее одинокой.',
   },
   {
-    key: '11',
+    key: '31',
     english: "Good idea. I have the TV on, but it's a horror movie. Bad choice!",
     russian: 'Хорошая идея. У меня телевизор включён, но это ужастик. Плохой выбор!',
   },
   {
-    key: '12',
+    key: '32',
     english: 'Haha, definitely bad choice! Change it to a comedy right now.',
     russian: 'Ха-ха, точно плохой выбор! Срочно переключи на комедию.',
   },
   {
-    key: '13',
+    key: '33',
     english: 'Okay, changing now. Also, I checked all the locks three times.',
     russian: 'Хорошо, переключаю. И я проверила все замки три раза.',
   },
   {
-    key: '14',
+    key: '34',
     english: "Good. You're safe. Nothing will happen. And I'm just a phone call away.",
     russian: 'Хорошо. Ты в безопасности. Ничего не случится. А я всего в одном звонке.',
   },
   {
-    key: '15',
+    key: '35',
     english: 'Thanks, Kate. Just hearing your voice helps.',
     russian: 'Спасибо, Кейт. Твой голос помогает.',
   },
   {
-    key: '16',
+    key: '36',
     english: 'Do you want me to stay on the phone until you fall asleep?',
     russian: 'Хочешь, я останусь на телефоне, пока не заснёшь?',
   },
   {
-    key: '17',
+    key: '37',
     english: "Would you? I don't want to be annoying.",
     russian: 'Побудешь? Не хочу быть навязчивой.',
   },
   {
-    key: '18',
+    key: '38',
     english: "Not annoying at all. I'll talk to you until you're sleepy. Tell me about your day.",
     russian: 'Совсем не навязчиво. Буду говорить, пока не захочешь спать. Расскажи о своём дне.',
   },
@@ -1533,113 +984,110 @@ export const fears_13 = [
     english: "Good! Now let's plan your goodbye party!",
     russian: 'Отлично! А теперь давай планировать твою прощальную вечеринку!',
   },
-];
-
-export const fears_14 = [
   {
-    key: '1',
+    key: '21',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
+  },
+  {
+    key: '22',
     english: 'Jake, can I ask you something? About boys?',
     russian: 'Джейк, могу спросить кое-что? О мальчиках?',
   },
   {
-    key: '2',
+    key: '23',
     english: "Sure, I'll try to help. What's up?",
     russian: 'Конечно, попробую помочь. Что случилось?',
   },
   {
-    key: '3',
+    key: '24',
     english: "There's this boy in my math class. I really like him. I want to ask him out.",
     russian: 'В классе математики есть мальчик. Он мне очень нравится. Хочу пригласить его на свидание.',
   },
   {
-    key: '4',
+    key: '25',
     english: "So? Just ask him. What's the problem?",
     russian: 'И? Просто пригласи. В чём проблема?',
   },
   {
-    key: '5',
+    key: '26',
     english: 'What if he says no? I would be so embarrassed.',
     russian: 'А если он откажет? Мне будет так стыдно.',
   },
   {
-    key: '6',
+    key: '27',
     english: "Ah, you're scared of rejection. That's normal.",
     russian: 'А, ты боишься отказа. Это нормально.',
   },
   {
-    key: '7',
+    key: '28',
     english: 'Is it? I feel so stupid. I think about it all the time.',
     russian: 'Правда? Чувствую себя такой глупой. Постоянно думаю об этом.',
   },
   {
-    key: '8',
+    key: '29',
     english: 'Everyone is scared of rejection, Emma. Even me.',
     russian: 'Все боятся отказа, Эмма. Даже я.',
   },
   {
-    key: '9',
+    key: '30',
     english: "You? But you're so confident!",
     russian: 'Ты? Но ты такой уверенный!',
   },
   {
-    key: '10',
+    key: '31',
     english: "I'm confident sometimes. But when I like someone? Total mess inside.",
     russian: 'Иногда уверен. Но когда кто-то нравится? Внутри полный хаос.',
   },
   {
-    key: '11',
+    key: '32',
     english: 'Really? So what do you do?',
     russian: 'Правда? И что ты делаешь?',
   },
   {
-    key: '12',
+    key: '33',
     english: "I think: what's the worst that can happen? They say no. Then I'm in the same place as before.",
     russian: 'Думаю: что самое худшее может случиться? Мне откажут. И я останусь там же, где и был.',
   },
   {
-    key: '13',
+    key: '34',
     english: "That's true. If I don't ask, he definitely won't go out with me.",
     russian: 'Это правда. Если не спрошу, он точно не пойдёт со мной.',
   },
   {
-    key: '14',
+    key: '35',
     english: "Exactly. If you ask, you have a chance. Maybe 50%. If you don't ask, 0%.",
     russian: 'Именно. Если спросишь, у тебя есть шанс. Может, 50%. Если не спросишь — 0%.',
   },
   {
-    key: '15',
+    key: '36',
     english: "That's good math. I like those odds.",
     russian: 'Хорошая математика. Мне нравятся такие шансы.',
   },
   {
-    key: '16',
+    key: '37',
     english: "And if he says no, it's not the end of the world. There are other boys.",
     russian: 'И если он откажет, это не конец света. Есть и другие мальчики.',
   },
   {
-    key: '17',
+    key: '38',
     english: 'I know. But it will hurt.',
     russian: 'Знаю. Но будет больно.',
   },
   {
-    key: '18',
+    key: '39',
     english: "Yes, it will hurt for a day or two. Then you move on. You're strong.",
     russian: 'Да, будет больно день или два. Потом живёшь дальше. Ты сильная.',
   },
   {
-    key: '19',
+    key: '40',
     english: "Okay. I'm going to do it. Tomorrow. Wish me luck!",
     russian: 'Хорошо. Я сделаю это. Завтра. Пожелай мне удачи!',
   },
   {
-    key: '20',
-    english: 'Good luck! Let me know what he says.',
-    russian: 'Удачи! Дай знать, что он ответит.',
-  },
-  {
-    key: '21',
-    english: "I will. Thanks, Jake. You're a good friend.",
-    russian: 'Хорошо. Спасибо, Джейк. Ты хороший друг.',
+    key: '41',
+    english: 'Good luck! Let me know what he says. => I will. Thanks, Jake. You are a good friend.',
+    russian: 'Удачи! Дай знать, что он ответит. => Хорошо. Спасибо, Джейк. Ты хороший друг.',
   },
 ];
 
@@ -1749,76 +1197,78 @@ export const fears_15 = [
     english: "Good. Now let's enjoy our last months of being students!",
     russian: 'Отлично. А теперь давай наслаждаться последними месяцами студенчества!',
   },
-];
-
-export const fears_16 = [
   {
-    key: '1',
+    key: '22',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
+  },
+  {
+    key: '23',
     english: 'I heard you have a new job. Congratulations!',
     russian: 'Я слышал, у тебя новая работа. Поздравляю!',
   },
   {
-    key: '2',
+    key: '24',
     english: "Thanks! But I'm so nervous. First day is tomorrow.",
     russian: 'Спасибо! Но я так нервничаю. Завтра первый день.',
   },
   {
-    key: '3',
+    key: '25',
     english: "You'll be fine! Are you more afraid of the new job or public speaking?",
     russian: 'Всё будет хорошо! Ты больше боишься новой работы или публичных выступлений?',
   },
   {
-    key: '4',
+    key: '26',
     english: "Good question. I think I'm much more afraid of public speaking.",
     russian: 'Хороший вопрос. Думаю, я гораздо больше боюсь публичных выступлений.',
   },
   {
-    key: '5',
+    key: '27',
     english: 'Really? Why?',
     russian: 'Правда? Почему?',
   },
   {
-    key: '6',
+    key: '28',
     english: "At a new job, I can watch and learn. But public speaking? Everyone looks at me. It's terrifying.",
     russian: 'На новой работе я могу смотреть и учиться. А публичные выступления? Все смотрят на меня. Это ужасно.',
   },
   {
-    key: '7',
+    key: '29',
     english: 'I understand. For me, flying is the most frightening thing. Even more than spiders.',
     russian: 'Понимаю. Для меня полёты — самое страшное. Даже больше, чем пауки.',
   },
   {
-    key: '8',
+    key: '30',
     english: "Wait, you're scared of flying? But you travel so much!",
     russian: 'Подожди, ты боишься летать? Но ты так много путешествуешь!',
   },
   {
-    key: '9',
+    key: '31',
     english: "I know! I'm less scared of flying than before, but still scared. I take medicine.",
     russian: 'Знаю! Я меньше боюсь летать, чем раньше, но всё равно боюсь. Принимаю лекарства.',
   },
   {
-    key: '10',
+    key: '32',
     english: "That's brave. I couldn't do it. Heights are scary enough for me.",
     russian: 'Это храбро. Я бы не смог. Высоты мне достаточно страшно.',
   },
   {
-    key: '11',
+    key: '33',
     english: "So you're more scared of heights than flying?",
     russian: 'Значит, ты больше боишься высоты, чем полётов?',
   },
   {
-    key: '12',
+    key: '34',
     english: "Oh yes! Much more. I can't even look down from a tall building.",
     russian: 'О да! Гораздо больше. Я даже с высокого здания вниз смотреть не могу.',
   },
   {
-    key: '13',
+    key: '35',
     english: 'See? Everyone has different fears. Your new job will be easy compared to heights!',
     russian: 'Видишь? У всех разные страхи. Твоя новая работа будет лёгкой по сравнению с высотой!',
   },
   {
-    key: '14',
+    key: '36',
     english: 'Haha, good point. Thanks! I feel a little better now.',
     russian: 'Ха-ха, хорошая мысль. Спасибо! Мне немного легче.',
   },
@@ -1895,81 +1345,83 @@ export const fears_17 = [
     english: "I'm trying, sweetie. For you.",
     russian: 'Я стараюсь, милый. Ради тебя.',
   },
-];
-
-export const fears_18 = [
   {
-    key: '1',
+    key: '15',
+    english: '--------------------------------------------------------',
+    russian: '--------------------------------------------------------',
+  },
+  {
+    key: '16',
     english: 'Are you okay? You look pale.',
     russian: 'Ты в порядке? Выглядишь бледной.',
   },
   {
-    key: '2',
+    key: '17',
     english: "I have a doctor's appointment today. Blood test.",
     russian: 'У меня сегодня приём у врача. Анализ крови.',
   },
   {
-    key: '3',
+    key: '18',
     english: 'Ah, needles. Are you scared?',
     russian: 'А, иглы. Боишься?',
   },
   {
-    key: '4',
+    key: '19',
     english: 'Terrified. Needles are my biggest fear. Much more than spiders or heights.',
     russian: 'До ужаса. Иглы — мой самый большой страх. Гораздо больше, чем пауки или высота.',
   },
   {
-    key: '5',
+    key: '20',
     english: 'Really? For me, needles are less scary than going to the dentist.',
     russian: 'Правда? Для меня иглы менее страшны, чем поход к стоматологу.',
   },
   {
-    key: '6',
+    key: '21',
     english: "The dentist? But that's just cleaning!",
     russian: 'Стоматолог? Но это же просто чистка!',
   },
   {
-    key: '7',
+    key: '22',
     english: 'No way. The sound of the drill is the most frightening noise in the world.',
     russian: 'Ни за что. Звук бормашины — самый страшный звук в мире.',
   },
   {
-    key: '8',
+    key: '23',
     english: 'Hmm. I think a needle is worse. It goes inside your skin!',
     russian: 'Хм. А я думаю, игла хуже. Она проникает под кожу!',
   },
   {
-    key: '9',
+    key: '24',
     english: 'For one second. The dentist is 30 minutes of fear!',
     russian: 'На одну секунду. А у стоматолога 30 минут страха!',
   },
   {
-    key: '10',
+    key: '25',
     english: 'Okay, you win. The dentist might be worse. But needles are still terrifying for me.',
     russian: 'Ладно, ты победила. Стоматолог, может, и хуже. Но иглы для меня всё равно ужасны.',
   },
   {
-    key: '11',
+    key: '26',
     english: "What's the least scary thing for you?",
     russian: 'А что для тебя наименее страшно?',
   },
   {
-    key: '12',
+    key: '27',
     english: "Probably the dark. I'm not scared of the dark at all. My sister is, but I'm not.",
     russian: 'Наверное, темнота. Я совсем не боюсь темноты. Моя сестра боится, а я нет.',
   },
   {
-    key: '13',
+    key: '28',
     english: "See? Everyone's different. I'm more scared of the dark than needles!",
     russian: 'Видишь? У всех по-разному. Я больше боюсь темноты, чем игл!',
   },
   {
-    key: '14',
+    key: '29',
     english: "Really? That's funny. Okay, I feel a little better now. Talking helps.",
     russian: 'Правда? Забавно. Ладно, мне немного лучше. Разговоры помогают.',
   },
   {
-    key: '15',
+    key: '30',
     english: "Good luck at the doctor! You'll be fine. Just don't look at the needle.",
     russian: 'Удачи у врача! Всё будет хорошо. Просто не смотри на иглу.',
   },
