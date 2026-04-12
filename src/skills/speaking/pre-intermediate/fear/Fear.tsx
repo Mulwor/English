@@ -6,12 +6,12 @@ import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import {
   fears_dialog_01,
   fears_dialog_02,
-  fears_07,
-  fears_09,
-    fears_11,
-    fears_13,
-    fears_15,
-    fears_17,
+  fears_dialog_03,
+  fears_dialog_04,
+  fears_dialog_05,
+  fears_13,
+  fears_15,
+  fears_17,
 } from './dialogs';
 
 const { Panel } = Collapse;
@@ -20,9 +20,9 @@ export const FearsAndPhobias = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(fears_dialog_01, [
     fears_dialog_01,
     fears_dialog_02,
-    fears_07,
-    fears_09,
-    fears_11,
+    fears_dialog_03,
+    fears_dialog_04,
+    fears_dialog_05,
     fears_13,
     fears_15,
     fears_17,
