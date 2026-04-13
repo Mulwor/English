@@ -264,259 +264,163 @@ export const travel_01 = [
   },
   {
     key: '2',
-    english: 'One-way or round-trip?',
-    russian: 'В одну сторону или туда и обратно?',
+    english: 'One-way or round-trip? - One-way, please.',
+    russian: 'В одну сторону или туда и обратно? - В одну сторону, пожалуйста.',
   },
   {
     key: '3',
-    english: 'One-way, please.',
-    russian: 'В одну сторону, пожалуйста.',
+    english: 'First class or economy? - Economy. - That’s 15 pounds. - Here you go.',
+    russian: 'Первый класс или эконом? - Эконом - Это 15 фунтов. - Вот, пожалуйста.',
   },
   {
     key: '4',
-    english: 'First class or economy?',
-    russian: 'Первый класс или эконом?',
-  },
-  { key: '5', english: 'Economy.', russian: 'Эконом.' },
-  { key: '6', english: 'That’s 15 pounds.', russian: 'Это 15 фунтов.' },
-  { key: '7', english: 'Here you go.', russian: 'Вот, пожалуйста.' },
-  {
-    key: '8',
     english: 'Thank you. Here is your ticket. The train leaves at 10:30.',
     russian: 'Спасибо. Вот ваш билет. Поезд отправляется в 10:30.',
   },
-  { key: '9', english: 'Where is platform 4?', russian: 'Где платформа 4?' },
-  { key: '10', english: 'It’s to your left.', russian: 'Она слева от вас.' },
-  { key: '11', english: 'Thanks a lot!', russian: 'Большое спасибо!' },
   {
-    key: '12',
-    english: 'You’re welcome! Have a good trip!',
-    russian: 'Пожалуйста! Хорошего пути!',
+    key: '5',
+    english: 'Where is platform 4? - It’s to your left.',
+    russian: 'Где платформа 4? - Она слева от вас.',
   },
-];
-
-export const travel_02 = [
-  {
-    key: '1',
-    english: 'Hello! Where is the check-in desk?',
-    russian: 'Здравствуйте! Где стойка регистрации?',
-  },
-  {
-    key: '2',
-    english: 'Hello! The check-in desk is over there.',
-    russian: 'Здравствуйте! Стойка регистрации там.',
-  },
-  { key: '3', english: 'Thank you.', russian: 'Спасибо.' },
-  {
-    key: '4',
-    english: 'You’re welcome. May I see your passport and ticket, please?',
-    russian: 'Пожалуйста. Могу я увидеть ваш паспорт и билет?',
-  },
-  { key: '5', english: 'Yes, here you are.', russian: 'Да, вот они.' },
   {
     key: '6',
-    english: 'Thank you. Do you have any luggage?',
-    russian: 'Спасибо. У вас есть багаж?',
+    english: 'Thanks a lot! - You’re welcome! Have a good trip!',
+    russian: 'Большое спасибо! - Пожалуйста! Хорошего пути!',
   },
-  {
-    key: '7',
-    english: 'Yes, I have one suitcase.',
-    russian: 'Да, у меня один чемодан.',
-  },
+  { key: '7', english: '-------------', russian: '-------------' },
   {
     key: '8',
-    english: 'Please put it on the scale.',
-    russian: 'Пожалуйста, положите его на весы.',
+    english: 'Hello! Where is the check-in desk? - Hello! The check-in desk is over there.',
+    russian: 'Здравствуйте! Где стойка регистрации? - Здравствуйте! Стойка регистрации там.',
   },
-  { key: '9', english: 'Okay.', russian: 'Хорошо.' },
+  {
+    key: '9',
+    english: 'Thank you. - You’re welcome. May I see your passport and ticket, please? - Yes, here you are.',
+    russian: 'Спасибо - Пожалуйста. Могу я увидеть ваш паспорт и билет? - Да, вот они..',
+  },
   {
     key: '10',
+    english: 'Thank you. Do you have any luggage - [ˈlʌgɪʤ]? - Yes, I have one suitcase.',
+    russian: 'Спасибо. У вас есть багаж? - Да, у меня один чемодан.',
+  },
+  {
+    key: '11',
+    english: 'Please put it on the scale. - Okay.',
+    russian: 'Пожалуйста, положите его на весы. - Хорошо.',
+  },
+  {
+    key: '12',
     english: 'Great. Here is your boarding pass. Your gate is A12.',
     russian: 'Отлично. Вот ваш посадочный талон. Ваш выход A12.',
   },
-  { key: '11', english: 'Thank you very much!', russian: 'Большое спасибо!' },
-  { key: '12', english: 'Have a nice flight!', russian: 'Хорошего полета!' },
-  { key: '13', english: 'Thanks! Bye!', russian: 'Спасибо! Пока!' },
 ];
 
 export const travel_03 = [
   {
     key: '1',
-    english: 'Excuse me, is this seat 14B?',
-    russian: 'Извините, это место 14B?',
-  },
-  { key: '2', english: 'Yes, it is.', russian: 'Да, это оно.' },
-  { key: '3', english: 'Great! Thank you.', russian: 'Отлично! Спасибо.' },
-  { key: '4', english: 'You’re welcome.', russian: 'Пожалуйста.' },
-  {
-    key: '5',
-    english: 'How long is the flight?',
-    russian: 'Сколько длится полет?',
-  },
-  { key: '6', english: 'About two hours.', russian: 'Примерно два часа.' },
-  {
-    key: '7',
-    english: 'That’s not too bad.',
-    russian: 'Это не так уж и плохо.',
-  },
-  {
-    key: '8',
-    english: 'Yes, it’s a short flight.',
-    russian: 'Да, это короткий рейс.',
-  },
-  {
-    key: '9',
-    english: 'Do they serve food on the plane?',
-    russian: 'На борту дают еду?',
-  },
-  {
-    key: '10',
-    english: 'Yes, but only snacks and drinks.',
-    russian: 'Да, но только закуски и напитки.',
-  },
-  {
-    key: '11',
-    english: 'Good to know. Thanks!',
-    russian: 'Хорошо знать. Спасибо!',
-  },
-];
-
-export const travel_05 = [
-  {
-    key: '1',
-    english: 'Hello! Can you help me?',
-    russian: 'Здравствуйте! Вы можете мне помочь?',
+    english: 'Excuse me, is this seat 14B? - Yes, it is. - Great! Thank you. - You’re welcome.',
+    russian: 'Извините, это место 14B? - Да, это оно. - Отлично! Спасибо. - Пожалуйста',
   },
   {
     key: '2',
-    english: 'Of course! How can I help you?',
-    russian: 'Конечно! Чем могу помочь?',
+    english: 'How long is the flight? - About two hours.',
+    russian: 'Сколько длится полет? - Примерно два часа.',
   },
   {
     key: '3',
-    english: 'I want to visit the beach. How can I get there?',
-    russian: 'Я хочу посетить пляж. Как мне туда добраться?',
+    english: 'That’s not too bad. - Yes, it’s a short flight.',
+    russian: 'Это не так уж и плохо. - Да, это короткий рейс.',
   },
   {
     key: '4',
-    english: 'You can take a bus or a taxi.',
-    russian: 'Вы можете поехать на автобусе или такси.',
+    english: 'Do they serve food on the plane? - Yes, but only snacks and drinks.',
+    russian: 'На борту дают еду? - Да, но только закуски и напитки.',
   },
   {
     key: '5',
-    english: 'Where is the bus stop?',
-    russian: 'Где остановка автобуса?',
+    english: 'Good to know. Thanks!',
+    russian: 'Хорошо знать. Спасибо!',
   },
-  {
-    key: '6',
-    english: 'It’s right outside, next to the coffee shop.',
-    russian: 'Она прямо у выхода, рядом с кофейней.',
-  },
+  { key: '6', english: '-------------', russian: '-------------' },
   {
     key: '7',
-    english: 'Great! How much is the bus ticket?',
-    russian: 'Отлично! Сколько стоит билет на автобус?',
+    english: 'Hello! Can you help me? - Of course! How can I help you?',
+    russian: 'Здравствуйте! Вы можете мне помочь? - Конечно! Чем могу помочь?',
   },
-  { key: '8', english: 'It’s 2 dollars.', russian: '2 доллара.' },
+  {
+    key: '8',
+    english: 'I want to visit the beach. How can I get there? - You can take a bus or a taxi.',
+    russian: 'Я хочу посетить пляж. Как мне туда добраться? - Вы можете поехать на автобусе или такси.',
+  },
   {
     key: '9',
-    english: 'Thank you! And what can I see at the beach?',
-    russian: 'Спасибо! Что я могу увидеть на пляже?',
+    english: 'Where is the bus stop? - It’s right outside, next to the coffee shop.',
+    russian: 'Где остановка автобуса? - Она прямо у выхода, рядом с кофейней.',
   },
   {
     key: '10',
-    english: 'You can swim, relax, and try some local food.',
-    russian: 'Вы можете плавать, отдыхать и попробовать местную еду.',
+    english: 'Great! How much is the bus ticket? - It’s 2 dollars.',
+    russian: 'Отлично! Сколько стоит билет на автобус? - 2 доллара.',
   },
   {
     key: '11',
-    english: 'Sounds nice! Thanks for your help.',
-    russian: 'Звучит здорово! Спасибо за помощь.',
+    english: 'Thank you! And what can I see at the beach? - You can swim, relax, and try some local food.',
+    russian: 'Спасибо! Что я могу увидеть на пляже? - Вы можете плавать, отдыхать и попробовать местную еду.',
   },
   {
     key: '12',
-    english: 'You’re welcome! Enjoy your day!',
-    russian: 'Пожалуйста! Хорошего дня!',
+    english: 'Thanks for your help. - You’re welcome! Enjoy your day!',
+    russian: 'Спасибо за помощь. - Пожалуйста! Хорошего дня!',
   },
 ];
 
 export const travel_06 = [
   {
     key: '1',
-    english: 'Excuse me, where is the bus to the city center?',
-    russian: 'Извините, где автобус в центр города?',
-  },
-  { key: '2', english: 'It’s bus number 5.', russian: 'Это автобус номер 5.' },
-  {
-    key: '3',
-    english: 'Where is the bus stop?',
-    russian: 'Где остановка автобуса?',
-  },
-  {
-    key: '4',
-    english: 'Over there, near the café.',
-    russian: 'Там, рядом с кафе.',
-  },
-  {
-    key: '5',
-    english: 'How much is the ticket?',
-    russian: 'Сколько стоит билет?',
-  },
-  { key: '6', english: 'It’s 3 dollars.', russian: '3 доллара.' },
-  {
-    key: '7',
-    english: 'Thank you! When does the bus leave?',
-    russian: 'Спасибо! Когда отправляется автобус?',
-  },
-  { key: '8', english: 'In 15 minutes.', russian: 'Через 15 минут.' },
-  {
-    key: '9',
-    english: 'Great! Thanks for your help.',
-    russian: 'Отлично! Спасибо за помощь.',
-  },
-  { key: '10', english: 'You’re welcome!', russian: 'Пожалуйста!' },
-];
-
-export const travel_07 = [
-  {
-    key: '1',
-    english: 'Excuse me, where can I buy a train ticket?',
-    russian: 'Извините, где я могу купить билет на поезд?',
+    english: 'Excuse me, where is the bus to the city center? - It’s bus number 5.',
+    russian: 'Извините, где автобус в центр города? - Это автобус номер 5.',
   },
   {
     key: '2',
-    english: 'At the ticket office or the machine.',
-    russian: 'В кассе или в автомате.',
+    english: 'Where is the bus stop? - Over there, near the café.',
+    russian: 'Где остановка автобуса? - Там, рядом с кафе.',
   },
   {
     key: '3',
-    english: 'Can I pay by card?',
-    russian: 'Можно оплатить картой?',
+    english: 'How much is the ticket? - It’s 3 dollars.',
+    russian: 'Сколько стоит билет? - 3 доллара.',
   },
-  { key: '4', english: 'Yes, of course.', russian: 'Да, конечно.' },
   {
-    key: '5',
-    english: 'Good. How long does it take to get to Brighton?',
-    russian: 'Хорошо. Сколько времени занимает путь до Брайтона?',
+    key: '4',
+    english: 'Thank you! When does the bus leave? - In 15 minutes.',
+    russian: 'Спасибо! Когда отправляется автобус? - Через 15 минут.',
   },
-  { key: '6', english: 'About one hour.', russian: 'Примерно один час.' },
+  { key: '5', english: '-------------', russian: '-------------' },
+  {
+    key: '6',
+    english: 'Excuse me, where can I buy a train ticket? - At the ticket office or the machine.',
+    russian: 'Извините, где я могу купить билет на поезд? - В кассе или в автомате.',
+  },
   {
     key: '7',
-    english: 'And how much is a return ticket?',
-    russian: 'А сколько стоит билет туда и обратно?',
+    english: 'Can I pay by card? - Yes, of course. - Good.',
+    russian: 'Можно оплатить картой? - Да, конечно. - Хорошо.',
   },
-  { key: '8', english: 'It’s 20 pounds.', russian: '20 фунтов.' },
+  {
+    key: '8',
+    english: 'How long does it take to get to Brighton? - About one hour.',
+    russian: 'Сколько времени занимает путь до Брайтона? - Примерно один час.',
+  },
   {
     key: '9',
-    english: 'Thank you! Where is platform 3?',
-    russian: 'Спасибо! Где платформа 3?',
+    english: 'And how much is a return ticket? - It’s 20 pounds.',
+    russian: 'А сколько стоит билет туда и обратно? - 20 фунтов.',
   },
   {
     key: '10',
-    english: 'Just follow the signs. It’s to the right.',
-    russian: 'Просто следуйте по указателям. Она справа.',
+    english: 'Thank you! Where is platform 3? - Just follow the signs. It’s to the right.',
+    russian: 'Спасибо! Где платформа 3? - Просто следуйте по указателям. Она справа.',
   },
-  { key: '11', english: 'Thanks a lot!', russian: 'Большое спасибо!' },
 ];
 
 export const travel_08 = [
@@ -527,136 +431,86 @@ export const travel_08 = [
   },
   {
     key: '2',
-    english: 'Of course! Are you interested in museums, parks, or shopping?',
-    russian: 'Конечно! Вас интересуют музеи, парки или шоппинг?',
+    english: 'Of course! Are you interested in museums, parks, or shopping? - I like museums and parks.',
+    russian: 'Конечно! Вас интересуют музеи, парки или шоппинг? - Мне нравятся музеи и парки.',
   },
   {
     key: '3',
-    english: 'I like museums and parks.',
-    russian: 'Мне нравятся музеи и парки.',
-  },
-  {
-    key: '4',
     english: 'You should visit the City Museum and Green Park. Both are very popular.',
     russian: 'Вам стоит посетить Городской музей и Зеленый парк. Оба очень популярны.',
   },
   {
-    key: '5',
-    english: 'How do I get there?',
-    russian: 'Как мне туда добраться?',
+    key: '4',
+    english: 'How do I get there? - The museum is a 10-minute walk from here, and the park is a bit further, but you can take bus 12.',
+    russian: 'Как мне туда добраться? - Музей в 10 минутах ходьбы отсюда, а парк немного дальше, но вы можете поехать на автобусе 12.',
   },
   {
-    key: '6',
-    english: 'The museum is a 10-minute walk from here, and the park is a bit further, but you can take bus 12.',
-    russian: 'Музей в 10 минутах ходьбы отсюда, а парк немного дальше, но вы можете поехать на автобусе 12.',
+    key: '5',
+    english: 'Great! Is there a map I can take? - Yes, here you go. - Thank you so much!',
+    russian: 'Отлично! Есть ли у вас карта, которую я могу взять? - Да, вот. - Большое спасибо!',
   },
+  { key: '6', english: '-------------', russian: '-------------' },
   {
     key: '7',
-    english: 'Great! Is there a map I can take?',
-    russian: 'Отлично! Есть ли у вас карта, которую я могу взять?',
-  },
-  { key: '8', english: 'Yes, here you go.', russian: 'Да, вот.' },
-  { key: '9', english: 'Thank you so much!', russian: 'Большое спасибо!' },
-];
-
-export const travel_09 = [
-  {
-    key: '1',
     english: 'Excuse me! Can you help me find the Central Market?',
     russian: 'Извините! Вы можете помочь мне найти Центральный рынок?',
   },
   {
-    key: '2',
+    key: '8',
     english: 'Sure! It’s not far from here. Go straight ahead and turn right at the traffic light.',
     russian: 'Конечно! Это недалеко отсюда. Идите прямо и поверните направо на светофоре.',
   },
   {
-    key: '3',
+    key: '9',
     english: 'Okay, straight ahead and then right.',
     russian: 'Хорошо, прямо и затем направо.',
   },
   {
-    key: '4',
+    key: '10',
     english: 'Yes. The market will be on your left, next to the big supermarket.',
     russian: 'Да. Рынок будет слева от вас, рядом с большим супермаркетом.',
   },
   {
-    key: '5',
-    english: 'How long does it take to walk there?',
-    russian: 'Сколько времени займет, чтобы дойти туда?',
-  },
-  { key: '6', english: 'About 15 minutes.', russian: 'Примерно 15 минут.' },
-  {
-    key: '7',
-    english: 'Perfect! Thanks a lot!',
-    russian: 'Отлично! Большое спасибо!',
+    key: '11',
+    english: 'How long does it take to walk there? - About 15 minutes.',
+    russian: 'Сколько времени займет, чтобы дойти туда? - Примерно 15 минут.',
   },
   {
-    key: '8',
-    english: 'You’re welcome! Enjoy your visit!',
-    russian: 'Пожалуйста! Наслаждайтесь визитом!',
+    key: '12',
+    english: 'Perfect! Thanks a lot! - You’re welcome! Enjoy your visit!',
+    russian: 'Отлично! Большое спасибо! - Пожалуйста! Наслаждайтесь визитом!',
   },
 ];
 
 export const travel_10 = [
   {
     key: '1',
-    english: 'Excuse me, where can I buy a ticket for the metro?',
-    russian: 'Извините, где я могу купить билет на метро?',
+    english: 'Excuse me, where can I buy a ticket for the metro? - You can buy a ticket at the ticket machine or at the counter.',
+    russian: 'Извините, где я могу купить билет на метро? - Вы можете купить билет в автомате или в кассе.',
   },
   {
     key: '2',
-    english: 'You can buy a ticket at the ticket machine or at the counter.',
-    russian: 'Вы можете купить билет в автомате или в кассе.',
+    english: 'How much is a single ticket? - A single ticket costs 1.50 pounds.',
+    russian: 'Сколько стоит одноразовый билет? - Одноразовый билет стоит 1.50 фунта.',
   },
   {
     key: '3',
-    english: 'How much is a single ticket?',
-    russian: 'Сколько стоит одноразовый билет?',
+    english: 'Can I pay with a card? - Yes, you can pay with a card or cash.',
+    russian: 'Можно ли оплатить картой? - Да, можно оплатить картой или наличными.',
   },
   {
     key: '4',
-    english: 'A single ticket costs 1.50 pounds.',
-    russian: 'Одноразовый билет стоит 1.50 фунта.',
+    english: 'Where is the metro entrance? - The entrance is just over there, next to the bus stop.',
+    russian: 'Где вход в метро? - Вход прямо там, рядом с автобусной остановкой.',
   },
   {
     key: '5',
-    english: 'Can I pay with a card?',
-    russian: 'Можно ли оплатить картой?',
+    english: 'Thank you! How many stops to the city center? - There are 5 stops to the city center.',
+    russian: 'Спасибо! Сколько остановок до центра города? - До центра города 5 остановок.',
   },
   {
     key: '6',
-    english: 'Yes, you can pay with a card or cash.',
-    russian: 'Да, можно оплатить картой или наличными.',
-  },
-  {
-    key: '7',
-    english: 'Where is the metro entrance?',
-    russian: 'Где вход в метро?',
-  },
-  {
-    key: '8',
-    english: 'The entrance is just over there, next to the bus stop.',
-    russian: 'Вход прямо там, рядом с автобусной остановкой.',
-  },
-  {
-    key: '9',
-    english: 'Thank you! How many stops to the city center?',
-    russian: 'Спасибо! Сколько остановок до центра города?',
-  },
-  {
-    key: '10',
-    english: 'There are 5 stops to the city center.',
-    russian: 'До центра города 5 остановок.',
-  },
-  {
-    key: '11',
-    english: 'Great! Thanks for your help.',
-    russian: 'Отлично! Спасибо за помощь.',
-  },
-  {
-    key: '12',
-    english: 'You’re welcome! Have a good trip!',
-    russian: 'Пожалуйста! Хорошего пути!',
+    english: 'Great! Thanks for your help. - You’re welcome! Have a good trip!',
+    russian: 'Отлично! Спасибо за помощь. - Пожалуйста! Хорошего пути!',
   },
 ];

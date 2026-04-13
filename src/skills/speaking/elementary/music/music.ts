@@ -111,7 +111,7 @@ export const music_01 = [
   {
     key: '8',
     english: 'Oh, I love her songs! - Me too! They are so beautiful.',
-    russian: 'О, я обожаю её песни! - Я тоже! Они такие красивые.',
+    russian: 'О, я люблю её песни! - Я тоже! Они такие красивые.',
   },
   {
     key: '9',
@@ -127,166 +127,112 @@ export const music_01 = [
 ];
 
 export const music_02 = [
-  { key: '1', english: 'Can you sing?', russian: 'Ты умеешь петь?' },
+  {
+    key: '1',
+    english: 'Can you sing? - A little, but not very well.',
+    russian: 'Ты умеешь петь? - Немного, но не очень хорошо.',
+  },
   {
     key: '2',
-    english: 'A little, but not very well.',
-    russian: 'Немного, но не очень хорошо.',
+    english: 'I think singing is fun! - Yes, I sing when I take a shower!',
+    russian: 'Я думаю, что петь – это весело! - Да, я пою, когда принимаю душ!',
   },
   {
     key: '3',
-    english: 'I think singing is fun!',
-    russian: 'Я думаю, что петь – это весело!',
+    english: 'Oh, fine. Do you know this song? - Yes! It’s very popular.',
+    russian: 'Ладно, ты знаешь эту песню? - Да! Она очень популярная',
   },
   {
     key: '4',
-    english: 'Yes, I sing when I take a shower!',
-    russian: 'Да, я пою, когда принимаю душ!',
-  },
-  {
-    key: '1',
-    english: 'Oh, fine. Do you know this song?',
-    russian: 'Ладно, ты знаешь эту песню?',
-  },
-  {
-    key: '2',
-    english: 'Yes! It’s very popular.',
-    russian: 'Да! Она очень популярная.',
-  },
-  { key: '3', english: 'Let’s sing together!', russian: 'Давай споем вместе!' },
-  {
-    key: '4',
-    english: 'Okay! It will be fun!',
-    russian: 'Окей! Это будет весело!',
-  },
-];
-
-export const music_03 = [
-  {
-    key: '1',
-    english: 'Do you play the guitar?',
-    russian: 'Ты играешь на гитаре?',
-  },
-  {
-    key: '2',
-    english: 'No, but I want to learn.',
-    russian: 'Нет, но я хочу научиться.',
-  },
-  { key: '3', english: 'I can teach you!', russian: 'Я могу тебя научить!' },
-  {
-    key: '4',
-    english: 'Really? That’s great!',
-    russian: 'Правда? Это здорово!',
+    english: 'Let’s sing together! - Okay! It will be fun!',
+    russian: 'Давай споем вместе! - Окей! Это будет весело!',
   },
   {
     key: '5',
-    english: 'We can start this weekend.',
-    russian: 'Мы можем начать в эти выходные.',
+    english: '-----',
+    russian: '-----',
   },
   {
     key: '6',
-    english: 'That sounds perfect! Do I need a guitar?',
-    russian: 'Звучит отлично! Мне нужна гитара?',
+    english: 'Do you play the guitar? - No, but I want to learn.',
+    russian: 'Ты играешь на гитаре? - Нет, но я хочу научиться.',
   },
   {
     key: '7',
+    english: 'I can teach you! - Really? That’s great!',
+    russian: 'Я могу тебя научить! - Правда? Это здорово!',
+  },
+  {
+    key: '8',
+    english: 'We can start this weekend. - That sounds perfect! Do I need a guitar?',
+    russian: 'Мы можем начать в эти выходные. - Звучит отлично! Мне нужна гитара?',
+  },
+  {
+    key: '9',
     english: 'I have an extra one. You can use it.',
     russian: 'У меня есть лишняя. Ты можешь её использовать.',
   },
   {
-    key: '8',
+    key: '10',
     english: 'Thank you! I’m excited to learn.',
-    russian: 'Спасибо! Я в восторге от идеи научиться.',
+    russian: 'Спасибо! Я в восторге (от идеи) научиться.',
   },
 ];
 
 export const music_04 = [
   {
     key: '1',
-    english: 'Do you listen to music every day?',
-    russian: 'Ты слушаешь музыку каждый день?',
+    english: 'Do you listen to music every day? - Yes, I do! I love music.',
+    russian: 'Ты слушаешь музыку каждый день? - Да! Я люблю музыку.',
   },
   {
     key: '2',
-    english: 'Yes, I do! I love music.',
-    russian: 'Да! Я люблю музыку.',
+    english: 'When do you listen to music? - In the morning and before bed.',
+    russian: 'Когда ты слушаешь музыку? - Утром и перед сном.',
   },
   {
     key: '3',
-    english: 'When do you listen to music?',
-    russian: 'Когда ты слушаешь музыку?',
+    english: 'That’s nice! Music makes me happy. - Me too! It helps me relax.',
+    russian: 'Это здорово! Музыка делает меня счастливым. - Меня тоже! Она помогает мне расслабиться.',
   },
   {
     key: '4',
-    english: 'In the morning and before bed.',
-    russian: 'Утром и перед сном.',
+    english: '-----',
+    russian: '-----',
   },
   {
     key: '5',
-    english: 'That’s nice! Music makes me happy.',
-    russian: 'Это здорово! Музыка делает меня счастливым.',
+    english: 'Do you go to concerts - [ˈkɒnsət] ? - Sometimes. I like live music.',
+    russian: 'Ты ходишь на концерты? - Иногда. Мне нравится живая музыка.',
   },
   {
     key: '6',
-    english: 'Me too! It helps me relax.',
-    russian: 'Меня тоже! Она помогает мне расслабиться.',
-  },
-];
-
-export const music_05 = [
-  {
-    key: '1',
-    english: 'Do you go to concerts?',
-    russian: 'Ты ходишь на концерты?',
+    english: 'Have you been to a concert this year? - No, but I want to go.',
+    russian: 'Ты был на концерте в этом году? - Нет, но я хочу пойти.',
   },
   {
-    key: '2',
-    english: 'Sometimes. I like live music.',
-    russian: 'Иногда. Мне нравится живая музыка.',
+    key: '7',
+    english: 'Let’s go together! - Good idea! It will be fun.',
+    russian: 'Давай пойдём вместе! - Хорошая идея! Это будет весело.',
   },
   {
-    key: '3',
-    english: 'Have you been to a concert this year?',
-    russian: 'Ты был на концерте в этом году?',
+    key: '8',
+    english: '-----',
+    russian: '-----',
   },
   {
-    key: '4',
-    english: 'No, but I want to go.',
-    russian: 'Нет, но я хочу пойти.',
-  },
-  { key: '5', english: 'Let’s go together!', russian: 'Давай пойдём вместе!' },
-  {
-    key: '6',
-    english: 'Good idea! It will be fun.',
-    russian: 'Хорошая идея! Это будет весело.',
-  },
-];
-
-export const music_06 = [
-  {
-    key: '1',
-    english: 'Do you like to dance to music?',
-    russian: 'Тебе нравится танцевать под музыку?',
+    key: '9',
+    english: 'Do you like to dance to music? - Yes! Dancing is fun.',
+    russian: 'Тебе нравится танцевать под музыку? - Да! Танцевать – это весело.',
   },
   {
-    key: '2',
-    english: 'Yes! Dancing is fun.',
-    russian: 'Да! Танцевать – это весело.',
+    key: '10',
+    english: 'Can you dance well? - Not really, but I try!',
+    russian: 'Ты умеешь хорошо танцевать? - Не очень, но я стараюсь!',
   },
   {
-    key: '3',
-    english: 'Can you dance well?',
-    russian: 'Ты умеешь хорошо танцевать?',
-  },
-  {
-    key: '4',
-    english: 'Not really, but I try!',
-    russian: 'Не очень, но я стараюсь!',
-  },
-  { key: '5', english: 'Let’s dance now!', russian: 'Давай потанцуем сейчас!' },
-  {
-    key: '6',
-    english: 'Okay! Let’s play some music.',
-    russian: 'Окей! Давай включим музыку.',
+    key: '11',
+    english: 'Let’s dance now! - Okay! Let’s play some music.',
+    russian: 'Давай потанцуем сейчас! - Окей! Давай включим музыку.',
   },
 ];

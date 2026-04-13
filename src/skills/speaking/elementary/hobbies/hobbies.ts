@@ -113,151 +113,91 @@ export const allHobbies = [
 export const hobbies_01 = [
   {
     key: '1',
-    english: 'Hi, Lisa! What do you like to do?',
-    russian: 'Привет, Лиза! Что тебе нравится делать?',
+    english: 'What do you like to do? - I like to draw.',
+    russian: 'Что тебе нравится делать? - Мне нравится рисовать.',
   },
   {
     key: '2',
-    english: 'Hi, Tom! I like to draw.',
-    russian: 'Привет, Том! Мне нравится рисовать.',
+    english: 'Oh, nice! What do you draw? - I draw animals and flowers.',
+    russian: 'О, здорово! Что ты рисуешь? - Я рисую животных и цветы.',
   },
   {
     key: '3',
-    english: 'Oh, nice! What do you draw?',
-    russian: 'О, здорово! Что ты рисуешь?',
+    english: 'That’s cool! Do you draw every day? - No, but I draw on weekends.',
+    russian: 'Это круто! Ты рисуешь каждый день? - Нет, но я рисую по выходным.',
   },
   {
     key: '4',
-    english: 'I draw animals and flowers.',
-    russian: 'Я рисую животных и цветы.',
+    english: '-',
+    russian: '-',
   },
   {
     key: '5',
-    english: 'That’s cool! Do you draw every day?',
-    russian: 'Это круто! Ты рисуешь каждый день?',
+    english: 'Do you like watching movies, Jake? - Yes, I love movies!',
+    russian: 'Тебе нравится смотреть фильмы, Джейк? - Да, я обожаю фильмы!',
   },
   {
     key: '6',
-    english: 'No, but I draw on weekends.',
-    russian: 'Нет, но я рисую по выходным.',
-  },
-];
-
-export const hobbies_02 = [
-  {
-    key: '1',
-    english: 'Do you like watching movies, Jake?',
-    russian: 'Тебе нравится смотреть фильмы, Джейк?',
-  },
-  { key: '2', english: 'Yes, I love movies!', russian: 'Да, я обожаю фильмы!' },
-  {
-    key: '3',
-    english: 'What kind of movies do you like?',
-    russian: 'Какие фильмы тебе нравятся? (П.С. имеется ввиду жанр)',
+    english: 'What kind of movies do you like? - I like action movies. And you?',
+    russian: 'Какие фильмы тебе нравятся? (~жанр) - Мне нравятся боевики. А тебе?',
   },
   {
-    key: '4',
-    english: 'I like action movies. And you?',
-    russian: 'Мне нравятся боевики. А тебе?',
+    key: '7',
+    english: 'I like comedy movies. - Nice! Let’s watch a movie together!',
+    russian: 'Мне нравятся комедии. - Отлично! Давай посмотрим фильм вместе!',
   },
   {
-    key: '5',
-    english: 'I like comedy movies.',
-    russian: 'Мне нравятся комедии.',
+    key: '8',
+    english: '-',
+    russian: '-',
   },
   {
-    key: '6',
-    english: 'Nice! Let’s watch a movie together!',
-    russian: 'Отлично! Давай посмотрим фильм вместе!',
+    key: '9',
+    english: 'Do you have a hobby? - Yes, I like playing soccer [sɔkə].',
+    russian: 'У тебя есть хобби? - Да, я люблю играть в футбол.',
+  },
+  {
+    key: '10',
+    english: 'Oh, that’s cool! How often do you play? - I play every weekend with my friends.',
+    russian: 'О, это круто! Как часто ты играешь? - Я играю каждые выходные с друзьями.',
   },
 ];
 
 export const hobbies_03 = [
   {
     key: '1',
-    english: 'Do you play any musical instruments?',
-    russian: 'Ты играешь на музыкальных инструментах?',
+    english: 'Do you play any musical instruments? - Yes! I play the piano.',
+    russian: 'Ты играешь на музыкальных инструментах? - Да! Я играю на пианино.',
   },
   {
     key: '2',
-    english: 'Yes! I play the piano.',
-    russian: 'Да! Я играю на пианино.',
+    english: 'Wow! That’s amazing. Is it hard? - A little, but I practice every day.',
+    russian: 'Вау! Это потрясающе. Это сложно (тяжело)? - Немного, но я занимаюсь каждый день.',
   },
   {
     key: '3',
-    english: 'Wow! That’s amazing. Is it hard?',
-    russian: 'Вау! Это потрясающе. Это сложно?',
+    english: 'I want to learn play the guitar. - That’s a great idea! Music is fun.',
+    russian: 'Я хочу научиться играть на гитаре. - Отличная идея! Музыка – это весело.',
   },
   {
     key: '4',
-    english: 'A little, but I practice every day.',
-    russian: 'Немного, но я занимаюсь каждый день.',
+    english: '-',
+    russian: '-',
   },
   {
     key: '5',
-    english: 'I want to learn play the guitar.',
-    russian: 'Я хочу научиться играть на гитаре.',
+    english: 'Do you like sports, Ben? - Yes! I love basketball.',
+    russian: 'Тебе нравятся спорт, Бен? - Да! Я люблю баскетбол.',
   },
   {
     key: '6',
-    english: 'That’s a great idea! Music is fun.',
-    russian: 'Отличная идея! Музыка – это весело.',
-  },
-];
-
-export const hobbies_04 = [
-  {
-    key: '1',
-    english: 'Do you like sports, Ben?',
-    russian: 'Тебе нравятся спорт, Бен?',
+    english: 'Cool! Do you play in a team? - Yes, I play with my school team.',
+    russian: 'Круто! Ты играешь в команде? - Да, я играю в школьной команде.',
   },
   {
-    key: '2',
-    english: 'Yes! I love basketball.',
-    russian: 'Да! Я люблю баскетбол.',
-  },
-  {
-    key: '3',
-    english: 'Cool! Do you play in a team?',
-    russian: 'Круто! Ты играешь в команде?',
-  },
-  {
-    key: '4',
-    english: 'Yes, I play with my school team.',
-    russian: 'Да, я играю в школьной команде.',
-  },
-  {
-    key: '5',
-    english: 'That’s great! I like running.',
-    russian: 'Это здорово! Мне нравится бегать.',
-  },
-  {
-    key: '6',
-    english: 'Running is good for health!',
-    russian: 'Бег полезен для здоровья!',
-  },
-];
-
-export const hobbies_05 = [
-  {
-    key: '1',
-    english: 'Hi, Jack! Do you have a hobby?',
-    russian: 'Привет, Джек! У тебя есть хобби?',
-  },
-  {
-    key: '2',
-    english: 'Hi, Emma! Yes, I like playing soccer [sɔkə].',
-    russian: 'Привет, Эмма! Да, я люблю играть в футбол.',
-  },
-  {
-    key: '3',
-    english: 'Oh, that’s cool! How often do you play?',
-    russian: 'О, это круто! Как часто ты играешь?',
-  },
-  {
-    key: '4',
-    english: 'I play every weekend with my friends.',
-    russian: 'Я играю каждый уикенд с друзьями.',
+    key: '7',
+    english: 'That’s great! I like running. - Running is good for health!',
+    russian: 'Это здорово! Мне нравится бегать. - Бег полезен для здоровья!',
   },
 ];
 

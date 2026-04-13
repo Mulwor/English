@@ -235,100 +235,61 @@ export const allHolidays = [
 export const holidays_01 = [
   {
     key: '1',
-    english: 'Hi, Tom! Are you going on holiday this summer?',
-    russian: 'Привет, Том! Ты собираешься в отпуск этим летом?',
+    english: 'Are you going on holiday this summer? - Yes! I am going to Spain.',
+    russian: 'Ты собираешься в отпуск этим летом? - Да! Я еду в Испанию.',
   },
   {
     key: '2',
-    english: 'Yes! I am going to Spain.',
-    russian: 'Да! Я еду в Испанию.',
+    english: 'Wow! That sounds fun. Who are you going with? - I am going with my family.',
+    russian: 'Вау! Звучит весело. С кем ты собираешься ехать? - Я еду с моей семьей.',
   },
   {
     key: '3',
-    english: 'Wow! That sounds fun. Who are you going with?',
-    russian: 'Вау! Звучит весело. С кем ты едешь?',
+    english: 'What will you do there? - We will go to the beach, swim, and eat good food.',
+    russian: 'Что ты будешь там делать? - Мы будем ходить на пляж, плавать и есть вкусную еду.',
   },
   {
     key: '4',
-    english: 'I am going with my family.',
-    russian: 'Я еду с моей семьей.',
+    english: 'Nice! How long will you stay? - We will stay for two weeks.',
+    russian: 'Здорово! Как долго вы там будете (оставаться)? - Мы останемся на две недели.',
   },
   {
     key: '5',
-    english: 'What will you do there?',
-    russian: 'Что ты будешь там делать?',
+    english: 'Enjoy your holiday!',
+    russian: 'Приятного отпуска!',
   },
   {
     key: '6',
-    english: 'We will go to the beach, swim, and eat good food.',
-    russian: 'Мы будем ходить на пляж, плавать и есть вкусную еду.',
+    english: '---',
+    russian: '---',
   },
   {
     key: '7',
-    english: 'Nice! How long will you stay?',
-    russian: 'Здорово! Как долго ты там пробудешь?',
-  },
-  {
-    key: '8',
-    english: 'We will stay for two weeks.',
-    russian: 'Мы останемся на две недели.',
-  },
-  { key: '9', english: 'Enjoy your holiday!', russian: 'Приятного отпуска!' },
-];
-
-export const holidays_02 = [
-  {
-    key: '1',
-    english: 'Hi, Sarah! How was your holiday?',
-    russian: 'Привет, Сара! Как прошел твой отпуск?',
-  },
-  {
-    key: '2',
-    english: 'It was great! I went to Italy.',
-    russian: 'Было замечательно! Я ездила в Италию.',
+    english: 'How was your holiday? - It was great! I went to Italy.',
+    russian: 'Как прошел твой отпуск? - Было замечательно! Я ездила в Италию.',
   },
   {
     key: '3',
-    english: 'Oh, cool! What did you do there?',
-    russian: 'О, круто! Что ты там делала?',
-  },
-  {
-    key: '4',
-    english: 'I visited Rome, saw the Colosseum, and ate pizza!',
-    russian: 'Я посетила Рим, увидела Колизей и ела пиццу!',
+    english: 'Oh, cool! What did you do there? - I visited Rome, saw the Colosseum, and ate pizza!',
+    russian: 'О, круто! Что ты там делала? - Я посетила Рим, увидела Колизей и ела пиццу!',
   },
   {
     key: '5',
-    english: 'Sounds delicious! Was the weather good?',
-    russian: 'Звучит вкусно! Погода была хорошей?',
-  },
-  {
-    key: '6',
-    english: 'Yes, it was sunny and warm.',
-    russian: 'Да, было солнечно и тепло.',
+    english: 'Was the weather good? - Yes, it was sunny and warm.',
+    russian: 'Погода была хорошей? - Да, было солнечно и тепло.',
   },
   {
     key: '7',
-    english: 'How long did you stay?',
-    russian: 'Как долго ты там была?',
-  },
-  {
-    key: '8',
-    english: 'I stayed for one week.',
-    russian: 'Я была там одну неделю.',
+    english: 'How long did you stay? - I stayed for one week.',
+    russian: 'Как долго ты там была? - Я была там одну неделю.',
   },
   {
     key: '9',
-    english: 'Did you take photos?',
-    russian: 'Ты делала фотографии?',
+    english: 'Did you take photos? - Yes, many photos! I can show you later.',
+    russian: 'Ты делала фотографии? - Да, много фотографий! Я могу показать позже.',
   },
   {
     key: '10',
-    english: 'Yes, many photos! I can show you later.',
-    russian: 'Да, много фотографий! Я могу показать их позже.',
-  },
-  {
-    key: '11',
     english: 'I can’t wait to see them!',
     russian: 'Не могу дождаться, чтобы увидеть их!',
   },
@@ -347,168 +308,117 @@ export const holidays_03 = [
   },
   {
     key: '3',
-    english: 'Sure! For how many nights?',
-    russian: 'Конечно! На сколько ночей?',
+    english: 'Sure! For how many nights? - Three nights.',
+    russian: 'Конечно! На сколько ночей? - Три ночи.',
   },
-  { key: '4', english: 'Three nights.', russian: 'Три ночи.' },
+  {
+    key: '4',
+    english: 'Single or double room? - Single room, please.',
+    russian: 'Одноместный или двухместный номер? - Одноместный, пожалуйста.',
+  },
   {
     key: '5',
-    english: 'Single or double room?',
-    russian: 'Одноместный или двухместный номер?',
-  },
-  {
-    key: '6',
-    english: 'Single room, please.',
-    russian: 'Одноместный, пожалуйста.',
-  },
-  {
-    key: '7',
     english: 'Okay. Your room is on the second floor.',
     russian: 'Хорошо. Ваша комната на втором этаже.',
   },
   {
+    key: '6',
+    english: 'Great! How much is it? - It’s $50 per night.',
+    russian: 'Отлично! Сколько это стоит? - Это $50 за ночь.',
+  },
+  {
+    key: '7',
+    english: 'Perfect. Can I pay by card? - Yes, of course. - Enjoy your stay! - Thank you very much!',
+    russian: 'Прекрасно. Могу я оплатить картой? - Да, конечно. Желаем приятного отдыха! - Большое спасибо!',
+  },
+  {
     key: '8',
-    english: 'Great! How much is it?',
-    russian: 'Отлично! Сколько это стоит?',
-  },
-  { key: '9', english: 'It’s $50 per night.', russian: 'Это $50 за ночь.' },
-  {
-    key: '10',
-    english: 'Perfect. Can I pay by card?',
-    russian: 'Прекрасно. Могу я оплатить картой?',
+    english: '---',
+    russian: '---',
   },
   {
-    key: '11',
-    english: 'Yes, of course. Enjoy your stay!',
-    russian: 'Да, конечно. Приятного пребывания!',
-  },
-  { key: '12', english: 'Thank you very much!', russian: 'Большое спасибо!' },
-];
-
-export const holidays_04 = [
-  {
-    key: '1',
+    key: '9',
     english: 'Hello! Is this the line for flight 202?',
     russian: 'Здравствуйте! Это очередь на рейс 202?',
   },
   {
-    key: '2',
-    english: 'Yes, it is. Can I see your ticket and passport, please?',
-    russian: 'Да, верно. Могу я увидеть ваш билет и паспорт, пожалуйста?',
-  },
-  { key: '3', english: 'Here you go.', russian: 'Вот, пожалуйста.' },
-  {
-    key: '4',
-    english: 'Thank you. Are you going on holiday?',
-    russian: 'Спасибо. Вы собираетесь в отпуск?',
+    key: '10',
+    english: 'Yes, it is. Can I see your ticket and passport, please? - Here you go.',
+    russian: 'Да, верно. Могу я увидеть ваш билет и паспорт, пожалуйста? - Вот, пожалуйста.',
   },
   {
-    key: '5',
-    english: 'Yes! I am going to London.',
-    russian: 'Да! Я еду в Лондон.',
+    key: '11',
+    english: 'Thank you. Are you going on holiday? - Yes! I am going to London.',
+    russian: 'Спасибо. Вы собираетесь в отпуск? - Да! Я еду в Лондон.',
   },
   {
-    key: '6',
-    english: 'Nice! How long will you stay?',
-    russian: 'Отлично! Как долго вы будете там?',
+    key: '12',
+    english: 'Nice! How long will you stay? - I will stay for one week.',
+    russian: 'Отлично! Как долго вы будете там? - Я пробуду там одну неделю.',
   },
   {
-    key: '7',
-    english: 'I will stay for one week.',
-    russian: 'Я пробуду там одну неделю.',
+    key: '13',
+    english: 'Enjoy your trip! - Thank you!',
+    russian: 'Приятного путешествия! - Спасибо!',
   },
-  { key: '8', english: 'Enjoy your trip!', russian: 'Приятного путешествия!' },
-  { key: '9', english: 'Thank you!', russian: 'Спасибо!' },
 ];
 
 export const holidays_05 = [
   {
     key: '1',
-    english: 'Hi, do you sell souvenirs here?',
-    russian: 'Здравствуйте, вы продаёте здесь сувениры?',
+    english: 'Hi, do you sell souvenirs [ˈsuːvənɪə] here? - Yes, we do! We have magnets, T-shirts, and keychains.',
+    russian: 'Здравствуйте, вы продаёте здесь сувениры? - Да! У нас есть магниты, футболки и брелоки.',
   },
   {
     key: '2',
-    english: 'Yes, we do! We have magnets, T-shirts, and keychains.',
-    russian: 'Да! У нас есть магниты, футболки и брелоки.',
+    english: 'Great! How much is this T-shirt? - It’s $10.',
+    russian: 'Отлично! Сколько стоит эта футболка? - Она стоит $10.',
   },
   {
     key: '3',
-    english: 'Great! How much is this T-shirt?',
-    russian: 'Отлично! Сколько стоит эта футболка?',
-  },
-  { key: '4', english: 'It’s $10.', russian: 'Она стоит $10.' },
-  {
-    key: '5',
-    english: 'I’ll take it. And how much is the magnet?',
-    russian: 'Я её беру. А сколько стоит магнит?',
-  },
-  { key: '6', english: 'It’s $2.', russian: 'Он стоит $2.' },
-  {
-    key: '7',
-    english: 'I will take two magnets, please.',
-    russian: 'Я возьму два магнита, пожалуйста.',
-  },
-  {
-    key: '8',
-    english: 'Sure! That will be $14.',
-    russian: 'Конечно! Это будет $14.',
-  },
-  {
-    key: '9',
-    english: 'Here is the money. Thank you!',
-    russian: 'Вот деньги. Спасибо!',
-  },
-  {
-    key: '10',
-    english: 'You’re welcome! Have a nice day!',
-    russian: 'Пожалуйста! Хорошего дня!',
-  },
-];
-
-export const holidays_06 = [
-  {
-    key: '1',
-    english: 'Hi, Mark! Are you excited for your holiday?',
-    russian: 'Привет, Марк! Ты рад своему отпуску?',
-  },
-  {
-    key: '2',
-    english: 'Yes, very excited! I am going to Paris.',
-    russian: 'Да, очень рад! Я еду в Париж.',
-  },
-  {
-    key: '3',
-    english: 'Wow! Who are you going with?',
-    russian: 'Вау! С кем ты едешь?',
+    english: 'I’ll take it. And how much is the magnet? - t’s $2.',
+    russian: 'Я её беру. А сколько стоит магнит? - Он стоит $2.',
   },
   {
     key: '4',
-    english: 'I’m going with my parents.',
-    russian: 'Я еду с моими родителями.',
+    english: 'I will take two magnets, please. - Sure! That will be $14.',
+    russian: 'Я возьму два магнита, пожалуйста. - Конечно! Это будет $14.',
   },
   {
     key: '5',
-    english: 'What will you do there?',
-    russian: 'Что ты будешь там делать?',
+    english: 'Here is the money. Thank you! - You’re welcome! Have a nice day!',
+    russian: 'Вот деньги. Спасибо! - Пожалуйста! Хорошего дня!',
   },
   {
     key: '6',
-    english: 'We will visit museums, see the Eiffel Tower, and eat good food.',
-    russian: 'Мы будем посещать музеи, увидеть Эйфелеву башню и пробовать вкусную еду.',
+    english: '---',
+    russian: '---',
   },
   {
     key: '7',
-    english: 'That sounds amazing! How long will you stay?',
-    russian: 'Звучит потрясающе! Как долго вы пробудете там?',
+    english: 'Hi, Mark! Are you excited for your holiday? - Yes, very excited! I am going to Paris.',
+    russian: 'Привет, Марк! Ты рад своему отпуску? - Да, очень рад! Я собираюсь в Париж.',
   },
   {
     key: '8',
-    english: 'We will stay for five days.',
-    russian: 'Мы останемся на пять дней.',
+    english: 'Wow! Who are you going with? - I’m going with my parents.',
+    russian: 'Вау! С кем ты собираешься поедешь? - Я еду с моими родителями.',
   },
-  { key: '9', english: 'Have a great holiday!', russian: 'Отличного отпуска!' },
-  { key: '10', english: 'Thank you!', russian: 'Спасибо!' },
+  {
+    key: '9',
+    english: 'What will you do there? - We will visit museums, see the Eiffel Tower, and eat good food.',
+    russian: 'Что ты будешь там делать? - Мы будем посещать музеи, увидеть Эйфелеву башню и пробовать вкусную еду.',
+  },
+  {
+    key: '10',
+    english: 'How long will you stay? - We will stay for five days.',
+    russian: 'Как долго вы пробудете там? - Мы останемся на пять дней.',
+  },
+  {
+    key: '11',
+    english: 'Have a great holiday! - Thank you!',
+    russian: 'Отличного отпуска! - Спасибо!',
+  },
 ];
 
 export const holidays_07 = [
@@ -520,7 +430,7 @@ export const holidays_07 = [
   {
     key: '2',
     english: 'Sure! When would you like to travel?',
-    russian: 'Конечно! Когда вы хотите путешествовать?',
+    russian: 'Конечно! Когда бы вы хотели полететь? (Когда бы вы хотели отправиться в путешествие?)',
   },
   {
     key: '3',
@@ -529,178 +439,105 @@ export const holidays_07 = [
   },
   {
     key: '4',
-    english: 'Round-trip. Got it. Morning or evening flight?',
-    russian: 'Туда и обратно. Понял. Утренний или вечерний рейс?',
+    english: 'Round-trip. Got it. Morning or evening flight? - Morning, please.',
+    russian: 'Туда и обратно. Понял. Утренний или вечерний рейс? - Утренний, пожалуйста.',
   },
-  { key: '5', english: 'Morning, please.', russian: 'Утренний, пожалуйста.' },
   {
-    key: '6',
+    key: '5',
     english: 'There’s a flight at 8:30 a.m. Is that okay?',
     russian: 'Есть рейс в 8:30 утра. Это вас устраивает?',
   },
   {
+    key: '6',
+    english: 'Yes, that’s perfect. How much is it? - It’s $400 for the round-trip ticket.',
+    russian: 'Да, идеально. Сколько это стоит? - Это $400 за билет туда и обратно.',
+  },
+  {
     key: '7',
-    english: 'Yes, that’s perfect. How much is it?',
-    russian: 'Да, идеально. Сколько это стоит?',
+    english: 'Great! Can I pay by credit card? - Yes, of course. Please fill out this form.',
+    russian: 'Отлично! Могу я оплатить кредитной картой? - Да, конечно. Пожалуйста, заполните эту форму.',
   },
   {
     key: '8',
-    english: 'It’s $400 for the round-trip ticket.',
-    russian: 'Это $400 за билет туда и обратно.',
+    english: '--_--',
+    russian: '--_--',
   },
   {
     key: '9',
-    english: 'Great! Can I pay by credit card?',
-    russian: 'Отлично! Могу я оплатить кредитной картой?',
+    english: 'How was your holiday in Japan? - It was fantastic! We visited Tokyo, Kyoto, and Osaka.',
+    russian: 'Как прошёл твой отпуск в Японии? - Это было фантастично! Мы посетили Токио, Киото и Осаку.',
   },
   {
     key: '10',
-    english: 'Yes, of course. Please fill out this form.',
-    russian: 'Да, конечно. Пожалуйста, заполните эту форму.',
+    english: 'Wow! What did you do there? - We saw temples [templ], tried sushi, and went shopping.',
+    russian: 'Вау! Что вы там делали? - Мы видели храмы, пробовали суши и ходили по магазинам.',
   },
-  { key: '11', english: 'Thank you!', russian: 'Спасибо!' },
+  {
+    key: '11',
+    english: 'How was the weather? - It was mostly sunny, but it rained one day.',
+    russian: 'Как была погода? - В основном было солнечно, но один день шёл дождь.',
+  },
+  {
+    key: '12',
+    english: 'How long did you stay? - We stayed for two weeks. I took hundreds of photos!',
+    russian: 'Как долго вы там пробыли? - Мы пробыли там две недели. Я сделал сотни фотографий!',
+  },
 ];
 
 export const holidays_08 = [
   {
     key: '1',
-    english: 'Hey, Lisa! Are you going on holiday this year?',
-    russian: 'Привет, Лиза! Ты едешь в отпуск в этом году?',
+    english: 'Are you going on holiday this year? - Yes! My family and I are going to Greece [griːs].',
+    russian: 'Ты едешь в отпуск в этом году? - Да! Моя семья и я едем в Грецию.',
   },
   {
     key: '2',
-    english: 'Yes! My family and I are going to Greece.',
-    russian: 'Да! Моя семья и я едем в Грецию.',
+    english: 'What are you going to do there? - We are planning to visit beautiful beaches, explore ancient ruins, and try local food.',
+    russian: 'Что вы будете там делать? - Мы планируем посетить красивые пляжи, исследовать древние руины и попробовать местную еду.',
   },
   {
     key: '3',
-    english: 'That sounds amazing! What are you going to do there?',
-    russian: 'Звучит потрясающе! Что вы будете там делать?',
+    english: 'How long will you stay? - We will stay for ten days.',
+    russian: 'Как долго вы пробудете там? - Мы останемся на десять дней',
   },
   {
     key: '4',
-    english: 'We are planning to visit beautiful beaches, explore ancient ruins, and try local food.',
-    russian: 'Мы планируем посетить красивые пляжи, исследовать древние руины и попробовать местную еду.',
+    english: 'Are you going to take lots of photos? - Absolutely! I want to make a holiday album. - I can’t wait to see it!',
+    russian: 'Ты собираешься делать много фотографий? - Абсолютно! Я хочу сделать альбом о поездке. - Не могу дождаться, чтобы увидеть его!',
   },
   {
     key: '5',
-    english: 'Sounds like a lot of fun! How long will you stay?',
-    russian: 'Звучит очень весело! Как долго вы пробудете там?',
+    english: '--_--',
+    russian: '--_--',
   },
   {
     key: '6',
-    english: 'We will stay for ten days.',
-    russian: 'Мы останемся на десять дней.',
+    english: 'Good morning! How can I help you today? - Hi! I want to book a holiday package for Italy.',
+    russian: 'Доброе утро! Чем я могу вам помочь сегодня? - Привет! Я хочу забронировать туристический пакет в Италию.',
   },
   {
     key: '7',
-    english: 'Are you going to take lots of photos?',
-    russian: 'Ты собираешься делать много фотографий?',
-  },
-  {
-    key: '8',
-    english: 'Absolutely! I want to make a holiday album.',
-    russian: 'Абсолютно! Я хочу сделать альбом о поездке.',
-  },
-  {
-    key: '9',
-    english: 'I can’t wait to see it!',
-    russian: 'Не могу дождаться, чтобы увидеть его!',
-  },
-];
-
-export const holidays_09 = [
-  {
-    key: '1',
-    english: 'Good morning! How can I help you today?',
-    russian: 'Доброе утро! Чем я могу вам помочь сегодня?',
-  },
-  {
-    key: '2',
-    english: 'Hi! I want to book a holiday package for Italy.',
-    russian: 'Привет! Я хочу забронировать туристический пакет в Италию.',
-  },
-  {
-    key: '3',
     english: 'Great choice! Are you looking for a beach holiday or a city tour?',
     russian: 'Отличный выбор! Вы ищете пляжный отдых или экскурсию по городам?',
   },
   {
-    key: '4',
+    key: '8',
     english: 'A city tour. I want to visit Rome, Florence, and Venice.',
     russian: 'Экскурсию по городам. Я хочу посетить Рим, Флоренцию и Венецию.',
   },
   {
-    key: '5',
+    key: '9',
     english: 'We have a special 7-day package that includes hotels, tours, and breakfast.',
     russian: 'У нас есть специальный 7-дневный пакет, включающий отели, экскурсии и завтрак.',
   },
   {
-    key: '6',
-    english: 'That sounds perfect! How much is it?',
-    russian: 'Звучит идеально! Сколько это стоит?',
+    key: '10',
+    english: 'How much is it? - It’s $1,200 per person.',
+    russian: 'Сколько это стоит? - Это $1,200 за человека.',
   },
   {
-    key: '7',
-    english: 'It’s $1,200 per person.',
-    russian: 'Это $1,200 за человека.',
-  },
-  {
-    key: '8',
-    english: 'Okay, I would like to book it for two people.',
-    russian: 'Хорошо, я бы хотел забронировать на двоих.',
-  },
-  {
-    key: '9',
-    english: 'Sure! Let me prepare the details for you.',
-    russian: 'Конечно! Позвольте мне подготовить детали для вас.',
-  },
-];
-
-export const holidays_10 = [
-  {
-    key: '1',
-    english: 'Hi, Ben! How was your holiday in Japan?',
-    russian: 'Привет, Бен! Как прошёл твой отпуск в Японии?',
-  },
-  {
-    key: '2',
-    english: 'It was fantastic! We visited Tokyo, Kyoto, and Osaka.',
-    russian: 'Это было фантастично! Мы посетили Токио, Киото и Осаку.',
-  },
-  {
-    key: '3',
-    english: 'Wow! What did you do there?',
-    russian: 'Вау! Что вы там делали?',
-  },
-  {
-    key: '4',
-    english: 'We saw temples, tried sushi, and went shopping.',
-    russian: 'Мы видели храмы, пробовали суши и ходили по магазинам.',
-  },
-  {
-    key: '5',
-    english: 'That sounds like a great trip! How was the weather?',
-    russian: 'Звучит как отличное путешествие! Как была погода?',
-  },
-  {
-    key: '6',
-    english: 'It was mostly sunny, but it rained one day.',
-    russian: 'В основном было солнечно, но один день шёл дождь.',
-  },
-  {
-    key: '7',
-    english: 'How long did you stay?',
-    russian: 'Как долго вы там пробыли?',
-  },
-  {
-    key: '8',
-    english: 'We stayed for two weeks. I took hundreds of photos!',
-    russian: 'Мы пробыли там две недели. Я сделал сотни фотографий!',
-  },
-  {
-    key: '9',
-    english: 'I would love to see them!',
-    russian: 'Я бы хотел их увидеть!',
+    key: '11',
+    english: 'Okay, I would like to book it for two people. - Sure! Let me prepare the details for you',
+    russian: 'Хорошо, я бы хотел забронировать на двоих. - Конечно! Позвольте мне подготовить детали для вас.',
   },
 ];

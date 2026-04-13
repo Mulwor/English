@@ -1,6 +1,6 @@
 import { Collapse, Divider } from 'antd';
 import { CollapseWithAccordion } from '../../../../components/Collapse';
-import { allHotel, hotel_01, hotel_02, hotel_03, hotel_04, hotel_05, hotel_06, hotel_07, hotel_08, hotel_09, hotel_10 } from './hotel';
+import { allHotel, hotel_01, hotel_03, hotel_05, hotel_07, hotel_09 } from './hotel';
 import { columns } from '../../../../data/sample';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import { BasicTable, Pagination, Video } from '../../../../components';
@@ -8,18 +8,7 @@ import { BasicTable, Pagination, Video } from '../../../../components';
 const { Panel } = Collapse;
 
 export const Hotel = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(hotel_01, [
-    hotel_01,
-    hotel_02,
-    hotel_03,
-    hotel_04,
-    hotel_05,
-    hotel_06,
-    hotel_07,
-    hotel_08,
-    hotel_09,
-    hotel_10,
-  ]);
+  const { data, currentPage, handlePageChange } = usePaginatedData(hotel_01, [hotel_01, hotel_03, hotel_05, hotel_07, hotel_09]);
 
   return (
     <div>
@@ -48,7 +37,7 @@ export const Hotel = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={10}
+        totalPages={5}
         onPageChange={handlePageChange}
       />
     </div>

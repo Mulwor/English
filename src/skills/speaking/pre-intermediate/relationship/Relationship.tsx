@@ -4,32 +4,20 @@ import { columns } from '../../../../data/sample';
 import { memberOfFamily, appearance, character } from './vocabulary';
 import { usePaginatedData } from '../../../../hooks/usePaginatedData';
 import {
-  family_dialogs_01,
-  family_dialogs_02,
-  family_dialogs_03,
-  family_dialogs_04,
-  family_dialogs_05,
-  family_dialogs_06,
-  family_dialogs_07,
-  family_dialogs_08,
-  family_dialogs_09,
+  relationship_dialog_01, relationship_dialog_02, relationship_dialog_03, 
+  relationship_dialog_04, relationship_dialog_05, relationship_dialog_06,
+  relationship_dialog_07, relationship_dialog_08, relationship_dialog_09,
+  relationship_dialog_10,
 } from './dialogs';
-import { talkingAboutSmth_08 } from '../../elementary/talkingAboutSomeone/talkingAboutSmth';
 
 const { Panel } = Collapse;
 
 export const Relationship = () => {
-  const { data, currentPage, handlePageChange } = usePaginatedData(talkingAboutSmth_08, [
-    talkingAboutSmth_08,
-    family_dialogs_01,
-    family_dialogs_02,
-    family_dialogs_03,
-    family_dialogs_04,
-    family_dialogs_05,
-    family_dialogs_06,
-    family_dialogs_07,
-    family_dialogs_08,
-    family_dialogs_09,
+  const { data, currentPage, handlePageChange } = usePaginatedData(relationship_dialog_01, [
+    relationship_dialog_01, relationship_dialog_02, relationship_dialog_03, 
+    relationship_dialog_04, relationship_dialog_05, relationship_dialog_06,
+    relationship_dialog_07, relationship_dialog_08, relationship_dialog_09,
+    relationship_dialog_10
   ]);
 
   return (
@@ -70,13 +58,12 @@ export const Relationship = () => {
           key='1'
         >
           <li>
-             <a href='https://www.tinytap.com/activities/g4plf/play/describing-people-game?srsltid=AfmBOoobuyNLzsZ0hAYOHgS41xuyecfppuFddsbIPZkPhJFG21ASSZIO'>
-        Прочитал предложение необходимо соотнести с картинкой
-      </a>
+            <a href='https://www.tinytap.com/activities/g4plf/play/describing-people-game?srsltid=AfmBOoobuyNLzsZ0hAYOHgS41xuyecfppuFddsbIPZkPhJFG21ASSZIO'>
+              Прочитал предложение необходимо соотнести с картинкой
+            </a>
           </li>
         </Panel>
       </Collapse>
-
 
       <Divider>Dialogs</Divider>
       <p>
@@ -94,18 +81,18 @@ export const Relationship = () => {
         />
       </div>
 
-      <Divider>Videos</Divider>
-      <div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          gap: '1rem',
-          marginTop: '1rem',
-          marginBottom: '1rem',
-        }}
-      >
-        <Video videoId='5n2ma_4sy_8' />
-      </div>
+      <Divider>Video</Divider>
+
+      <Collapse accordion>
+        <Panel
+          header='Videos'
+          key='1'
+        >
+          <div className='video'>
+            <Video videoId='5n2ma_4sy_8' />
+          </div>
+        </Panel>
+      </Collapse>
 
       <Divider>Writing</Divider>
       <p>

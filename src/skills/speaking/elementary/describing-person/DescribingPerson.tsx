@@ -4,18 +4,10 @@ import { columns } from '../../../../data/sample';
 import {
   appearance,
   describingPerson_01,
-  describingPerson_02,
   describingPerson_03,
-  describingPerson_04,
-  describingPerson_05,
   describingPerson_06,
-  describingPerson_07,
   describingPerson_08,
-  describingPerson_09,
   describingPerson_10,
-  describingPerson_11,
-  describingPerson_12,
-  describingPerson_13,
   hairAndEyes,
   personality,
 } from './describing-person';
@@ -27,18 +19,10 @@ const { Panel } = Collapse;
 export const DescribingPerson = () => {
   const { data, currentPage, handlePageChange } = usePaginatedData(describingPerson_01, [
     describingPerson_01,
-    describingPerson_02,
-    describingPerson_04,
-    describingPerson_05,
     describingPerson_06,
-    describingPerson_07,
     describingPerson_08,
     describingPerson_03,
-    describingPerson_09,
     describingPerson_10,
-    describingPerson_11,
-    describingPerson_12,
-    describingPerson_13,
   ]);
 
   return (
@@ -83,7 +67,7 @@ export const DescribingPerson = () => {
       <BasicTable data={data} />
       <Pagination
         currentPage={currentPage}
-        totalPages={9}
+        totalPages={5}
         onPageChange={handlePageChange}
       />
 

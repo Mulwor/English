@@ -166,78 +166,49 @@ export const sportsData = [
 ];
 
 export const sport_01 = [
-  { key: '1', english: 'Do you like sports?', russian: 'Ты любишь спорт?' },
+  { key: '1', english: 'Do you like sports? - Yes, I do. I like football.', russian: 'Ты любишь спорт? - Да. Я люблю футбол.' },
   {
     key: '2',
-    english: 'Yes, I do. I like football.',
-    russian: 'Да. Я люблю футбол.',
+    english: 'Oh, I like football too! - Really? Do you play it?',
+    russian: 'О, я тоже люблю футбол! - Правда? Ты играешь в него?',
   },
   {
     key: '3',
-    english: 'Oh, I like football too!',
-    russian: 'О, я тоже люблю футбол!',
+    english: 'Yes, I play with my friends after school. - That’s great! I play at the weekend.',
+    russian: 'Да, я играю с друзьями после школы. - Здорово! Я играю на выходных.',
   },
   {
     key: '4',
-    english: 'Really? Do you play it?',
-    russian: 'Правда? Ты играешь в него?',
+    english: 'Cool! What position do you play? - I play forward. I like scoring goals!',
+    russian: 'Круто! На какой позиции ты играешь? - Я играю нападающим. Мне нравится забивать голы!',
   },
   {
     key: '5',
-    english: 'Yes, I play with my friends after school.',
-    russian: 'Да, я играю с друзьями после школы.',
+    english: '-',
+    russian: '-',
   },
   {
     key: '6',
-    english: 'That’s great! I play at the weekend.',
-    russian: 'Здорово! Я играю на выходных.',
+    english: 'What sport do you like? - I like tennis.',
+    russian: 'Какой спорта тебе нравится? - Мне нравится теннис.',
   },
   {
     key: '7',
-    english: 'Cool! What position do you play?',
-    russian: 'Круто! На какой позиции ты играешь?',
+    english: 'Do you play tennis often? - Yes, I play twice a week.',
+    russian: 'Ты часто играешь в теннис? - Да, я играю два раза в неделю.',
   },
   {
     key: '8',
-    english: 'I play forward. I like scoring goals!',
-    russian: 'Я играю нападающим. Мне нравится забивать голы!',
-  },
-];
-
-export const sport_02 = [
-  {
-    key: '1',
-    english: 'What sport do you like?',
-    russian: 'Какой вид спорта тебе нравится?',
-  },
-  { key: '2', english: 'I like tennis.', russian: 'Мне нравится теннис.' },
-  {
-    key: '3',
-    english: 'Do you play tennis often?',
-    russian: 'Ты часто играешь в теннис?',
+    english: 'Wow, that’s a lot! Do you play in a team? - No, I just play with my friend.',
+    russian: 'Ух ты, это много! Ты играешь в команде? - Нет, я просто играю с другом.',
   },
   {
-    key: '4',
-    english: 'Yes, I play twice a week.',
-    russian: 'Да, я играю два раза в неделю.',
-  },
-  {
-    key: '5',
-    english: 'Wow, that’s a lot! Do you play in a team?',
-    russian: 'Ух ты, это много! Ты играешь в команде?',
-  },
-  {
-    key: '6',
-    english: 'No, I just play with my friend.',
-    russian: 'Нет, я просто играю с другом.',
-  },
-  {
-    key: '7',
+    key: '9',
     english: 'That sounds fun! I want to try tennis someday.',
     russian: 'Звучит весело! Я хочу попробовать теннис когда-нибудь.',
   },
   {
-    key: '8',
+    key: '10',
     english: 'You should! It’s a lot of fun.',
     russian: 'Тебе стоит попробовать! Это очень весело.',
   },
@@ -246,252 +217,157 @@ export const sport_02 = [
 export const sport_03 = [
   {
     key: '1',
-    english: 'Do you play basketball?',
-    russian: 'Ты играешь в баскетбол?',
+    english: 'Do you play basketball? - No, I don’t. I prefer swimming.',
+    russian: 'Ты играешь в баскетбол? - Нет. Я предпочитаю плавание.',
   },
   {
     key: '2',
-    english: 'No, I don’t. I prefer swimming.',
-    russian: 'Нет. Я предпочитаю плавание.',
+    english: 'Oh, swimming is fun! How often do you swim? - I swim every Saturday.',
+    russian: 'О, плавание – это весело! Как часто ты плаваешь? - Я плаваю каждую субботу.',
   },
   {
     key: '3',
-    english: 'Oh, swimming is fun! How often do you swim?',
-    russian: 'О, плавание – это весело! Как часто ты плаваешь?',
+    english: 'That’s nice. Do you swim in a pool? - Yes, I swim in the local pool.',
+    russian: 'Здорово. Ты плаваешь в бассейне? - Да, я плаваю в местном бассейне.',
   },
   {
     key: '4',
-    english: 'I swim every Saturday.',
-    russian: 'Я плаваю каждую субботу.',
-  },
-  {
-    key: '5',
-    english: 'That’s nice. Do you swim in a pool?',
-    russian: 'Здорово. Ты плаваешь в бассейне?',
-  },
-  {
-    key: '6',
-    english: 'Yes, I swim in the local pool.',
-    russian: 'Да, я плаваю в местном бассейне.',
-  },
-  {
-    key: '7',
     english: 'I want to try swimming too. Is it hard?',
     russian: 'Я тоже хочу попробовать плавание. Это сложно?',
   },
   {
-    key: '8',
+    key: '5',
     english: 'No, it’s not hard. You just need practice.',
     russian: 'Нет, это не сложно. Нужно просто тренироваться.',
   },
-];
-
-export const sport_04 = [
   {
-    key: '1',
-    english: 'What is your favorite sport?',
-    russian: 'Какой твой любимый вид спорта?',
+    key: '6',
+    english: '-',
+    russian: '-',
   },
-  {
-    key: '2',
-    english: 'My favorite sport is running.',
-    russian: 'Мой любимый вид спорта – бег.',
-  },
-  {
-    key: '3',
-    english: 'How often do you run?',
-    russian: 'Как часто ты занимаешься бегом?',
-  },
-  {
-    key: '4',
-    english: 'I run every morning before school.',
-    russian: 'Я бегаю каждое утро перед школой.',
-  },
-  {
-    key: '5',
-    english: 'That’s impressive! How long do you run for?',
-    russian: 'Впечатляет! Как долго ты бегаешь?',
-  },
-  { key: '6', english: 'About 30 minutes.', russian: 'Примерно 30 минут.' },
   {
     key: '7',
-    english: 'Do you run in a park or on the street?',
-    russian: 'Ты бегаешь в парке или на улице?',
+    english: 'What is your favorite sport? - My favorite sport is running.',
+    russian: 'Какой твой любимый вид спорта? - Мой любимый вид спорта – бег.',
   },
   {
     key: '8',
-    english: 'I run in the park. It’s nicer there.',
-    russian: 'Я бегаю в парке. Там приятнее.',
+    english: 'How often do you run? - I run every morning before school.',
+    russian: 'Как часто ты занимаешься бегом? - Я бегаю каждое утро перед школой.',
+  },
+  {
+    key: '9',
+    english: 'That’s impressive! How long do you run for? - About 30 minutes.',
+    russian: 'Впечатляет! Как долго ты бегаешь? - Примерно 30 минут.',
+  },
+  {
+    key: '10',
+    english: 'Do you run in a park or on the street? - I run in the park. It’s nicer there.',
+    russian: 'Ты бегаешь в парке или на улице? - Я бегаю в парке. Там приятнее.',
   },
 ];
 
 export const sport_05 = [
   {
     key: '1',
-    english: 'Do you watch sports on TV?',
-    russian: 'Ты смотришь спорт по телевизору?',
+    english: 'Do you watch sports on TV? - Yes, I watch football.',
+    russian: 'Ты смотришь спорт по телевизору? - Да, я смотрю футбол.',
   },
   {
     key: '2',
-    english: 'Yes, I watch football.',
-    russian: 'Да, я смотрю футбол.',
+    english: 'Who is your favorite team? - My favorite team is Barcelona.',
+    russian: 'Какая твоя любимая команда? - Моя любимая команда – Барселона.',
   },
   {
     key: '3',
-    english: 'Who is your favorite team?',
-    russian: 'Какая твоя любимая команда?',
+    english: 'I like Barcelona too! Who is your favorite player? - I love Messi! He’s the best.',
+    russian: 'Мне тоже нравится Барселона! Кто твой любимый игрок? - Я обожаю Месси! Он лучший.',
   },
   {
     key: '4',
-    english: 'My favorite team is Barcelona.',
-    russian: 'Моя любимая команда – Барселона.',
+    english: 'Me too! He is amazing. Do you watch every game? - Yes, I watch every match.',
+    russian: 'Я тоже! Он потрясающий. Ты смотришь каждую игру? - Да, я смотрю каждый матч.',
   },
   {
     key: '5',
-    english: 'I like Barcelona too! Who is your favorite player?',
-    russian: 'Мне тоже нравится Барселона! Кто твой любимый игрок?',
+    english: '-',
+    russian: '-',
   },
   {
     key: '6',
-    english: 'I love Messi! He’s the best.',
-    russian: 'Я обожаю Месси! Он лучший.',
+    english: 'Do you like playing sports? - Yes, I do. I play volleyball.',
+    russian: 'Ты любишь заниматься спортом? - Да. Я играю в волейбол.',
   },
   {
     key: '7',
-    english: 'Me too! He is amazing. Do you watch every game?',
-    russian: 'Я тоже! Он потрясающий. Ты смотришь каждую игру?',
+    english: 'Cool! Do you play it with friends? - Yes, we play after school.',
+    russian: 'Круто! Ты играешь с друзьями? - Да, мы играем после школы.',
   },
   {
     key: '8',
-    english: 'Yes, I watch every match.',
-    russian: 'Да, я смотрю каждый матч.',
-  },
-];
-
-export const sport_06 = [
-  {
-    key: '1',
-    english: 'Do you like playing sports?',
-    russian: 'Ты любишь заниматься спортом?',
+    english: 'Do you play in a team? - Yes, we have a small team.',
+    russian: 'Ты играешь в команде? - Да, у нас есть маленькая команда.',
   },
   {
-    key: '2',
-    english: 'Yes, I do. I play volleyball.',
-    russian: 'Да. Я играю в волейбол.',
-  },
-  {
-    key: '3',
-    english: 'Cool! Do you play it with friends?',
-    russian: 'Круто! Ты играешь с друзьями?',
-  },
-  {
-    key: '4',
-    english: 'Yes, we play after school.',
-    russian: 'Да, мы играем после школы.',
-  },
-  {
-    key: '5',
-    english: 'Do you play in a team?',
-    russian: 'Ты играешь в команде?',
-  },
-  {
-    key: '6',
-    english: 'Yes, we have a small team.',
-    russian: 'Да, у нас есть маленькая команда.',
-  },
-  {
-    key: '7',
-    english: 'That’s awesome! Do you play in a league?',
-    russian: 'Здорово! Вы играете в лиге?',
-  },
-  {
-    key: '8',
-    english: 'No, we just play for fun.',
-    russian: 'Нет, мы просто играем для удовольствия.',
+    key: '9',
+    english: 'That’s awesome! Do you play in a league? - No, we just play for fun.',
+    russian: 'Здорово! Вы играете в лиге? - Нет, мы просто играем для удовольствия.',
   },
 ];
 
 export const sport_07 = [
   {
     key: '1',
-    english: 'Do you like watching football?',
-    russian: 'Ты любишь смотреть футбол?',
+    english: 'Do you like watching football? - Yes, I love it! I watch football every weekend.',
+    russian: 'Ты любишь смотреть футбол? - Да, обожаю! Я смотрю футбол каждые выходные.',
   },
   {
     key: '2',
-    english: 'Yes, I love it! I watch football every weekend.',
-    russian: 'Да, обожаю! Я смотрю футбол каждые выходные.',
+    english: 'That’s great! Who is your favorite team? - My favorite team is Manchester United.',
+    russian: 'Здорово! Какая твоя любимая команда? - Моя любимая команда – Манчестер Юнайтед.',
   },
   {
     key: '3',
-    english: 'That’s great! Who is your favorite team?',
-    russian: 'Здорово! Какая твоя любимая команда?',
+    english: 'They are good! Do you watch their games on TV? - Yes, I do. I never miss a match.',
+    russian: 'Они хороши! Ты смотришь их игры по телевизору? - Да. Я никогда не пропускаю матч.',
   },
   {
     key: '4',
-    english: 'My favorite team is Manchester United.',
-    russian: 'Моя любимая команда – Манчестер Юнайтед.',
+    english: 'Me too! Do you also play football? - Yes, I play every Saturday with my friends.',
+    russian: 'Я тоже! Ты тоже играешь в футбол? - Да, я играю каждую субботу с друзьями.',
   },
   {
     key: '5',
-    english: 'They are good! Do you watch their games on TV?',
-    russian: 'Они хороши! Ты смотришь их игры по телевизору?',
+    english: '-',
+    russian: '-',
   },
   {
     key: '6',
-    english: 'Yes, I do. I never miss a match.',
-    russian: 'Да. Я никогда не пропускаю матч.',
-  },
-  {
-    key: '7',
-    english: 'Me too! Do you also play football?',
-    russian: 'Я тоже! Ты тоже играешь в футбол?',
-  },
-  {
-    key: '8',
-    english: 'Yes, I play every Saturday with my friends.',
-    russian: 'Да, я играю каждую субботу с друзьями.',
-  },
-];
-
-export const sport_08 = [
-  {
-    key: '1',
     english: 'I want to try a new sport.',
     russian: 'Я хочу попробовать новый вид спорта.',
   },
   {
-    key: '2',
-    english: 'That’s exciting! What sport do you want to try?',
-    russian: 'Здорово! Какой вид спорта ты хочешь попробовать?',
+    key: '7',
+    english: 'That’s exciting! What sport do you want to try? - I think I’ll try basketball.',
+    russian: 'Здорово! Каким спортом ты хочешь заняться? - Думаю, я попробую баскетбол.',
   },
   {
-    key: '3',
-    english: 'I think I’ll try basketball.',
-    russian: 'Думаю, я попробую баскетбол.',
-  },
-  {
-    key: '4',
+    key: '8',
     english: 'Basketball is fun. I play it with my brother.',
     russian: 'Баскетбол – это весело. Я играю с моим братом.',
   },
   {
-    key: '5',
-    english: 'Do you play in a team?',
-    russian: 'Ты играешь в команде?',
+    key: '9',
+    english: 'Do you play in a team? - Yes, we have a small team at school.',
+    russian: 'Ты играешь в команде? - Да, у нас есть небольшая команда в школе.',
   },
   {
-    key: '6',
-    english: 'Yes, we have a small team at school.',
-    russian: 'Да, у нас есть небольшая команда в школе.',
-  },
-  {
-    key: '7',
+    key: '10',
     english: 'That’s awesome! Is basketball easy to learn?',
-    russian: 'Здорово! Легко ли учиться играть в баскетбол?',
+    russian: 'Здорово! А в баскетбол легко научится (играть)?',
   },
   {
-    key: '8',
+    key: '11',
     english: 'It’s easy at first, but it takes practice to get better.',
     russian: 'Сначала легко, но чтобы стать лучше, нужно тренироваться.',
   },
@@ -505,75 +381,56 @@ export const sport_09 = [
   },
   {
     key: '2',
-    english: 'That’s a great idea! Do you want to get stronger?',
-    russian: 'Отличная идея! Ты хочешь стать сильнее?',
+    english: 'That’s a great idea! Do you want to get stronger? - Yes, I want to build some muscles.',
+    russian: 'Отличная идея! Ты хочешь стать сильнее? - Да, я хочу нарастить мышцы.',
   },
   {
     key: '3',
-    english: 'Yes, I want to build some muscles.',
-    russian: 'Да, я хочу нарастить мышцы.',
-  },
-  {
-    key: '4',
     english: 'I go to the gym three times a week.',
     russian: 'Я хожу в спортзал три раза в неделю.',
   },
   {
+    key: '4',
+    english: 'What do you do there? - I do weightlifting and cardio exercises.',
+    russian: 'Что ты там делаешь? - Я занимаюсь тяжелой атлетикой и кардио-упражнениями.',
+  },
+  {
     key: '5',
-    english: 'What do you do there?',
-    russian: 'Что ты там делаешь?',
+    english: 'That sounds good. I’ll try it too! - You should! It’s really helpful.',
+    russian: 'Звучит здорово. Я тоже попробую! - Тебе стоит попробовать! Это очень полезно.',
   },
   {
     key: '6',
-    english: 'I do weightlifting and cardio exercises.',
-    russian: 'Я занимаюсь тяжелой атлетикой и кардио-упражнениями.',
+    english: '-',
+    russian: '-',
   },
   {
     key: '7',
-    english: 'That sounds good. I’ll try it too!',
-    russian: 'Звучит здорово. Я тоже попробую!',
+    english: 'Have you ever tried rugby? - Yes, I tried rugby in school.',
+    russian: 'Ты когда-нибудь пытался (играл в) регби? - Да, я пробовал (играть в) регби в школе.',
   },
   {
     key: '8',
-    english: 'You should! It’s really helpful.',
-    russian: 'Тебе стоит попробовать! Это очень полезно.',
-  },
-];
-
-export const sport_10 = [
-  {
-    key: '1',
-    english: 'Have you ever tried rugby?',
-    russian: 'Ты когда-нибудь играл в регби?',
+    english: 'How was it? - It was fun, but also very tiring!',
+    russian: 'Как это было? - Это было весело, но также очень утомительно!',
   },
   {
-    key: '2',
-    english: 'Yes, I tried rugby in school.',
-    russian: 'Да, я пробовал играть в регби в школе.',
-  },
-  { key: '3', english: 'How was it?', russian: 'Как это было?' },
-  {
-    key: '4',
-    english: 'It was fun, but also very tiring!',
-    russian: 'Это было весело, но также очень утомительно!',
-  },
-  {
-    key: '5',
+    key: '9',
     english: 'I’ve never played it. Is it like football?',
     russian: 'Я никогда не играл в него. Это похоже на футбол?',
   },
   {
-    key: '6',
+    key: '10',
     english: 'Yes, but in rugby, you can carry the ball with your hands.',
     russian: 'Да, но в регби можно держать мяч в руках.',
   },
   {
-    key: '7',
+    key: '11',
     english: 'That sounds interesting. Maybe I’ll try it sometime.',
     russian: 'Звучит интересно. Может быть, я попробую когда-нибудь.',
   },
   {
-    key: '8',
+    key: '12',
     english: 'You should! It’s a lot of fun.',
     russian: 'Тебе стоит попробовать! Это очень весело.',
   },
@@ -636,7 +493,7 @@ export const sport_12 = [
   {
     key: '3',
     english: 'Do you go skiing every year?',
-    russian: 'Ты катаешься на лыжах каждый год?',
+    russian: 'Ты каждый год ездите кататься на лыжах??',
   },
   {
     key: '4',
@@ -661,6 +518,6 @@ export const sport_12 = [
   {
     key: '8',
     english: 'Yes, I usually go to the mountains in the Alps.',
-    russian: 'Да, я обычно катаюсь в горах в Альпах.',
+    russian: 'Да, Обычно я езжу в горы, в Альпы.',
   },
 ];
