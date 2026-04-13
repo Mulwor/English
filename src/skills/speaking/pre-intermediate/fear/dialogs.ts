@@ -150,7 +150,7 @@ export const fears_dialog_02 = [
   {
     key: '1',
     english: "Anna, I think I'm going to be sick. My stomach hurts so bad. => Oh no! Is it something you ate?",
-    russian: 'Анна, кажется, меня сейчас вырвет. Живот так сильно болит. => О нет! Это что-то съел?',
+    russian: 'Анна, кажется, меня сейчас вырвет (стошнит). Живот так сильно болит. => О нет! Это что-то съел?',
   },
   {
     key: '2',
@@ -160,7 +160,7 @@ export const fears_dialog_02 = [
   {
     key: '3',
     english: "Nervous is an understatement. I'm terrified. I hate public speaking. => Lots of people do. It's very common.",
-    russian: 'Нервничаю — это мягко сказано. Я в ужасе. Ненавижу публичные выступления. => Многие боятся. Это очень распространено.',
+    russian: 'Нервничаю - это мягко сказано (преуменьшения). Я в ужасе. Ненавижу публичные выступления. => Многие боятся. Это очень распространено.',
   },
   {
     key: '4',
@@ -220,7 +220,7 @@ export const fears_dialog_02 = [
   {
     key: '15',
     english: "Oh, I'm sorry. That makes sense. But this dog looks very calm. => I know it's probably fine. But my heart is racing. What should I do?",
-    russian: 'О, мне жаль. Это объясняет. Но эта собака выглядит очень спокойной. => Знаю, что всё, наверное, нормально. Но сердце колотится. Что мне делать?',
+    russian: 'О, мне жаль. Это объясняет. Но эта собака выглядит очень спокойной. => Знаю, что всё, наверное, хорошо. Но мое сердце сильно бьется. Что мне делать?',
   },
   {
     key: '16',
@@ -229,8 +229,8 @@ export const fears_dialog_02 = [
   },
   {
     key: '17',
-    english: 'Then just let him sniff you. Hold out your hand like this. See? Let him smell you. => Scared I do not know if I can.',
-    russian: 'Тогда просто позволь ему обнюхать тебя. Протяни руку вот так. Видишь? Пусть понюхает. => Испуганно Не знаю, смогу ли.',
+    english: 'Then just let him sniff you. Hold out your hand like this. See? Let him smell you. => (Scared) - I do not know if I can.',
+    russian: 'Тогда просто позволь ему обнюхать тебя. Протяни руку вот так. Видишь? Пусть понюхает. => (Испуганно) - Не знаю, смогу ли.',
   },
   {
     key: '18',
